@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "polm_ie_extraction_schema_shape_v4",
+  "type": "array",
+  "items": { "$ref": "#/$defs/sample" },
+
+  "$defs": {
+    "sample": {
+      "type": "object",
+      "required": ["sample_id", "matrix_name", "fillers", "sample_thickness"],
+      "additionalProperties": false,
+      "properties": {
+        "sample_id": { "oneOf": [{ "type": "integer" }, { "type": "string" }] },
+
+        "matrix_name": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/component" }
+        },
+
+        "fillers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/component" }
+        },
+
+        "sample_thickness": { "$ref": "#/$defs/value_unit" },
+
+        "properties": {
+          "type": "object",
+          "description": "Optional. Keys are property names (any string). Values are property_value objects.",
+          "additionalProperties": { "$ref": "#/$defs/property_value" }
+        }
+      }
+    },
+
+    "component": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "composition": { "$ref": "#/$defs/composition" },
+        "surface_treatment": { "type": "string" },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount": { "oneOf": [{ "type": "number" }, { "type": "string" }] },
+        "type": { "type": "string" }
+      }
+    },
+
+    "value_unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": { "oneOf": [{ "type": "number" }, { "type": "string" }] },
+        "unit": { "type": "string" },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "property_value": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": { "oneOf": [{ "type": "number" }, { "type": "string" }] },
+        "unit": { "type": "string" },
+        "conditions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/condition" }
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string" },
+        "value": { "oneOf": [{ "type": "number" }, { "type": "string" }] },
+        "unit": { "type": "string" }
+      }
+    }
+  }
+}

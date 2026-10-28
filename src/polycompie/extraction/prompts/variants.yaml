@@ -1,0 +1,70 @@
+variants:
+
+  # Variant A: extract only (= phase 2 equivalent, baseline for ablation)
+  variant_A:
+    description: "Extract only — single-pass baseline"
+    orchestrator:
+      ablation:
+        enabled_steps:
+          - extract
+        max_iterations: 1
+        early_stop: false
+        routing_mode: rule_router
+
+  # Variant B: extract + self-review (reflection without verification)
+  variant_B:
+    baseline_variant: "variant_A"
+    description: "Extract + self-review — does reflection alone help?"
+    orchestrator:
+      ablation:
+        enabled_steps:
+          - extract
+          - self_review
+        max_iterations: 1
+        early_stop: false
+        routing_mode: rule_router
+
+  # Variant C: extract + evidence + verify (no repair)
+  variant_C:
+    baseline_variant: "variant_A"
+    description: "Extract + evidence grounding + verification — no repair"
+    orchestrator:
+      ablation:
+        enabled_steps:
+          - extract
+          - add_evidence
+          - verify_evidence
+        max_iterations: 1
+        early_stop: false
+        routing_mode: rule_router
+
+  # Variant D: extract + evidence + verify + repair (full loop, no self-review).
+  variant_D:
+    baseline_variant: "variant_A"
+    description: "Extract + evidence + verify + repair — full loop without self-review"
+    orchestrator:
+      ablation:
+        enabled_steps:
+          - extract
+          - add_evidence
+          - verify_evidence
+          - repair_unsupported
+        max_iterations: 3
+        early_stop: true
+        routing_mode: rule_router
+
+  # Variant E: full pipeline (self-review + evidence + verify + repair)
+  variant_E:
+    baseline_variant: "variant_A"
+    description: "Full pipeline — self-review + evidence + verify + repair"
+    orchestrator:
+      ablation:
+        enabled_steps:
+          - extract
+          - self_review
+          - add_evidence
+          - verify_evidence
+          - repair_unsupported
+        max_iterations: 3
+        early_stop: true
+        routing_mode: rule_router
