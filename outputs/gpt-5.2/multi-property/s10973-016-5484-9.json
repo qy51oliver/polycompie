@@ -1,0 +1,952 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "Neat PPS (sample code: PPS; grade PPS-HB).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 73.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 3200.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 283.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA blend (sample code: P80PA20). PPS is continuous phase per SEM discussion.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA blend (sample code: P80PA20).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 4.3,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 33.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4065.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 283.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 321.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA blend (sample code: P50PA50).",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA blend (sample code: P50PA50).",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 4.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4170.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 284.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 321.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA blend (sample code: P20PA80).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA blend (sample code: P20PA80).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 4.7,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 27.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4280.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 285.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 316.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyphthalamide",
+        "description": "Neat PPA (sample code: PPA; high-temperature PPA grade PXM-03072).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 4.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 34.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4160.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 318.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C3). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C3). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube",
+        "description": "CNT-3; outer diameter 10–30 nm, length 10–30 µm; added at 3 mass%.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature_1": {
+        "value": 285.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 315.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C5). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C5). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube",
+        "description": "CNT-3; outer diameter 10–30 nm, length 10–30 µm; added at 5 mass%.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 5.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 34.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4290.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 284.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 305.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA/CNT composite (sample code inferred from text: P80PA20C10). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA/CNT composite (sample code inferred from text: P80PA20C10). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube",
+        "description": "CNT-3; outer diameter 10–30 nm, length 10–30 µm; added at 10 mass%. Per text, percolation threshold near 10 mass%.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 5.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 36.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4790.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 284.9,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 307.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C20). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphthalamide",
+        "description": "PPS/PPA/CNT composite (sample code: P80PA20C20). PPS/PPA base blend is 80/20 wt%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube",
+        "description": "CNT-3; outer diameter 10–30 nm, length 10–30 µm; added at 20 mass%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 45.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 Type V",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 4550.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 2.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 286.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPS",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 305.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "component",
+            "value": "PPA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

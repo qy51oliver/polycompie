@@ -1,0 +1,98 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 2,
+  "model": "gpt-5.4",
+  "study": "gpt-5.4/multi-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 59
+  },
+  "later_saved_prediction_articles": [],
+  "avg_similarity": 0.5591960017383746,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.2382,
+      "recall": 0.3918,
+      "f1": 0.2963
+    },
+    "relaxed": {
+      "precision": 0.3041,
+      "recall": 0.5,
+      "f1": 0.3782
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.4415,
+      "recall": 0.3388,
+      "f1": 0.3834,
+      "tp": 83,
+      "fp": 105,
+      "fn": 162
+    },
+    "strict": {
+      "precision": 0.3723,
+      "recall": 0.2857,
+      "f1": 0.3233,
+      "tp": 70,
+      "fp": 118,
+      "fn": 175
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.4415,
+        "recall": 0.3388,
+        "f1": 0.3834,
+        "tp": 83,
+        "fp": 105,
+        "fn": 162
+      },
+      "strict": {
+        "precision": 0.3723,
+        "recall": 0.2857,
+        "f1": 0.3233,
+        "tp": 70,
+        "fp": 118,
+        "fn": 175
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 76,
+      "fp_s": 243,
+      "fn_s": 118,
+      "tp_r": 97,
+      "fp_r": 222,
+      "fn_r": 97
+    },
+    "prop": {
+      "tp": 83,
+      "fp": 105,
+      "fn": 162,
+      "tp_s": 70,
+      "fp_s": 118,
+      "fn_s": 175,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 83,
+          "fp": 105,
+          "fn": 162,
+          "tp_s": 70,
+          "fp_s": 118,
+          "fn_s": 175
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

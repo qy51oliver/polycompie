@@ -1,0 +1,26 @@
+[
+     {
+        "sample_id": 1,
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polycarbonate",
+                "description": "not specified",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness_1": {"value": 40, "unit": "dB","conditions": [{"type": "erosion time", "value": 0,"unit": "min"},{"type": "frequency lower bound", "value": 12,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]},
+            "shielding_effectiveness_2": {"value": 28, "unit": "dB","conditions": [{"type": "erosion time", "value": 2,"unit": "min"},{"type": "frequency lower bound", "value": 12,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        }
+    }
+]

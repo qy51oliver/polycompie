@@ -1,0 +1,321 @@
+[
+     {
+        "sample_id": "PLA/PCL/10APP",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 23.5, "unit": "%"},
+            "UL94_drip": {"value": "yes", "unit": "none"},
+            "UL94_rating": {"value": "V-2", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 326.0, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 356.7, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 344.5, "unit": "◦C"},
+            "carbon_residual": {"value": 9.1, "unit": "%"},
+            "ignition_time": {"value": 41, "unit": "s"},
+            "peak_of_the_heat_release_rate": {"value": 496, "unit": "kW/m^2"},
+            "peak_time": {"value": 83, "unit": "s"},
+            "total_heat_release": {"value": 76, "unit": "KJ/m^2"}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/15APP",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 24.8, "unit": "%"},
+            "UL94_drip": {"value": "Yes", "unit": "none"},
+            "UL94_rating": {"value": "V-1", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 325.1, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 361.1, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 351.9, "unit": "◦C"},
+            "carbon_residual": {"value": 10.0, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/10APP/6CNT",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 42, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 42, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 28.0, "unit": "%"},
+            "UL94_drip": {"value": "Yes", "unit": "none"},
+            "UL94_rating": {"value": "V-1", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 326.2, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 350.0, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 348.0, "unit": "◦C"},
+            "carbon_residual": {"value": 12.9, "unit": "%"},
+            "ignition_time": {"value": 42, "unit": "s"},
+            "peak_of_the_heat_release_rate": {"value": 460, "unit": "kW/m^2"},
+            "peak_time": {"value": 91, "unit": "s"},
+            "total_heat_release": {"value": 73, "unit": "KJ/m^2"},
+            "shielding_effectiveness": {"value": 27.9, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/10APP/8CNT",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 41, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 41, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 30.0, "unit": "%"},
+            "UL94_drip": {"value": "No", "unit": "none"},
+            "UL94_rating": {"value": "V-0", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 327.9, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 350.9, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 349.5, "unit": "◦C"},
+            "carbon_residual": {"value": 14.5, "unit": "%"},
+            "ignition_time": {"value": 45, "unit": "s"},
+            "peak_of_the_heat_release_rate": {"value": 434, "unit": "kW/m^2"},
+            "peak_time": {"value": 94, "unit": "s"},
+            "total_heat_release": {"value": 69, "unit": "KJ/m^2"},
+            "shielding_effectiveness": {"value": 30.8, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/10APP/4CNT/0.8IPU",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 42.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 42.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "imidazolium-functionalized polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 0.8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 27.9, "unit": "%"},
+            "UL94_drip": {"value": "Yes", "unit": "none"},
+            "UL94_rating": {"value": "V-1", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 324.5, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 348.6, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 346.0, "unit": "◦C"},
+            "carbon_residual": {"value": 11.5, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/10APP/6CNT/1.2IPU",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 41.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 41.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "imidazolium-functionalized polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 1.2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 28.8, "unit": "%"},
+            "UL94_drip": {"value": "No", "unit": "none"},
+            "UL94_rating": {"value": "V-1", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 323.6, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 348.2, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 346.4, "unit": "◦C"},
+            "carbon_residual": {"value": 15.7, "unit": "%"},
+            "ignition_time": {"value": 38, "unit": "s"},
+            "peak_of_the_heat_release_rate": {"value": 362, "unit": "kW/m^2"},
+            "peak_time": {"value": 70, "unit": "s"},
+            "total_heat_release": {"value": 67, "unit": "KJ/m^2"},
+            "shielding_effectiveness": {"value": 29.4, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "PLA/PCL/10APP/8CNT/1.6IPU",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 40.2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycaprolactone",
+                "description": "not specified",
+                "composition": {"amount": 40.2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "imidazolium-functionalized polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 1.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "limiting_oxygen_index": {"value": 30.3, "unit": "%"},
+            "UL94_drip": {"value": "No", "unit": "none"},
+            "UL94_rating": {"value": "V-0", "unit": "none"},
+            "initial_decomposition_temperature": {"value": 323.5, "unit": "◦C"},
+            "midpoint_decomposition_temperature": {"value": 347.7, "unit": "◦C"},
+            "maximum_decomposition_temperature": {"value": 347.8, "unit": "◦C"},
+            "carbon_residual": {"value": 15.7, "unit": "%"},
+            "ignition_time": {"value": 34, "unit": "s"},
+            "peak_of_the_heat_release_rate": {"value": 302, "unit": "kW/m^2"},
+            "peak_time": {"value": 72, "unit": "s"},
+            "total_heat_release": {"value": 64, "unit": "KJ/m^2"},
+            "shielding_effectiveness": {"value": 33.9, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]},
+            "absorption_loss": {"value": 27.90, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]},
+            "reflection_loss": {"value": 6.0, "unit": "dB","conditions": [{"type": "frequency", "value": 9,"unit": "GHz"}]}
+	}
+    }
+]

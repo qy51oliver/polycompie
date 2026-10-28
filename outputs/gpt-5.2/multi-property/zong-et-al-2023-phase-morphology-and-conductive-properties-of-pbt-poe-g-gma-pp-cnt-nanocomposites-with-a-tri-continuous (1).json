@@ -1,0 +1,248 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/5/35 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyolefin elastomer grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA (GMA content 1.5 wt% in the compatibilizer); third component located at PBT/PP interface; ratio 60/5/35 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/5/35 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs (1.55 wt% carboxyl groups); sample label NS-1.0 indicates 1.0 phr CNT",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.6129032258064518e-08,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from",
+            "value": "volume resistivity 6.1e7",
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after thermal annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyolefin elastomer grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA (GMA content 1.5 wt% in the compatibilizer); third component located at PBT/PP interface; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs (1.55 wt% carboxyl groups); sample label NIO-1.0 indicates 1.0 phr CNT",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.0869565217391303e-06,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from",
+            "value": "volume resistivity 9.2e5",
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after thermal annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyolefin elastomer grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA (GMA content 1.5 wt% in the compatibilizer); third component located at PBT/PP interface; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP; blend component in tri-continuous PBT/POE-g-GMA/PP system; ratio 60/10/30 (PBT/POE-g-GMA/PP) by mass",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs (1.55 wt% carboxyl groups); sample label NIO-2.0 indicates 2.0 phr CNT",
+        "composition": {
+          "amount": 2.0,
+          "type": "phr"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0007692307692307692,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from",
+            "value": "volume resistivity 1300",
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after thermal annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP; blend component in PBT/PP blend labeled B73; ratio 7/3 (PBT/PP) by mass",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; blend component in PBT/PP blend labeled B73; ratio 7/3 (PBT/PP) by mass",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs; sample label B73-2 indicates CNT content 2 (unit not specified in provided text; likely wt% or phr in original figure context)",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.545454545454545e-10,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from",
+            "value": "volume resistivity 2.2e9",
+            "unit": "ohm·m"
+          }
+        ]
+      }
+    }
+  }
+]

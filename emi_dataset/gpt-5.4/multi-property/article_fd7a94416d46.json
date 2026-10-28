@@ -1,0 +1,279 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "Neat RTV 615 silicone rubber (SR); component A/component B/DTBP = 30:1:0.15 by mass.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 7.7e-11,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "volumetric conductivity",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "SSGM-7.7; RTV 615 silicone rubber in a segregated-structure composite prepared by Pickering emulsion/direct molding; component A/component B/DTBP = 30:1:0.15 by mass.",
+        "composition": {
+          "amount": 92.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "RGO in the RGM hybrid filler network of SSGM-7.7.",
+        "composition": {
+          "amount": 4.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "L-ascorbic-acid reduction of GO followed by thermal reduction during hot pressing"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "GT-210 MWCNTs (8-15 nm diameter, 20-50 μm length) in the RGM hybrid filler network of SSGM-7.7.",
+        "composition": {
+          "amount": 3.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.5,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "volumetric conductivity",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "total EMI SE",
+            "unit": "not specified"
+          },
+          {
+            "type": "reported_as",
+            "value": "approximately",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "SSGM-7.7; RTV 615 silicone rubber in a segregated-structure composite prepared by Pickering emulsion/direct molding; component A/component B/DTBP = 30:1:0.15 by mass.",
+        "composition": {
+          "amount": 92.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "RGO in the RGM hybrid filler network of SSGM-7.7.",
+        "composition": {
+          "amount": 4.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "L-ascorbic-acid reduction of GO followed by thermal reduction during hot pressing"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "GT-210 MWCNTs (8-15 nm diameter, 20-50 μm length) in the RGM hybrid filler network of SSGM-7.7.",
+        "composition": {
+          "amount": 3.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "total EMI SE",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "RSGM-7.7; RTV 615 silicone rubber in a random-structure composite prepared by direct mixing of lyophilized RGM and SR; component A/component B/DTBP = 30:1:0.15 by mass.",
+        "composition": {
+          "amount": 92.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "RGO in the RGM hybrid filler of RSGM-7.7.",
+        "composition": {
+          "amount": 4.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "L-ascorbic-acid reduction of GO followed by thermal reduction"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "GT-210 MWCNTs (8-15 nm diameter, 20-50 μm length) in the RGM hybrid filler of RSGM-7.7.",
+        "composition": {
+          "amount": 3.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.2,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "volumetric conductivity",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 23.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "total EMI SE",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

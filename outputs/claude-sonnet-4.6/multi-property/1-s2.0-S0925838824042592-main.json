@@ -1,0 +1,525 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "Pure PVA film prepared by solution casting",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 nanoparticles, anatase and rutile phases, dispersed in PVA matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO synthesized by modified Hummers method; hydrophilic with oxygen-containing groups (~54 wt% oxygen); no TiO2 added",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO synthesized by modified Hummers method; hydrophilic with oxygen-containing groups (~54 wt% oxygen); no TiO2 added",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO synthesized by modified Hummers method; hydrophilic with oxygen-containing groups; interacts with TiO2 and PVA via hydrogen bonding",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 nanoparticles, anatase and rutile phases; GO acts as dispersant for TiO2 in PVA matrix",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.28,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.3,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO synthesized by modified Hummers method; hydrophilic with oxygen-containing groups; acts as dispersant for TiO2 in PVA matrix; SEA accounts for ~80% of total shielding",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 nanoparticles, anatase and rutile phases; contributes to dielectric loss and polarization",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.27,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.56,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.3,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO obtained by sodium borohydride reduction of GO; restored graphitic domains; higher electrical conductivity than GO; more hydrophobic; no TiO2 added",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO obtained by sodium borohydride reduction of GO; restored graphitic domains; higher electrical conductivity than GO; more hydrophobic; no TiO2 added; total shielding more than triple compared to pure PVA",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO obtained by sodium borohydride reduction of GO; restored graphitic domains; higher electrical conductivity; competitive effect with TiO2 semiconducting nature at 1% loading",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 nanoparticles, anatase and rutile phases; semiconducting nature competes with rGO charge at 1% rGO loading",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 31.34,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film prepared by solution casting",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO obtained by sodium borohydride reduction of GO; restored graphitic domains; high electrical conductivity; synergistic effect with TiO2 at 4% loading; SEA accounts for ~82.5% of total shielding; homogeneously distributed in PVA matrix per SEM",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 nanoparticles, anatase and rutile phases; acts as dielectric material scattering and absorbing microwaves; synergistic combination with rGO",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 31.34,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 55.8,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix; unfoamed solid composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, average diameter ~7 um); reinforced solid composite",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "average over X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix; regular foam injection molded composite foam (RFIM)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, average diameter ~7 um); reinforced composite foam prepared by RFIM",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "average over X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix; mold-opening foam injection molded composite foam (MOFIM)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, average diameter ~7 um); reinforced composite foam prepared by MOFIM",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "about over whole X-band range",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

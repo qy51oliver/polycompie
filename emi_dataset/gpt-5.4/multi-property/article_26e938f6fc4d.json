@@ -1,0 +1,329 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "carbon cloth",
+        "description": "Uncoated conductive woven carbon cloth control sample (CC).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No added filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.365,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2945.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 18.18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "Conductive PEDOT:PSS coating matrix in 1MFPP/CC; DMSO-added and thermally annealed.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon cloth",
+        "description": "Conductive woven carbon cloth substrate in 1MFPP/CC; treated with ethanol before coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Etched multilayer MXene filler.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 magnetic nanoparticles (~200 nm).",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5088.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.07,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "Conductive PEDOT:PSS coating matrix in 5MFPP/CC; DMSO-added and thermally annealed.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon cloth",
+        "description": "Conductive woven carbon cloth substrate in 5MFPP/CC; treated with ethanol before coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Etched multilayer MXene filler.",
+        "composition": {
+          "amount": 25.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 magnetic nanoparticles (~200 nm).",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6881.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 45.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "Conductive PEDOT:PSS coating matrix in 5MFPP/CC thickness-variation sample with 5 μm MFPP coating; DMSO-added and thermally annealed.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon cloth",
+        "description": "Conductive woven carbon cloth substrate in 5MFPP/CC; treated with ethanol before coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Etched multilayer MXene filler.",
+        "composition": {
+          "amount": 25.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 magnetic nanoparticles (~200 nm).",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.79,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "Conductive PEDOT:PSS coating matrix in 5MFPP/CC thickness-variation sample with 100 μm MFPP coating; DMSO-added and thermally annealed.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon cloth",
+        "description": "Conductive woven carbon cloth substrate in 5MFPP/CC; treated with ethanol before coating. The corresponding total composite thickness was reported as 0.465 mm.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Etched multilayer MXene filler.",
+        "composition": {
+          "amount": 25.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 magnetic nanoparticles (~200 nm).",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 100.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 7281.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 86.19,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

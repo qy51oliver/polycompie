@@ -1,0 +1,58 @@
+[
+     {
+        "sample_id": "carbon/epoxy",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 26, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fibre",
+                "description": "not specified",
+                "composition": {"amount": 74, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "residue_mass": {"value": 75, "unit": "wt%", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "residue_polymer_mass": {"value": 15, "unit": "wt%", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "degradation_onset_temperature": {"value": 320, "unit": "◦C", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "peak_of_mess_loss_rate_temperature": {"value": 390, "unit": "◦C", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "mess_loss": {"value": 22, "unit": "wt%", "conditions": [{"type": "method", "value": "flame burner","unit": "none"}]},
+            "combustion_competion_time": {"value": 150, "unit": "s", "conditions": [{"type": "method", "value": "flame burner","unit": "none"}]}
+        }
+    },
+     {
+        "sample_id": "carbon/PPS",
+        "matrix_name": [
+        		{
+                "name": "polyphenylene sulphide",
+                "description": "not specified",
+                "composition": {"amount": 42, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fibre",
+                "description": "not specified",
+                "composition": {"amount": 58, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "residue_mass": {"value": 75, "unit": "wt%", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "residue_polymer_mass": {"value": 33, "unit": "wt%", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "degradation_onset_temperature": {"value": 480, "unit": "◦C", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "peak_of_mess_loss_rate_temperature": {"value": 550, "unit": "◦C", "conditions": [{"type": "method", "value": "thermogravimetric analyses","unit": "none"},{"type": "atmosphere", "value": "Nitrogen","unit": "none"}]},
+            "mess_loss": {"value": 6, "unit": "wt%", "conditions": [{"type": "method", "value": "flame burner","unit": "none"}]},
+            "combustion_competion_time": {"value": 300, "unit": "s", "conditions": [{"type": "method", "value": "flame burner","unit": "none"}]}
+        }
+    }
+]

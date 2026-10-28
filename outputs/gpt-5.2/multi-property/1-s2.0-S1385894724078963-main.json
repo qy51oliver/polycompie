@@ -1,0 +1,396 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; composite fabricated by hot-pressing PEI@Ag core-shell microspheres (MPEI@Ag).",
+        "composition": {
+          "amount": 81.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in PEI@Ag core-shell structured microspheres; segregated continuous Ag network after hot-pressing.",
+        "composition": {
+          "amount": 18.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 19.9,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 14.0,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; composite fabricated by hot-pressing PEI@AgNP (Ag nanoparticles grown on PEI microspheres), MPEI@AgNP.",
+        "composition": {
+          "amount": 84.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanoparticles grown on PEI microsphere surface (PEI@AgNP).",
+        "composition": {
+          "amount": 15.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 7.6,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 2.2,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; composite fabricated by hot-pressing PEI@Ag core-shell microspheres based on large PEI microspheres (LPEI@Ag).",
+        "composition": {
+          "amount": 63.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in LPEI@Ag core-shell structured microspheres; segregated network after hot-pressing.",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 14.7,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.7,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; composite fabricated by hot-pressing PEI@Ag core-shell microspheres based on hollow PEI microspheres (HPEI@Ag).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in HPEI@Ag core-shell structured microspheres; reported through-plane thermal conductivity value only.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 5.1,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; MPEI@Ag composite labeled as '2 MPEI@Ag' in EMI section (Ag loading not specified in provided text).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in PEI@Ag core-shell microspheres; EMI shielding reported for '2 MPEI@Ag'.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "total (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; MPEI@Ag composite (Ag loading not specified in provided text) with maximum reported EMI shielding.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in PEI@Ag core-shell microspheres; maximum EMI shielding reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.41,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "total (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; MPEI@Ag composite (Ag loading not specified in provided text) with reported absorption shielding effectiveness.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in PEI@Ag core-shell microspheres; absorption component of EMI shielding reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 31.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.41,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "absorption (SEA)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; PEI@Ag composite labeled '4PEI@Ag' in thermal management (LED) test; Ag loading not specified in provided text.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell in PEI@Ag core-shell microspheres; formulation labeled '4PEI@Ag'.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_management_temperature_1": {
+        "value": 81.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "time",
+            "value": 180,
+            "unit": "s"
+          },
+          {
+            "type": "test_setup",
+            "value": "LED heating; output power 15 W; sample size 25 mm × 25 mm × 0.3 mm",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

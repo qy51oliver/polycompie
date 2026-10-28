@@ -1,0 +1,190 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for Cu-coated expanded polymer bead (CuEB) composites; processed via solution mixing in DMF and compression molding.",
+        "composition": {
+          "amount": 97.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Cu-coated expanded polymer beads (CuEBs) that deform into highly anisotropic Cu oblate ellipsoids during compression molding; Cu shell thickness ~1 µm on hollow expanded polymer beads.",
+        "composition": {
+          "amount": 2.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.1e-07,
+        "unit": "S cm-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for Cu-coated expanded polymer bead (CuEB) composites; processed via solution mixing in DMF and compression molding.",
+        "composition": {
+          "amount": 93.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Cu-coated expanded polymer beads (CuEBs) that deform into highly anisotropic Cu oblate ellipsoids during compression molding; percolative structure reported even at 7.0 vol% CuEBs.",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.078,
+        "unit": "S cm-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for Cu-coated expanded polymer bead (CuEB) composites; processed via solution mixing in DMF and compression molding.",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Cu-coated expanded polymer beads (CuEBs) that deform into highly anisotropic Cu oblate ellipsoids and multilayer structure during compression molding.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4200.0,
+        "unit": "S cm-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 80.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 62.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for control composite with isotropic Cu solid beads (diameter ~40 µm).",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Isotropic Cu solid beads (diameter ~40 µm) used as control filler.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5e-05,
+        "unit": "S cm-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 5.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

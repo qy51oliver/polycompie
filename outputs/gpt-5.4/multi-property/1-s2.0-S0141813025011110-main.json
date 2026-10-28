@@ -1,0 +1,397 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF paper matrix in LPPC-0; pristine CNF paper",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 8.9e-11,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 29.85,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.16,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-10 composite paper",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion) incorporated into CNF; LPPC-10 composite paper",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "surpassing 20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-20 composite paper",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion) incorporated into CNF; LPPC-20 composite paper",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "surpassing 20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-30 composite paper",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion) incorporated into CNF; LPPC-30 composite paper",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "surpassing 20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-40 composite paper",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion) incorporated into CNF; LPPC-40 composite paper",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "surpassing 20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion, prepared with 0.05 mmol Li-TFSI) incorporated into CNF; LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 29.67,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 68.27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 44.42,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 4.32,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion, prepared with 0.05 mmol Li-TFSI) incorporated into CNF; LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF matrix in LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Li-TFSI-doped PEDOT:PSS (5LPP dispersion, prepared with 0.05 mmol Li-TFSI) incorporated into CNF; LPPC-50 composite paper",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 104.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 97.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

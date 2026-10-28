@@ -1,0 +1,292 @@
+[
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "borax-crosslinked polyvinyl alcohol aerogel (BCP) matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum oxide",
+        "description": "spherical Al2O3 microspheres, thermally treated at 600 °C for 30 min in air to enrich surface hydroxyl groups; used as the core of Al2O3@LM core-shell particles",
+        "composition": {
+          "amount": 6.6667,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "gallium-indium-tin liquid metal",
+        "description": "EGaInSn liquid metal shell in Al2O3@LM core-shell particles; Al2O3:LM mass ratio = 1:2 in the hybrid filler",
+        "composition": {
+          "amount": 13.3333,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 36.7,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 26.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 40,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "borax-crosslinked polyvinyl alcohol aerogel (BCP) matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum oxide",
+        "description": "spherical Al2O3 microspheres, thermally treated at 600 °C for 30 min in air to enrich surface hydroxyl groups; used as the core of Al2O3@LM core-shell particles",
+        "composition": {
+          "amount": 13.3333,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "gallium-indium-tin liquid metal",
+        "description": "EGaInSn liquid metal shell in Al2O3@LM core-shell particles; Al2O3:LM mass ratio = 1:2 in the hybrid filler",
+        "composition": {
+          "amount": 26.6667,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 60,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "borax-crosslinked polyvinyl alcohol aerogel (BCP) matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum oxide",
+        "description": "spherical Al2O3 microspheres, thermally treated at 600 °C for 30 min in air to enrich surface hydroxyl groups; used as the core of Al2O3@LM core-shell particles",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "gallium-indium-tin liquid metal",
+        "description": "EGaInSn liquid metal shell in Al2O3@LM core-shell particles; Al2O3:LM mass ratio = 1:2 in the hybrid filler",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 63.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 80,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "borax-crosslinked polyvinyl alcohol aerogel (BCP) matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum oxide",
+        "description": "spherical Al2O3 microspheres, thermally treated at 600 °C for 30 min in air to enrich surface hydroxyl groups; used as the core of Al2O3@LM core-shell particles",
+        "composition": {
+          "amount": 26.6667,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "gallium-indium-tin liquid metal",
+        "description": "EGaInSn liquid metal shell in Al2O3@LM core-shell particles; Al2O3:LM mass ratio = 1:2 in the hybrid filler",
+        "composition": {
+          "amount": 53.3333,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 312.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 75.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 80.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

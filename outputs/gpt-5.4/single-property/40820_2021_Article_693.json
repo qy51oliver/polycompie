@@ -1,0 +1,277 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres; healable cationic waterborne polyurethane containing Diels-Alder bonds",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler (CNTIGO), negatively charged hybrid assembled on CPA microspheres by electrostatic attraction",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres; healable cationic waterborne polyurethane containing Diels-Alder bonds",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler (CNTIGO), negatively charged hybrid assembled on CPA microspheres by electrostatic attraction",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres; healable cationic waterborne polyurethane containing Diels-Alder bonds",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler (CNTIGO), negatively charged hybrid assembled on CPA microspheres by electrostatic attraction",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres; healable cationic waterborne polyurethane containing Diels-Alder bonds",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler (CNTIGO), negatively charged hybrid assembled on CPA microspheres by electrostatic attraction",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_cycle",
+            "value": 0,
+            "unit": "count"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_cycle",
+            "value": 1,
+            "unit": "count"
+          },
+          {
+            "type": "post_treatment_temperature_1",
+            "value": 130.0,
+            "unit": "C"
+          },
+          {
+            "type": "post_treatment_time_1",
+            "value": 10.0,
+            "unit": "min"
+          },
+          {
+            "type": "post_treatment_temperature_2",
+            "value": 60.0,
+            "unit": "C"
+          },
+          {
+            "type": "post_treatment_time_2",
+            "value": 2.0,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_cycle",
+            "value": 3,
+            "unit": "count"
+          },
+          {
+            "type": "post_treatment_temperature_1",
+            "value": 130.0,
+            "unit": "C"
+          },
+          {
+            "type": "post_treatment_time_1",
+            "value": 10.0,
+            "unit": "min"
+          },
+          {
+            "type": "post_treatment_temperature_2",
+            "value": 60.0,
+            "unit": "C"
+          },
+          {
+            "type": "post_treatment_time_2",
+            "value": 2.0,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  }
+]

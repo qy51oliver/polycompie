@@ -1,0 +1,356 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "N-doped carbon nanofiber",
+        "description": "carbonized electrospun polyacrylonitrile-derived carbon nanofiber mat, non-aligned",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.24,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.18,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "18-22",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "N-doped carbon nanofiber",
+        "description": "carbonized electrospun polyacrylonitrile-derived carbon nanofiber mat, aligned",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.24,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.24,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "reported overall",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "N-doped carbon nanofiber",
+        "description": "carbonized electrospun polyacrylonitrile-derived carbon nanofiber mat, non-aligned",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium titanate",
+        "description": "nanoparticles embedded in the N-doped carbon nanofiber mat",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.24,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.28,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 42,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 61,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "reported overall",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "N-doped carbon nanofiber",
+        "description": "carbonized electrospun polyacrylonitrile-derived carbon nanofiber mat, aligned",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium titanate",
+        "description": "nanoparticles embedded in the aligned N-doped carbon nanofiber mat",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.24,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.32,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 75,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 81,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "reported overall",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

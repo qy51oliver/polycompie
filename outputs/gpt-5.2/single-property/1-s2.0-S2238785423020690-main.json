@@ -1,0 +1,138 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder (trade name SLL-2), average molecular weight 3.00 × 10^6 g/mol; used as received",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material (>97% carbon); used as received; forms oriented segregated conductive network at UHMWPE particle interfaces",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.07,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder (trade name SLL-2), average molecular weight 3.00 × 10^6 g/mol; used as received",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material (>97% carbon); used as received; segregated network",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder (trade name SLL-2), average molecular weight 3.00 × 10^6 g/mol; used as received",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material (>97% carbon); used as received; oriented segregated conductive network",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 60.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

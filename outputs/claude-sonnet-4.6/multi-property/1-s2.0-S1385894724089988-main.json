@@ -1,0 +1,479 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.213,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "approximately one-third of ZoM4GAs/EP value of 0.64 W/(m·K); pure epoxy resin baseline",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "foamed graphene aerogel",
+        "description": "FGAs prepared by bubble template method, compressed to 20% strain during compress-annealing, impregnated into epoxy via vacuum-assisted method",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compression strain",
+            "value": 20,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compression strain",
+            "value": 20,
+            "unit": "%"
+          },
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "foamed graphene aerogel",
+        "description": "FGAs prepared by bubble template method, compressed to 80% strain during compress-annealing, impregnated into epoxy via vacuum-assisted method",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 112.6,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compression strain",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compression strain",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene/graphene Janus aerogel",
+        "description": "Z0M4GA: Janus aerogel with 0 mm Z-plane (ZIF-67/Co/C) and 4 mm M-plane (MXene), total thickness 3 mm after 80% compression, annealed at 600°C under argon; M-plane only, no Co/C magnetic component; vacuum-assisted impregnation into epoxy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 168.2,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.64,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 65.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 9.42,
+        "unit": "kJ/m²",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Co/C/graphene Janus aerogel",
+        "description": "Z4M0GA: Janus aerogel with 4 mm Z-plane (ZIF-67 derived Co/C) and 0 mm M-plane (MXene), total thickness 3 mm after 80% compression, annealed at 600°C under argon; Z-plane only, no MXene conductive component; vacuum-assisted impregnation into epoxy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene/Co/C/graphene Janus aerogel",
+        "description": "Z1M3GA: Janus aerogel with 1 mm Z-plane (ZIF-67 derived Co/C) and 3 mm M-plane (MXene), total thickness 3 mm after 80% compression, annealed at 600°C under argon; Janus structure with both magnetic Z-plane and conductive M-plane; vacuum-assisted impregnation into epoxy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 72.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident direction",
+            "value": "Z-plane incident",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene/Co/C/graphene Janus aerogel",
+        "description": "Z2M2GA: Janus aerogel with 2 mm Z-plane (ZIF-67 derived Co/C) and 2 mm M-plane (MXene), total thickness 3 mm after 80% compression, annealed at 600°C under argon; Janus structure with equal thickness magnetic Z-plane and conductive M-plane; vacuum-assisted impregnation into epoxy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 73.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident direction",
+            "value": "Z-plane incident",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and DMP-30 accelerator in mass ratio 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene/Co/C/graphene Janus aerogel",
+        "description": "Z3M1GA: Janus aerogel with 3 mm Z-plane (ZIF-67 derived Co/C) and 1 mm M-plane (MXene), total thickness 3 mm after 80% compression, annealed at 600°C under argon; Janus structure with thicker magnetic Z-plane and thinner conductive M-plane; vacuum-assisted impregnation into epoxy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident direction",
+            "value": "Z-plane incident",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

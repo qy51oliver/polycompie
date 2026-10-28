@@ -1,0 +1,679 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix of the single-layer BN60 composite",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles, average particle size 18 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "<4",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.48,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix of the single-layer BN70 composite",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles, average particle size 18 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "<4",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix of the single-layer BN80 composite",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles, average particle size 18 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "<4",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 2.33,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 208.1,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix of the single-layer Ag80 composite",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles; BN particles coated with Ag nanoparticles by electroless plating; silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.0963,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 190.7,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 3L-AgBN60; BN60 outer layers contain 40 vol% PEI and the Ag80 interlayer contains 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the outer dielectric layers (BN60), average particle size 18 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayer (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": ">20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 35.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 3L-AgBN70; BN70 outer layers contain 30 vol% PEI and the Ag80 interlayer contains 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the outer dielectric layers (BN70), average particle size 18 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayer (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 3L-AgBN80; BN80 outer layers contain 20 vol% PEI and the Ag80 interlayer contains 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the outer dielectric layers (BN80), average particle size 18 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayer (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": ">20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 56.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 5.42,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 5L-AgBN60; BN60 outer and internal dielectric layers contain 40 vol% PEI and the Ag80 interlayers contain 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the dielectric layers (BN60), average particle size 18 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayers (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">30",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 5L-AgBN70; BN70 outer and internal dielectric layers contain 30 vol% PEI and the Ag80 interlayers contain 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the dielectric layers (BN70), average particle size 18 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayers (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">30",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI matrix in all layers of 5L-AgBN80; BN80 outer and internal dielectric layers contain 20 vol% PEI and the Ag80 interlayers contain 20 vol% PEI, but the exact overall matrix fraction of the multilayer sample was not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "Plate-shaped BN particles in the dielectric layers (BN80), average particle size 18 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver-coated hexagonal boron nitride",
+        "description": "Ag@BN core-shell particles in the conductive interlayers (Ag80); silver content in the filler was 26.4 wt%",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "32-62",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "<0.0005",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 7.61,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

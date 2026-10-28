@@ -1,0 +1,824 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 250,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Jetfine talc synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 222,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "fumed SiO2 HDK H30RM synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 213,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "expandable graphite",
+        "description": "graphite ES 350 F5 synergist",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 172,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "potassium acetate modified kaolin synergist",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 206,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "TSP POSS, trisilanol phenyl POSS synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 214,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Exolit OP 1200",
+        "description": "flame retardant combination of aluminum diethylphosphinate and melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "OM POSS, octamethyl POSS synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 172,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 191,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Jetfine talc synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 203,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "fumed SiO2 HDK H30RM synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 213,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "expandable graphite",
+        "description": "graphite ES 350 F5 synergist",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 217,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "potassium acetate modified kaolin synergist",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 191,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "TSP POSS, trisilanol phenyl POSS synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 134,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 matrix in glass-fiber reinforced composite",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibre reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 flame retardant",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "OM POSS, octamethyl POSS synergist",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 135,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "property_description",
+            "value": "peak heat release rate reported in mass loss calorimetry, not EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

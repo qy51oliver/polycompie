@@ -1,0 +1,106 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2407 thermoplastic polycarbonate matrix",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber in unidirectional laminate",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "before erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2407 thermoplastic polycarbonate matrix after sand erosion",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber in unidirectional laminate after sand erosion",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

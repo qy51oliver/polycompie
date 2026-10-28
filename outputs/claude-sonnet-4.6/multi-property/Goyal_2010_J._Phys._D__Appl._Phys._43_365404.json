@@ -1,0 +1,396 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.47e-16,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 85,
+        "unit": "°C",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 240,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.53e-15,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 6.43,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 0.014,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 98.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6.4e-05,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 686,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 4.2,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.011,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 3216,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 6.6,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0166,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 5385,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 8.2,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.022,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 120000.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 53,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "High performance semi-crystalline polymer powder, Mn 10000, purchased from Aldrich Chemical Company",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Commercial EG powder obtained from Defence Research and Development Organization, Hyderabad; honeycomb/vermicular structure with high aspect ratio; sheet thickness less than 100 nm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.045,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant": {
+        "value": 820000.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "dissipation_factor": {
+        "value": 76,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

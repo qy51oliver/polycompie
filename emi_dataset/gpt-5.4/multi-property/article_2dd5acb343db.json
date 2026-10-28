@@ -1,0 +1,387 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) pristine film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "pristine HA film without filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 201.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 19.4,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 5.8,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) matrix/template in HA@PPy film HP11",
+        "composition": {
+          "amount": 89.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy formed by in-situ polymerization on and within HA film",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 16.8,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.1,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 8.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) matrix/template in HA@PPy film HP23",
+        "composition": {
+          "amount": 77.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy formed by in-situ polymerization on and within HA film",
+        "composition": {
+          "amount": 23.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 21.6,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 809.2,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) matrix/template in HA@PPy film HP33",
+        "composition": {
+          "amount": 67.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy formed by in-situ polymerization on and within HA film",
+        "composition": {
+          "amount": 33.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 23.6,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6297.7,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) matrix/template in HA@PPy film HP45",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy formed by in-situ polymerization on and within HA film",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 26.3,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10864.6,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 240.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 25.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 6.3,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1.0,
+            "unit": "mm min^-1"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "self-extinguishing",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "flame_source",
+            "value": "alcohol lamp",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 60,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-benzimidazole-terephthalamide)",
+        "description": "heterocyclic aramid (HA) matrix/template in HA@PPy film HP56",
+        "composition": {
+          "amount": 44.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy formed by in-situ polymerization on and within HA film",
+        "composition": {
+          "amount": 56.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 32.1,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 15495.8,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 51.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

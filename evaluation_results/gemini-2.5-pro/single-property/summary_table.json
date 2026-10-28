@@ -1,0 +1,99 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 1,
+  "model": "gemini-2.5-pro",
+  "study": "gemini-2.5-pro/single-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 42,
+    "empty": 17
+  },
+  "later_saved_prediction_articles": [],
+  "avg_similarity": 0.5534900695349848,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.4032,
+      "recall": 0.3866,
+      "f1": 0.3947
+    },
+    "relaxed": {
+      "precision": 0.543,
+      "recall": 0.5206,
+      "f1": 0.5316
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.2799,
+      "recall": 0.3347,
+      "f1": 0.3048,
+      "tp": 82,
+      "fp": 211,
+      "fn": 163
+    },
+    "strict": {
+      "precision": 0.2014,
+      "recall": 0.2408,
+      "f1": 0.2193,
+      "tp": 59,
+      "fp": 234,
+      "fn": 186
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.2799,
+        "recall": 0.3347,
+        "f1": 0.3048,
+        "tp": 82,
+        "fp": 211,
+        "fn": 163
+      },
+      "strict": {
+        "precision": 0.2014,
+        "recall": 0.2408,
+        "f1": 0.2193,
+        "tp": 59,
+        "fp": 234,
+        "fn": 186
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 75,
+      "fp_s": 111,
+      "fn_s": 119,
+      "tp_r": 101,
+      "fp_r": 85,
+      "fn_r": 93
+    },
+    "prop": {
+      "tp": 82,
+      "fp": 211,
+      "fn": 163,
+      "tp_s": 59,
+      "fp_s": 234,
+      "fn_s": 186,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 82,
+          "fp": 211,
+          "fn": 163,
+          "tp_s": 59,
+          "fp_s": 234,
+          "fn_s": 186
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ether-block-amide)",
+        "description": "Pebax 4533 SP 01 (Arkema Inc., France), consisting of polyamide hard segments and poly(tetramethylene oxide) soft segments. Neat PEBA, unfoamed solid sample.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "process",
+            "value": "RFIM (regular foam injection molding)",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ether-block-amide)",
+        "description": "Pebax 4533 SP 01 (Arkema Inc., France), consisting of polyamide hard segments and poly(tetramethylene oxide) soft segments. PEBA/CF composite, unfoamed solid sample.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, Toray Industries, Japan. Average diameter ~7 um, density 1.76 g/cm3. Uniformly dispersed in polymer matrix.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "unfoamed solid",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": "not specified",
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "process",
+            "value": "unfoamed solid composite",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement_method",
+            "value": "DMA loss tangent peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(ether-block-amide)",
+        "description": "Pebax 4533 SP 01 (Arkema Inc., France), consisting of polyamide hard segments and poly(tetramethylene oxide) soft segments. PEBA/CF composite foam prepared by regular foam injection molding (RFIM).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, Toray Industries, Japan. Average diameter ~7 um, density 1.76 g/cm3. Uniformly dispersed in polymer matrix. Average cell size ~45 um, cell density ~10^6 cells/cm3.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "RFIM foam",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "process",
+            "value": "RFIM (regular foam injection molding)",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(ether-block-amide)",
+        "description": "Pebax 4533 SP 01 (Arkema Inc., France), consisting of polyamide hard segments and poly(tetramethylene oxide) soft segments. PEBA/CF composite foam prepared by mold-opening foam injection molding (MOFIM). Real microcellular foam with average cell size 6.6 um and cell density up to 10^9 cells/cm3. Weight reduction ratio 24.4%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, Toray Industries, Japan. Average diameter ~7 um, density 1.76 g/cm3. Uniformly dispersed in polymer matrix.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "MOFIM foam",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "process",
+            "value": "MOFIM (mold-opening foam injection molding)",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "increased by 88.6% compared to unfoamed PEBA/CF composite",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  }
+]

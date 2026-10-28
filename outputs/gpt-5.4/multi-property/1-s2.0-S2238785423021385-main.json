@@ -1,0 +1,248 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Neat PEBA solid sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature_1": {
+        "value": 100.8,
+        "unit": "C",
+        "conditions": []
+      },
+      "melting_temperature_2": {
+        "value": 150.0,
+        "unit": "C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix in PEBA/CF composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, average diameter about 7 um)",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 146.1,
+        "unit": "C",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": -40.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "relation",
+            "value": "less than",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix in regular foam injection molded composite foam",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF in RFIM PEBA/CF foam",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "value_type",
+            "value": "less than MOFIM foam and greater than 20 dB commercial standard",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "lower than MOFIM-PEBA/CF foam",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific tensile strength",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison",
+            "value": "lower than solid PEBA/CF composite and lower than MOFIM-PEBA/CF foam",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix in mold-opening foam injection molded composite foam",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF in MOFIM PEBA/CF foam",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range",
+            "value": "whole X-band range",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 88.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison_basis",
+            "value": "increase relative to unfoamed PEBA/CF composite",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific tensile strength",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison",
+            "value": "not sacrificed relative to solid composite",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

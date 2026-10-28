@@ -1,0 +1,316 @@
+[
+  {
+    "sample_id": 0,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) film derived from Kevlar 49.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 84.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 0.2,
+            "unit": "mm min^-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) matrix derived from Kevlar 49.",
+        "composition": {
+          "amount": 91.88,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (Ag NPs) deposited on polydopamine-modified ANF.",
+        "composition": {
+          "amount": 8.12,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 9494.8,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 37.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) matrix derived from Kevlar 49.",
+        "composition": {
+          "amount": 90.33,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (Ag NPs) deposited on polydopamine-modified ANF.",
+        "composition": {
+          "amount": 9.67,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 70.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) matrix derived from Kevlar 49.",
+        "composition": {
+          "amount": 89.88,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (Ag NPs) deposited on polydopamine-modified ANF.",
+        "composition": {
+          "amount": 10.12,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 20703.88,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 73.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) matrix derived from Kevlar 49.",
+        "composition": {
+          "amount": 89.39,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (Ag NPs) deposited on polydopamine-modified ANF.",
+        "composition": {
+          "amount": 10.61,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 76.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene terephthalamide)",
+        "description": "Aramid nanofiber (ANF) matrix derived from Kevlar 49.",
+        "composition": {
+          "amount": 87.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (Ag NPs) deposited on polydopamine-modified ANF.",
+        "composition": {
+          "amount": 12.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 36989.68,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 107.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 0.2,
+            "unit": "mm min^-1"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 4.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 0.2,
+            "unit": "mm min^-1"
+          }
+        ]
+      }
+    }
+  }
+]

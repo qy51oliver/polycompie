@@ -1,0 +1,453 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS noncovalently functionalized with 1-butyl-3-methylimidazolium hexafluorophosphate; BNNS/[bmim][PF6] complex 2a (FR 0.047)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.309,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.36,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS noncovalently functionalized with 1-butyl-3-methylimidazolium hexafluorophosphate; BNNS/[bmim][PF6] complex 2a (FR 0.047)",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.971,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.49,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS noncovalently functionalized with 1-butyl-3-methylimidazolium hexafluorophosphate; BNNS/[bmim][PF6] complex 2a with optimum FR (~0.047)",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 5.35,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.3,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS/[bmim][PF6] complex with varying functionalization ratio; BNNS loading 5 wt%",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "h-BN filler",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 2.91,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 5.45,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "h-BN filler",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.247,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA matrix",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "h-BN filler",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.52,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS noncovalently functionalized with 1-butyl-3-methylimidazolium hexafluorophosphate; BNNS/[bmim][PF6] complex 2a with optimum FR",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 5.77,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.867,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "PC matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanosheet",
+        "description": "BNNS noncovalently functionalized with 1-butyl-3-methylimidazolium hexafluorophosphate; BNNS/[bmim][PF6] complex 2a",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.18,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA (Pebax 4533 SP 01); thermoplastic elastomer with polyamide hard segments and poly(tetramethylene oxide) soft segments",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, Toray); average diameter ~7 um; density 1.76 g/cm3",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "solid (unfoamed) composite",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 20.0,
+        "unit": "dB cm3/g",
+        "conditions": [
+          {
+            "type": "property_type",
+            "value": "specific EMI shielding effectiveness (SSE)",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "solid (unfoamed) composite",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA (Pebax 4533 SP 01); foamed by regular foam injection molding (RFIM) using N2 (0.6 wt% in processing)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, Toray); average diameter ~7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.0,
+        "unit": "dB cm3/g",
+        "conditions": [
+          {
+            "type": "property_type",
+            "value": "specific EMI shielding effectiveness (SSE)",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "RFIM foam",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA (Pebax 4533 SP 01); foamed by mold-opening foam injection molding (MOFIM) using N2 (0.6 wt% in processing)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (T300, Toray); average diameter ~7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "MOFIM foam",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 35.0,
+        "unit": "dB cm3/g",
+        "conditions": [
+          {
+            "type": "property_type",
+            "value": "specific EMI shielding effectiveness (SSE)",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "MOFIM foam",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

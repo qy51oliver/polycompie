@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC powder (density 1.37; K value 71; melting 80 °C; Tg 87 °C).",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets (foliated graphite, prepared via acid intercalation/exfoliation + sonication); thickness 30–50 nm (~40 nm avg); high aspect ratio; contains surface functional groups formed during exfoliation (e.g., C–O–C, C–OH, –COOH). Mixed with Cu nanoparticles at 90/10 wt% within the filler blend.",
+        "composition": {
+          "amount": 7.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles prepared by ball milling; average particle size ~20 nm. Present as 10 wt% of the graphite/Cu filler blend.",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC powder (density 1.37; K value 71; melting 80 °C; Tg 87 °C).",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets (foliated graphite, prepared via acid intercalation/exfoliation + sonication); thickness 30–50 nm (~40 nm avg); high aspect ratio; contains surface functional groups formed during exfoliation (e.g., C–O–C, C–OH, –COOH). Mixed with Cu nanoparticles at 90/10 wt% within the filler blend.",
+        "composition": {
+          "amount": 10.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles prepared by ball milling; average particle size ~20 nm. Present as 10 wt% of the graphite/Cu filler blend.",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC powder (density 1.37; K value 71; melting 80 °C; Tg 87 °C).",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets (foliated graphite, prepared via acid intercalation/exfoliation + sonication); thickness 30–50 nm (~40 nm avg); high aspect ratio; contains surface functional groups formed during exfoliation (e.g., C–O–C, C–OH, –COOH). Mixed with Cu nanoparticles at 90/10 wt% within the filler blend.",
+        "composition": {
+          "amount": 14.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles prepared by ball milling; average particle size ~20 nm. Present as 10 wt% of the graphite/Cu filler blend.",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC powder (density 1.37; K value 71; melting 80 °C; Tg 87 °C).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets (foliated graphite, prepared via acid intercalation/exfoliation + sonication); thickness 30–50 nm (~40 nm avg); high aspect ratio; contains surface functional groups formed during exfoliation (e.g., C–O–C, C–OH, –COOH). Mixed with Cu nanoparticles at 90/10 wt% within the filler blend.",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles prepared by ball milling; average particle size ~20 nm. Present as 10 wt% of the graphite/Cu filler blend.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 70.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine",
+        "composition": {
+          "amount": 97.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "3D rGO aerogel skeleton",
+        "composition": {
+          "amount": 2.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.82,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine",
+        "composition": {
+          "amount": 97.08,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "part of rGO-VG aerogel skeleton",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "vertical edge-rich graphene",
+        "description": "VG in rGO-VG aerogel skeleton",
+        "composition": {
+          "amount": 0.62,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 45.85,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine",
+        "composition": {
+          "amount": 97.01,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "part of rGO-CNT aerogel skeleton",
+        "composition": {
+          "amount": 2.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT in rGO-CNT aerogel skeleton; bamboo-like CNTs",
+        "composition": {
+          "amount": 0.68,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.37,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine",
+        "composition": {
+          "amount": 96.45,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "part of rGO-CNT-VG aerogel skeleton",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "part of rGO-CNT-VG aerogel skeleton; bamboo-like CNTs",
+        "composition": {
+          "amount": 0.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "vertical edge-rich graphene",
+        "description": "VG grown on CNT surface in rGO-CNT-VG aerogel skeleton",
+        "composition": {
+          "amount": 0.58,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 56.65,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Pure PPS resin",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.23,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 34.07,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.78,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D conductive Ag network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.22,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5763,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.43,
+        "unit": "W/m·K",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.53,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D conductive Ag network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.47,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "not specified",
+        "unit": "W/m·K",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D conductive Ag network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.89,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 59.62,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 98.52,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D conductive Ag network formed from Ag-coated PPS granules; silver-sulfur coordination reaction-induced interfacial enhancement",
+        "composition": {
+          "amount": 1.48,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 88000,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.15,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 49.01,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 40,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 87.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after immersion in different solvents for 10 h",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 73.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after ignition on alcohol lamp flame for 10 s in air",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrenesulfonic acid)",
+        "description": "PEDOT:PSS (Clevios PH 1000) matrix; 5 vol% DMSO was added during film preparation.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "bismuth selenide",
+        "description": "MOFs-derived BixSey@C sheets; BixSey consists of Bi2Se3 and BiSe nanoparticles wrapped by carbon components.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 41.9,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 153.49,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 300,
+            "unit": "K"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 42.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 100,
+            "unit": "cycles"
+          },
+          {
+            "type": "bending_radius",
+            "value": 4,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrenesulfonic acid)",
+        "description": "PEDOT:PSS (Clevios PH 1000) matrix; 5 vol% DMSO was added during film preparation.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "bismuth selenide",
+        "description": "MOFs-derived BixSey@C sheets; BixSey consists of Bi2Se3 and BiSe nanoparticles wrapped by carbon components.",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 45.1,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 42.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrenesulfonic acid)",
+        "description": "PEDOT:PSS (Clevios PH 1000) matrix; 5 vol% DMSO was added during film preparation.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "bismuth selenide",
+        "description": "MOFs-derived BixSey@C sheets; BixSey consists of Bi2Se3 and BiSe nanoparticles wrapped by carbon components.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 52.9,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 101.13,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 300,
+            "unit": "K"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 38.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

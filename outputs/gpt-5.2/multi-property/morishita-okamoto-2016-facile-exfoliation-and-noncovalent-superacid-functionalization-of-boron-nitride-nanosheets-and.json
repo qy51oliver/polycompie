@@ -1,0 +1,400 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA composite film prepared by wet-process from predispersed NF-BNNS/acetone solution mixed with PMMA/acetone solution; film dried and vacuum-dried.",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Noncovalently functionalized boron nitride nanosheets (NF-BNNSs) prepared from h-BN (UHP-IK) via chlorosulfonic acid (CSA) adsorption/exfoliation; BNNS content 2 wt% (~1 vol% stated approximately).",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.96,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.35,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA composite film prepared by wet-process from predispersed NF-BNNS/acetone solution mixed with PMMA/acetone solution; film dried and vacuum-dried.",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Noncovalently functionalized boron nitride nanosheets (NF-BNNSs) prepared from h-BN (UHP-IK) via chlorosulfonic acid (CSA) adsorption/exfoliation; BNNS content 24.5 wt%.",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.96,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.35,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA composite film prepared by wet-process from predispersed NF-BNNS/acetone solution mixed with PMMA/acetone solution; film dried and vacuum-dried.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Noncovalently functionalized boron nitride nanosheets (NF-BNNSs) prepared from h-BN (UHP-IK) via chlorosulfonic acid (CSA) adsorption/exfoliation; BNNS content 80 wt% (~68 vol% stated approximately).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 10.2,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 14.7,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA composite film prepared by same wet-process method as NF-BNNS/PMMA films, but using unfunctionalized h-BN (UHP-IK).",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Pristine h-BN (UHP-IK) used as filler; loading 24.5 wt%.",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.52,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "PMMA composite film prepared by same wet-process method as NF-BNNS/PMMA films, but using unfunctionalized h-BN (UHP-IK).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Pristine h-BN (UHP-IK) used as filler; loading 80 wt% (67.7 vol% mentioned for h-BN/PMMA at 80 wt%).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 3.81,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT composite film prepared from NF-BNNS-dispersed PBT/HFIP solution (wet-process); film thickness not explicitly stated for PBT composites in provided text.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Noncovalently functionalized boron nitride nanosheets (NF-BNNSs) via CSA adsorption/exfoliation; loading 80 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 11.0,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 15.1,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT composite film; volume resistivity measured after applying 1000 V for 20 s (per methods).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Hexagonal boron nitride",
+        "description": "Noncovalently functionalized boron nitride nanosheets (NF-BNNSs) via CSA adsorption/exfoliation; loading 80 wt%.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.333333333333333e-17,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from",
+            "value": "volume resistivity ~3.0 x 10^16 ohm cm (conductivity = 1/resistivity)",
+            "unit": "not specified"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 1000,
+            "unit": "V"
+          },
+          {
+            "type": "electrification_time",
+            "value": 20,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

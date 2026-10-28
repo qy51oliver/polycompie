@@ -1,0 +1,1021 @@
+[
+     {
+        "sample_id": "pure EMA",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature": {"value": -36.6, "unit": "°C"},
+            "melting_temperature": {"value": 86.0, "unit": "°C"},
+            "crystallization_temperature": {"value": 56.1, "unit": "°C"},
+            "percentage_of_crystallinity": {"value": 13.7, "unit": "not specified"},
+            "decompositing_temperature_1": {"value": 427.6, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 464.3, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 477.2, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 480.5, "unit": "°C"},
+            "heat_resistance_index": {"value": 220.3, "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "pure EOC",
+        "matrix_name": [
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature": {"value": -56.0, "unit": "°C"},
+            "melting_temperature": {"value": 67.6, "unit": "°C"},
+            "crystallization_temperature": {"value": 40.6, "unit": "°C"},
+            "percentage_of_crystallinity": {"value": 19.7, "unit": "not specified"},
+            "decompositing_temperature_1": {"value": 431.8, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 474.2, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 486.7, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 490.0, "unit": "°C"},
+            "heat_resistance_index": {"value": 224.0, "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN0",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature_1": {"value": -34.0, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "glass_transition_temperature_2": {"value": -55.2, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "melting_temperature_1": {"value": 87.8, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "melting_temperature_2": {"value": 64.7, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "crystallization_temperature_1": {"value": 52.5, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "crystallization_temperature_2": {"value": 39.3, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "percentage_of_crystallinity_1": {"value": 2.0, "unit": "not specified","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "percentage_of_crystallinity_2": {"value": 7.6, "unit": "not specified","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "decompositing_temperature_1": {"value": 431.4, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 463.3, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 480.1, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 485.6, "unit": "°C"},
+            "heat_resistance_index": {"value": 222.4, "unit": "°C"},
+            "elongation_at_break": {"value": 1251, "unit": "%"},
+            "specific_gravity": {"value": 0.98, "unit": "not specified"},
+            "drect_current_conductivity": {"value": 1e-15, "unit": "S/cm"},
+            "density": {"value": 0.999, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -2.10, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency lower bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN1",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 49.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 49.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature_1": {"value": -33.3, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "glass_transition_temperature_2": {"value": -59.6, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "melting_temperature_1": {"value": 85.6, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "melting_temperature_2": {"value": 66.0, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "crystallization_temperature_1": {"value": 52.8, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "crystallization_temperature_2": {"value": 40.9, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "percentage_of_crystallinity_1": {"value": 0.31, "unit": "not specified","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "percentage_of_crystallinity_2": {"value": 2.0, "unit": "not specified","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "decompositing_temperature_1": {"value": 374.2, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 434.3, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 463.3, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 480.1, "unit": "°C"},
+            "heat_resistance_index": {"value": 201.0, "unit": "°C"},
+            "elongation_at_break": {"value": 1406, "unit": "%"},
+            "density": {"value": 1.007, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -12.85, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": -12.95, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN3",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 48.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 48.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "density": {"value": 1.007, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -21.89, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": -22.05, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN5",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 47.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 47.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature_1": {"value": -34.2, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "glass_transition_temperature_2": {"value": -57.2, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "melting_temperature_1": {"value": 85.8, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "melting_temperature_2": {"value": 64.5, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "crystallization_temperature_1": {"value": 52.6, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "crystallization_temperature_2": {"value": 41.5, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "percentage_of_crystallinity_1": {"value": 0.22, "unit": "not specified","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "percentage_of_crystallinity_2": {"value": 2.4, "unit": "not specified","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "decompositing_temperature_1": {"value": 445.9, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 478.7, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 491.2, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 493.6, "unit": "°C"},
+            "heat_resistance_index": {"value": 228.1, "unit": "°C"},
+            "density": {"value": 1.008, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -31.44, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN10",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "density": {"value": 1.01, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -37.99, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN15",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "glass_transition_temperature_1": {"value": -36.5, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "glass_transition_temperature_2": {"value": -58.6, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "melting_temperature_1": {"value": 85.6, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "melting_temperature_2": {"value": 64.7, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "crystallization_temperature_1": {"value": 53.6, "unit": "°C","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "crystallization_temperature_2": {"value": 41.7, "unit": "°C","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "percentage_of_crystallinity_1": {"value": 0.17, "unit": "not specified","conditions": [{"type": "phase", "value": "EMA","unit": "not specified"}]},
+            "percentage_of_crystallinity_2": {"value": 2.3, "unit": "not specified","conditions": [{"type": "phase", "value": "EOC","unit": "not specified"}]},
+            "decompositing_temperature_1": {"value": 381.9, "unit": "°C","conditions": [{"type": "weight loss", "value": 5,"unit": "%"}]},
+            "decompositing_temperature_2": {"value": 443.2, "unit": "°C","conditions": [{"type": "weight loss", "value": 30,"unit": "%"}]},
+            "decompositing_temperature_3": {"value": 469.8, "unit": "°C","conditions": [{"type": "weight loss", "value": 50,"unit": "%"}]},
+            "maximum_degradation_temperature": {"value": 480.5, "unit": "°C"},
+            "heat_resistance_index": {"value": 205.1, "unit": "°C"},
+            "elongation_at_break": {"value": 1127, "unit": "%"},
+            "specific_gravity": {"value": 1.054, "unit": "not specified"},
+            "density": {"value": 1.054, "unit": "g/cm^3"},
+            "specific_shielding_effectiveness": {"value": -42.69, "unit": "dB*cm^2*g^-1", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": -45, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "skin_depth": {"value": 0.2, "unit": "mm", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN15_0.5mm",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": -32.05, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "E50O50CuN15_2mm",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": 42.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": -53.5, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "CPE/K-CB",
+        "matrix_name": [
+        		{
+                "name": "chlorinated polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ketjen carbon black",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 21.2, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EMA/K-CB",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ketjen carbon black",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 18.3, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "SEBS/P-CB",
+        "matrix_name": [
+        		{
+                "name": "styrene ethylene butylene styrene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "printex carbon black",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 17, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "CPE/V-CB",
+        "matrix_name": [
+        		{
+                "name": "chlorinated polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "vulcan XC carbon black",
+                "description": "not specified",
+                "composition": {"amount": 25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 20.9, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "SEBS/EG",
+        "matrix_name": [
+        		{
+                "name": "styrene ethylene butylene styrene",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "exfoliated graphene",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 12, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/RGO",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 96.55, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 3.45, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 45.1, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EMA/RGO",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 30, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Epoxy/RGO",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 21, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "CPE/CNF",
+        "matrix_name": [
+        		{
+                "name": "chlorinated polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nano fibre",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 24, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/CNF",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nano fibre",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 20, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PE/GNP",
+        "matrix_name": [
+        		{
+                "name": "polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 33, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PMMA/GNP",
+        "matrix_name": [
+        		{
+                "name": "polymethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 92.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 7.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3.5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 30, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/GNP foam",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 29, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/MWCNT",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 25, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PU/SWCNT",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "singlewall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 17, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Epoxy/SWCNT",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "singlewall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 25, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EMA/MWCNT",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PA/MWCNT",
+        "matrix_name": [
+        		{
+                "name": "polyamide",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 25, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PVDF/SAN/MWCNT",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "styrene acrylonitrile",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 12, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PVDF/PC/MWCNT",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polycarbonate",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 15, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EVA/NR/V-CB",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "natural rubber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "vulcan XC carbon black",
+                "description": "not specified",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 10, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EVA/EPDM/V-CB",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene propylene diene rubber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "vulcan XC carbon black",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 25, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EMA/EOC/V-CB",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-octene copolymer",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "vulcan XC carbon black",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 31.4, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EVA/EPDM/SCF",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene propylene diene rubber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short carbon fibre",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 55, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/CuN_1",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 98.7, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 1.3, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 27, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PS/CuN_2",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper nanowire",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 26, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EMA/SCF",
+        "matrix_name": [
+        		{
+                "name": "poly(ethylene-co-methyl acrylate)",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short carbon fibre",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": -23, "unit": "dB", "conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}, {"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

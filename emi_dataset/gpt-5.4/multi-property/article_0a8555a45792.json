@@ -1,0 +1,149 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Polymer matrix in the unidirectional carbon fiber reinforced polymer laminate (UD, stacking sequence [0]8).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Unidirectional carbon fiber reinforcement from prepreg; areal density 200 g/m2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2743.52,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "longitudinal",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 10.25,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Polymer matrix in the unidirectional carbon fiber reinforced polymer laminate (UD, stacking sequence [0]8) containing Ag/T-ZnO interlayers.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Unidirectional carbon fiber reinforcement from prepreg; areal density 200 g/m2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "zinc oxide",
+        "description": "Silver-coated tetra-needle zinc oxide whiskers (Ag/T-ZnO) used as interlayers; whisker size 10–50 μm; silver fraction in Ag/T-ZnO particles was 30.5 wt%; loading was 0.5 g per layer, corresponding to an area density of 155.54 g/m2.",
+        "composition": {
+          "amount": 0.5,
+          "type": "not specified"
+        },
+        "surface_treatment": "silver-coated by electroless plating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2354.31,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 7.69,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-depth",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 1.04,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-depth",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40.99,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "average total EMI shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

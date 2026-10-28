@@ -1,0 +1,338 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane network prepared from oligooxypropylene glycol (OPG) and 2,4-tolylenediisocyanate (TDI) with 1,1,1-trimethylolpropane (TMP) as a crosslinking agent. Modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g. Introduced via ultrasonic dispersion.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 5.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane network prepared from oligooxypropylene glycol (OPG) and 2,4-tolylenediisocyanate (TDI) with 1,1,1-trimethylolpropane (TMP) as a crosslinking agent. Modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g. Introduced via mechanical mixing.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methylmethacrylate)",
+        "description": "Linear poly(methylmethacrylate) component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Spherical microparticles of metallic Ni with a dispersion of 10 um.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methylmethacrylate)",
+        "description": "Linear poly(methylmethacrylate) component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% iron(III) acetylacetonate (Fe(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% chromium(III) acetylacetonate (Cr(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methylmethacrylate)",
+        "description": "Linear poly(methylmethacrylate) component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% chromium(III) acetylacetonate (Cr(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% chromium(III) acetylacetonate (Cr(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methylmethacrylate)",
+        "description": "Linear poly(methylmethacrylate) component of a 50/50 (by weight) PU/PMMA simultaneous semi-interpenetrating polymer network (SIPN). The SIPN is modified with 1 wt% chromium(III) acetylacetonate (Cr(acac)3).",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (CNT) with a length of 5-10 um, an outer diameter of 20 nm, and a surface area of 190 m2/g.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Spherical microparticles of metallic Ni with a dispersion of 10 um.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

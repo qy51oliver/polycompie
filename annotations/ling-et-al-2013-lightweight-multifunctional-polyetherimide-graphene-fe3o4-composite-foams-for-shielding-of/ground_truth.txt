@@ -1,0 +1,183 @@
+[
+     {
+        "sample_id": "PEI",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "density": {"value": 1.28, "unit": "g/cm^3"},
+            "glass_transition_temperature": {"value": 215, "unit": "°C"},
+            "thermal_conductivity": {"value": 0.042, "unit": "W/(m K)"}
+        }
+    },
+     {
+        "sample_id": "PEI+1.0 wt% G@Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene@Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "density": {"value": 0.28, "unit": "g/cm^3"},
+            "magnetization": {"value": 0.38, "unit": "emu/g"},
+            "coercivity": {"value": 35, "unit": "Oe"},
+            "shielding_effectiveness": {"value": "3.5-5.8", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]},
+            "average_specific_shielding_effectiveness": {"value": 15.6, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PEI+3.0 wt% G@Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene@Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "coercivity": {"value": 35, "unit": "Oe"}
+        }
+    },
+     {
+        "sample_id": "PEI+5.0 wt% G@Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene@Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "coercivity": {"value": 35, "unit": "Oe"},
+            "shielding_effectiveness": {"value": "6.5-9.2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PEI+7.0 wt% G@Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene@Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "coercivity": {"value": 35, "unit": "Oe"},
+            "shielding_effectiveness": {"value": "11.2-14.3", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 13.1, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+            "microwave_reflection": {"value": 0.4, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+            "microwave_absorption": {"value": 12.7, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+
+        }
+    },
+     {
+        "sample_id": "PEI+10.0 wt% G@Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene@Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "density": {"value": 0.40, "unit": "g/cm^3"},
+            "magnetization": {"value": 3.09, "unit": "emu/g"},
+            "coercivity": {"value": 35, "unit": "Oe"},
+            "shielding_effectiveness": {"value": "14.3-18.2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]},
+            "average_specific_shielding_effectiveness": {"value": 41.5, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 17.8, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+            "microwave_reflection": {"value": 0.5, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+            "microwave_absorption": {"value": 17.5, "unit": "dB","conditions": [{"type": "frequency", "value": 9.6,"unit": "GHz"}]},
+            "thermal_conductivity": {"value": 0.071, "unit": "W/(m K)"}
+        }
+    },
+     {
+        "sample_id": "PEI+10.0 wt% Fe3O4",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit":"mm"},
+        "properties": {
+            "average_specific_shielding_effectiveness": {"value": 15.2, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+        }
+    }
+]

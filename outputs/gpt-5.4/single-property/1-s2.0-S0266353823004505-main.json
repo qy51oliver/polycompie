@@ -1,0 +1,166 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; carbon fiber reinforced epoxy composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Pretreated carbon fiber fabric (desized and oxidized), plain woven T300, 12K",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; carbon fiber reinforced epoxy composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Pretreated carbon fiber fabric (desized and oxidized), plain woven T300, 12K",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx",
+        "description": "MXene nanoparticles electrophoretically deposited onto carbon fiber surface; MXene mass fraction on CF fabric was 13 wt%",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; carbon fiber reinforced epoxy composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Pretreated carbon fiber fabric (desized and oxidized), plain woven T300, 12K",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx",
+        "description": "Thermally annealed/reduced MXene nanoparticles deposited onto carbon fiber surface (rMXene-CF); initial MXene mass fraction on CF fabric was 13 wt%",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

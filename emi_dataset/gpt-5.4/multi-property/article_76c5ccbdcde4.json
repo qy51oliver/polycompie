@@ -1,0 +1,183 @@
+[
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "Eucommia ulmoides rubber",
+        "description": "EUR; component of the PEUR (EP@EUR) blend matrix. Amount computed from the reported 6:4 EP:EUR mass ratio and the reported filler loadings.",
+        "composition": {
+          "amount": 32.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "epoxy resin",
+        "description": "Diglycidyl ether of bisphenol-A epoxy resin; component of the PEUR (EP@EUR) blend matrix. Amount computed from the reported 6:4 EP:EUR mass ratio and the reported filler loadings.",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Conductive CB K90.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "manganese zinc ferrite",
+        "description": "Mn0.6Zn0.4Fe2O4 microspheres.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_type",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 25,
+    "matrix_name": [
+      {
+        "name": "Eucommia ulmoides rubber",
+        "description": "EUR; component of the PEUR (EP@EUR) blend matrix. Amount computed from the reported 6:4 EP:EUR mass ratio and the reported filler loadings.",
+        "composition": {
+          "amount": 28.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "epoxy resin",
+        "description": "Diglycidyl ether of bisphenol-A epoxy resin; component of the PEUR (EP@EUR) blend matrix. Amount computed from the reported 6:4 EP:EUR mass ratio and the reported filler loadings.",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Conductive CB K90.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "manganese zinc ferrite",
+        "description": "Mn0.6Zn0.4Fe2O4 microspheres.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_type",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 80.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_type",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "feature",
+            "value": "resonance peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

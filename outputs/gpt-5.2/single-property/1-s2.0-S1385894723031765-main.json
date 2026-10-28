@@ -1,0 +1,96 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PA-6 film (hot-pressed from PA-6/FLG composite powder).",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG produced in-situ by mechanochemistry + supercritical CO2 exfoliation/coating; ~10 layers reported; derived from graphite.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PA-6 film (hot-pressed from PA-6/FLG composite powder).",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG produced in-situ by mechanochemistry + supercritical CO2 exfoliation/coating; ~10 layers reported; derived from graphite.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 41.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

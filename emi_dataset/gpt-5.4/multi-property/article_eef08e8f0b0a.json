@@ -1,0 +1,612 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); filler loading fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.04,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; only AgNWs added.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 8.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; only AgNWs added.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 125,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 14.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; only AgNWs added.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6824,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 26.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; only AgNWs added.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 13706,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 42.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 0.49 vol%.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 147,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 0.99 vol%.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 11359,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 38.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 1.97 vol%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 2.96 vol%.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 14.5,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 48.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 2.96 vol%.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 19.1,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 53.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "50 wt% aqueous dispersion; aziridine crosslinker added at 2 wt% of the solid content of WPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanowires dispersed in aqueous solution; diameter 25–35 nm and length 10–20 μm; corresponding AgNW volume fraction reported as 2.96 vol%.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)/poly(styrenesulfonate)",
+        "description": "PEDOT:PSS aqueous dispersion (1.1 wt%); fixed at 5 wt% based on WPU solid content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 24.8,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19225,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 68.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 61.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "bending",
+            "unit": "not specified"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 3000,
+            "unit": "cycles"
+          },
+          {
+            "type": "bending_strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Magnetite (Fe3O4) nanoparticles; polymer-free stand-alone pellet; solvothermally synthesized.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 4.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.72,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Amine-functionalized MWCNT; polymer-free stand-alone pellet; purified by ethanol dispersion and 5% HCl washing.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 53.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 25.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Amine-functionalized MWCNT network/scaffold in a polymer-free Fe3O4-MWCNT pellet; purified by ethanol dispersion and 5% HCl washing.",
+        "composition": {
+          "amount": 33.33,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Magnetite (Fe3O4) nanoparticles homogeneously decorated on MWCNT; Fe3O4:MWCNT weight ratio = 2:1.",
+        "composition": {
+          "amount": 66.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 11.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Amine-functionalized MWCNT network/scaffold in a polymer-free Fe3O4-MWCNT pellet; purified by ethanol dispersion and 5% HCl washing.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Magnetite (Fe3O4) nanoparticles homogeneously decorated on MWCNT; Fe3O4:MWCNT weight ratio = 1:1.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 58.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 30.8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Amine-functionalized MWCNT network/scaffold in a polymer-free Fe3O4-MWCNT pellet; purified by ethanol dispersion and 5% HCl washing.",
+        "composition": {
+          "amount": 66.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Magnetite (Fe3O4) nanoparticles homogeneously decorated on MWCNT with Fe-O-C chemical interaction; Fe3O4:MWCNT weight ratio = 1:2.",
+        "composition": {
+          "amount": 33.33,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 33.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

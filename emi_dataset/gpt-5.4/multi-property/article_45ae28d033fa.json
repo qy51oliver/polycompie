@@ -1,0 +1,260 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "Neat PVA film matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.08,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA composite film matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Hydroxylated carbon nanotube hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CNT@m-LDH; internal carbon:m-LDH mass ratio 12:1",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.08,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA composite film matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Carbon black hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CB@m-LDH; internal carbon:m-LDH mass ratio 12:1",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.08,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA composite film matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Carbon black hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CB@m-LDH; internal carbon:m-LDH mass ratio 12:1; in this sample the CB@m-LDH:CNT@m-LDH mass ratio is 12:1",
+        "composition": {
+          "amount": 27.6923,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotube/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Hydroxylated carbon nanotube hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CNT@m-LDH; internal carbon:m-LDH mass ratio 12:1; in this sample the CB@m-LDH:CNT@m-LDH mass ratio is 12:1",
+        "composition": {
+          "amount": 2.3077,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.08,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 285,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA composite film matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Carbon black hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CB@m-LDH; internal carbon:m-LDH mass ratio 12:1; in this sample the CB@m-LDH:CNT@m-LDH mass ratio is 12:1",
+        "composition": {
+          "amount": 27.6923,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotube/magnesium-aluminum layered double hydroxide hybrid",
+        "description": "Hydroxylated carbon nanotube hybrid modified by in-situ grown water-dispersed monolayer layered double hydroxide (m-LDH) with styrene-maleic anhydride copolymer attached; denoted CNT@m-LDH; internal carbon:m-LDH mass ratio 12:1; in this sample the CB@m-LDH:CNT@m-LDH mass ratio is 12:1",
+        "composition": {
+          "amount": 2.3077,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

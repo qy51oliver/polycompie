@@ -1,0 +1,112 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU elastomer; Mn = 20,000; hardness = 85; density = 1.34; synthesized from diphenyl methane 4,4-diisocyanate (MDI), 1,4-butanediol, and polyethylene glycol adipate (Mn = 1000).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.2e-14,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current_type",
+            "value": "dc",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU elastomer; Mn = 20,000; hardness = 85; density = 1.34; synthesized from diphenyl methane 4,4-diisocyanate (MDI), 1,4-butanediol, and polyethylene glycol adipate (Mn = 1000).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "Raw arc-prepared (AP) SWCNT bundles prepared by a modified arcing method; average bundle diameter 5.95 nm, average length 1430 nm, specific surface area 1500 m2/g; raw material contains about 50 wt% SWCNTs.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00022,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current_type",
+            "value": "dc",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "16-17",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

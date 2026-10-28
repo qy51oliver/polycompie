@@ -1,0 +1,318 @@
+[
+  {
+    "sample_id": "Pure EMA",
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2e-10,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.11,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 7.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1152,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "EX0FG100",
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Fe3O4-g-C3N4",
+        "description": "Fe3O4 decorated on g-C3N4",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00083,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.82,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "EX10FG90",
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Fe3O4-g-C3N4",
+        "description": "Fe3O4 decorated on g-C3N4",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0025,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 28,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.85,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "EX30FG70",
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Fe3O4-g-C3N4",
+        "description": "Fe3O4 decorated on g-C3N4",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.008,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.92,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "EX50FG50",
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Fe3O4-g-C3N4",
+        "description": "Fe3O4 decorated on g-C3N4",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.015,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.98,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 9.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 755,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

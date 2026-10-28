@@ -1,0 +1,285 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Neat PBT matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Natural wollastonite",
+        "description": "600 mesh natural wollastonite powder (NW)",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 1.013,
+        "unit": "relative to neat PBT",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1.07,
+        "unit": "relative to neat PBT",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 149.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 10.5,
+        "unit": "% reduction relative to neat PBT",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 225.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 474.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 3.0573,
+        "unit": "kW/m^2·s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "FIGRA",
+            "unit": "not specified"
+          },
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Synthetic wollastonite",
+        "description": "Synthetic wollastonite nanofibers (SWN)",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 1.06,
+        "unit": "relative to neat PBT",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1.09,
+        "unit": "relative to neat PBT",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "fracture_strain_upper_bound",
+            "value": 20.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 8.8,
+        "unit": "% reduction relative to neat PBT",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 226.5,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 495.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 50.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 3.1921,
+        "unit": "kW/m^2·s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "FIGRA",
+            "unit": "not specified"
+          },
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide",
+        "description": "GO powder; average thickness 0.8-2.0 nm and lateral dimension 5-10 μm",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 29.0,
+        "unit": "% reduction relative to neat PBT",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1.04,
+        "unit": "relative to neat PBT",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 14.0,
+        "unit": "% reduction relative to neat PBT",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 224.8,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 509.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 42.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 3.4611,
+        "unit": "kW/m^2·s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "FIGRA",
+            "unit": "not specified"
+          },
+          {
+            "type": "external_heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  }
+]

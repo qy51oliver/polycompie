@@ -1,0 +1,283 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel (FGA) prepared from GO via bubble template method; compressed/annealed at different compressive strains; used as 3D conductive network filler in epoxy (FGAs/EP).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 8.17,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 20.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel (FGA) prepared from GO via bubble template method; compressed/annealed at different compressive strains; used as 3D conductive network filler in epoxy (FGAs/EP).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 8.17,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 80.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene nanosheets (prepared by etching Ti3AlC2; deposited onto PDA-modified foamed graphene aerogel); Janus notation ZoM4GA indicates M-plane thickness 4 (units not specified) and Z-plane thickness 0.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel scaffold (PDA-modified) forming 3D network; part of ZoM4GA aerogel filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 8.17,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cobalt/carbon nanoparticles",
+        "description": "Co/C magnetic nanoparticles formed by reduction of ZIF-67 during compress-annealing; deposited onto PDA-modified foamed graphene aerogel; Janus notation Z4MoGA indicates Z-plane thickness 4 (units not specified) and M-plane thickness 0.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel scaffold (PDA-modified) forming 3D network; part of Z4MoGA aerogel filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 8.17,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene nanosheets deposited on PDA-modified foamed graphene aerogel; part of Janus Z3M1GA aerogel filler (M-plane).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Cobalt/carbon nanoparticles",
+        "description": "Co/C magnetic nanoparticles derived from ZIF-67 during compress-annealing; part of Janus Z3M1GA aerogel filler (Z-plane).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel scaffold (PDA-modified) forming 3D network; part of Janus Z3M1GA aerogel filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 8.17,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

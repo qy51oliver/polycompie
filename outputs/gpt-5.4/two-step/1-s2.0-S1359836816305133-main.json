@@ -1,0 +1,203 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "Pure HDPE matrix resin (2200J grade)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix resin (2200J grade)",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "MWCNTs chemically nickel-plated by electroless plating for 5 min; pretreated in 5 M HNO3 and activated with SnCl2/PdCl2 before plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix resin (2200J grade)",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "MWCNTs chemically nickel-plated by electroless plating for 15 min; pretreated in 5 M HNO3 and activated with SnCl2/PdCl2 before plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix resin (2200J grade)",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "MWCNTs chemically nickel-plated by electroless plating for 30 min; pretreated in 5 M HNO3 and activated with SnCl2/PdCl2 before plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 12,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 16,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

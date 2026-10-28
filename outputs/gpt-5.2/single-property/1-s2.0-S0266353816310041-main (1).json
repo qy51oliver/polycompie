@@ -1,0 +1,108 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for Cu-coated expanded polymer bead (CuEB) composites; processed via solution mixing in DMF and compression molding.",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Cu-coated expanded polymer beads (CuEBs): electroless-plated Cu shell (~1 µm thick) on expanded acrylonitrile-based hollow polymer beads; deformed into highly anisotropic Cu oblate ellipsoids during compression molding.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 80.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 62.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix used for control composite with isotropic Cu solid beads; processed by compression molding into toroidal specimen for EMI test.",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Isotropic solid Cu beads (diameter ~40 µm) used as control filler.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 5.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

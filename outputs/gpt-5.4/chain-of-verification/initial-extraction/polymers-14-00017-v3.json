@@ -1,0 +1,718 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Unreinforced PBT resin; commercialized as VALOX 310",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 0.15,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 36.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire flame height",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 10.28,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 200.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 20.34,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 16.45,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 328.57,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 28.79,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 36.05,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 383.87,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 34.72,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 53.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 476.92,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 38.16,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 9.2,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire flame height",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 58.82,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 614.29,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 41.25,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 5.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire flame height",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix; commercialized as VALOX 420",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 77.33,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 0.015,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 1400.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "decrease relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "approximation",
+            "value": "~",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 63.28,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "increase relative to PBT",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_rate",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 4.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire flame height",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

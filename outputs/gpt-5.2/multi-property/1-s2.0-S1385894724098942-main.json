@@ -1,0 +1,389 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS prepared from base agent and hardener (10:1 mass ratio) with 5 wt% diluent added to PDMS solution; cured at 100 °C for 2 h after vacuum impregnation into aerogel backbone.",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbons",
+        "description": "Vertically aligned BNNR array/aerogel backbone; heat-treated at 1700 °C in Ar; BNNR loading stated as 9.3 wt%. No vertical graphene on BNNR surface.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 8.19,
+        "unit": "W·m^-1·K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS impregnated into VG-BNNR aerogel backbone; VG growth time on BNNR = 2 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbons",
+        "description": "BNNR aerogel backbone with in-situ grown vertical graphene (VG) on BNNR surfaces; VG growth time 2 h; total BNNR loading basis not explicitly restated for this sample (paper discusses 9.3 wt% BNNR loading as basis for analysis).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces by low-pressure CVD using CH3OH carbon source; growth time 2 h; defect-rich open-edge structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 33.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          },
+          {
+            "type": "thickness",
+            "value": 2,
+            "unit": "mm"
+          },
+          {
+            "type": "statistic",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 6.28,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "VG_growth_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      },
+      "elongation_at_break_1": {
+        "value": 35,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "VG_growth_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS impregnated into VG-BNNR aerogel backbone; VG growth time on BNNR = 4 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbons",
+        "description": "BNNR aerogel backbone with in-situ grown vertical graphene (VG) on BNNR surfaces; VG growth time 4 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces; growth time 4 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          },
+          {
+            "type": "thickness",
+            "value": 2,
+            "unit": "mm"
+          },
+          {
+            "type": "statistic",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS impregnated into VG-BNNR aerogel backbone; VG growth time on BNNR = 8 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbons",
+        "description": "BNNR aerogel backbone with in-situ grown vertical graphene (VG) on BNNR surfaces; VG growth time 8 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces; growth time 8 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 56.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          },
+          {
+            "type": "thickness",
+            "value": 2,
+            "unit": "mm"
+          },
+          {
+            "type": "statistic",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS impregnated into VG-BNNR aerogel backbone; VG growth time on BNNR = 12 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbons",
+        "description": "BNNR aerogel backbone with in-situ grown vertical graphene (VG) on BNNR surfaces; VG growth time 12 h; paper discusses BNNR loading of 9.3 wt% as basis for thermal conductivity analysis.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces; growth time 12 h; forms nanoscale 3D interconnection network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 14.5,
+        "unit": "W·m^-1·K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 17.2,
+        "unit": "W·m^-1·K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 200,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 280,
+        "unit": "S·m^-1",
+        "conditions": [
+          {
+            "type": "VG_growth_time",
+            "value": 12,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 64.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          },
+          {
+            "type": "thickness",
+            "value": 2,
+            "unit": "mm"
+          },
+          {
+            "type": "statistic",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 11.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "VG_growth_time",
+            "value": 12,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  }
+]

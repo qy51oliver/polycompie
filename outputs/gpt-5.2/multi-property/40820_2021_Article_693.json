@@ -1,0 +1,522 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres (cationic WPU) containing reversible Diels–Alder bonds; used as bulk film (no filler) prepared by compression molding at 130 °C for 10 min.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled CPA film (control).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 17.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 700,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microsphere-based polyurethane matrix with Diels–Alder bonds; composite prepared by electrostatic assembly of anionic CNT/GO hybrid onto cationic CPA microspheres, then compression molded at 130 °C for 10 min.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO), anionic; forms segregated conductive network via electrostatic adsorption on CPA microspheres.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 43.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 626,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microsphere-based polyurethane matrix with Diels–Alder bonds; composite prepared by electrostatic assembly then compression molded at 130 °C for 10 min.",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO), anionic; segregated network at CPA interfaces.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 32.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 431,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 30.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (3rd cutting/healing cycle, 3HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "elongation_at_break_1": {
+        "value": 410,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (3rd cutting/healing cycle, 3HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microsphere-based polyurethane matrix with Diels–Alder bonds; composite prepared by electrostatic assembly then compression molded at 130 °C for 10 min.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO), anionic; segregated network at CPA interfaces.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 52.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 400,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          },
+          {
+            "type": "gauge_length",
+            "value": 20,
+            "unit": "mm"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 51.5,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (1st cutting/healing cycle, 1HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 48.8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (3rd cutting/healing cycle, 3HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (1st cutting/healing cycle, 1HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "healed (3rd cutting/healing cycle, 3HC)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_step_1_temperature",
+            "value": 130,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_1_time",
+            "value": 10,
+            "unit": "min"
+          },
+          {
+            "type": "healing_step_2_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "healing_step_2_time",
+            "value": 2,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  }
+]

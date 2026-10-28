@@ -1,0 +1,742 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size) deposited on MS; no CNF added.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "storage_time",
+            "value": 7,
+            "unit": "day"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; comparison sample impregnated with Ti3C2Tx dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size) on MS; no CNF added.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 14.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 28.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 58.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 23.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "storage_time",
+            "value": 7,
+            "unit": "day"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; SMMS sample prepared from the CNF-containing mixed dispersion series.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 91 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 91.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 9 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 121.4,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 49.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; MMS sample from the 6 mg/mL Ti3C2Tx/CNF dispersion series.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 50 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 50 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.4,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; SMMS sample from the 6 mg/mL Ti3C2Tx/CNF dispersion series.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 50 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 50 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.009,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 54.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "storage_time",
+            "value": 7,
+            "unit": "day"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 77.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Small-sized Ti3C2Tx nanosheets (~0.48 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; sample prepared by dip-soaking in a 12 mg/mL Ti3C2Tx/CNF dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 256.4,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 70.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "melamine sponge",
+        "description": "Commercial open-cell porous melamine sponge (MS), density 9.1 mg/cm3; sample prepared by dip-soaking in a 3 mg/mL Ti3C2Tx/CNF dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-sized Ti3C2Tx flakes (~5.07 um lateral size); 83 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      },
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF nanobinder/reinforcing agent; 17 wt% of total Ti3C2Tx + CNF solids in the mixed dispersion.",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "silane-modified with MTMS and HDTMS"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

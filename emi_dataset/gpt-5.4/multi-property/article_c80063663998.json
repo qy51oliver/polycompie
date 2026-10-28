@@ -1,0 +1,343 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "Neat ANF film prepared from K49 aramid fiber by deprotonation/protonation.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; neat ANF film.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 149.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "ANF matrix in one-step vacuum-filtered EGP/ANF composite film.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite platelet",
+        "description": "Exfoliated graphite platelet derived from expanded graphite.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 109.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 1.9,
+        "unit": "S m^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "ANF matrix in one-step vacuum-filtered EGP/ANF composite film.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite platelet",
+        "description": "Exfoliated graphite platelet derived from expanded graphite.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 73.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 31.8,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 26.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 53.3,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "ANF matrix in one-step vacuum-filtered EGP/ANF composite film.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite platelet",
+        "description": "Exfoliated graphite platelet derived from expanded graphite.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 24.6,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 1972.4,
+        "unit": "S m^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "ANF matrix in sandwich-structured AgNW/EGP/ANF film. Overall ANF fraction calculated from reported layer formulations: outer EGP/ANF layers contain 60 wt% EGP, and the middle AgNW/ANF layer has AgNW:ANF = 9:1.",
+        "composition": {
+          "amount": 38.3333,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite platelet",
+        "description": "Exfoliated graphite platelet in the two outer layers; overall fraction calculated from reported layer formulations.",
+        "composition": {
+          "amount": 56.6667,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "Silver nanowires concentrated in the middle layer of the sandwich film; reported overall AgNW loading is 5 wt%.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 26.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12100.0,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 33.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 38.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "Ka-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "aramid nanofiber",
+        "description": "ANF matrix in sandwich-structured AgNW/EGP/ANF film. Overall ANF fraction calculated from reported layer formulations: outer EGP/ANF layers contain 60 wt% EGP, and the middle AgNW/ANF layer has AgNW:ANF = 9:1.",
+        "composition": {
+          "amount": 28.3333,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite platelet",
+        "description": "Exfoliated graphite platelet in the two outer layers; overall fraction calculated from reported layer formulations.",
+        "composition": {
+          "amount": 36.6667,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "Silver nanowires concentrated in the middle layer of the sandwich film; reported overall AgNW loading is 35 wt%.",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyvinylpyrrolidone-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 30.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 521000.0,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 69.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 78.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "Ka-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 48.7,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

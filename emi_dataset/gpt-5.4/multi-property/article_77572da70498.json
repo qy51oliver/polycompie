@@ -1,0 +1,182 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicon carbide",
+        "description": "Polymer-derived SiC (PDC-SiC) control sample obtained from polycarbosilane via pyrolysis/PIP.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.29e-05,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "silicon carbide",
+        "description": "Polymer-derived SiC (PDC-SiC) matrix introduced by polymer infiltration and pyrolysis from polycarbosilane; described as amorphous SiC.",
+        "composition": {
+          "amount": 63.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium silicon carbide",
+        "description": "3D interconnected Ti3SiC2 preform/skeleton synthesized by molten salt synthesis and used as continuous reinforcement.",
+        "composition": {
+          "amount": 32.33,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Residual TiC phase present in the Ti3SiC2 preform.",
+        "composition": {
+          "amount": 3.97,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "aggregation",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 32.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "aggregation",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 13.99,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "aggregation",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 926.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": "6-7",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "temperature_lower_bound",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "temperature_upper_bound",
+            "value": 1000,
+            "unit": "°C"
+          },
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "APTES modified glass fibers; A-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 119.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 6.82,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.85,
+        "unit": "%",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "bar_thickness",
+            "value": 3.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 45,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 452,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "P-APTES modified glass fibers; P-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 25.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "bar_thickness",
+            "value": 3.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 39,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 393,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "APTES modified glass fibers; A-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate; AIP; Exolit OP 1240",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "bar_thickness",
+            "value": 3.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 47,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 298,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "P-APTES modified glass fibers; P-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate; AIP; Exolit OP 1240",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 33.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "bar_thickness",
+            "value": 3.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 218,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,429 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "Control rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before veil formation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported for the control rCF veil.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.56,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 25.96,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Sample label: MrCF1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Pure Ti3C2Tx MXene coating with mixed flake sizes applied by secondary filtration; 2 mL Ti3C2Tx solution used. Sample label: MrCF1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 31.26,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Sample label: MrCF2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Pure Ti3C2Tx MXene coating with mixed flake sizes applied by secondary filtration; 4 mL Ti3C2Tx solution used. Sample label: MrCF2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Highest-loading pure-MXene sample in the MrCF series. Sample label: MrCF3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Pure Ti3C2Tx MXene coating with mixed flake sizes applied by secondary filtration; 6 mL Ti3C2Tx solution used. Sample label: MrCF3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 61.02,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 40.89,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Sample label: MPrCF1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Ti3C2Tx MXene in a Ti3C2Tx/PEDOT:PSS mixed coating applied by secondary filtration; 2 mL total coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer co-deposited with Ti3C2Tx; 2 mL total Ti3C2Tx/PEDOT:PSS coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Sample label: MPrCF2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Ti3C2Tx MXene in a Ti3C2Tx/PEDOT:PSS mixed coating applied by secondary filtration; 4 mL total coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer co-deposited with Ti3C2Tx; 4 mL total Ti3C2Tx/PEDOT:PSS coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "rCF nonwoven veil recovered from pyrolyzed CFRP prepreg; fibres were nitric-acid oxidized and APTES-functionalized before coating. Highest-loading Ti3C2Tx/PEDOT:PSS sample in the MPrCF series. Sample label: MPrCF3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Ti3C2Tx MXene in a Ti3C2Tx/PEDOT:PSS mixed coating applied by secondary filtration; 6 mL total coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer co-deposited with Ti3C2Tx; 6 mL total Ti3C2Tx/PEDOT:PSS coating solution used; Ti3C2Tx/PEDOT:PSS volume ratio 9:1. Sample label: MPrCF3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 96.18,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 63.75,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "recycled carbon fibre",
+        "description": "Thin rCF-based MPrCF veil from the thickness-variation study; fibres were nitric-acid oxidized and APTES-functionalized before coating. Exact sample label and loading level were not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx MXene)",
+        "description": "Ti3C2Tx MXene in a Ti3C2Tx/PEDOT:PSS mixed coating; same Ti3C2Tx/PEDOT:PSS load concentration was used in the thickness study, but the exact loading was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer co-deposited with Ti3C2Tx in the thickness-variation study; exact loading was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.02,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

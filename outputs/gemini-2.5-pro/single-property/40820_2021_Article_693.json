@@ -1,0 +1,217 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, denoted as CPA. Used in microsphere form with an average size of 1.5 um and positive Zeta potential of +37.6 mV.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "Negatively charged hybrid of CNT (NC 7000 series) and GO, adsorbed on the surface of CPA microspheres via electrostatic assembly. Zeta potential of -16.3 mV.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, denoted as CPA. Used in microsphere form with an average size of 1.5 um and positive Zeta potential of +37.6 mV.",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "Negatively charged hybrid of CNT (NC 7000 series) and GO, adsorbed on the surface of CPA microspheres via electrostatic assembly. Zeta potential of -16.3 mV.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, denoted as CPA. Used in microsphere form with an average size of 1.5 um and positive Zeta potential of +37.6 mV.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "Negatively charged hybrid of CNT (NC 7000 series) and GO, adsorbed on the surface of CPA microspheres via electrostatic assembly. Zeta potential of -16.3 mV.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_total": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_absorption": {
+        "value": 48.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_reflection": {
+        "value": 4.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_healed_1_cycle": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "1 cutting/healing cycle",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_healed_3_cycles": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "3 cutting/healing cycles",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

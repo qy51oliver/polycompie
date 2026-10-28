@@ -1,0 +1,324 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Thermoplastic polymer matrix (Nylon-6); matrix fraction in the prepreg-based composite was reported as 51 vol%. The matrix was described as having a glass transition temperature of 40–60 °C and a melting temperature of 220 °C.",
+        "composition": {
+          "amount": 51.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "PAN-based continuous carbon fiber, high-strength T700 type, used in a cross-ply [0°/90°] laminate; carbon fiber volume fraction reported as 49 vol%.",
+        "composition": {
+          "amount": 49.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 8.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 3.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 39.1,
+        "unit": "Ω^-1·m^-1",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 86.3,
+        "unit": "Ω^-1·m^-1",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "radio-wave",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "basis",
+            "value": "specimen thickness",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Thermoplastic polymer matrix (Nylon-6); matrix fraction in the prepreg-based composite was reported as 51 vol%. The matrix was described as having a glass transition temperature of 40–60 °C and a melting temperature of 220 °C.",
+        "composition": {
+          "amount": 51.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "PAN-based continuous carbon fiber, high-strength T700 type, used in a cross-ply [0°/90°] laminate; carbon fiber volume fraction reported as 49 vol%.",
+        "composition": {
+          "amount": 49.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 9.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Thermoplastic polymer matrix (Nylon-6); matrix fraction in the prepreg-based composite was reported as 51 vol%. The matrix was described as having a glass transition temperature of 40–60 °C and a melting temperature of 220 °C.",
+        "composition": {
+          "amount": 51.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "PAN-based continuous carbon fiber, high-strength T700 type, used in a cross-ply [0°/90°] laminate; carbon fiber volume fraction reported as 49 vol%.",
+        "composition": {
+          "amount": 49.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 12.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Thermoplastic polymer matrix (Nylon-6); matrix fraction in the prepreg-based composite was reported as 51 vol%. The matrix was described as having a glass transition temperature of 40–60 °C and a melting temperature of 220 °C.",
+        "composition": {
+          "amount": 51.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "PAN-based continuous carbon fiber, high-strength T700 type, used in a cross-ply [0°/90°] laminate; carbon fiber volume fraction reported as 49 vol%.",
+        "composition": {
+          "amount": 49.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 11.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Thermoplastic polymer matrix (Nylon-6); matrix fraction in the prepreg-based composite was reported as 51 vol%. The matrix was described as having a glass transition temperature of 40–60 °C and a melting temperature of 220 °C.",
+        "composition": {
+          "amount": 51.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "PAN-based continuous carbon fiber, high-strength T700 type, used in a cross-ply [0°/90°] laminate; carbon fiber volume fraction reported as 49 vol%.",
+        "composition": {
+          "amount": 49.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 12.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

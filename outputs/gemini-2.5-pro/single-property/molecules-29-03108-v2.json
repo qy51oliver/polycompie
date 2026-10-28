@@ -1,0 +1,439 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Pure TPU",
+        "composition": {
+          "amount": 100,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Flame retardant filler",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 9.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Flame retardant filler, coated with Polyethyleneimine (PEI)",
+        "composition": {
+          "amount": 10.91,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Polyethyleneimine",
+        "description": "Coating for APP, prepared with a 10:1 mass ratio of APP:PEI",
+        "composition": {
+          "amount": 1.09,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Flame retardant filler, coated with PEI and Ti3C2Tx. The mass ratio of (APP+PEI) to Ti3C2Tx is 20:1.",
+        "composition": {
+          "amount": 10.39,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Polyethyleneimine",
+        "description": "Coating for APP, prepared with a 10:1 mass ratio of APP:PEI",
+        "composition": {
+          "amount": 1.04,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Titanium carbide",
+        "description": "MXene nanosheets, part of coating on APP",
+        "composition": {
+          "amount": 0.57,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Flame retardant filler, coated with PEI and Ti3C2Tx. The mass ratio of (APP+PEI) to Ti3C2Tx is 10:1.",
+        "composition": {
+          "amount": 9.92,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Polyethyleneimine",
+        "description": "Coating for APP, prepared with a 10:1 mass ratio of APP:PEI",
+        "composition": {
+          "amount": 0.99,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Titanium carbide",
+        "description": "MXene nanosheets, part of coating on APP",
+        "composition": {
+          "amount": 1.09,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "Hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Flame retardant filler, coated with PEI and Ti3C2Tx. The mass ratio of (APP+PEI) to Ti3C2Tx is 5:1.",
+        "composition": {
+          "amount": 9.09,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Polyethyleneimine",
+        "description": "Coating for APP, prepared with a 10:1 mass ratio of APP:PEI",
+        "composition": {
+          "amount": 0.91,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Titanium carbide",
+        "description": "MXene nanosheets, part of coating on APP",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "As a film in a hierarchical structure, prepared by chemical reduction of GO",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

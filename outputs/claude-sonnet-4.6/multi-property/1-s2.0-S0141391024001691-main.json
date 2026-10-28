@@ -1,0 +1,910 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate_1": {
+        "value": 665,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "MCC (ASTM D7309-21)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate_2": {
+        "value": 2835,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 44,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate_1": {
+        "value": 517,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "MCC (ASTM D7309-21)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate_2": {
+        "value": 864,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 30,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 24,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 29.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": "not specified",
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": "not specified",
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 21,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 27.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate_1": {
+        "value": 440,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "MCC (ASTM D7309-21)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate_2": {
+        "value": 680,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 41,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 19,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 827,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": "not specified",
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 922,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 33,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 941,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 26,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 32,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate_1": {
+        "value": 385,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "MCC (ASTM D7309-21)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate_2": {
+        "value": 932,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 27,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 24,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "AP422 from Clariant, chemical formula (NH4PO3)n, polymerization degree >1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, density 1.90 g/cm3, average particle size 15 µm",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 1155,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 29,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 32,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ELIX 128 IG, contains 26-28 wt.% butadiene in a matrix of styrene acrylonitrile (SAN), melt volume rate of 15 cm3/10 min at 220°C and 10 kg",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cork powder",
+        "description": "natural cork powder from Corcho de Extremadura, d50 of 144 µm, density 1.53 g/cm3, composed of suberin (40 wt.%), lignin (24 wt.%), polysaccharides (19 wt.%), extractives (14 wt.%)",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate_1": {
+        "value": 523,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "MCC (ASTM D7309-21)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate_2": {
+        "value": 1374,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 33,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 41,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "UL-94 HB horizontal burning test",
+            "unit": "not specified"
+          },
+          {
+            "type": "property",
+            "value": "linear burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

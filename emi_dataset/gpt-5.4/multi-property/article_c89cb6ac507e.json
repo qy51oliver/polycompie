@@ -1,0 +1,128 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ordinary Portland cement",
+        "description": "P·O 42.5 cement-based matrix; specimens prepared with superplasticizer 0.04 and water/cement ratio 0.4.",
+        "composition": {
+          "amount": 90.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "slag",
+        "description": "slag powder",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 4.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ordinary Portland cement",
+        "description": "P·O 42.5 cement-based matrix; specimens prepared with superplasticizer 0.04 and water/cement ratio 0.4.",
+        "composition": {
+          "amount": 90.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes and slag",
+        "description": "CNTs/slag composite powder prepared by combining commercial carbon nanotubes with slag using surfactant and ultrasonic methods.",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "surfactant-assisted ultrasonication"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ordinary Portland cement",
+        "description": "P·O 42.5 cement-based matrix; specimens prepared with superplasticizer 0.04 and water/cement ratio 0.4.",
+        "composition": {
+          "amount": 90.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes and slag",
+        "description": "In-situ CNTs/slag composite powder consisting of slag particles with carbon nanotubes grown in situ by polymer pyrolysis chemical vapor deposition.",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "polymer pyrolysis CVD treated; CNTs grown in situ on slag"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

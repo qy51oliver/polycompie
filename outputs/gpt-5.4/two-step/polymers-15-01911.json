@@ -1,0 +1,314 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyphenylene sulfide",
+        "description": "glass fiber-reinforced PPS, uncoated polymer sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no coating or filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.29,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.5e-14,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyphenylene sulfide",
+        "description": "glass fiber-reinforced PPS substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "zinc",
+        "description": "thermal-sprayed zinc coating applied on top and bottom surfaces of PPS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.05,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12000000.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "method",
+            "value": "simulation",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyphthalamide",
+        "description": "glass fiber-reinforced PPA, uncoated polymer sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no coating or filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.96,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.5e-13,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 7,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyphthalamide",
+        "description": "glass fiber-reinforced PPA substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum bronze",
+        "description": "thermal-sprayed aluminum bronze coating on PPA; 5 um coating reported experimentally",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "low frequencies",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "glass fiber-reinforced PEEK, uncoated polymer sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no coating or filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.07,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "glass fiber-reinforced PEEK substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum bronze",
+        "description": "thin aluminum bronze coating on PEEK; 10 um coating reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "more than",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_upper_bound",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "glass fiber-reinforced PEEK substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum",
+        "description": "thermal-sprayed aluminum coating on PEEK; discussed in microscopy and simulation table",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 38000000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  }
+]

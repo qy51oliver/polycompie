@@ -1,0 +1,128 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn 21000, Mw = 48000, melting point is about 285 C) with an average diameter of 200 um. The granules were pretreated by etching, sensitizing and activating before filler deposition.",
+        "composition": {
+          "amount": 99.78,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals deposited on PPS granules via electroless plating, forming a 3D segregated conductive network in the final composite. An in situ Ag-S coordination reaction occurs during hot-pressing.",
+        "composition": {
+          "amount": 0.22,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "comment",
+            "value": "Average value over the X-band"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn 21000, Mw = 48000, melting point is about 285 C) with an average diameter of 200 um. The granules were pretreated by etching, sensitizing and activating before filler deposition.",
+        "composition": {
+          "amount": 98.52,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals deposited on PPS granules via electroless plating, forming a 3D segregated conductive network in the final composite. An in situ Ag-S coordination reaction occurs during hot-pressing.",
+        "composition": {
+          "amount": 1.48,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "comment",
+            "value": "Average value over the X-band"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "immersed in solvents (acid, alkali, organic) for 10 h"
+          },
+          {
+            "type": "comment",
+            "value": "Average value"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 73.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "ignited on an alcohol lamp flame for 10 s in air"
+          }
+        ]
+      }
+    }
+  }
+]

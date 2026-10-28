@@ -1,0 +1,217 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330), composed of ethylene and methyl acrylate monomers; used as the polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets, synthesized by co-precipitation; referred to as Fe3O4-g-C3N4 or FG in sample code EX0FG100 (i.e., EXxFGy with x=0, y=10 wt% total filler)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330), composed of ethylene and methyl acrylate monomers; used as the polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized by MILD etching of Ti3AlC2 MAX phase; 2D transition metal carbide with high electrical conductivity; 10 wt% of total hybrid filler replaced from Fe3O4-g-C3N4",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 90 wt% of total hybrid filler; sample code EX10FG90",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330), composed of ethylene and methyl acrylate monomers; used as the polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized by MILD etching of Ti3AlC2 MAX phase; 30 wt% of total hybrid filler replaced from Fe3O4-g-C3N4; sample code EX30FG70",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 70 wt% of total hybrid filler; sample code EX30FG70",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330), composed of ethylene and methyl acrylate monomers; used as the polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized by MILD etching of Ti3AlC2 MAX phase; 50 wt% of total hybrid filler replaced from Fe3O4-g-C3N4; sample code EX50FG50",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 50 wt% of total hybrid filler; sample code EX50FG50",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

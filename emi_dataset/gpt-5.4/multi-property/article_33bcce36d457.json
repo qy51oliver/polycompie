@@ -1,0 +1,789 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "nanocellulose fiber",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "polyaniline in polyaniline/nanocellulose fiber composite",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.28,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.2,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 2.27,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "chitosan aerogel",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "CNT in CNT/chitosan aerogel",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 37.6,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 32.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "chitosan aerogel",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO in rGO/chitosan aerogel",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.5,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 2222.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber layers",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in MXene/cellulose nanofiber layers",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.035,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 39.6,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 143.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "layer-by-layer chitosan/MXene multilayer film",
+        "composition": {
+          "amount": 74.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in chitosan/MXene multilayer film",
+        "composition": {
+          "amount": 25.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 35.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.8,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 969.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "CS/MXene-25 film",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in CS/MXene-25 film",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.4,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": "92 ± 4",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "CS/MXene-50 film",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in CS/MXene-50 film",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 31.2,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": "234 ± 11",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "CS/MXene-75 film",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in CS/MXene-75 film",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "34.7 ± 0.2",
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": "1402 ± 70",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "reported as CS/MXene-55 film in the review text",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "reported as Ti3C2Tx MXene in CS/MXene-55 film",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 13.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 19.7,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "reported as CS/MXene-55 film in the review text",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "reported as Ti3C2Tx MXene in CS/MXene-55 film",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 49.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.3,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "carbonized chitosan-derived carbon aerogel, glutaraldehyde-crosslinked before carbonization",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "MXene in MXene-TiO2-C hybrid carbon aerogel",
+        "composition": {
+          "amount": 0.1322,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 phase in MXene-TiO2-C hybrid carbon aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 61.4,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 2.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity_1": {
+        "value": 25.88,
+        "unit": "mW m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 62.25,
+        "unit": "mW m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 800,
+            "unit": "°C"
+          },
+          {
+            "type": "atmosphere",
+            "value": "Ar",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "MXene/chitosan/silver nanowire sandwich film; Ag nanowire core bonded by two MXene/chitosan layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "MXene layer in sandwich film; review text/table report 33-33.3 wt% content context for the sandwich film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "silver nanowire core in sandwich film; review text/table report 33-33.3 wt% content context for the sandwich film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.003,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 82.3,
+        "unit": "dB",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 11459.1,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "quaternary chitosan membrane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene in mechanically robust MXene/quaternary chitosan membrane; conductivity reported as maximum obtained by varying relative weight ratio",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 128,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Pba-CS component of MXene@Pba-CS-PVA biodegradable hydrogel sensor",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA component of MXene@Pba-CS-PVA biodegradable hydrogel sensor",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "4-carboxyphenylboronic acid-modified MXene (MXene@Pba) in hydrogel sensor",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0024,
+        "unit": "S cm^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cotton fabric substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "MXene coating on cotton fabric (MXene@CF)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 25.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cotton fabric substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "chitosan",
+        "description": "carboxylated chitosan coating on cotton fabric (CCS@CF)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 18.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cotton fabric substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "MXene coating in layer-by-layer MXene/CCS@CF-4 fabric",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "chitosan",
+        "description": "carboxylated chitosan coating, 30 mg/mL deposition bath, 4 bilayers (MXene/CCS@CF-4)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 45.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 66.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "relative_to",
+            "value": "cotton fabric",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "polyurethane foam substrate",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2 MXene bilayer coating on polyurethane foam; 8 bilayers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "chitosan",
+        "description": "chitosan bilayer coating on polyurethane foam; 8 bilayers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 57.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "relative_to",
+            "value": "virgin polyurethane foam",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

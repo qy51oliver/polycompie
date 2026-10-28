@@ -1,0 +1,702 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "unreinforced PBT, commercialized VALOX 310 (Sabic Ltd, Chongqing, China)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 2500,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 50,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 15,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 36.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Prepared by mixing VALOX 310 (unreinforced PBT) and VALOX 420 (30 wt% GF/PBT)",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 2800,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 60,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Prepared by mixing VALOX 310 (unreinforced PBT) and VALOX 420 (30 wt% GF/PBT)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 3000,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 65,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 3.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 22,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Prepared by mixing VALOX 310 (unreinforced PBT) and VALOX 420 (30 wt% GF/PBT)",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 3800,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 70,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 3,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 15,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Prepared by mixing VALOX 310 (unreinforced PBT) and VALOX 420 (30 wt% GF/PBT)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 5200,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 75,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 2.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 9.2,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Prepared by mixing VALOX 310 (unreinforced PBT) and VALOX 420 (30 wt% GF/PBT)",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 6000,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 80,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 5.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "commercialized VALOX 420 (Sabic Ltd, Chongqing, China)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fibers",
+        "description": "short glass fibers. Young modulus: 78500 MPa, Density: 2.55 g/cm3, Tensile strength: 1950 MPa, Average diameter: 13.8 um",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 10500,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 130,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 4.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "glow wire test (flame height)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 850,
+            "unit": "C"
+          },
+          {
+            "type": "duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

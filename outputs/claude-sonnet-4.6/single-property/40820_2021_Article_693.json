@@ -1,0 +1,190 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres synthesized from IPDI, PTMG, MDEA, BDO, glycerol 1,2-carbonate, furfurylamine, and BMI; positively charged with quaternary ammonium ions; average particle size 1.5 um; Zeta potential +37.6 mV",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "negatively charged CNTIGO hybrid; CNTs with average diameter 9.5 nm and average length 1.5 um; adsorbed on CPA microsphere surface via electrostatic attraction forming segregated conductive network",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres synthesized from IPDI, PTMG, MDEA, BDO, glycerol 1,2-carbonate, furfurylamine, and BMI; positively charged with quaternary ammonium ions; average particle size 1.5 um; Zeta potential +37.6 mV",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "negatively charged CNTIGO hybrid; CNTs with average diameter 9.5 nm and average length 1.5 um; adsorbed on CPA microsphere surface via electrostatic attraction forming segregated conductive network",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA microspheres synthesized from IPDI, PTMG, MDEA, BDO, glycerol 1,2-carbonate, furfurylamine, and BMI; positively charged with quaternary ammonium ions; average particle size 1.5 um; Zeta potential +37.6 mV",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide hybrid",
+        "description": "negatively charged CNTIGO hybrid; CNTs with average diameter 9.5 nm and average length 1.5 um; adsorbed on CPA microsphere surface via electrostatic attraction forming segregated conductive network",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_state",
+            "value": "original/unhealed",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_state",
+            "value": "1st cutting/healing cycle",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "healing_state",
+            "value": "3rd cutting/healing cycle",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

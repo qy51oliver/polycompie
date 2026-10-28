@@ -1,0 +1,417 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat PVA without filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 filler in PVA",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO filler in PVA; sample named 1% GO/PVA",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO filler in PVA; sample named 4% GO/PVA",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO/TiO2/PVA ternary composite; sample named 1% GO/TiO2/PVA",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 filler in GO/TiO2/PVA ternary composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.28,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.3,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO/TiO2/PVA ternary composite; sample named 4% GO/TiO2/PVA",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 filler in GO/TiO2/PVA ternary composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.27,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "average in X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.56,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO filler in PVA; sample named 1% rGO/PVA",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO filler in PVA; sample named 4% rGO/PVA",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO/TiO2/PVA ternary composite; sample named 1% rGO/TiO2/PVA",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 filler in rGO/TiO2/PVA ternary composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 31.34,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO/TiO2/PVA ternary composite; sample named 4% rGO/TiO2/PVA",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium dioxide",
+        "description": "TiO2 filler in rGO/TiO2/PVA ternary composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.01,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 55.8,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,919 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "BPA-PEN porous film matrix; sample PB0",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB0",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200,
+      "unit": "μm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 5.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 23,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "BPA-PEN porous film matrix; sample PB1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB1",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200,
+      "unit": "μm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 5.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 21,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "BPA-PEN porous film matrix; sample PB2",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200,
+      "unit": "μm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 5.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 18,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "BPA-PEN porous film matrix; sample PB3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB3",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200,
+      "unit": "μm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 4.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 9,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.6C0",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.6 mg·cm−2",
+        "composition": {
+          "amount": 0.6,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "No CNF added",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 377.4,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 24.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 10.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 10,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 0.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 100,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 0.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 1000,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 5.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 18.3,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.6C0.02",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.6 mg·cm−2",
+        "composition": {
+          "amount": 0.6,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.02 mg·cm−2",
+        "composition": {
+          "amount": 0.02,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.6C0.04; equivalent to 1-PB2-M0.6C0.04 in the multilayer series",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.6 mg·cm−2",
+        "composition": {
+          "amount": 0.6,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.04 mg·cm−2",
+        "composition": {
+          "amount": 0.04,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 325,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 23.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 23.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 10,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 23.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 100,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 22.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 1000,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 17.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 295.1,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.6C0.06",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.6 mg·cm−2",
+        "composition": {
+          "amount": 0.6,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.06 mg·cm−2",
+        "composition": {
+          "amount": 0.06,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 215.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 22.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 20.9,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 350.4,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0C0.04",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "No MWCNT added",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.04 mg·cm−2",
+        "composition": {
+          "amount": 0.04,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.1e-06,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 0.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 26.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 383.1,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.3C0.04",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.3 mg·cm−2",
+        "composition": {
+          "amount": 0.3,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.04 mg·cm−2",
+        "composition": {
+          "amount": 0.04,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 56.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 13.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "PB2 porous film substrate in bilayer film PB2-M0.9C0.04",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in PB2 substrate",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT conductive layer on PB2 surface; mass per unit area 0.9 mg·cm−2",
+        "composition": {
+          "amount": 0.9,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF loading on PB2 surface; mass per unit area 0.04 mg·cm−2",
+        "composition": {
+          "amount": 0.04,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 815,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 29.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 12.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 254.2,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "Alternating multilayer film 3-PB2-M0.2C0.013 containing three PB2 porous isolation layers; each PB2 layer is approximately 75 μm thick in cross-section",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in each PB2 layer",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Three conductive layers, each with MWCNT loading of 0.2 mg·cm−2",
+        "composition": {
+          "amount": 0.2,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "Three conductive layers, each with CNF loading of 0.013 mg·cm−2",
+        "composition": {
+          "amount": 0.013,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 0,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 25.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 1000,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "bisphenol A polyarylene ether nitrile",
+        "description": "Alternating multilayer film 4-PB2-M0.15C0.01 containing four PB2 porous isolation layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "polyoxyethylene-polyoxypropylene-polyoxyethylene",
+        "description": "Pluronic F127 modifier in each PB2 layer",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Four conductive layers, each with MWCNT loading of 0.15 mg·cm−2",
+        "composition": {
+          "amount": 0.15,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "Four conductive layers, each with CNF loading of 0.01 mg·cm−2",
+        "composition": {
+          "amount": 0.01,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 221,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 27.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 27.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 131.4,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

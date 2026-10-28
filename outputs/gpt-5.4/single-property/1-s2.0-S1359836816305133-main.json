@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "Pure HDPE",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 2.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "As-received MWCNTs",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "5 min electroless nickel-plated MWCNTs; MWCNTs pretreated in 5 M HNO3 for 30 min and activated in SnCl2/PdCl2 before Ni plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 10.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "15 min electroless nickel-plated MWCNTs; MWCNTs pretreated in 5 M HNO3 for 30 min and activated in SnCl2/PdCl2 before Ni plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "30 min electroless nickel-plated MWCNTs; MWCNTs pretreated in 5 M HNO3 for 30 min and activated in SnCl2/PdCl2 before Ni plating",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 12.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 16.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "High-density polyethylene",
+        "description": "HDPE matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "As-received MWCNTs",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {}
+  }
+]

@@ -1,0 +1,335 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.83,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.3,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 95.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in CCW-2.3 composite",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cetyltrimethylammonium bromide",
+        "description": "CTAB antibacterial surfactant/dispersant; CCW series used a 1:1 CNT:CTAB mass ratio",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.009,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.111,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 91.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in CCW-4.3 composite",
+        "composition": {
+          "amount": 4.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cetyltrimethylammonium bromide",
+        "description": "CTAB antibacterial surfactant/dispersant; CCW series used a 1:1 CNT:CTAB mass ratio",
+        "composition": {
+          "amount": 4.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 63.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in CCW-18.1 composite",
+        "composition": {
+          "amount": 18.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cetyltrimethylammonium bromide",
+        "description": "CTAB antibacterial surfactant/dispersant; CCW series used a 1:1 CNT:CTAB mass ratio",
+        "composition": {
+          "amount": 18.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 470.6,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 82.88,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 104.0,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 63.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in CCW-18.1 composite",
+        "composition": {
+          "amount": 18.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cetyltrimethylammonium bromide",
+        "description": "CTAB antibacterial surfactant/dispersant; CCW series used a 1:1 CNT:CTAB mass ratio",
+        "composition": {
+          "amount": 18.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Castor oil-based waterborne polyurethane (WPU)",
+        "composition": {
+          "amount": 51.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in CCW-24.3 composite",
+        "composition": {
+          "amount": 24.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cetyltrimethylammonium bromide",
+        "description": "CTAB antibacterial surfactant/dispersant; CCW series used a 1:1 CNT:CTAB mass ratio",
+        "composition": {
+          "amount": 24.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 635.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.308,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 88.81,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 104.0,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  }
+]

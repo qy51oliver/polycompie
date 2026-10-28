@@ -1,0 +1,771 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "Unreinforced PBT resin, VALOX 310, granular form, dried at 120°C for 4h",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 0.15,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 36.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, granular form, dried at 120°C for 4h, mixed with 30 wt% GF/PBT composite to achieve 5 wt% GF",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+10.28% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+20.34% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "-200.00% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, granular form, dried at 120°C for 4h, mixed with 30 wt% GF/PBT composite to achieve 10 wt% GF",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+16.45% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+28.79% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "-328.57% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "not specified",
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          },
+          {
+            "type": "note",
+            "value": "From 10% GF/PBT upwards, debouching penetration no longer occurs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, granular form, dried at 120°C for 4h, mixed with 30 wt% GF/PBT composite to achieve 15 wt% GF",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+36.05% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+34.72% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "-383.87% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "not specified",
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, granular form, dried at 120°C for 4h, mixed with 30 wt% GF/PBT composite to achieve 20 wt% GF",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+53.20% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+38.16% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "-476.92% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 9.2,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, granular form, dried at 120°C for 4h, mixed with 30 wt% GF/PBT composite to achieve 25 wt% GF",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+58.82% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+41.25% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "-614.29% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 5.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT resin, VALOX 420, granular form, dried at 120°C for 4h",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Short glass fibers, average diameter 13.8 µm, Young's modulus 78500 MPa, tensile strength 1950 MPa, density 2.55 g/cm³",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+77.33% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "+63.28% relative to unreinforced PBT",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 0.015,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test rate",
+            "value": 5,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 4.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test standard",
+            "value": "IEC 60695-2-13 / IEC 60695-2-11",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow wire temperature",
+            "value": 850,
+            "unit": "°C"
+          },
+          {
+            "type": "contact duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

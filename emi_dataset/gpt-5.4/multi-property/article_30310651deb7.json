@@ -1,0 +1,1396 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)-poly(styrene sulfonate)",
+        "description": "PEDOT:PSS organic mortar in a vacuum-assisted filtration brick-and-mortar film",
+        "composition": {
+          "amount": 12.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets",
+        "composition": {
+          "amount": 87.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 11.1,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 34000,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 42.1,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": "~28",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)",
+        "description": "PEDOT matrix after H2SO4 etching removed non-conductive PSS",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.6,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber matrix in a vacuum-assisted filtration film",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "sodium alginate matrix in a vacuum-assisted filtration film",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 8,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "aramid nanofiber layer in an asymmetric two-layer Ti3C2Tz/AgNW/ANF film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene layer paired with AgNW in the asymmetric structure",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "silver nanowire co-filler paired with Ti3C2Tz",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "aramid nanofiber matrix in a homogeneous blended Ti3C2Tz/AgNW/ANF film",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "part of combined Ti3C2Tz/AgNW filler loading of 10 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "silver nanowire; combined Ti3C2Tz/AgNW filler loading was 10 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 9.8,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber layers in alternating vacuum filtration film with 1 Ti3C2Tz layer; total Ti3C2Tz loading was ~50 wt%",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene layer in alternating Ti3C2Tz/CNF layered film with 1 Ti3C2Tz layer",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 621,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber layers in alternating vacuum filtration film with 5 Ti3C2Tz layers; total Ti3C2Tz loading was ~50 wt%",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene layers in alternating Ti3C2Tz/CNF layered film with 5 Ti3C2Tz layers",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 82,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber matrix in homogeneous Ti3C2Tz/CNF mixture counterpart; Ti3C2Tz loading ~50 wt%",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets in homogeneous Ti3C2Tz/CNF mixture",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber layers in alternating vacuum filtration film with 4 Ti3C2Tz layers and 5 CNF layers; total Ti3C2Tz loading ~50 wt%",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene layers in alternating Ti3C2Tz/CNF layered film with 4 Ti3C2Tz layers",
+        "composition": {
+          "amount": "~50",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cellulose nanofiber matrix in alternating VAF Ti3C2Tz/AgNW/CNF film; combined Ti3C2Tz + AgNW filler loading was 50 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "part of combined Ti3C2Tz + AgNW filler loading of 50 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "silver nanowire; combined Ti3C2Tz + AgNW filler loading was 50 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 35,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "PDMS matrix in alternating VAF Ti3C2Tz/AgNW/PDMS film; combined filler area loading was 3.2 g/m²",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "part of combined Ti3C2Tz + AgNW area loading of 3.2 g/m²",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "silver nanowire; combined filler area loading was 3.2 g/m²",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50.82,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "tris(2-aminoethyl)amine",
+        "description": "small-molecule cationic layer in Ti3C2Tz/TAEA LbL assembly; 20 bilayers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets in Ti3C2Tz/TAEA multilayer coating",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 73000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA associated with Ti3C2Tz layers in spin-spray LbL film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(styrene sulfonate)",
+        "description": "PSS associated with CNT layers in spin-spray LbL film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets in Ti3C2Tz-PVA layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotube",
+        "description": "CNT filler in CNT-PSS layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "~200",
+      "unit": "nm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 130,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 3,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "dimethylaminomethacrylate methylchloride modified, positively charged polystyrene particles; segregated honeycomb-like film after compression molding",
+        "composition": {
+          "amount": 98.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets coated on modified polystyrene particle surfaces",
+        "composition": {
+          "amount": 1.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1081,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 61.2,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 54.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "homogeneous solution-mixed counterpart to segregated Ti3C2Tz/modified polystyrene film",
+        "composition": {
+          "amount": 98.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets in homogeneous counterpart",
+        "composition": {
+          "amount": 1.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.2e-07,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "negatively charged natural rubber matrix in segregated Ti3C2Tz/NR film",
+        "composition": {
+          "amount": 93.29,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets forming interconnected network in NR matrix",
+        "composition": {
+          "amount": 6.71,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 251,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1400,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 53.6,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "modified/positively charged polypropylene particles consolidated by microwave-assisted sintering into a segregated film",
+        "composition": {
+          "amount": 98.862,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets coated on polypropylene particles",
+        "composition": {
+          "amount": 1.138,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">75",
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "compression-molded polystyrene film made from Ti3C2Tz-coated polymer particles produced by emulsion-assisted assembly and in situ polymerization",
+        "composition": {
+          "amount": 98.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets coated on polymer particle surfaces",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "~21",
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "PDMS infiltrated into a freestanding Ti3C2Tz aerogel skeleton",
+        "composition": {
+          "amount": 97.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene network from directionally freeze-dried aerogel",
+        "composition": {
+          "amount": 2.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 550,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 2,
+        "unit": "times",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "pure PDMS",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 21,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "epoxy impregnated into crosslinked Ti3C2Tz/C foam skeleton",
+        "composition": {
+          "amount": 95.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene in crosslinked Ti3C2Tz/C conductive skeleton",
+        "composition": {
+          "amount": 1.64,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon",
+        "description": "thermally reduced carbon derived from polymerized resorcinol/formaldehyde",
+        "composition": {
+          "amount": 2.61,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": "~39",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 22,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "polydopamine-treated polyurethane sponge skeleton in Ti3C2Tz/graphene/PU/PEG composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyethylene glycol",
+        "description": "PEG impregnated into Ti3C2Tz/graphene-coated PU sponge",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "part of combined Ti3C2Tz + graphene loading of 18.7 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene",
+        "description": "part of combined Ti3C2Tz + graphene loading of 18.7 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 43.3,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 23,
+    "matrix_name": [
+      {
+        "name": "polyethylene glycol",
+        "description": "molten PEG impregnated into compressed Ti3C2Tz skeleton",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "compressed, percolated MXene skeleton formed by spatially confined forced network assembly",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 10,
+        "unit": "times",
+        "conditions": [
+          {
+            "type": "reference",
+            "value": "pure PEG",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 24,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA matrix in freeze-dried Ti2CTz/PVA foam",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti2CTz",
+        "description": "MXene nanosheets in highly porous foam",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 26,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 25,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "polyimide formed from poly(amic acid) after freeze drying and thermal polymerization",
+        "composition": {
+          "amount": "~99.916",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets bridged by polyimide in porous foam",
+        "composition": {
+          "amount": "~0.084",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 26,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "supercritical CO2-foamed polypropylene composite",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene filler in Ti3C2Tz/rGO/PP foam; ratio to rGO was 2:1 by weight within total 10 wt% filler loading",
+        "composition": {
+          "amount": 6.6666666667,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "co-filler in Ti3C2Tz/rGO/PP foam; ratio to Ti3C2Tz was 1:2 by weight within total 10 wt% filler loading",
+        "composition": {
+          "amount": 3.3333333333,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 27,
+    "matrix_name": [
+      {
+        "name": "melamine-formaldehyde",
+        "description": "porous melamine foam/sponge dip-coated with Ti3C2Tz for pressure-sensor use",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "dip-coated MXene layer on melamine foam skeleton",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.004,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "pressure",
+            "value": 0,
+            "unit": "kPa"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 28,
+    "matrix_name": [
+      {
+        "name": "melamine-formaldehyde",
+        "description": "closed-cell melamine composite foam continuously coated with Ti3C2Tz",
+        "composition": {
+          "amount": 99.18,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "continuous MXene coating around foam cells",
+        "composition": {
+          "amount": 0.82,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 90.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 29,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "salt-templated porous TPU foam with 74% porosity, treated with polydopamine before Ti3C2Tz coating",
+        "composition": {
+          "amount": 99.34,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheet coating on PDA-treated TPU foam pores",
+        "composition": {
+          "amount": 0.66,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 290.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 72.2,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 30,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU foam substrate in alternating dip-coated chitosan/Ti3C2Tz multilayer foam",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "chitosan",
+        "description": "chitosan interlayer in Ti3C2Tz/chitosan/PU multilayer coating",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene nanosheets in alternating LbL coating on PU foam",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 57.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "relative_change",
+            "value": "reduction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 31,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "directionally freeze-dried Ti3C2Tz/SA aerogel skeleton in inside-out foam architecture",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "PDMS dip-coated on porous Ti3C2Tz/SA skeleton",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "MXene network in ordered porous Ti3C2Tz/SA/PDMS foam",
+        "composition": {
+          "amount": 6.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 53.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 32,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "counterpart prepared by blending PDMS prepolymer and Ti3C2Tz powder",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "powder-blended MXene filler in non-architected counterpart",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 9.1,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 33,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "polyHIPE polystyrene foam obtained from water-in-styrene Pickering emulsion polymerization",
+        "composition": {
+          "amount": 99.91,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tz",
+        "description": "hydrophobically modified MXene nanosheets localized on pore surfaces; modified with dihexadecyldimethylammonium bromide",
+        "composition": {
+          "amount": 0.09,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.15,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  }
+]

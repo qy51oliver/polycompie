@@ -1,0 +1,291 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix derived from hot-melt adhesive mesh; waterborne polyurethane was used as a binder during film formation",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates compactly contacted face-to-face and arranged along the in-plane direction",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 7.75,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.13,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix derived from hot-melt adhesive mesh; waterborne polyurethane was used as a binder during film formation",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates compactly contacted face-to-face and arranged along the in-plane direction",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 24.56,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 3.14,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix derived from hot-melt adhesive mesh; waterborne polyurethane was used as a binder during film formation",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates compactly contacted face-to-face and arranged along the in-plane direction",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2546.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity_1": {
+        "value": 41.6,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 4.72,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix derived from hot-melt adhesive mesh; waterborne polyurethane was used as a binder during film formation",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates compactly contacted face-to-face and arranged along the in-plane direction",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 100.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix derived from hot-melt adhesive mesh; waterborne polyurethane was used as a binder during film formation",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates compactly contacted face-to-face and arranged along the in-plane direction",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 400.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 67.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU matrix for the randomly dispersed comparison sample",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplates",
+        "description": "graphene nanoplates randomly dispersed in the polyurethane matrix; comparison sample denoted r-GNP60 in the article",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 325.9,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  }
+]

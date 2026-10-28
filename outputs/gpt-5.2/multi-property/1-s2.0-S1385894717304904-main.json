@@ -1,0 +1,363 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT (grade B4500)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Chopped glass fibers; fiber diameter 10 µm; initial fiber length 3 mm; calcined to remove original surface modifier then modified with 3-aminopropyltriethoxysilane (APTES); denoted A-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 119.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 6.82,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1.85,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 45.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 452.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT (grade B4500)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Chopped glass fibers; fiber diameter 10 µm; initial fiber length 3 mm; calcined to remove original surface modifier then modified with phosphorus-containing silane coupling agent (P-APTES); denoted P-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 25.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 39.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 393.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT (grade B4500)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Chopped glass fibers; fiber diameter 10 µm; initial fiber length 3 mm; calcined to remove original surface modifier then modified with 3-aminopropyltriethoxysilane (APTES); denoted A-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate (AIP), Exolit OP 1240; mean particle size 25–50 µm",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 47.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 298.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT (grade B4500)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Chopped glass fibers; fiber diameter 10 µm; initial fiber length 3 mm; calcined to remove original surface modifier then modified with phosphorus-containing silane coupling agent (P-APTES); denoted P-m-GF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate (AIP), Exolit OP 1240; mean particle size 25–50 µm",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 33.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 218.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354/ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

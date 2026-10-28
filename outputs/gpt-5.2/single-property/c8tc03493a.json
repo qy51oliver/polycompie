@@ -1,0 +1,274 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS granules (Eton-PPS); used to form segregated structure via sinter molding",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs (Nanocyl NC7000), avg diameter 9.5 nm, length 1.5 µm; selectively distributed at PPS domain interfaces (segregated network) via sinter molding",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS granules (Eton-PPS); used to form segregated structure via sinter molding",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs (Nanocyl NC7000), avg diameter 9.5 nm, length 1.5 µm; selectively distributed at PPS domain interfaces (segregated network) via sinter molding",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS granules (Eton-PPS); used to form segregated structure via sinter molding",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs (Nanocyl NC7000), avg diameter 9.5 nm, length 1.5 µm; selectively distributed at PPS domain interfaces (segregated network) via sinter molding",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 37.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS granules (Eton-PPS); used to form segregated structure via sinter molding",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs (Nanocyl NC7000), avg diameter 9.5 nm, length 1.5 µm; selectively distributed at PPS domain interfaces (segregated network) via sinter molding",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 49.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS; conventional composite with randomly distributed CNTs (melt-mixed control, denoted r-CNT/PPS)",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs; randomly distributed in PPS (conventional/melt-mixed control, r-CNT/PPS)",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 24.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS granules; segregated CNT network composite (s-CNT/PPS); thickness-varied study at fixed 5.0 wt% CNT",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs; segregated at PPS interfaces (sinter molded); thickness-varied study at fixed 5.0 wt% CNT",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

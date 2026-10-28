@@ -1,0 +1,49 @@
+[
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Low-viscosity epoxy resin (Araldite LY 564) cured with Aradur 22962 hardener; this sample used 5 g epoxy resin and 3 g hardener.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Carbon black nanofiller with particle size 30–45 nm; sample 5 / CB-25% used 2.0 g carbon black added to 8 g matrix.",
+        "composition": {
+          "amount": 25.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

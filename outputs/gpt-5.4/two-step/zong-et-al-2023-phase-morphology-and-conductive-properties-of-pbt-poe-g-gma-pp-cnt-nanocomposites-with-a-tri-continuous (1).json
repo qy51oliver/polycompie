@@ -1,0 +1,98 @@
+[
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; matrix in comparison blend B73-x",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP; matrix in comparison blend B73-x",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs in comparison PBT/PP blend; sample named B73-1",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "insulator",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT; matrix in comparison blend B73-x",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP; matrix in comparison blend B73-x",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs in comparison PBT/PP blend; sample named B73-2",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.545454545454545e-10,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 2200000000.0,
+            "unit": "ohm·m"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5.0,
+        "unit": "S m^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 43.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 626.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 32.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 431.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 52.0,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 400.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds; first cutting/healing cycle",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres; first cutting/healing cycle",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 51.5,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 1,
+            "unit": "cycle"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 1,
+            "unit": "cycle"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds; third cutting/healing cycle",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres; third cutting/healing cycle",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 48.8,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 3,
+            "unit": "cycle"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 3,
+            "unit": "cycle"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane with Diels-Alder bonds",
+        "description": "CPA; healable cationic waterborne polyurethane microsphere matrix with Diels-Alder bonds; third cutting/healing cycle",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube/graphene oxide",
+        "description": "CNT/GO hybrid filler; segregated conductive network; electrostatically assembled on CPA microspheres; third cutting/healing cycle",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 30.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 3,
+            "unit": "cycle"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 410.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "healing_cycle",
+            "value": 3,
+            "unit": "cycle"
+          }
+        ]
+      }
+    }
+  }
+]

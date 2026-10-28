@@ -1,0 +1,194 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polymethyl methacrylate",
+        "description": "PMMA matrix in a solvent-cast single composite film",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-synthesized CVD MWCNT; purity about 90%; diameter 60-70 nm; length about 50-100 μm",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1.5,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 23.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1.78,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polymethyl methacrylate",
+        "description": "PMMA matrix in stacked solvent-cast composite films (SCF7, seven layers)",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-synthesized CVD MWCNT; purity about 90%; diameter 60-70 nm; length about 50-100 μm",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polymethyl methacrylate",
+        "description": "PMMA matrix in a compression-molded bulk composite",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-synthesized CVD MWCNT; purity about 90%; diameter 60-70 nm; length about 50-100 μm",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.6,
+        "unit": "S/cm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polymethyl methacrylate",
+        "description": "PMMA matrix in stacked bulk composite layers (SCB2, two layers)",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-synthesized CVD MWCNT; purity about 90%; diameter 60-70 nm; length about 50-100 μm",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

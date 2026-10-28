@@ -1,0 +1,772 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat PDMS control with no filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -0.52,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT filler (12-40 nm diameter, approximately 10 μm minimum length); PSS dispersant used during processing.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.05e-09,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -5.64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT filler (12-40 nm diameter, approximately 10 μm minimum length); PSS dispersant used during processing.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.02e-05,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -10.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT filler (12-40 nm diameter, approximately 10 μm minimum length); PSS dispersant used during processing.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -16.54,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler; supplier particle size 4.5-6.0 μm diameter.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 9.61e-10,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -0.81,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler; supplier particle size 4.5-6.0 μm diameter.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.96,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler; supplier particle size 4.5-6.0 μm diameter.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.41e-09,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -3.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 1.84e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 3.18e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": -5.82,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -5.78,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2.09e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 5.96e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": -12.58,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -14.33,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 3.15e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 2.26e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": -14.55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "conventional",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -19.51,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 7.18e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 9.91e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.14e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS elastomer matrix; base and curing agent mixed at 100:10 in the formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT component of CNT@CIP nanohybrid particles; CNTs attached to carbonyl iron powder surfaces via electrostatic interaction; PSS dispersant used during processing.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron powder",
+        "description": "Magnetic filler component of CNT@CIP nanohybrid particles.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6.28e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_method",
+            "value": "magnetization",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

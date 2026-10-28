@@ -1,0 +1,531 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in conductive UHMWPE/CNS composite",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler; sample labeled U95C5",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/HGM composite",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "unmodified HGM; sample labeled HGM1",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/HGM composite",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "unmodified HGM; sample labeled HGM5",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/HGM composite",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "unmodified HGM; sample labeled HGM10",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/PDA@HGM composite",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "polydopamine-modified hollow glass microspheres; sample labeled PDA@HGM1",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/PDA@HGM composite",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "polydopamine-modified hollow glass microspheres; sample labeled PDA@HGM5",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 32.31,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/PDA@HGM composite",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "polydopamine-modified hollow glass microspheres; sample labeled PDA@HGM10",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE matrix in UHMWPE/CNS/PDA@HGM composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "branched carbon nanotube-based conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "polydopamine-modified hollow glass microspheres; sample labeled PDA@HGM15",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  }
+]

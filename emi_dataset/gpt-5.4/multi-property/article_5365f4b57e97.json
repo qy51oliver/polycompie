@@ -1,0 +1,373 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyethylene terephthalate",
+        "description": "Woven PET fabric control sample (300 g/m^2).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 167.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 9.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 11.67,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Dry-laminated PU film/adhesive matrix synthesized from polycaprolactone diol, hexamethylene diisocyanate, and THPO; sample is Neat Leather (NL).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Polyethylene terephthalate",
+        "description": "PET fabric substrate in neat artificial leather.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 476.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 59.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 16.07,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 422.3,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Dry-laminated PU film/adhesive matrix synthesized from polycaprolactone diol, hexamethylene diisocyanate, and THPO; sample is FR Leather (FRL).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Polyethylene terephthalate",
+        "description": "PET fabric substrate for flame-retardant leather.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated with 1 M NaOH at 40 °C for 4 h"
+      },
+      {
+        "name": "Phytic acid",
+        "description": "Component of the layer-by-layer flame-retardant coating; PA/MEL-treated fabric showed 10 wt% total weight gain relative to the original fabric, but individual PA amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "layer-by-layer self-assembled coating on PET fabric"
+      },
+      {
+        "name": "Melamine",
+        "description": "Component of the layer-by-layer flame-retardant coating; PA/MEL-treated fabric showed 10 wt% total weight gain relative to the original fabric, but individual melamine amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "layer-by-layer self-assembled coating on PET fabric"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 761.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 89.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 35.12,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 392.6,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Dry-laminated PU film/adhesive matrix synthesized from polycaprolactone diol, hexamethylene diisocyanate, and THPO; sample is FRT8L/FRTL.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Polyethylene terephthalate",
+        "description": "PET fabric substrate for multifunctional artificial leather.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated with 1 M NaOH at 40 °C for 4 h"
+      },
+      {
+        "name": "Phytic acid",
+        "description": "Component of the layer-by-layer flame-retardant coating; PA/MEL-treated fabric showed 10 wt% total weight gain relative to the original fabric, but individual PA amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "layer-by-layer self-assembled coating on PET fabric"
+      },
+      {
+        "name": "Melamine",
+        "description": "Component of the layer-by-layer flame-retardant coating; PA/MEL-treated fabric showed 10 wt% total weight gain relative to the original fabric, but individual melamine amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "layer-by-layer self-assembled coating on PET fabric"
+      },
+      {
+        "name": "Titanium carbide",
+        "description": "Delaminated Ti3C2Tx MXene nanosheets deposited from an 8 mg/mL aqueous dispersion by 8 dip-dry cycles.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 804.2,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 100.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 20.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 286.7,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 31.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 115,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "flame exposure time",
+            "value": 12,
+            "unit": "s"
+          },
+          {
+            "type": "afterflame time",
+            "value": 25,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,251 @@
+[
+     {
+        "sample_id": "PBT",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shear-thinning component": {"value": 0.02, "unit": "not specified"},
+            "eta": {"value": 7.4e3, "unit": "Pa"},
+            "G'": {"value": 6.5, "unit": "dyn/cm^2"},
+            "G''": {"value": 7.4, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 225, "unit": "°C"},
+            "crystallisation temperatures":{"value": 195, "unit": "°C"},
+            "Enthalpy of melting": {"value": 41, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 57, "unit": "J/g"},
+            "crystallinity": {"value": 29, "unit": "%"},
+            "time to ignition": {"value": 64, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 597, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 229, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 138, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 1.9, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 22, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 27, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.26, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 2.38, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT+CL 30B",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Cloisite 30B",
+                "description": "reinforcement filler",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shear-thinning component": {"value": 0.67, "unit": "not specified"},
+            "eta": {"value": 8.0e5, "unit": "Pa"},
+            "G'": {"value": 9.4e4, "unit": "dyn/cm^2"},
+            "G''": {"value": 9.4e4, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 224, "unit": "°C"},
+            "crystallisation temperatures":{"value": 193, "unit": "°C"},
+            "Enthalpy of melting": {"value": 48, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 69, "unit": "J/g"},
+            "crystallinity": {"value": 35, "unit": "%"},
+            "time to ignition": {"value": 51, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 279, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 177, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 106, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 2.1, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 19, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 34, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.14, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 1.85, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT+SP",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Sepiolite amine",
+                "description": "reinforcement filler",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "eta": {"value": 7.7e2, "unit": "Pa"},
+            "G'": {"value": 30, "unit": "dyn/cm^2"},
+            "G''": {"value": 30, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 224, "unit": "°C"},
+            "crystallisation temperatures":{"value": 198, "unit": "°C"},
+            "Enthalpy of melting": {"value": 47, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 62, "unit": "J/g"},
+            "crystallinity": {"value": 34, "unit": "%"},
+            "time to ignition": {"value": 44, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 332, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 191, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 115, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 3.0, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 21, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 37, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.13, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 2.16, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT+FR",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 82, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Phosphinate salt",
+                "description": "flame retardant",
+                "composition": {"amount": 18, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "eta": {"value": 6.9e3, "unit": "Pa"},
+            "G'": {"value": 39, "unit": "dyn/cm^2"},
+            "G''": {"value": 39, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 225, "unit": "°C"},
+            "crystallisation temperatures":{"value": 190, "unit": "°C"},
+            "Enthalpy of melting": {"value": 43, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 59, "unit": "J/g"},
+            "crystallinity": {"value": 31, "unit": "%"},
+            "time to ignition": {"value": 42, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 250, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 140, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 85, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 1.4, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 15, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 32, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.17, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 1.78, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT+FR+CL 30B",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 77, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Cloisite 30B",
+                "description": "reinforcement filler",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Phosphinate salt",
+                "description": "flame retardant",
+                "composition": {"amount": 18, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shear-thinning component": {"value": 0.64, "unit": "not specified"},
+            "eta": {"value": 6.2e5, "unit": "Pa"},
+            "G'": {"value": 7.4e4, "unit": "dyn/cm^2"},
+            "G''": {"value": 4.1e4, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 224, "unit": "°C"},
+            "crystallisation temperatures":{"value": 193, "unit": "°C"},
+            "Enthalpy of melting": {"value": 48, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 57, "unit": "J/g"},
+            "crystallinity": {"value": 34, "unit": "%"},
+            "time to ignition": {"value": 37, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 165, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 110, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 66, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 1.3, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 13, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 41, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.17, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 0.84, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT+FR+SP",
+        "matrix_name": [
+        		{
+                "name": "Poly(Butylene Terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 77, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Sepiolite amine",
+                "description": "reinforcement filler",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Phosphinate salt",
+                "description": "flame retardant",
+                "composition": {"amount": 18, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "eta": {"value": 2.7e5, "unit": "Pa"},
+            "G'": {"value": 3.1e4, "unit": "dyn/cm^2"},
+            "G''": {"value": 3.1e4, "unit": "dyn/cm^2"},
+            "melting temperatures": {"value": 225, "unit": "°C"},
+            "crystallisation temperatures":{"value": 203, "unit": "°C"},
+            "Enthalpy of melting": {"value": 56, "unit": "J/g"},
+            "Enthalpy of crystallisation": {"value": 65, "unit": "J/g"},
+            "crystallinity": {"value": 40, "unit": "%"},
+            "time to ignition": {"value": 40, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 163, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "average heat release rate": {"value": 116, "unit": "kW/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 70, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "FIGRA": {"value": 1.9, "unit": "kW/s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "Hc": {"value": 16, "unit": "MJ/kg", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"},{"type": "time", "value": 600,"unit": "s"}]},
+            "char residue": {"value": 49, "unit": "%","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO/CO": {"value": 0.21, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "CO2/CO2": {"value": 1.19, "unit": "g/g","conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    }
+]

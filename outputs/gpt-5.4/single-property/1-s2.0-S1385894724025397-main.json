@@ -1,0 +1,424 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/20-3PI), mechanically roll-sintered with 3-layer PI film",
+        "composition": {
+          "amount": 87.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn; initial LM loading 20 vol%, reduced to around 13 vol% after rolling with 3-layer PI film",
+        "composition": {
+          "amount": 13.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/30-3PI), mechanically roll-sintered with 3-layer PI film",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn; initial LM loading 30 vol%, reduced to around 19 vol% after rolling with 3-layer PI film",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/40-1PI), mechanically roll-sintered with 1-layer PI film",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn; initial LM loading 40 vol%, reduced to around 39 vol% after rolling with 1-layer PI film",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/40-3PI), mechanically roll-sintered with 3-layer PI film",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn; initial LM loading 40 vol%, reduced to around 24 vol% after rolling with 3-layer PI film",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "strain",
+            "value": 0.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "strain",
+            "value": 25.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "strain",
+            "value": 50.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 44.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "strain",
+            "value": 75.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/40 slit), locally activated parallel conductive slit design; slit spacing about 3 mm",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn in slit-designed PLMF/40 sample; exact post-processing filler content not specified",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3.0,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "parallel",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3.0,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS elastomer matrix in PDMS/liquid metal film (PLMF/40 slit), locally activated parallel conductive slit design; slit spacing about 1 mm",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal filler composed of GaInSn in slit-designed PLMF/40 sample; exact post-processing filler content not specified",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1.0,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "parallel",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1.0,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

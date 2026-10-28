@@ -1,0 +1,237 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix prepared with base agent and hardener in 10:1 mass ratio with 5% diluent by mass; cured at 100°C for 2h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanoribbon",
+        "description": "Ultra-long BNNRs fabricated by directional freeze-drying and pyrolysis, heat-treated at 1700°C in argon; vertically aligned array; no VG growth",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix prepared with base agent and hardener in 10:1 mass ratio with 5% diluent by mass; cured at 100°C for 2h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "vertical graphene-boron nitride nanoribbon hybrid",
+        "description": "BNNRs with VG grown in situ by CVD using CH3BOH as carbon source at 1100°C under 5 kPa for 2 hours (2-VG-BNNR); vertically aligned array in PDMS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 33.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix prepared with base agent and hardener in 10:1 mass ratio with 5% diluent by mass; cured at 100°C for 2h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "vertical graphene-boron nitride nanoribbon hybrid",
+        "description": "BNNRs with VG grown in situ by CVD using CH3BOH as carbon source at 1100°C under 5 kPa for 4 hours (4-VG-BNNR); vertically aligned array in PDMS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix prepared with base agent and hardener in 10:1 mass ratio with 5% diluent by mass; cured at 100°C for 2h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "vertical graphene-boron nitride nanoribbon hybrid",
+        "description": "BNNRs with VG grown in situ by CVD using CH3BOH as carbon source at 1100°C under 5 kPa for 8 hours (8-VG-BNNR); vertically aligned array in PDMS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 56.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix prepared with base agent and hardener in 10:1 mass ratio with 5% diluent by mass; cured at 100°C for 2h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "vertical graphene-boron nitride nanoribbon hybrid",
+        "description": "BNNRs with VG grown in situ by CVD using CH3BOH as carbon source at 1100°C under 5 kPa for 12 hours (12-VG-BNNR); VG of 100 nm height fills all surfaces forming 3D network structure; vertically aligned array in PDMS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 64.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

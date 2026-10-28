@@ -1,0 +1,295 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "syndiotacticity-rich poly(vinyl alcohol) (sPVA); neat sPVA film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.14,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "syndiotacticity-rich poly(vinyl alcohol) (sPVA); multilayer film with five sPVA layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene sediment",
+        "description": "modified MXene sediment (mMS); PEI-modified sediment mainly containing unetched Ti3AlC2 MAX, Ti3C2Tx nanosheets, and multilayer unexfoliated MXene. Sample label sPVA/mMS-10 corresponds to 10 mg/mL MS added per mMS layer; four mMS layers were used.",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "polyethyleneimine (PEI) treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 11,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 1.41,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "syndiotacticity-rich poly(vinyl alcohol) (sPVA); multilayer film with five sPVA layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene sediment",
+        "description": "modified MXene sediment (mMS); PEI-modified sediment mainly containing unetched Ti3AlC2 MAX, Ti3C2Tx nanosheets, and multilayer unexfoliated MXene. Sample label sPVA/mMS-20 corresponds to 20 mg/mL MS added per mMS layer; four mMS layers were used.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "polyethyleneimine (PEI) treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 244,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 4.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 2.45,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "syndiotacticity-rich poly(vinyl alcohol) (sPVA); multilayer film with five sPVA layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene sediment",
+        "description": "modified MXene sediment (mMS); PEI-modified sediment mainly containing unetched Ti3AlC2 MAX, Ti3C2Tx nanosheets, and multilayer unexfoliated MXene. Sample label sPVA/mMS-30 corresponds to 30 mg/mL MS added per mMS layer; four mMS layers were used.",
+        "composition": {
+          "amount": 30.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "polyethyleneimine (PEI) treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 404,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 2.89,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "syndiotacticity-rich poly(vinyl alcohol) (sPVA); multilayer film with five sPVA layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene sediment",
+        "description": "modified MXene sediment (mMS); PEI-modified sediment mainly containing unetched Ti3AlC2 MAX, Ti3C2Tx nanosheets, and multilayer unexfoliated MXene. Sample label sPVA/mMS-40 corresponds to 40 mg/mL MS added per mMS layer; four mMS layers were used.",
+        "composition": {
+          "amount": 40.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "polyethyleneimine (PEI) treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 95,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 683,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 15.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 15.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 3.31,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 66.31,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

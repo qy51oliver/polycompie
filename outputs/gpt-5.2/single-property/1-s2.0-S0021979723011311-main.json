@@ -1,0 +1,237 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam matrix prepared by foaming (polyether polyol + TDI-based formulation).",
+        "composition": {
+          "amount": 89.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide@silver",
+        "description": "GO@Ag made by loading Ag nanoparticles onto KH-550 treated amino-rich graphene oxide (GO-NH2). GO@Ag amount fixed at 8 wt% in composite foam preparation.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide@polyvinyl alcohol",
+        "description": "Fe3O4@PVA magnetic spheres (Fe3O4 modified with oleic acid, then PVAc encapsulation and alcoholysis to PVA). Sample labeled as Fe3O4@PVA/GO@Ag/PU foam-3.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 24.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "SEA_max",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam matrix prepared by foaming (polyether polyol + TDI-based formulation).",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide@silver",
+        "description": "GO@Ag made by loading Ag nanoparticles onto KH-550 treated amino-rich graphene oxide (GO-NH2). GO@Ag amount fixed at 8 wt% in composite foam preparation.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide@polyvinyl alcohol",
+        "description": "Fe3O4@PVA magnetic spheres (Fe3O4 modified with oleic acid, then PVAc encapsulation and alcoholysis to PVA). Sample labeled as Fe3O4@PVA/GO@Ag/PU foam-7.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "SEA_max",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam matrix prepared by foaming (polyether polyol + TDI-based formulation).",
+        "composition": {
+          "amount": 81.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide@silver",
+        "description": "GO@Ag made by loading Ag nanoparticles onto KH-550 treated amino-rich graphene oxide (GO-NH2). GO@Ag amount fixed at 8 wt% in composite foam preparation.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide@polyvinyl alcohol",
+        "description": "Fe3O4@PVA magnetic spheres (Fe3O4 modified with oleic acid, then PVAc encapsulation and alcoholysis to PVA). Sample labeled as Fe3O4@PVA/GO@Ag/PU foam-11.",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "SEA_max",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam matrix (GO@Ag/PU composite shielding foam without Fe3O4@PVA).",
+        "composition": {
+          "amount": 89.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide@silver",
+        "description": "GO@Ag composite filler; reported as 11 wt% of total mass of composite foam GO@Ag (no Fe3O4@PVA).",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "approximation",
+            "value": "about",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

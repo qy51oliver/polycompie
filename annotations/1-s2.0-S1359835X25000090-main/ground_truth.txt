@@ -1,0 +1,239 @@
+[
+     {
+        "sample_id": "monolayer_0wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+            "real_relative_permitivity": {"value": 3, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "imaginary_relative_permitivity": {"value": 0.06, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "monolayer_1wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 2.5, "unit": "dB","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "ratio_of_absorbed_to_reflected_power": {"value": 2.7, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "half_wavelength": {"value": 5.5, "unit": "mm","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "monolayer_2wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "monolayer_3wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+            "skin_depth": {"value": 0.89, "unit": "mm","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "monolayer_5wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+            "skin_depth": {"value": 0.67, "unit": "mm","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "monolayer_7wt%",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22, "unit": "dB","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "ratio_of_absorbed_to_reflected_power": {"value": 0.15, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "real_relative_permitivity": {"value": 95, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "imaginary_relative_permitivity": {"value": 167, "unit": "none","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+            "skin_depth": {"value": 0.68, "unit": "mm","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "uniformlayer_5wt%_4mm",
+        "matrix_name": [
+        		{
+                "name": "poly (methyl methacryclate)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 63, "unit": "dB","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "experimental", "unit": "none"}]},
+	}
+    },
+    {
+        "sample_id": "multi_layer_1",
+        "matrix_name": [
+                {
+                "name": "poly (methyl methacryclate)",
+                "description": "layer A, 2 alternating A and B layers",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+                {
+                "name": "poly (methyl methacryclate)",
+                "description": "layer B, 2 alternating A and B layers",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+                {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+                {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":4, "unit": "mm"},
+        "properties": {
+            "plateau_shielding_effectiveness": {"value": 55, "unit": "dB","conditions": [{"type": "frequency", "value": 10, "unit": "GHz"},{"type": "data type", "value": "calculated", "unit": "none"}]}
+        }
+    },
+    {
+        "sample_id": "multi_layer_2",
+        "matrix_name": [
+                {
+                "name": "poly (methyl methacryclate)",
+                "description": "layer A, 2 alternating A and B layers",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+                {
+                "name": "poly (methyl methacryclate)",
+                "description": "layer B, 2 alternating A and B layers",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+                {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+                {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":4, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "39-43", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8, "unit": "GHz"},{"type": "frequency higher bound", "value": 11, "unit": "GHz"},{"type": "data type", "value": "calculated", "unit": "none"}]}
+        }
+    }
+]

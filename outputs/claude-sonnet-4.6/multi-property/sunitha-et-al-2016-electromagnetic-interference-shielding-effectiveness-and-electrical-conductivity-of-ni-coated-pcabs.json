@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate Acrylonitrile-butadiene-styrene",
+        "description": "PCABS (Cycoloy C1200HF) pulverized into particles of size 250 um, coated with nickel via electroless deposition; coating ratio of PCABS:Ni was 1:0.5",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "PAN based carbon fibre (AGM 94) from Asbury Carbons; used to enhance structural network and electrical resistivity",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Graphite flakes (3243) from Asbury Carbons; used to improve surface and bulk volume resistivity",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.4,
+      "unit": "cm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.29,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "method",
+            "value": "two-probe technique",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 79,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyphenylene Sulfide",
+        "description": "PPS (Fortron 0214B1) from Ticona, pulverized into particles of 100 to 250 um, coated with nickel via electroless deposition; coating ratio of PPS:Ni was 1:0.5",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "PAN based carbon fibre (AGM 94) from Asbury Carbons; used to enhance structural network and electrical resistivity",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Graphite flakes (3243) from Asbury Carbons; used to improve surface and bulk volume resistivity",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.4,
+      "unit": "cm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19.16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "method",
+            "value": "two-probe technique",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

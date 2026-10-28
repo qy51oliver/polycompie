@@ -1,0 +1,96 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184 PDMS matrix prepared from base and curing agent; fabricated as flat flexible slabs about 700 um ±20%, with reported THz data normalized to 500 um thickness.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "graphene flakes/nanoplatelets, about 5 um lateral flake size",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 2.2,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 3.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184 PDMS matrix prepared from base and curing agent; fabricated as flat flexible slabs about 700 um ±20%, with reported THz data normalized to 500 um thickness.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti2C)",
+        "description": "Ti2C MXene particles",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 500.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 0.2,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 3.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  }
+]

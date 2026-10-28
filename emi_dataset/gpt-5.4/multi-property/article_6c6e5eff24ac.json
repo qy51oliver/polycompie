@@ -1,0 +1,660 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Plastic matrix derived from aluminum-plastic packaging waste; composite prepared by microwave-assisted sintering without compaction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite formed from expandable graphite during processing.",
+        "composition": {
+          "amount": 31.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum",
+        "description": "Included aluminum platelet from the packaging waste; amount not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 114.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Plastic matrix after aluminum platelet was etched away from the packaging waste; composite prepared by microwave-assisted sintering without compaction.",
+        "composition": {
+          "amount": 69.8,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite formed from expandable graphite during processing.",
+        "composition": {
+          "amount": 30.2,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 100.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite matrix; composite fabricated at 230 °C without compaction.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gamma-iron(III) oxide",
+        "description": "Nanoferrite (γ-Fe2O3) filler.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "fly ash",
+        "description": "Dielectric filler.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 98.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Polyethylene matrix composite prepared by hot compression at 10 MPa and 170 °C.",
+        "composition": {
+          "amount": 68.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite filler.",
+        "composition": {
+          "amount": 31.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 82.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Conductive polymer matrix.",
+        "composition": {
+          "amount": 32.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite filler.",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "barium strontium titanate",
+        "description": "BaSrTiO3 dielectric filler.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 81.54,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PA6 matrix; composite fabrication involved hot pressing at 10 MPa and 220 °C.",
+        "composition": {
+          "amount": 99.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Nickel-coated exfoliated graphite filler.",
+        "composition": {
+          "amount": 0.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 77.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC matrix; composite prepared by hot pressing at 0.04 MPa and 180 °C.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Ultrasonicated EG-derived graphite nanosheets, 30-50 nm thick; reported as 80 wt% relative proportion in the filler blend, while total filler loading in the composite was not specified.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel nanoparticles, average particle size 20 nm; reported as 20 wt% relative proportion in the filler blend.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 59.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "Epoxy matrix composite.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite filler.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP matrix composite.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "EG in graphite nanoplatelet (xGnP) form.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotube",
+        "description": "CNT co-filler.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.25,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "Epoxy matrix composite.",
+        "composition": {
+          "amount": 94.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Size-reduced exfoliated graphite obtained by repeated exfoliation.",
+        "composition": {
+          "amount": 5.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PA6 matrix composite.",
+        "composition": {
+          "amount": 97.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Uncoated exfoliated graphite filler.",
+        "composition": {
+          "amount": 2.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP matrix composite.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "CNT as the sole filler.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.25,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP matrix composite.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "EG in graphite nanoplatelet (xGnP) form as the sole filler.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.25,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "Epoxy matrix composite.",
+        "composition": {
+          "amount": 94.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "exfoliated graphite",
+        "description": "Exfoliated graphite filler without size reduction.",
+        "composition": {
+          "amount": 5.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "aramid nanofibers",
+        "description": "Pure aramid nanofiber aerogel film derived from Kevlar.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 1.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 32.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "aramid nanofibers",
+        "description": "Aramid nanofiber aerogel matrix derived from Kevlar in FC-ANF/CNT hybrid aerogel film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Conductive carbon nanotubes; hydrochloric-acid-treated to remove residual iron catalyst.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "fluorocarbon resin",
+        "description": "Hydrophobic fluorocarbon resin coating applied by dip coating.",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 568,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 32.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 63.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "aramid nanofibers",
+        "description": "Aramid nanofiber aerogel matrix derived from Kevlar in FC-ANF/CNT hybrid aerogel film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Conductive carbon nanotubes; hydrochloric-acid-treated to remove residual iron catalyst.",
+        "composition": {
+          "amount": 27.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "fluorocarbon resin",
+        "description": "Hydrophobic fluorocarbon resin coating applied by dip coating.",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 568,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 5.2,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 115.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "aramid nanofibers",
+        "description": "Aramid nanofiber aerogel matrix derived from Kevlar in FC-ANF/CNT hybrid aerogel film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Conductive carbon nanotubes; hydrochloric-acid-treated to remove residual iron catalyst.",
+        "composition": {
+          "amount": 27.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "fluorocarbon resin",
+        "description": "Hydrophobic fluorocarbon resin coating applied by dip coating.",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 168,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "aramid nanofibers",
+        "description": "Aramid nanofiber aerogel matrix derived from Kevlar in FC-ANF/CNT hybrid aerogel film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Conductive carbon nanotubes; hydrochloric-acid-treated to remove residual iron catalyst.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "fluorocarbon resin",
+        "description": "Hydrophobic fluorocarbon resin coating applied by dip coating.",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 568,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 230.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 54.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

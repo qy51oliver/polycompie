@@ -1,0 +1,254 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; carbon fiber reinforced epoxy composite (CF/EP)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K), pretreated by desizing and oxidizing before composite fabrication",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 511.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity_1": {
+        "value": 38.9,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 13615.5,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; MXene-coated carbon fiber reinforced epoxy composite (MXene-CF/EP)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K), pretreated by desizing and oxidizing before composite fabrication",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanoparticles electrophoretically deposited onto carbon fiber surface; core-shell MXene-CF structure",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 642.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity_1": {
+        "value": 58.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 15624.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; thermally annealed MXene-coated carbon fiber reinforced epoxy composite (rMXene-CF/EP)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K), pretreated by desizing and oxidizing before composite fabrication",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanoparticles electrophoretically deposited onto carbon fiber surface followed by thermal annealing at 350 C for 6 h under nitrogen; reduced MXene core-shell structure",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 569.6,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "electrical_conductivity_1": {
+        "value": 64.44,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 16292.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 34.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 24.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 9.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

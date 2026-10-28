@@ -1,0 +1,49 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS resin; general purpose 1000S stabilized pellets",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "Electroless nickel-phosphorus coated carbon fibre (ENCF) produced at plating bath workload 2 g/L, pH 9, and 70 °C; the fibre grade is not explicitly linked to the 44 dB value in the text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 44.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 30.0,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1000.0,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

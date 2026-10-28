@@ -1,0 +1,220 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; contains carboxyl groups from 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated dense uniform copper layer with thickness ~220 nm; Ni nanoparticles present at interface as catalytic seeds",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "0.55-0.60",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; contains carboxyl groups from 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated dense uniform copper layer; Ni nanoparticles present at interface as catalytic seeds",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "0.55-0.60",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; contains carboxyl groups from 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated dense uniform copper layer with thickness ~780 nm; Ni nanoparticles present at interface as catalytic seeds",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.6,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 63.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 63.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "thermal_exposure",
+            "value": "unheated",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; contains carboxyl groups from 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated dense uniform copper layer; Ni nanoparticles present at interface as catalytic seeds; further activated with PdCl2 and coated with electroless nickel protective layer of ~100 nm thickness",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "nickel",
+        "description": "electroless plated protective nickel layer ~100 nm thick on surface of PIC/Cu-35% fiber; deposited from nickel sulfate hexahydrate/sodium hypophosphite/ammonium chloride/sodium citrate bath at 80°C for 1 min",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 65.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

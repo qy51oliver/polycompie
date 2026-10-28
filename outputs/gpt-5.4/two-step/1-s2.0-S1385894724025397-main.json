@@ -1,0 +1,428 @@
+[
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in rolled PLMF/20-3PI; residual LM content after rolling reported as about 13 vol%",
+        "composition": {
+          "amount": 87.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; rolled sample PLMF/20-3PI with residual LM content after 3-layer PI rolling",
+        "composition": {
+          "amount": 13.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in rolled PLMF/30-3PI; residual LM content after rolling reported as about 19 vol%",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; rolled sample PLMF/30-3PI with residual LM content after 3-layer PI rolling",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 120000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in rolled PLMF/40-1PI; residual LM content after rolling reported as about 39 vol%",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; rolled sample PLMF/40-1PI with residual LM content after 1-layer PI rolling",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 1-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in rolled PLMF/40-3PI; residual LM content after rolling reported as about 24 vol%",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; rolled sample PLMF/40-3PI with residual LM content after 3-layer PI rolling",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 120000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain",
+            "value": 25,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 44.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain",
+            "value": 75,
+            "unit": "%"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "108-130",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after rolling with 3-layer PI",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in designed PLMF/40 slit sample; based on rolled PLMF/40-3PI",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; designed PLMF/40 slit sample with slit spacing about 1 mm, based on PLMF/40-3PI residual LM content",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit orientation",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit orientation",
+            "value": "vertical direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in designed PLMF/40 slit sample; based on rolled PLMF/40-3PI",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy of gallium, indium, and tin; designed PLMF/40 slit sample with slit spacing about 3 mm, based on PLMF/40-3PI residual LM content",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit orientation",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit orientation",
+            "value": "vertical direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

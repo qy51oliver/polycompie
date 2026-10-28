@@ -1,0 +1,75 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PA6 matrix prepared from BOPA bidirectional stretch nylon film",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 carbon fiber with surface sizing removed and in situ-grown delta-manganese dioxide nanosheets on the fiber surface; sample designated DeCF-M",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "surface sizing removed at 450 C under N2 for 1.5 h, followed by hydrothermal growth of delta-MnO2 nanosheets in 0.03 wt% KMnO4 solution at 150 C for 6 h"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

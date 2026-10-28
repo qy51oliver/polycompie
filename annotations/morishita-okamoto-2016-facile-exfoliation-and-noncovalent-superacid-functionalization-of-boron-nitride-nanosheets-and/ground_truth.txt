@@ -1,0 +1,282 @@
+[
+     {
+        "sample_id": "PMMA",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 0.22, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "h-BN/PMMA(2 wt%/98 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "bulk hexagonal boron nitrides",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 0.25, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "h-BN/PMMA(25 wt%/75 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "bulk hexagonal boron nitrides",
+                "description": "not specified",
+                "composition": {"amount": 25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 0.520, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "h-BN/PMMA(50 wt%/50 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "bulk hexagonal boron nitrides",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 2.91, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "h-BN/PMMA(80 wt%/20 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "bulk hexagonal boron nitrides",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 3.81, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "NF-BNNS/PMMA(2 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 97.986, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "noncovalently functionalized boron nitride nanosheets",
+                "description": "IL/BNNS mass ratio=0.007",
+                "composition": {"amount": 2.014, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 0.30, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "NF-BNNS/PMMA(24.5 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 75.33, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "noncovalently functionalized boron nitride nanosheets",
+                "description": "IL/BNNS mass ratio=0.007",
+                "composition": {"amount": 24.67, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 0.96, "unit": "W*m^-1*K^-1"},
+            "in_plane_thermal_conductivity": {"value": 1.35, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "NF-BNNS/PMMA(50 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 49.65, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "noncovalently functionalized boron nitride nanosheets",
+                "description": "IL/BNNS mass ratio=0.007",
+                "composition": {"amount": 50.35, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 5.26, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "NF-BNNS/PMMA(80 wt%)",
+        "matrix_name": [
+        		{
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 19.44, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "noncovalently functionalized boron nitride nanosheets",
+                "description": "IL/BNNS mass ratio=0.007",
+                "composition": {"amount": 80.56, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 10.22, "unit": "W*m^-1*K^-1"},
+            "in_plane_thermal_conductivity": {"value": 14.7, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "volume_resistivity": {"value": 3.7e15, "unit": "Ωcm"}
+        }
+    },
+     {
+        "sample_id": "h-BN/PBT(80 wt%/20 wt%)",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "bulk hexagonal boron nitrides",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "volume_resistivity": {"value": 1.2e16, "unit": "Ωcm"}
+        }
+    },
+     {
+        "sample_id": "NF-BNNS/PBT(80 wt%)",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 19.44, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "noncovalently functionalized boron nitride nanosheets",
+                "description": "IL/BNNS mass ratio=0.007",
+                "composition": {"amount": 80.56, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 11.0, "unit": "W*m^-1*K^-1"},
+            "in_plane_thermal_conductivity": {"value": 15.1, "unit": "W*m^-1*K^-1"},
+            "volume_resistivity": {"value": 3.0e16, "unit": "Ωcm"}
+        }
+    }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyphenylene sulfide",
+        "description": "Glass fiber-reinforced PPS, injection molded, uncoated",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.29,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 150,
+            "unit": "kHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 1500,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyphthalamide",
+        "description": "Glass fiber-reinforced PPA, injection molded, uncoated",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.96,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 1500,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyetheretherketone",
+        "description": "Glass fiber-reinforced PEEK, injection molded, uncoated",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.07,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1500,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyphenylene sulfide",
+        "description": "Glass fiber-reinforced PPS, injection molded; coated with 50 µm zinc via thermal spray process on top and bottom layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "zinc",
+        "description": "Zinc metal coating applied by thermal spray process, 50 µm thickness on top and bottom layers of PPS",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 60.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1500,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyphthalamide",
+        "description": "Glass fiber-reinforced PPA, injection molded; coated with 5 µm aluminum bronze via thermal spray process",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum bronze",
+        "description": "Aluminum bronze metal coating applied by thermal spray process, 5 µm thickness on PPA surface",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 1500,
+            "unit": "MHz"
+          },
+          {
+            "type": "note",
+            "value": "average at low frequencies",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 57.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 1500,
+            "unit": "MHz"
+          },
+          {
+            "type": "note",
+            "value": "peak value within frequency range",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyetheretherketone",
+        "description": "Glass fiber-reinforced PEEK, injection molded; coated with 10 µm aluminum bronze via thermal spray process",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminum bronze",
+        "description": "Aluminum bronze metal coating applied by thermal spray process, 10 µm thickness on PEEK surface",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          },
+          {
+            "type": "note",
+            "value": "greater than 20 dB",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1500,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

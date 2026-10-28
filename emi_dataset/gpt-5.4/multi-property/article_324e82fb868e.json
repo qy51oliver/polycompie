@@ -1,0 +1,128 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanohorns",
+        "description": "CNH-0; carbon nanohorns synthesized by arc discharge of pure graphite without toluene addition",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 5.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanohorns",
+        "description": "CNH-H1 (also referred to as CNH-1 in the text); carbon nanohorns synthesized by arc discharge with 1.6 mL toluene addition, bearing surface –CHx groups",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "–CHx functionalized"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 8.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix",
+        "composition": {
+          "amount": 83.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanohorns",
+        "description": "CNH-H2 (also referred to as CNH-2 in the text); carbon nanohorns synthesized by arc discharge with 2.4 mL toluene addition, bearing surface –CHx groups",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "–CHx functionalized"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

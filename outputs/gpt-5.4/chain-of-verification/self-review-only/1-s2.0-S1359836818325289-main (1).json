@@ -1,0 +1,627 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": -34.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -55.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 87.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 2.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific EMI SE",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 1406.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature_1": {
+        "value": -33.3,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -59.6,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 85.6,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 66.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 12.85,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific EMI SE",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 21.89,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific EMI SE",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": -34.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -57.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 85.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 37.99,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific EMI SE",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 100.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1127.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature_1": {
+        "value": -36.5,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -58.6,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 85.6,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 64.7,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 42.69,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "property_basis",
+            "value": "specific EMI SE",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA phase in EMA/EOC binary blend; 30% methyl acrylate content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC phase in EMA/EOC binary blend; 38% octene content",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "CuN conductive filler",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 53.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

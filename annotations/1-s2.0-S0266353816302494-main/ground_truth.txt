@@ -1,0 +1,264 @@
+[
+     {
+        "sample_id": "polyamide-6",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "storage moduli 1": {"value": 2.50, "unit": "GPa","conditions": [{"type": "temperature", "value": 30,"unit": "°C"}]},
+            "storage moduli 2": {"value": 0.43, "unit": "GPa","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]},
+            "viscosity": {"value": 39.9, "unit": "Pa s","conditions": [{"type": "temperature", "value": 290,"unit": "°C"},{"type": "frequency", "value": "1216","unit": "S^-1"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6(1/99 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "storage moduli 1": {"value": 2.86, "unit": "GPa","conditions": [{"type": "temperature", "value": 30,"unit": "°C"}]},
+            "storage moduli 2": {"value": 0.78, "unit": "GPa","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS (1/ 78/21 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 78, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "storage moduli 1": {"value": 2.70, "unit": "GPa","conditions": [{"type": "temperature", "value": 30,"unit": "°C"}]},
+            "storage moduli 2": {"value": 0.87, "unit": "GPa","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]},
+            "volume resistivity": {"value": "<1.0e7", "unit": " Ωcm","conditions": [{"type": "potential", "value": 1000,"unit": "V"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS/EGMA (1/71/21/7 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 71, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(ethylene-co-glycidyl methacrylate)",
+                "description": "shell-forming component",
+                "composition": {"amount": 7, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "storage moduli 1": {"value": 2.25, "unit": "GPa","conditions": [{"type": "temperature", "value": 30,"unit": "°C"}]},
+            "storage moduli 2": {"value": 0.72, "unit": "GPa","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]},
+            "volume resistivity": {"value": 1.0e13, "unit": " Ωcm","conditions": [{"type": "potential", "value": 1000,"unit": "V"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS/EGMA (1/71/21/7 vol%)-master batch",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 71, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(ethylene-co-glycidyl methacrylate)",
+                "description": "shell-forming component",
+                "composition": {"amount": 7, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS/GOPTS(1/71/21/7 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 77.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "(3-glycidyloxypropyl)tri- methoxysilane",
+                "description": "shell-forming component",
+                "composition": {"amount": 0.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "storage moduli 1": {"value": 3.22, "unit": "GPa","conditions": [{"type": "temperature", "value": 30,"unit": "°C"}]},
+            "storage moduli 2": {"value": 1.08, "unit": "GPa","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS/GOPTS(2/76.5/21/0.5 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 76.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "(3-glycidyloxypropyl)tri- methoxysilane",
+                "description": "shell-forming component",
+                "composition": {"amount": 0.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "flexural modulus": {"value": 3.86, "unit": "GPa"},
+            "Charpy impact strength": {"value": 2.9, "unit": "Kjm^-2"},
+            "volume resistivity": {"value": 3.0e12, "unit": " Ωcm"}
+        }
+    },
+     {
+        "sample_id": "MWCNT/PA6/PPS/GOPTS(3/75.5/21/0.5 vol%)",
+        "matrix_name": [
+        		{
+                "name": "polyamide-6",
+                "description": "matrix polymer",
+                "composition": {"amount": 75.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly(p-phenylene sulfide)",
+                "description": "domain polymer",
+                "composition": {"amount": 21, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "(3-glycidyloxypropyl)tri- methoxysilane",
+                "description": "shell-forming component",
+                "composition": {"amount": 0.5, "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "multiwalled CNT",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "flexural modulus": {"value": 3.78, "unit": "GPa"},
+            "Charpy impact strength": {"value": 1.4, "unit": "Kjm^-2"},
+            "volume resistivity": {"value": "<1.0e7", "unit": " Ωcm"}
+        }
+    }
+]
+

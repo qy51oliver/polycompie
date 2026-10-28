@@ -1,0 +1,272 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 4.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "spherical Ni nanoparticles (Ni-S) synthesized via chemical reduction in the absence of an external magnetic field",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "delaminated Ti3C2Tx MXene flakes synthesized by selective chemical etching of Al atoms from the Ti3AlC2 MAX phase using the MILD method",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "flower-like Ni nanoparticles (Ni-F) synthesized via chemical reduction in the presence of an external magnetic field (0.15 tesla)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  }
+]

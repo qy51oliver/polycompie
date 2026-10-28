@@ -1,0 +1,414 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-trifluoroethylene)",
+        "description": "P(VDF-TrFE) copolymer, 70:30 mol%",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 1.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-trifluoroethylene)",
+        "description": "P(VDF-TrFE) copolymer, 70:30 mol%",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "LiTFSI salt in polymer electrolyte",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 6.09e-05,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "ionic conductivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 0.95,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "AC electrical conductivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 11.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 2.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-trifluoroethylene)",
+        "description": "P(VDF-TrFE) copolymer, 70:30 mol%",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "LiTFSI salt in polymer electrolyte",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+        "description": "EMIMTFSI ionic liquid in polymer electrolyte",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00324,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "ionic conductivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 3.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-trifluoroethylene)",
+        "description": "P(VDF-TrFE) copolymer, 70:30 mol%",
+        "composition": {
+          "amount": 33.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "LiTFSI salt in polymer electrolyte",
+        "composition": {
+          "amount": 14.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+        "description": "EMIMTFSI ionic liquid in polymer electrolyte",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "activated carbon",
+        "description": "Activated carbon derived from Sal tree's gum (AC-STG); biomass-based conducting biofiller; KOH-activated",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0019,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "ionic conductivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 46.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-trifluoroethylene)",
+        "description": "P(VDF-TrFE) copolymer, 70:30 mol%",
+        "composition": {
+          "amount": 32.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "LiTFSI salt in polymer electrolyte",
+        "composition": {
+          "amount": 13.53,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+        "description": "EMIMTFSI ionic liquid in polymer electrolyte",
+        "composition": {
+          "amount": 45.73,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "activated carbon",
+        "description": "Activated carbon derived from Sal tree's gum (AC-STG); biomass-based conducting biofiller; KOH-activated; overall table composition in final CF-containing film is 3.54 wt%",
+        "composition": {
+          "amount": 3.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "cobalt ferrite",
+        "description": "CoFe2O4 nanoparticles; magnetic filler synthesized by hydrothermal method",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.61,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00114,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "ionic conductivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 49.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,458 @@
+[
+     {
+        "sample_id": "PIC fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation_at_break": {"value": 15.3, "unit": "%"},
+            "tensile_strength": {"value": 5.47, "unit": "cN/dtex"},
+            "Youngs_modulus": {"value": 141.4, "unit": "cN/dtex"}
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-8% fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 92, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical_conductiveiy": {"value": 3240, "unit": "S/cm"},
+            "linear_density": {"value": 5.23, "unit": "dtex"}
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-12% fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-15% fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical_conductiveiy_4": {"value": 5190, "unit": "S/cm","conditions": [{"type": "temperature", "value": 220,"unit": "◦C"}]},
+            "electrical_conductiveiy_5": {"value": 1323, "unit": "S/cm","conditions": [{"type": "temperature", "value": 300,"unit": "◦C"}]}
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-20% fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-35% fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 65, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 35, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical_conductiveiy": {"value": 12783, "unit": "S/cm"},
+            "density": {"value": 1.78, "unit": "g/cm^3"},
+            "linear_density": {"value": 7.09, "unit": "dtex"}
+        }
+    },
+     {
+        "sample_id": "PIC fabrics",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-8% fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 92, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-12% fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-15% fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-20% fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-35% fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 65, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 35, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+            "surface_reflection_loss": {"value": 19.0, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_loss": {"value": 40.7, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 63.0, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-pd fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 65, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 35, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "palladium",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-Ni fiber",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 56.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 30.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "palladium",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickle",
+                "description": "not specified",
+                "composition": {"amount": 11.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical_conductiveiy_1": {"value": 11342, "unit": "S/cm","conditions": [{"type": "temperature", "value": "unheated","unit": "none"}]},
+            "electrical_conductiveiy_7": {"value": 11057, "unit": "S/cm","conditions": [{"type": "temperature", "value": 350,"unit": "◦C"}]}
+        }
+    },
+     {
+        "sample_id": "PIC/Cu-Ni fabric",
+        "matrix_name": [
+        		{
+                "name": "carboxylate-containing polyimide",
+                "description": "not specified",
+                "composition": {"amount": 56.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper",
+                "description": "not specified",
+                "composition": {"amount": 30.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickel nano particles",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "palladium",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "nickle",
+                "description": "not specified",
+                "composition": {"amount": 11.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"0.55-0.60", "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 65.6, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "surface_reflection_loss": {"value": 14.5, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_loss": {"value": 48.6, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 8.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

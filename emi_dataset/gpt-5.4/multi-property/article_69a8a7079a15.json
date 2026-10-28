@@ -1,0 +1,172 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "Sylgard 184 PDMS; base agent/curing agent = 10/1 by weight",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "3D interconnected porous graphene foam (GF), grown by CVD on Ni foam; reported optimum growth condition for this sample was 45 min at 1000 °C with 5 vol% CH4; binary GF/PDMS composite without Fe3O4",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.29,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 24,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 52,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "Sylgard 184 PDMS; base agent/curing agent = 10/1 by weight",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "3D interconnected porous graphene foam (GF), grown by CVD on Ni foam under optimized growth conditions",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles (~20 nm), CTAB-modified and integrated on the graphene foam surface",
+        "composition": {
+          "amount": 1.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.29,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(dimethylsiloxane)",
+        "description": "Sylgard 184 PDMS; base agent/curing agent = 10/1 by weight",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "3D interconnected porous graphene foam (GF), grown by CVD on Ni foam under optimized growth conditions",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles (~20 nm), CTAB-modified and integrated on the graphene foam surface",
+        "composition": {
+          "amount": 2.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.29,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 71,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 65,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 10000,
+            "unit": "cycles"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,355 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Neat PVDF polymer matrix, insulating",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "insulating; value could not be measured, literature value used",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology; 3D conductive network formed at 10 wt%",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 20,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 0.1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1.5,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Spherical Ni nanoparticles (Ni-S) synthesized without external magnetic field; crystal size 17.3 nm; saturation magnetization 41.5 emu/g",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 0.1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1.5,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "PVDF polymer matrix dissolved in DMF, films cast at 60°C",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "Delaminated Ti3C2Tx MXene flakes synthesized by MILD method, ~1 µm lateral length, 2D sheet morphology",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Flower-like Ni nanoparticles (Ni-F) synthesized under external magnetic field (0.15 T); spike-shaped nanoflower morphology; crystal size 19.7 nm; saturation magnetization 48.9 emu/g; enhanced magnetic properties compared to spherical Ni-S",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 0.1,
+            "unit": "THz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1.5,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  }
+]

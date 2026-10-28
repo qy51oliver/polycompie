@@ -1,0 +1,254 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "paraffin",
+        "description": "Paraffin matrix used to prepare microwave absorber tablets.",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(ortho-phenylenediamine-co-2,3-xylidine)",
+        "description": "Conductive copolymer filler denoted as co-p; the article also refers to it as poly(PDA-co-XY) and poly(p-phenylenediamine-co-xylidine).",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 15.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 1.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "paraffin",
+        "description": "Paraffin matrix used to prepare microwave absorber tablets.",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(ortho-phenylenediamine-co-2,3-xylidine)",
+        "description": "Conductive copolymer filler denoted as co-p; the article also refers to it as poly(PDA-co-XY) and poly(p-phenylenediamine-co-xylidine).",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 23.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 1.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "paraffin",
+        "description": "Paraffin matrix used to prepare microwave absorber tablets.",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(ortho-phenylenediamine-co-2,3-xylidine)",
+        "description": "Conductive copolymer filler denoted as co-p; the article also refers to it as poly(PDA-co-XY) and poly(p-phenylenediamine-co-xylidine).",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 165.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 15.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "paraffin",
+        "description": "Paraffin matrix used to prepare microwave absorber tablets.",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(ortho-phenylenediamine-co-2,3-xylidine)",
+        "description": "Conductive copolymer filler denoted as co-p; the article also refers to it as poly(PDA-co-XY) and poly(p-phenylenediamine-co-xylidine).",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 294.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 38.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.8,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

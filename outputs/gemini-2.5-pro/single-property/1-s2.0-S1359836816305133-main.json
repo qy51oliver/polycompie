@@ -1,0 +1,265 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-received, produced by a chemical vapor deposition (CVD) process, purity: >95 wt.%, diameter: <10 nm, and length: 10-20 um",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Ni-plated for 5 min using an electroless plating method. MWCNTs were pretreated in 5M HNO3, activated in SnCl2 and PdCl2 solution before plating.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Ni-plated for 15 min using an electroless plating method. MWCNTs were pretreated in 5M HNO3, activated in SnCl2 and PdCl2 solution before plating.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Ni-plated for 30 min using an electroless plating method. MWCNTs were pretreated in 5M HNO3, activated in SnCl2 and PdCl2 solution before plating.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 16,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE (2200 J, MFI: 5.0 g/10min, density: 0.96 g/cm3, Tm: 126-136 'C, Izod impact strength: 10 kg-cm/cm at 23 C) supplied by Lotte Chemical Co. of Korea.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "as-received, produced by a chemical vapor deposition (CVD) process, purity: >95 wt.%, diameter: <10 nm, and length: 10-20 um",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 16,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

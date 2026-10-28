@@ -1,0 +1,1015 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Reference polymer sample used for dielectric and EMI calculations; milled before testing.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "gamma-cyclodextrin",
+        "description": "Ball-milled sample; partially amorphized after milling.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.49,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "alpha-cyclodextrin",
+        "description": "Ball-milled sample; partially amorphized after milling.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.3,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "saponin",
+        "description": "Ball-milled sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.17,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "microcrystalline cellulose",
+        "description": "Ball-milled sample; partially amorphized after milling.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.71,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "hydroxyethyl cellulose",
+        "description": "Ball-milled sample; partially amorphized after milling.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.09,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "yellow dextrin",
+        "description": "Ball-milled amorphous sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.53,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.000783,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "real part",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "dextran 40,000",
+        "description": "Ball-milled amorphous sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -1.7,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "dextran 70,000",
+        "description": "Ball-milled amorphous sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.01,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "potato starch",
+        "description": "Ball-milled amorphous starch sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.44,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "wheat starch",
+        "description": "Ball-milled amorphous starch sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.38,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "corn starch",
+        "description": "Ball-milled amorphous starch sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.4,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "rice starch",
+        "description": "Ball-milled amorphous starch sample used for dielectric and EMI calculations.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.47,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.000768,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "real part",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "yellow dextrin",
+        "description": "Component of the ball-milled amorphous yellow dextrin/rice starch blend; 1:1 wt ratio.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "rice starch",
+        "description": "Component of the ball-milled amorphous yellow dextrin/rice starch blend; 1:1 wt ratio.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present; this sample is the 1:1 blend itself.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -2.45,
+        "unit": "mdB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.000864,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "real part",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "amine-modified polyether acrylates",
+        "description": "UV-curable filler-free coating matrix based on main and co-resin amine-modified polyether acrylates; the varnish formulation also contained propylene glycol, photoinitiators, and auxiliary agents.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No organic filler added.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -0.34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.25,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -11.48,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "definition",
+            "value": "maximum of tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "amine-modified polyether acrylates",
+        "description": "UV-curable coating matrix based on the same varnish formulation as the neat coating; contains 10 wt% total amorphous yellow dextrin/rice starch filler.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "yellow dextrin",
+        "description": "Ball-milled amorphous organic filler; part of a 1:1 wt ratio yellow dextrin/rice starch blend. Individual amount computed from total 10 wt% filler loading.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "rice starch",
+        "description": "Ball-milled amorphous organic filler; part of a 1:1 wt ratio yellow dextrin/rice starch blend. Individual amount computed from total 10 wt% filler loading.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": -0.47,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.25,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -0.47,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "as-prepared",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": -0.21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "dried for 24 h",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 373.0,
+            "unit": "K"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": -0.34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "reflection loss",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 2.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment",
+            "value": "stored in air for 24 h",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 313.0,
+            "unit": "K"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 50.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -4.03,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "definition",
+            "value": "maximum of tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

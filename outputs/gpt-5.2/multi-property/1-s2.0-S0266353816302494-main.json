@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "PAG (PA6) used as pristine polymer (no CNT).",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus_1": {
+        "value": 2.5,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.43,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "MWCNT/PA6 composite (listed as MWCNT/PAG).",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNT, NT-7).",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus_1": {
+        "value": 2.86,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.78,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Immiscible blend composite (listed as MWCNT/PAG/PPS).",
+        "composition": {
+          "amount": 78.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS as dispersed/partly continuous domain phase in PA6 matrix (minor component).",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNT, NT-7).",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus_1": {
+        "value": 2.7,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.87,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Blend composite with shell-forming agent EGMA (listed as MWCNT/PAG/PPS/EGMA).",
+        "composition": {
+          "amount": 71.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS domains with localized MWCNTs; surrounded by EGMA shell layer.",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-co-glycidyl methacrylate)",
+        "description": "EGMA shell-forming agent at PA6/PPS interface (7 vol%).",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNT, NT-7).",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus_1": {
+        "value": 2.25,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.72,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyamide 6",
+        "description": "Blend composite with reactive shell-forming agent GOPTS (listed as MWCNT/PAG/PPS/GOPTS).",
+        "composition": {
+          "amount": 77.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS nano-sized domains; many MWCNT ends capped with PPS nanodomains (nanodomain-linked structure).",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "(3-glycidyloxypropyl)trimethoxysilane",
+        "description": "GOPTS shell-forming agent (0.5 vol%); believed at PA6/PPS interface; may self-polycondense to polysiloxane.",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNT, NT-7).",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus_1": {
+        "value": 3.22,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 1.08,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "storage modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  }
+]

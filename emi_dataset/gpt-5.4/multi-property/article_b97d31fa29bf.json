@@ -1,0 +1,334 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Neat WPU film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2e-07,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 0.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 23.2,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 373,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix in control film containing only Co/C particles",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt/carbon",
+        "description": "ZIF-67-derived magnetic Co/C particles",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0054,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.06,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix in sandwich-structured three-layer film",
+        "composition": {
+          "amount": 74.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt/carbon",
+        "description": "Magnetic Co/C particles located in the top and bottom layers",
+        "composition": {
+          "amount": 14.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Few-layer MXene nanosheets in the middle conductive layer",
+        "composition": {
+          "amount": 10.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 120,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 46,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 17.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 355,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix in sandwich-structured three-layer film",
+        "composition": {
+          "amount": 63.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt/carbon",
+        "description": "Magnetic Co/C particles located in the top and bottom layers",
+        "composition": {
+          "amount": 14.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Few-layer MXene nanosheets in the middle conductive layer",
+        "composition": {
+          "amount": 21.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 120,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 224,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 42,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 3.29,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix in blended film with random filler distribution",
+        "composition": {
+          "amount": 63.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt/carbon",
+        "description": "Magnetic Co/C particles randomly blended in the film",
+        "composition": {
+          "amount": 14.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Few-layer MXene nanosheets randomly blended in the film",
+        "composition": {
+          "amount": 21.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

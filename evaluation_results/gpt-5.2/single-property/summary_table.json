@@ -1,0 +1,99 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 1,
+  "model": "gpt-5.2",
+  "study": "gpt-5.2/single-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 43,
+    "empty": 16
+  },
+  "later_saved_prediction_articles": [],
+  "avg_similarity": 0.5646194480660582,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.4506,
+      "recall": 0.3763,
+      "f1": 0.4101
+    },
+    "relaxed": {
+      "precision": 0.5617,
+      "recall": 0.4691,
+      "f1": 0.5112
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.5027,
+      "recall": 0.3755,
+      "f1": 0.4299,
+      "tp": 92,
+      "fp": 91,
+      "fn": 153
+    },
+    "strict": {
+      "precision": 0.4317,
+      "recall": 0.3224,
+      "f1": 0.3692,
+      "tp": 79,
+      "fp": 104,
+      "fn": 166
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.5027,
+        "recall": 0.3755,
+        "f1": 0.4299,
+        "tp": 92,
+        "fp": 91,
+        "fn": 153
+      },
+      "strict": {
+        "precision": 0.4317,
+        "recall": 0.3224,
+        "f1": 0.3692,
+        "tp": 79,
+        "fp": 104,
+        "fn": 166
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 73,
+      "fp_s": 89,
+      "fn_s": 121,
+      "tp_r": 91,
+      "fp_r": 71,
+      "fn_r": 103
+    },
+    "prop": {
+      "tp": 92,
+      "fp": 91,
+      "fn": 153,
+      "tp_s": 79,
+      "fp_s": 104,
+      "fn_s": 166,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 92,
+          "fp": 91,
+          "fn": 153,
+          "tp_s": 79,
+          "fp_s": 104,
+          "fn_s": 166
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

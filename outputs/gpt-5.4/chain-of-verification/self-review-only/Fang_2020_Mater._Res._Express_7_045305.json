@@ -1,0 +1,128 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2407 polycarbonate used as thermoplastic matrix",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber in unidirectional laminate",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": -11.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post-treatment",
+            "value": "after sand erosion for 2 min relative to un-eroded sample",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment",
+            "value": "before sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2407 polycarbonate used as thermoplastic matrix",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber in unidirectional laminate",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": -11.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post-treatment",
+            "value": "after sand erosion for 2 min relative to un-eroded sample",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

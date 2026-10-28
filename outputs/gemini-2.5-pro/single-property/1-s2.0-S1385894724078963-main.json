@@ -1,0 +1,91 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with an average particle diameter distribution (Dv50) of 10 µm. Sample is designated as '2 MPEI@Ag'.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Core-shell structure (PEI@Ag) where a dense silver shell is grown onto the PEI core powders via electroless silver plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with an average particle diameter distribution (Dv50) of 10 µm. This is the sample with the highest filler loading, designated '4 MPEI@Ag' in figures.",
+        "composition": {
+          "amount": 81.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Core-shell structure (PEI@Ag) where a dense silver shell is grown onto the PEI core powders via electroless silver plating.",
+        "composition": {
+          "amount": 18.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.41,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

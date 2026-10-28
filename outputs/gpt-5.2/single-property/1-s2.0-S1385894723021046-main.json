@@ -1,0 +1,305 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited on EVA foam by vapor phase polymerization (VPP); sample label EI2P1 (polymerization time 1 h).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.78,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited on EVA foam by VPP; sample label EI2P1 (polymerization time 1 h).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating using silver-ammonia solution; sample label EI2P1A20 (AgNO3 concentration 20 mg/mL). Reported Ag loading for A20 condition: 51.95 wt% (method: mass method; from Fig. S3).",
+        "composition": {
+          "amount": 51.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 107.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited on EVA foam by VPP; sample label EI2P1 (polymerization time 1 h).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating using silver-ammonia solution; sample label EI2P1A10 (AgNO3 concentration 10 mg/mL). Reported Ag loading for A10 condition: 32.54 wt% (method: mass method; from Fig. S3).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 61.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 0.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited on EVA foam by VPP; sample label EI2P1 (polymerization time 1 h).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating using silver-ammonia solution; sample label EI2P1A10 (AgNO3 concentration 10 mg/mL). Reported Ag loading for A10 condition: 32.54 wt% (method: mass method; from Fig. S3).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 38.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 30.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited on EVA foam by VPP; sample label EI2P1 (polymerization time 1 h).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating using silver-ammonia solution; sample label EI2P1A10 (AgNO3 concentration 10 mg/mL). Reported Ag loading for A10 condition: 32.54 wt% (method: mass method; from Fig. S3).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 50.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework prepared by sacrificial NaCl template method; sample label EI2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles deposited by electroless Ag plating directly on EVA foam without PPy interlayer; sample label EI2A20. (AgNO3 concentration 20 mg/mL).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 38.73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

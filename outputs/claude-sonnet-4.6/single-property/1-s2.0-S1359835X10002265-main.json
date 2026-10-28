@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass temperature 87°C",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "foliated graphite nanosheets, thickness 30-50 nm, average thickness ~40 nm, mean diameter ~20 mm, prepared by exfoliation and sonication of natural flake graphite; mixed with copper nanoparticles at 90/10 wt% ratio",
+        "composition": {
+          "amount": 7.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "copper",
+        "description": "copper nanoparticles, average particle size 20 nm, prepared by ball milling at 400 rpm for 10 h under argon atmosphere; mixed with graphite nanosheets at 90/10 wt% ratio",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass temperature 87°C",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "foliated graphite nanosheets, thickness 30-50 nm, average thickness ~40 nm, mean diameter ~20 mm, prepared by exfoliation and sonication of natural flake graphite; mixed with copper nanoparticles at 90/10 wt% ratio",
+        "composition": {
+          "amount": 10.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "copper",
+        "description": "copper nanoparticles, average particle size 20 nm, prepared by ball milling at 400 rpm for 10 h under argon atmosphere; mixed with graphite nanosheets at 90/10 wt% ratio",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass temperature 87°C",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "foliated graphite nanosheets, thickness 30-50 nm, average thickness ~40 nm, mean diameter ~20 mm, prepared by exfoliation and sonication of natural flake graphite; mixed with copper nanoparticles at 90/10 wt% ratio",
+        "composition": {
+          "amount": 14.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "copper",
+        "description": "copper nanoparticles, average particle size 20 nm, prepared by ball milling at 400 rpm for 10 h under argon atmosphere; mixed with graphite nanosheets at 90/10 wt% ratio",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass temperature 87°C",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "foliated graphite nanosheets, thickness 30-50 nm, average thickness ~40 nm, mean diameter ~20 mm, prepared by exfoliation and sonication of natural flake graphite; mixed with copper nanoparticles at 90/10 wt% ratio",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "copper",
+        "description": "copper nanoparticles, average particle size 20 nm, prepared by ball milling at 400 rpm for 10 h under argon atmosphere; mixed with graphite nanosheets at 90/10 wt% ratio",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 70.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

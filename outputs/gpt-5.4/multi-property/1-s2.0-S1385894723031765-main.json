@@ -1,0 +1,393 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "Neat PA-6 film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.23,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 composite film",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Few-layer graphene",
+        "description": "FLG, about 10 layers",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.00033,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 0.00033,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 3.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 0.33,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.36,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 composite film",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Few-layer graphene",
+        "description": "FLG, about 10 layers",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": "not specified",
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": "not specified",
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 composite film",
+        "composition": {
+          "amount": 98.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Few-layer graphene",
+        "description": "FLG, about 10 layers",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_as",
+            "value": "exceeded commercial figure of merit",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 composite film",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Few-layer graphene",
+        "description": "FLG, about 10 layers",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 composite film and filament",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Few-layer graphene",
+        "description": "FLG, about 10 layers; composite prepared by mechanochemistry with scCO2",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 4.59,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 29.59,
+        "unit": "S m^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 41.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 1.78,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 2.14,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  }
+]

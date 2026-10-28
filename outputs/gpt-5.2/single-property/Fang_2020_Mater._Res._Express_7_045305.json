@@ -1,0 +1,106 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate (Makrolon 2407, Covestro). Used as matrix in unidirectional tape laminate made by liquid PC infiltration and thermo-compression.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber (density reported as 1.5 g/cm^3). Unidirectional continuous fiber laminate; total CF fraction in laminate 60 wt%.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "before sand erosion (un-eroded)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate (Makrolon 2407, Covestro). Same CF/PC laminate after sand erosion; paper notes thickness decreased after erosion but does not quantify final thickness.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber; unidirectional continuous fiber laminate; total CF fraction in laminate 60 wt%.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

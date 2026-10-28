@@ -1,0 +1,235 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite-copper nanoparticles",
+        "description": "Conducting filler mixture of graphite nanosheets and copper nanoparticles in 90/10 wt.% ratio; sample abbreviated as GCu8",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite-copper nanoparticles",
+        "description": "Conducting filler mixture of graphite nanosheets and copper nanoparticles in 90/10 wt.% ratio; sample abbreviated as GCu12",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite-copper nanoparticles",
+        "description": "Conducting filler mixture of graphite nanosheets and copper nanoparticles in 90/10 wt.% ratio; sample abbreviated as GCu16",
+        "composition": {
+          "amount": 16.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite-copper nanoparticles",
+        "description": "Conducting filler mixture of graphite nanosheets and copper nanoparticles in 90/10 wt.% ratio; sample abbreviated as GCu20",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 52.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 70.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

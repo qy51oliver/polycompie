@@ -1,0 +1,471 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in PDMS/LM film (PLMF).",
+        "composition": {
+          "amount": 87.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan; 68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Sample named PLMF/20-3PI; initial LM 20 vol%, reduced to ~13 vol% after rolling with 3 PI layers due to LM spillage.",
+        "composition": {
+          "amount": 13.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in PDMS/LM film (PLMF).",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan; 68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Sample named PLMF/30-3PI; initial LM ~30 vol%, reduced to ~19 vol% after rolling with 3 PI layers due to LM spillage.",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in PDMS/LM film (PLMF).",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan; 68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Sample named PLMF/40-1PI; initial LM 40 vol%, reduced to ~39 vol% after rolling with 1 PI layer due to LM spillage.",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "1-layer PI during rolling (1PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in PDMS/LM film (PLMF).",
+        "composition": {
+          "amount": 62.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan; 68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Sample named PLMF/40-2PI; initial LM 40 vol%, reduced to ~38 vol% after rolling with 2 PI layers due to LM spillage.",
+        "composition": {
+          "amount": 38.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "2-layer PI during rolling (2PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in PDMS/LM film (PLMF).",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan; 68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Sample named PLMF/40-3PI; initial LM 40 vol%, reduced to ~24 vol% after rolling with 3 PI layers due to LM spillage.",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 25,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 44.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "rolling_condition",
+            "value": "3-layer PI during rolling (3PI)",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 75,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in designed PDMS/LM film with locally activated parallel conductive slits (PLMF/40 slit).",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan). Designed sample: PLMF/40 slit with slit spacing ~3 mm; EMI SE reported as direction-dependent (parallel vs vertical to electric field). LM volume fraction in slit sample not explicitly stated for this specific design state.",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (Sylgard 184) elastomer matrix in designed PDMS/LM film with locally activated parallel conductive slits (PLMF/40 slit).",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal GaInSn (Galinstan). Designed sample: PLMF/40 slit with slit spacing ~1 mm; EMI SE reported as direction-dependent (parallel vs vertical to electric field). LM volume fraction in slit sample not explicitly stated for this specific design state.",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1,
+            "unit": "mm"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

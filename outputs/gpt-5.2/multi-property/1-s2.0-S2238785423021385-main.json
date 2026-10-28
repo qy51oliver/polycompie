@@ -1,0 +1,200 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Commercial-grade PEBA (Pebax 4533 SP 01, Arkema); thermoplastic elastomer with polyamide hard segments and poly(tetramethylene oxide) soft segments.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Toray T300 carbon fiber; average diameter ~7 µm; density 1.76 g/cm^3.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "MOFIM (mold-opening foam injection molding) foam",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_specific": {
+        "value": 35.0,
+        "unit": "dB·cm3/g",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "MOFIM (mold-opening foam injection molding) foam",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Commercial-grade PEBA (Pebax 4533 SP 01, Arkema); thermoplastic elastomer with polyamide hard segments and poly(tetramethylene oxide) soft segments.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Toray T300 carbon fiber; average diameter ~7 µm; density 1.76 g/cm^3.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "solid (unfoamed) composite",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_specific": {
+        "value": 20.0,
+        "unit": "dB·cm3/g",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "solid (unfoamed) composite",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Commercial-grade PEBA (Pebax 4533 SP 01, Arkema); thermoplastic elastomer with polyamide hard segments and poly(tetramethylene oxide) soft segments.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Toray T300 carbon fiber; average diameter ~7 µm; density 1.76 g/cm^3.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_specific": {
+        "value": 30.0,
+        "unit": "dB·cm3/g",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "process",
+            "value": "RFIM (regular foam injection molding) foam",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

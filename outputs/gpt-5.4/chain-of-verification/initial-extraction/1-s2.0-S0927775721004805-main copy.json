@@ -1,0 +1,326 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "Pure PANI",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 100.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 1000000.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI/CuO composite labeled PC1",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper oxide",
+        "description": "CuO nanoparticles in PANI composite labeled PC1",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 100.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 1000000.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI/CuO composite labeled PC2",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper oxide",
+        "description": "CuO nanoparticles in PANI composite labeled PC2",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 100.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 1000000.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI/CuO composite labeled PC3",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper oxide",
+        "description": "CuO nanoparticles in PANI composite labeled PC3; exact wt% not explicitly stated in the provided text",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 100.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 1000000.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI/CuO composite labeled PC4",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper oxide",
+        "description": "CuO nanoparticles in PANI composite labeled PC4; exact wt% not explicitly stated in the provided text",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 100.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 1000000.0,
+            "unit": "Hz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

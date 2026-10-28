@@ -1,0 +1,143 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "High-temperature vulcanizing (HTV) silicone rubber matrix; peroxide crosslinking agent was also used, but its amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "Nickel-coated graphite (Ni-G) powder containing 75 wt% nickel.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">55",
+        "unit": "dB.m",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 1.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 2.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "High-temperature vulcanizing (HTV) silicone rubber matrix; peroxide crosslinking agent was also used, but its amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "Nickel-coated graphite (Ni-G) powder containing 75 wt% nickel.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">55",
+        "unit": "dB.m",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 1.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 2.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "silicone rubber",
+        "description": "High-temperature vulcanizing (HTV) silicone rubber matrix; peroxide crosslinking agent was also used, but its amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "Nickel-coated graphite (Ni-G) powder containing 75 wt% nickel.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">60.8",
+        "unit": "dBm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 1200,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 2600,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,589 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Silicone rubber (SR), grade 110-2, 0.17 wt% vinyl",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.14,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 0.43,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_rate",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 216.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_rate",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Homogeneous silicone rubber (SR) composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; homogeneous SR/Gt/CNTs composite",
+        "composition": {
+          "amount": 54.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; homogeneous SR/Gt/CNTs composite",
+        "composition": {
+          "amount": 0.45,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Homogeneous randomly mixed silicone rubber (SR) composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN (CG20), 20–25 μm; randomly mixed in SR",
+        "composition": {
+          "amount": 27.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; randomly mixed in SR",
+        "composition": {
+          "amount": 27.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; randomly mixed in SR",
+        "composition": {
+          "amount": 0.23,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 6.4,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.75,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.13,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 1.61,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_rate",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 65.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_rate",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Co-extruded 4-layer alternating multilayered silicone rubber (SR) composite; layer thickness ratio (Gt-CNTs:h-BN) = 1:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN (CG20), 20–25 μm; located in insulating layers",
+        "composition": {
+          "amount": 27.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; located in conductive layers",
+        "composition": {
+          "amount": 27.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; located in conductive layers",
+        "composition": {
+          "amount": 0.23,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 7.49,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.79,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4.86,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 1.79,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_rate",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Co-extruded 4-layer alternating multilayered silicone rubber (SR) composite; layer thickness ratio (Gt-CNTs:h-BN) = 2:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN (CG20), 20–25 μm; insulating layers were based on a formulation containing 54.5 wt% h-BN, but the overall sample h-BN amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; conductive layers were based on a formulation containing 54.3 wt% graphite, but the overall sample graphite amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; conductive layers were based on a formulation containing 0.45 wt% CNTs, but the overall sample CNT amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.3,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "Gt-CNTs layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Co-extruded 4-layer alternating multilayered silicone rubber (SR) composite; layer thickness ratio (Gt-CNTs:h-BN) = 4:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN (CG20), 20–25 μm; insulating layers were based on a formulation containing 54.5 wt% h-BN, but the overall sample h-BN amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; conductive layers were based on a formulation containing 54.3 wt% graphite, but the overall sample graphite amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; conductive layers were based on a formulation containing 0.45 wt% CNTs, but the overall sample CNT amount was not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 8.71,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.87,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 43.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "Gt-CNTs layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "methylvinyl silicone rubber",
+        "description": "Silicone rubber composite produced by stacking, hot-pressing, and cutting 4-layer sheets with layer thickness ratio 4:1; vertically aligned and alternately distributed Gt-CNTs and h-BN networks (V-4:1/SR)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN (CG20), 20–25 μm; vertically aligned alternating insulating domains derived from SR/h-BN layers; overall amount not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Gt, 10–15 μm; vertically aligned alternating conductive domains derived from SR-Gt-CNTs layers; overall amount not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (NC 7000), diameter 9.5 nm, length 1.5 μm; vertically aligned alternating conductive domains derived from SR-Gt-CNTs layers; overall amount not explicitly reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.2,
+        "unit": "dB",
+        "conditions": []
+      },
+      "thermal_conductivity_1": {
+        "value": 8.47,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 3.98,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ether ether ketone)",
+        "description": "PEEK film matrix",
+        "composition": {
+          "amount": 43.4,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Toray T700, 12K, unsized carbon fiber reinforcement",
+        "composition": {
+          "amount": 56.6,
+          "type": "vol%"
+        },
+        "surface_treatment": "original sizing removed by heat treatment under nitrogen"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.31,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.53,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ether ether ketone)",
+        "description": "PEEK film matrix",
+        "composition": {
+          "amount": 43.4,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Toray T700, 12K carbon fiber backbone of the ZnMn2O4 nanospheres/carbon fiber network",
+        "composition": {
+          "amount": 56.6,
+          "type": "vol%"
+        },
+        "surface_treatment": "original sizing removed, then H2O2-activated"
+      },
+      {
+        "name": "zinc manganese oxide (ZnMn2O4)",
+        "description": "Pomegranate-like ZnMn2O4 nanospheres grown on carbon fiber surface; sample designation UCF-Z125",
+        "composition": {
+          "amount": 22.22,
+          "type": "not specified"
+        },
+        "surface_treatment": "in situ hydrothermal growth on carbon fiber surface"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.96,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.78,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 633.72,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

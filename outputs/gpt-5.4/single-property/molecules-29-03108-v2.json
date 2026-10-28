@@ -1,0 +1,76 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Thermoplastic polyurethane",
+        "description": "TPU matrix in hierarchical composite with rGO film",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP microencapsulated with polyethyleneimine and assembled with Ti3C2Tx nanosheets; APP@PEI@Ti3C2Tx with APP@PEI:Ti3C2Tx mass ratio 20:1",
+        "composition": {
+          "amount": 11.4286,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Polyethyleneimine",
+        "description": "PEI encapsulation layer on APP within APP@PEI@Ti3C2Tx hybrid flame retardant; exact amount within hybrid not separately specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Titanium carbide",
+        "description": "Ti3C2Tx nanosheets in APP@PEI@Ti3C2Tx hybrid flame retardant; APP@PEI:Ti3C2Tx mass ratio 20:1",
+        "composition": {
+          "amount": 0.5714,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGO film interlayer in hierarchical multilayer composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

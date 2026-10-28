@@ -1,0 +1,565 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "phenolic resin",
+        "description": "Phenolic resin matrix in the commercial control composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Commercial carbon fiber felt reinforcement in control composites",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 3,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 39.81,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "phenolic resin",
+        "description": "Alcohol-soluble phenolic resin matrix in reconstructed recycled composite",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Recycled carbon fiber felt (rCFFs) reinforcement in rCFFs-P composite",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polydopamine-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.56,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 7,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 38.63,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "incombustible",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "horizontal flammability test",
+            "unit": "not specified"
+          },
+          {
+            "type": "burn_duration",
+            "value": 30,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Commercial/original carbon fiber felt reference material; not a polymer-matrix composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Recycled carbon fiber felt after first-step high-temperature carbonization (rCFFs-C); surface covered by graphitized carbon residues from phenolic resin/polydopamine pyrolysis",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "carbonized"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.72,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Monolayer recycled carbon fiber felt after oxidation treatment (rCFFs-O); felt-only EMI shielding material",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "oxidized after carbonization to remove carbon residues"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "layer"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 36.95,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.04,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Four-layer recycled carbon fiber felt after oxidation treatment (4-layer rCFFs-O); felt-only EMI shielding material",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "oxidized after carbonization to remove carbon residues"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "layer"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 70.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Second-cycle recycled carbon fiber felt produced under the original higher-temperature multi-pyrolysis conditions; felt-only sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "repeated carbonization at 900 °C and oxidation at 450 °C"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.33,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "First-cycle recycled carbon fiber felt carbonized under optimized conditions at 550 °C (rCFFs-C1); felt-only sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "carbonized at 550 °C under nitrogen"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.71,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "First-cycle recycled carbon fiber felt under optimized two-step pyrolysis conditions (rCFFs-O1); felt-only sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "carbonized at 550 °C and oxidized at 400 °C"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 38.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 36.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "minimum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Third-cycle recycled carbon fiber felt under optimized two-step pyrolysis conditions (rCFFs-O3); felt-only sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "optimized repeated carbonization/oxidation recycling for 3 cycles"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Tenth-cycle recycled carbon fiber felt under optimized two-step pyrolysis conditions (rCFFs-O10); felt-only sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "optimized repeated carbonization/oxidation recycling for 10 cycles"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

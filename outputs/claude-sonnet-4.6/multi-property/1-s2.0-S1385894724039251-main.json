@@ -1,0 +1,582 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, used as matrix for random composite with EG filler",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "two-dimensional carbon filler, particle size under 10 um, random structure in PLA matrix",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.3,
+        "unit": "Ω·cm",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "volume resistivity",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, used as matrix for random composite with hybrid EG/CNTs filler",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "two-dimensional carbon filler, particle size under 10 um, hybrid filler with CNTs at 1:1 mass ratio, random structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, hybrid filler with EG at 1:1 mass ratio, random structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, used as matrix for random composite with CNTs filler; melt blended at 180°C, 60 rpm, 5 min",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, random structure in PLA matrix, 10 wt% loading",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase in segregated composite",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated structure",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "two-dimensional carbon filler, particle size under 10 um, segregated structure within PLA particles",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase in segregated composite",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated structure",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "two-dimensional carbon filler, particle size under 10 um, hybrid filler with CNTs at 1:1 mass ratio, segregated structure within PLA particles",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, hybrid filler with EG at 1:1 mass ratio, segregated structure within PLA particles",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase in segregated composite; secondary melt blending at 130°C, 20 rpm, 5 min",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated structure",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, 10 wt% in PLA particles, segregated structure; overall 8 wt% CNTs in composite",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "Ω·cm",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "volume resistivity, insulating range >10^9 Ω·cm achieved",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase; foamed at 110°C via Sc-CO2, PBAT phase foamed while PLA/CNTs phase remains solid",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated honeycomb-like structure; unfoamed at 110°C",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, 8 wt% overall in composite, segregated within PLA particles; composite foam f-P@T10-110",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 110,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 10000000000.0,
+        "unit": "Ω·cm",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "volume resistivity, exceeding 10^10 Ω·cm",
+            "unit": "not specified"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 110,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase; foamed at 130°C via Sc-CO2, both PBAT and PLA/CNTs phases exhibit foamability",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated honeycomb-like structure; both phases foamed at 130°C",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, 8 wt% overall in composite, segregated within PLA particles; composite foam f-P@T10-130",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 130,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 10000000000.0,
+        "unit": "Ω·cm",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "volume resistivity, exceeding 10^10 Ω·cm",
+            "unit": "not specified"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 130,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polybutylene adipate terephthalate",
+        "description": "low-melting-point biopolymer, PBAT TH801T, continuous insulating matrix phase; foamed at 150°C via Sc-CO2, PLA/CNTs phase foams while PBAT phase loses foamability",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polylactic acid",
+        "description": "high-melting-point biopolymer, PLA 4032D, forms conductive particles encapsulated by PBAT in segregated honeycomb-like structure; PLA/CNTs phase foamed at 150°C",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "one-dimensional carbon filler, NC-7000, 8 wt% overall in composite, segregated within PLA particles; composite foam f-P@T10-150, density 0.69 g/cm3",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency range lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency range upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 150,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 3980000000.0,
+        "unit": "Ω·cm",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "volume resistivity",
+            "unit": "not specified"
+          },
+          {
+            "type": "foaming temperature",
+            "value": 150,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

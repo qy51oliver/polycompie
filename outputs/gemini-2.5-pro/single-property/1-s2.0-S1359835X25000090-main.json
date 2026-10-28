@@ -1,0 +1,953 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 2.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 2.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 2.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 3.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 17.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 23.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 4.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 4.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 5.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 5.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 8.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 9.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 10.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 11.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 15.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 17.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 23.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 31.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 38.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 41.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Industrial grade multi-walled CNT particles (NC 7000 Nanocyl, Belgium). Non-functionalized, thin-walled CNTs produced via catalytical chemical vapor deposition with an average length of 1.5 µm and diameter of 9.5 nm.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 49.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 51.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Bilayer (N=2) stack of a 2 mm thick 1 wt% PMMA-CNT layer and a 2 mm thick 7 wt% PMMA-CNT layer. Overall average filler concentration is 4 wt%.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 41.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 43.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Four-layer (N=4) stack of alternating 1 mm thick 1 wt% and 7 wt% PMMA-CNT layers. Overall average filler concentration is 4 wt%.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 43.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 44.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Pelletized PMMA (Altuglas V82ST, Arkema, France).",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Eight-layer (N=8) stack of alternating 0.5 mm thick 1 wt% and 7 wt% PMMA-CNT layers. Overall average filler concentration is 4 wt%.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 47.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 48.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 49.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

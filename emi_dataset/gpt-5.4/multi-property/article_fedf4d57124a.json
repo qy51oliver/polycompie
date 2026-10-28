@@ -1,0 +1,403 @@
+[
+  {
+    "sample_id": 0,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Neat ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat ABS control sample (ABS0).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-12,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -1.26,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwall carbon nanotubes",
+        "description": "In-house synthesized MWCNTs prepared by catalytic chemical vapour deposition; long-length nanotubes.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 4,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase over pure ABS",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwall carbon nanotubes",
+        "description": "In-house synthesized MWCNTs prepared by catalytic chemical vapour deposition; long-length nanotubes.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 69.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 23,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase over pure ABS",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwall carbon nanotubes",
+        "description": "In-house synthesized MWCNTs prepared by catalytic chemical vapour deposition; long-length nanotubes.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 68.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwall carbon nanotubes",
+        "description": "In-house synthesized MWCNTs prepared by catalytic chemical vapour deposition; long-length nanotubes.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 67.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS copolymer matrix; molecular formula (C8H8:C4H6:C3H3N)n.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwall carbon nanotubes",
+        "description": "In-house synthesized MWCNTs prepared by catalytic chemical vapour deposition; long-length nanotubes.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 57.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 39,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase over pure ABS",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-05,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

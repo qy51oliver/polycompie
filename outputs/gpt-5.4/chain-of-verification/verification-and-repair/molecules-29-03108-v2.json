@@ -1,0 +1,427 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "pure TPU",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 21.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 65,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 872.3,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 30.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 38,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 148.4,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP microencapsulated with polyethyleneimine (APP@PEI)",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 30.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 28,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 142.7,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP microencapsulated with polyethyleneimine and assembled with titanium carbide MXene; APP@PEI@Ti3C2Tx with APP@PEI:Ti3C2Tx mass ratio 20:1",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in APP@PEI@Ti3C2Tx hybrid; computed from 20:1 APP@PEI:Ti3C2Tx within total hybrid loading 13.6 wt%",
+        "composition": {
+          "amount": 0.6476,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 25.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL-94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 31,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 174.4,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP microencapsulated with polyethyleneimine and assembled with titanium carbide MXene; APP@PEI@Ti3C2Tx with APP@PEI:Ti3C2Tx mass ratio 10:1",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in APP@PEI@Ti3C2Tx hybrid; computed from 10:1 APP@PEI:Ti3C2Tx within total hybrid loading 13.6 wt%",
+        "composition": {
+          "amount": 1.2364,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL-94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 22,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 138.9,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP microencapsulated with polyethyleneimine and assembled with titanium carbide MXene; APP@PEI@Ti3C2Tx with APP@PEI:Ti3C2Tx mass ratio 5:1",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in APP@PEI@Ti3C2Tx hybrid; computed from 5:1 APP@PEI:Ti3C2Tx within total hybrid loading 13.6 wt%",
+        "composition": {
+          "amount": 2.2667,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film in hierarchical multilayer TPU/5APP@PEI@ITC/rGO composite; amount not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 23,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 179.1,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 15.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

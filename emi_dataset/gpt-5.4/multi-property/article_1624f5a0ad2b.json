@@ -1,0 +1,257 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "bacterial cellulose",
+        "description": "BC matrix in the Ti3C2Tx/BC-2 composite film prepared by in situ biosynthesis",
+        "composition": {
+          "amount": 74.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Ti3C2Tx nanosheets uniformly dispersed in the BC network; sample label Ti3C2Tx/BC-2",
+        "composition": {
+          "amount": 25.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "297.5 ± 37.3",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 0.1,
+            "unit": "mm s^-1"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 10,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 0.1,
+            "unit": "mm s^-1"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "bacterial cellulose",
+        "description": "BC matrix in the Ti3C2Tx/BC-3 composite film prepared by in situ biosynthesis",
+        "composition": {
+          "amount": 55.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Ti3C2Tx nanosheets uniformly dispersed in the BC network; sample label Ti3C2Tx/BC-3",
+        "composition": {
+          "amount": 44.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">20",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "bacterial cellulose",
+        "description": "BC matrix in the ultrathin Ti3C2Tx/BC-5 composite film prepared by in situ biosynthesis",
+        "composition": {
+          "amount": 23.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Ti3C2Tx nanosheets uniformly dispersed in the BC network; sample label Ti3C2Tx/BC-5",
+        "composition": {
+          "amount": 76.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 15625,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 37.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "bacterial cellulose",
+        "description": "BC substrate in the simply mixed Ti3C2Tx/BC-M composite film",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Ti3C2Tx added by simple mixing rather than in situ biosynthesis; approximate loading ~25 wt%; sample label Ti3C2Tx/BC-M",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 228,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 0.1,
+            "unit": "mm s^-1"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 8,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 0.1,
+            "unit": "mm s^-1"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,363 @@
+[
+     {
+        "sample_id": "S(4:6)-8B6C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 54, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 32, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e13", "unit": "Ω⋅cm"},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+	}
+    },
+     {
+        "sample_id": "S(4:6)-16B6C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 54, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 24, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 16, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e13", "unit": "Ω⋅cm"},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "S(5:5)-10B5C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e13", "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 41.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "thermal_conductivity": {"value": 1.37, "unit": "W*m^-1*K^-1"}
+	}
+    },
+     {
+        "sample_id": "S(5:5)-20B5C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e13", "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 36.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "thermal_conductivity": {"value": 1.37, "unit": "W*m^-1*K^-1"}
+	}
+    },
+     {
+        "sample_id": "S(6:4)-12B4C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 36, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 48, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e13", "unit": "Ω⋅cm"},
+            "tensile_strength": {"value": 54.2, "unit": "MPa"},
+            "Youngs_modulus": {"value": 1112.9, "unit": "MPa"},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "S(6:4)-24B4C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "brick phase",
+                "composition": {"amount": 36, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "mud phase",
+                "composition": {"amount": 26, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "brick phase",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "mud phase",
+                "composition": {"amount": 24, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "bulk_resistivity": {"value": ">1e15", "unit": "Ω⋅cm"},
+            "impact_strength": {"value": 7.1, "unit": "Kj/m^2"},
+            "reflection_coefficient": {"value": ">0.5", "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "S(5:5)-10B5C-C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "simple segregated brick phase",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "simple segregated mud phase",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "simple segregated brick phase",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "simple segregated mud phase",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 11.39, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "S(5:5)-20B5C-C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "simple segregated brick phase",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "simple segregated mud phase",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "simple segregated brick phase",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "simple segregated mud phase",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 16.25, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "R(5:5)-10B5C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "random dispersed",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "random dispersed",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "random dispersed",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "random dispersed",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "R(5:5)-20B5C",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "random dispersed",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polybutylene succinate",
+                "description": "random dispersed",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-wall carbon nanotubes",
+                "description": "random dispersed",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "boron nitride",
+                "description": "random dispersed",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+	}
+    }
+]

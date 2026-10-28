@@ -1,0 +1,370 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn ~21000, Mw = 48000, melting point is about 285 °C) with an average diameter of 200 µm. A semi-crystalline high-performance thermoplastic engineering polymer.",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.23,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 34.07,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "stretching_rate",
+            "value": 1.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801-96",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn ~21000, Mw = 48000, melting point is about 285 °C) with an average diameter of 200 µm. A semi-crystalline high-performance thermoplastic engineering polymer.",
+        "composition": {
+          "amount": 99.78,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals coated on PPS granules via electroless deposition. An in-situ silver-sulfur (Ag-S) coordination reaction occurs at the interface during hot-pressing, enhancing interfacial bonding.",
+        "composition": {
+          "amount": 0.22,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5763.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.43,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 2863-97",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801-96",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn ~21000, Mw = 48000, melting point is about 285 °C) with an average diameter of 200 µm. A semi-crystalline high-performance thermoplastic engineering polymer.",
+        "composition": {
+          "amount": 99.53,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals coated on PPS granules via electroless deposition. An in-situ silver-sulfur (Ag-S) coordination reaction occurs at the interface during hot-pressing, enhancing interfacial bonding. The Ag conductive network is interrupted by adjacent insulating PPS resin at this loading.",
+        "composition": {
+          "amount": 0.47,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 2863-97",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801-96",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn ~21000, Mw = 48000, melting point is about 285 °C) with an average diameter of 200 µm. A semi-crystalline high-performance thermoplastic engineering polymer.",
+        "composition": {
+          "amount": 99.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals coated on PPS granules via electroless deposition. An in-situ silver-sulfur (Ag-S) coordination reaction occurs at the interface during hot-pressing, enhancing interfacial bonding.",
+        "composition": {
+          "amount": 0.89,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 59.62,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "stretching_rate",
+            "value": 1.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 2863-97",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801-96",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Poly(phenylene sulfide)",
+        "description": "PPS granules (Mn ~21000, Mw = 48000, melting point is about 285 °C) with an average diameter of 200 µm. A semi-crystalline high-performance thermoplastic engineering polymer.",
+        "composition": {
+          "amount": 98.52,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag nanocrystals coated on PPS granules via electroless deposition. An in-situ silver-sulfur (Ag-S) coordination reaction occurs at the interface during hot-pressing, enhancing interfacial bonding. The Ag coating is almost free from any defects at this loading.",
+        "composition": {
+          "amount": 1.48,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 88000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_after_burning": {
+        "value": 73.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "ignited on an alcohol lamp flame for 10 s in air",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_after_solvent_immersion": {
+        "value": 87.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "immersed in different solvents (including acid, alkali and various organic solvents) for 10 h",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.15,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 49.01,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "stretching_rate",
+            "value": 1.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 2863-97",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801-96",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

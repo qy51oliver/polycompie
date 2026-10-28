@@ -1,0 +1,288 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI aerogel matrix derived from ODA/PMDA poly(amide acid) salt; MXene-coated PI aerogel",
+        "composition": {
+          "amount": 99.72,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Exfoliated MXene nanosheets vacuum-impregnated into PI aerogel (sample denoted MXene@PI-0.28)",
+        "composition": {
+          "amount": 0.28,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI aerogel matrix derived from ODA/PMDA poly(amide acid) salt; rGO/PI skeleton prepared from a GO:PAAs precursor mass ratio of 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Internal conductive network formed by thermal reduction of GO within the PI skeleton; precursor GO:PAAs mass ratio was 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Exfoliated MXene nanosheets coated onto the rGO/PI aerogel skeleton by vacuum impregnation",
+        "composition": {
+          "amount": 0.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI aerogel matrix derived from ODA/PMDA poly(amide acid) salt; rGO/PI skeleton prepared from a GO:PAAs precursor mass ratio of 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Internal conductive network formed by thermal reduction of GO within the PI skeleton; precursor GO:PAAs mass ratio was 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Exfoliated MXene nanosheets coated onto the rGO/PI aerogel skeleton by vacuum impregnation",
+        "composition": {
+          "amount": 0.67,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 39.35,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 38.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI aerogel matrix derived from ODA/PMDA poly(amide acid) salt; composite prepared by direct blending followed by freeze-drying and heat treatment",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Internal rGO phase formed by thermal reduction of GO; GO, PAAs, and MXene were directly blended before freeze-drying and heat treatment",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Exfoliated MXene nanosheets directly blended with GO and PAAs; distributed inside the aerogel skeleton rather than coated on the surface",
+        "composition": {
+          "amount": 0.67,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.29,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 16.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI aerogel matrix derived from ODA/PMDA poly(amide acid) salt; rGO/PI skeleton prepared from a GO:PAAs precursor mass ratio of 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Internal conductive network formed by thermal reduction of GO within the PI skeleton; precursor GO:PAAs mass ratio was 1:5",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Exfoliated MXene nanosheets coated onto the rGO/PI aerogel skeleton by vacuum impregnation",
+        "composition": {
+          "amount": 1.19,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 112.37,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 58.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

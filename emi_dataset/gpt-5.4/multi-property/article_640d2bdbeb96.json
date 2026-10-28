@@ -1,0 +1,324 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Neat PC control sample.",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.00 ± 0.10",
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.57e-11,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "2.2 ± 0.3",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 99.81,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 0.19,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.79e-07,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 99.62,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 0.38,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00326,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 98.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 1.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.00 ± 0.10",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "19.6 ± 0.9",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 98.06,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 1.94,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.00 ± 0.10",
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 152,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "29.7 ± 0.5",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 97.25,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 2.75,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Positively charged polycarbonate microspheres (p-PC) prepared using CTAB in a latex-based process.",
+        "composition": {
+          "amount": 97.25,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated, negatively charged MXene flakes synthesized by the LiF/HCl MILD method.",
+        "composition": {
+          "amount": 2.75,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.00 ± 0.10",
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 294,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "38.7 ± 1.2",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

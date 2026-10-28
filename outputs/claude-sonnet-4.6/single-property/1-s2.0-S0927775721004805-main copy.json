@@ -1,0 +1,237 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "synthesized by oxidative polymerization method; emeraldine salt form",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "synthesized by oxidative polymerization method; emeraldine salt form",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 with SDS surfactant; average particle size ~18 nm in composite; labeled PC1",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "synthesized by oxidative polymerization method; emeraldine salt form",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 with SDS surfactant; average particle size ~18 nm in composite; labeled PC2",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "synthesized by oxidative polymerization method; emeraldine salt form",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 with SDS surfactant; average particle size ~18 nm in composite; labeled PC3; highest shielding effectiveness of 21.2 dB",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "synthesized by oxidative polymerization method; emeraldine salt form",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 with SDS surfactant; average particle size ~18 nm in composite; labeled PC4; highest shielding effectiveness of 21.2 dB; maximum reflected EM energy in range 43.6-45.6%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,85 @@
+[
+     {
+        "sample_id": "NiPCABS",
+        "matrix_name": [
+        		{
+                "name": "Ni-PCABS",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fibre",
+                "description": "reinforcement filler",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphite flakes",
+                "description": "reinforcement filler",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "volume resistance": {"value": 1.51, "unit": "Ohms","conditions": [{"type": "area", "value": "0.4","unit": "cm^2"},{"type": "length", "value": "7.51","unit": "cm"}]},
+            "volume resistivity": {"value": 0.08, "unit": "Ohm-cm"},
+            "electrical conductivity": {"value": 12.29, "unit": "S/cm"},
+            "surface resistivity 1": {"value": 0.359, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "50.00","unit": "mA"},{"type": "reading", "value": "28.622","unit": "cm"}]},
+            "surface resistivity 2": {"value": 0.360, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "50.00","unit": "mA"},{"type": "reading", "value": "28.663","unit": "mV"}]},
+            "surface resistivity 3": {"value": 0.369, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "50.00","unit": "mA"},{"type": "reading", "value": "29.420","unit": "mV"}]},
+            "tensile strength": {"value": 18, "unit": "MPa"},
+            "tensile modulus": {"value": 29, "unit": "GPa"},
+            "flexural strength": {"value": 88, "unit": "MPa"},
+            "flexural modulus": {"value": 39, "unit": "GPa"},
+            "impact strength": {"value": 3.47, "unit": "kJ/m^2"},
+            "shielding effectiveness 1": {"value": 67, "unit": "dB","conditions": [{"type": "frequency", "value": "2000","unit": "MHz"}]},
+            "shielding effectiveness 2": {"value": 87, "unit": "dB","conditions": [{"type": "frequency", "value": "4000","unit": "MHz"}]}
+        }
+    },
+     {
+        "sample_id": "NiPPS",
+        "matrix_name": [
+        		{
+                "name": "Ni-PPS",
+                "description": "not specified",
+                "composition": {"amount": 45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fibre",
+                "description": "reinforcement filler",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphite flakes",
+                "description": "reinforcement filler",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "volume resistance": {"value": 0.92, "unit": "Ohms","conditions": [{"type": "area", "value": "0.4","unit": "cm^2"},{"type": "length", "value": "7.22","unit": "cm"}]},
+            "volume resistivity": {"value": 0.05, "unit": "Ohm-cm"},
+            "electrical conductivity": {"value": 19.16, "unit": "S/cm"},
+            "surface resistivity 1": {"value": 0.162, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "99.99","unit": "mA"},{"type": "reading", "value": "25.889","unit": "cm"}]},
+            "surface resistivity 2": {"value": 0.162, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "99.99","unit": "mA"},{"type": "reading", "value": "25.873","unit": "mV"}]},
+            "surface resistivity 3": {"value": 0.163, "unit": "Ohm/square","conditions": [{"type": "current range", "value": "99.99","unit": "mA"},{"type": "reading", "value": "26.019","unit": "mV"}]},
+            "tensile strength": {"value": 23, "unit": "MPa"},
+            "tensile modulus": {"value": 21, "unit": "GPa"},
+            "flexural strength": {"value": 46, "unit": "MPa"},
+            "flexural modulus": {"value": 27, "unit": "GPa"},
+            "impact strength": {"value": 3.27, "unit": "kJ/m^2"},
+            "shielding effectiveness 1": {"value": 57, "unit": "dB","conditions": [{"type": "frequency", "value": "2000","unit": "MHz"}]},
+            "shielding effectiveness 2": {"value": 79, "unit": "dB","conditions": [{"type": "frequency", "value": "4000","unit": "MHz"}]}
+        }
+    }
+]
+

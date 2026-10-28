@@ -1,0 +1,291 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicone gel",
+        "description": "Ecoflex 00-30 silicone gel prepared by mixing Part A and Part B at 1:1.",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium-indium-tin alloy",
+        "description": "Randomly dispersed liquid metal filler (Galinstan; Ga68.5In21.5Sn10) in silicone gel.",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.8,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "silicone gel",
+        "description": "Ecoflex 00-30 silicone gel prepared by mixing Part A and Part B at 1:1; used to fix a gauze-templated vertically aligned liquid metal network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium-indium-tin alloy",
+        "description": "Partially oxidized liquid metal (Galinstan; Ga68.5In21.5Sn10) forming a vertically aligned conductive network; LM fraction reported as 50 vol% (85.8 wt%).",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "partially oxidized"
+      },
+      {
+        "name": "gauze",
+        "description": "Gauze template/scaffold retained in the composite to support the vertically aligned liquid metal network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "coated with partially oxidized liquid metal"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 4.6,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 398.65,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 13.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "minimum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 31.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "silicone gel",
+        "description": "Ecoflex 00-30 silicone gel prepared by mixing Part A and Part B at 1:1; composite gel also contained added liquid metal and was used with a gauze-templated vertically aligned network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium-indium-tin alloy",
+        "description": "Liquid metal filler (Galinstan; Ga68.5In21.5Sn10) present as a gauze-templated vertically aligned network plus additional dispersed LM in the silicone gel; LM fraction reported as 54.5 vol% (88 wt%).",
+        "composition": {
+          "amount": 54.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "partially oxidized for the network component; treatment of additional dispersed LM not specified"
+      },
+      {
+        "name": "gauze",
+        "description": "Gauze template/scaffold retained in the composite to support the vertically aligned liquid metal network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "coated with partially oxidized liquid metal"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 6.08,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4385.6,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 33.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "minimum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 39.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "Commercial thermal silicone pad, SF 600G.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "not specified",
+        "description": "Commercial thermal pad filler composition not disclosed in the article.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 3.0,
+        "unit": "W/m·K",
+        "conditions": []
+      }
+    }
+  }
+]

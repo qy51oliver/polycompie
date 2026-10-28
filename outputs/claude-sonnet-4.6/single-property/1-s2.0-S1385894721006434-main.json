@@ -1,0 +1,279 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Semi-crystalline high-performance thermoplastic engineering polymer, PPS granules with average diameter of 200 µm, Mn 21000, Mw 48000, melting point ~285°C",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; pure PPS sample moulded by same thermal compression process",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Semi-crystalline high-performance thermoplastic engineering polymer, PPS granules with average diameter of 200 µm, Mn 21000, Mw 48000, melting point ~285°C",
+        "composition": {
+          "amount": 99.78,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanocrystals deposited on PPS granule surfaces via electroless plating, forming 3D segregated conductive network in composite; face-centred cubic structure confirmed by XRD",
+        "composition": {
+          "amount": 0.22,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 29,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Semi-crystalline high-performance thermoplastic engineering polymer, PPS granules with average diameter of 200 µm, Mn 21000, Mw 48000, melting point ~285°C",
+        "composition": {
+          "amount": 99.53,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanocrystals deposited on PPS granule surfaces via electroless plating, forming 3D segregated conductive network in composite; face-centred cubic structure confirmed by XRD",
+        "composition": {
+          "amount": 0.47,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Semi-crystalline high-performance thermoplastic engineering polymer, PPS granules with average diameter of 200 µm, Mn 21000, Mw 48000, melting point ~285°C",
+        "composition": {
+          "amount": 99.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanocrystals deposited on PPS granule surfaces via electroless plating, forming 3D segregated conductive network in composite; face-centred cubic structure confirmed by XRD",
+        "composition": {
+          "amount": 0.89,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Semi-crystalline high-performance thermoplastic engineering polymer, PPS granules with average diameter of 200 µm, Mn 21000, Mw 48000, melting point ~285°C",
+        "composition": {
+          "amount": 98.52,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanocrystals deposited on PPS granule surfaces via electroless plating, forming perfect continuous 3D segregated conductive network in composite; face-centred cubic structure confirmed by XRD; Ag-S coordination bonds formed during hot-pressing",
+        "composition": {
+          "amount": 1.48,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 73.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment",
+            "value": "after ignition on alcohol lamp flame for 10 s in air",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment",
+            "value": "after immersion in various solvents (acid, alkali, organic solvents) for 10 h",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

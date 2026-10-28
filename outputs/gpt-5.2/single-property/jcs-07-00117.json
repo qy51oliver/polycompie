@@ -1,0 +1,101 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile butadiene styrene",
+        "description": "SD-0150-grade ABS (Samsung India Pvt. Ltd.). Neat ABS film used for EMI shielding comparison.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler (neat ABS).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile butadiene styrene",
+        "description": "SD-0150-grade ABS matrix in ABS+GNP nanocomposite film.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Graphene nanoplatelets (GNPs), S-grade; surface area 80–200 m^2/g, lateral size 1–5 µm, thickness 5–10 nm; chemical exfoliation; purity 99%.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 350.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.74,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 10.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

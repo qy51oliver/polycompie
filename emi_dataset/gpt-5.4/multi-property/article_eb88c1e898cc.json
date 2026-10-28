@@ -1,0 +1,354 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11; first layer, TPU grade 1170A, Shore hardness 70A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11; second layer, TPU grade 1180A, Shore hardness 80A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11; third layer, TPU grade 1190A, Shore hardness 90A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "First layer filler in 1170A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Second layer filler in 1180A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Third layer filler in 1190A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 31.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 3-6-9; first layer, TPU grade 1170A, Shore hardness 70A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 3-6-9; second layer, TPU grade 1180A, Shore hardness 80A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 3-6-9; third layer, TPU grade 1190A, Shore hardness 90A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "First layer filler in 1170A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Second layer filler in 1180A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Third layer filler in 1190A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 6-6-6; first layer, TPU grade 1170A, Shore hardness 70A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 6-6-6; second layer, TPU grade 1180A, Shore hardness 80A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 6-6-6; third layer, TPU grade 1190A, Shore hardness 90A",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "First layer filler in 1170A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Second layer filler in 1180A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Third layer filler in 1190A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 45.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11-120; foamed sample, first layer, TPU grade 1170A, Shore hardness 70A; foamed at 120 °C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11-120; foamed sample, second layer, TPU grade 1180A, Shore hardness 80A; foamed at 120 °C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sample label 1-6-11-120; foamed sample, third layer, TPU grade 1190A, Shore hardness 90A; foamed at 120 °C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "First layer filler in 1170A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Second layer filler in 1180A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Third layer filler in 1190A TPU layer; average length 1.5 μm, average diameter 9.5 nm",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

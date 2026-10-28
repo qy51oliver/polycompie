@@ -1,0 +1,826 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium hexaferrite",
+        "description": "PANI-coated barium hexaferrite (BaFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 10.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 7.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.00072,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "AC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium hexaferrite",
+        "description": "PANI-coated barium hexaferrite (BaFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 12.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 9.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium hexaferrite",
+        "description": "PANI-coated barium hexaferrite (BaFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 14.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 10.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium hexaferrite",
+        "description": "PANI-coated barium hexaferrite (BaFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 11.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "barium hexaferrite",
+        "description": "PANI-coated barium hexaferrite (BaFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium hexaferrite",
+        "description": "PANI-coated strontium hexaferrite (SrFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 9.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 9.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.000483,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "AC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium hexaferrite",
+        "description": "PANI-coated strontium hexaferrite (SrFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 8.15,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium hexaferrite",
+        "description": "PANI-coated strontium hexaferrite (SrFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 12.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 8.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium hexaferrite",
+        "description": "PANI-coated strontium hexaferrite (SrFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 14.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 10.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS polymer matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium hexaferrite",
+        "description": "PANI-coated strontium hexaferrite (SrFe12O19-PANI core-shell filler)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT NC 7000 conductive filler; length 1.5 μm, diameter 9.5 μm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 19.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 14.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mode",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 10.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

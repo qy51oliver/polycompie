@@ -1,0 +1,309 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS matrix",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbon",
+        "description": "BNNR filler without vertical graphene growth",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "almost electrically insulating",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": "almost zero",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 8.19,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 1.9,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS matrix",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbon with vertical graphene",
+        "description": "2VG-BNNR filler, vertical graphene grown for 2 h",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 33.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 6.28,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 35,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS matrix",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbon with vertical graphene",
+        "description": "4VG-BNNR filler, vertical graphene grown for 4 h",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 48.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS matrix",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbon with vertical graphene",
+        "description": "8VG-BNNR filler, vertical graphene grown for 8 h",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 56.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS matrix",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride nanoribbon with vertical graphene",
+        "description": "12VG-BNNR filler, vertical graphene grown for 12 h",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 280,
+        "unit": "S m^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 64.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 14.5,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 17.2,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 200,
+            "unit": "C"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 11.4,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "3D-printed ABS plate manufactured by fused-deposition modeling (FDM)",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 512,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

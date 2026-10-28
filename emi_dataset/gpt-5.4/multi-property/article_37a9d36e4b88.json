@@ -1,0 +1,347 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ground tire rubber",
+        "description": "Neat hot-pressed GTR sheet used as a control.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "3.51 ± 0.05",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "178.42 ± 8.75",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane foam",
+        "description": "Neat waste flame-retardant polyurethane foam (WFPUF) hot-pressed into a sheet and used as a control.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "6.63 ± 0.03",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "114.76 ± 0.78",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ground tire rubber",
+        "description": "GTR matrix in the GTR/CNT comparison composite GC6; prepared without WCC.",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler in GC6; GTR:CNT = 94:6 by weight.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 52,
+        "unit": "S·m−1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 44.4,
+        "unit": "dB",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 19.5,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane foam",
+        "description": "Waste flame-retardant polyurethane foam skeleton in WCC; porous framework coated with CNT/CNF hybrid.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "dip-coated with CNT/CNF hybrid"
+      },
+      {
+        "name": "ground tire rubber",
+        "description": "GTR phase filling the pores of WCC; no CNT added to the GTR phase in WCC2/GC0.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT coated on the WCC skeleton; 2 wt% based on total WCC/GTR/CNT composite weight.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF used in the CNT/CNF hybrid coating to assist CNT dispersion on the WCC skeleton.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.8,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane foam",
+        "description": "Waste flame-retardant polyurethane foam skeleton in WCC; porous framework coated with CNT/CNF hybrid.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "dip-coated with CNT/CNF hybrid"
+      },
+      {
+        "name": "ground tire rubber",
+        "description": "GTR phase filling the pores of WCC and forming a segregated structure with CNT after hot pressing.",
+        "composition": {
+          "amount": 76.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT coated on the WCC skeleton; 2 wt% based on total WCC/GTR/CNT composite weight.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT mixed with the GTR phase to form the segregated conductive network; 4 wt% based on total WCC/GTR/CNT composite weight.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF used in the CNT/CNF hybrid coating to assist CNT dispersion on the WCC skeleton.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 84.0,
+        "unit": "S·m−1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 53.8,
+        "unit": "dB",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 22.8,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane foam",
+        "description": "Waste flame-retardant polyurethane foam skeleton in WCC; porous framework coated with CNT/CNF hybrid.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "dip-coated with CNT/CNF hybrid"
+      },
+      {
+        "name": "ground tire rubber",
+        "description": "GTR phase filling the pores of WCC and forming a segregated structure with CNT after hot pressing.",
+        "composition": {
+          "amount": 76.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT coated on the WCC skeleton; 2 wt% based on total WCC/GTR/CNT composite weight.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT mixed with the GTR phase to form the segregated conductive network; 4 wt% based on total WCC/GTR/CNT composite weight.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF used in the CNT/CNF hybrid coating to assist CNT dispersion on the WCC skeleton.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.9,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.56,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "before ultrasonication",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 26.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after ultrasonication",
+            "unit": "not specified"
+          },
+          {
+            "type": "ultrasonication duration",
+            "value": 1.0,
+            "unit": "h"
+          },
+          {
+            "type": "ultrasonication power",
+            "value": 550,
+            "unit": "W"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Pure TPU matrix, no fillers added",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix used as substrate for rGO film only, no additional fillers blended in",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film prepared by chemical reduction of GO using N2H4·H2O, formed via vacuum filtration; standalone rGO film sample",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix melt-blended without flame retardant additives, combined with rGO film via air-assisted thermocompression to form multilayer hierarchical composite",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film prepared by chemical reduction of GO using N2H4·H2O, formed via vacuum filtration; laminated onto TPU layer via air-assisted thermocompression technology to form multilayer structure",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU matrix melt-blended with APP@PEI@Ti3C2Tx flame retardant (APP:PEI@Ti3C2Tx mass ratio 5:1) at 185°C using twin roller, then hot-pressed at 180°C; combined with rGO film via air-assisted thermocompression to form hierarchical multilayer composite",
+        "composition": {
+          "amount": 86.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate polyethyleneimine titanium carbide hybrid",
+        "description": "APP@PEI@Ti3C2Tx hybrid flame retardant prepared by electrostatic self-assembly; APP encapsulated first with PEI then with Ti3C2Tx nanosheets; APP@PEI to Ti3C2Tx mass ratio of 5:1; total hybrid loading 13.6 wt% in TPU matrix",
+        "composition": {
+          "amount": 13.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film prepared by chemical reduction of GO using N2H4·H2O, formed via vacuum filtration; laminated onto TPU/APP@PEI@Ti3C2Tx layer via air-assisted thermocompression technology to form hierarchical multilayer structure",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 15.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

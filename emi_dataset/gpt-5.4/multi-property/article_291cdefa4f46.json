@@ -1,0 +1,350 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "as-received woven carbon fiber mat",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "11.863 ± 0.098",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 0.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 2.2533e-10,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 203,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 56,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized woven carbon fiber mat coated with polypyrrole (PPy) via electrophoretic deposition",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "11.832 ± 0.113",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "11.76 ± 0.55",
+        "unit": "%",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 3.78e-09,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized woven carbon fiber mat coated with polypyrrole (PPy) via electrophoretic deposition",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "graphene oxide nanosheets",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "13.419 ± 0.089",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "29.39 ± 0.65",
+        "unit": "%",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 5.94e-09,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized woven carbon fiber mat coated with polypyrrole (PPy) via electrophoretic deposition",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "magnetite",
+        "description": "Fe3O4 nanoparticles",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "9.490 ± 0.062",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "20.58 ± 0.81",
+        "unit": "%",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 3.35e-09,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized woven carbon fiber mat coated with polypyrrole (PPy) via electrophoretic deposition",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "graphene oxide nanosheets",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "magnetite",
+        "description": "Fe3O4 nanoparticles",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": "14.713 ± 0.145",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "63 ± 0.57",
+        "unit": "%",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 5.7511e-08,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 308,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 46.72,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.98,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Y128 grade epoxy resin cured with polyamide hardener",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "as-received woven carbon fiber mat",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "graphene oxide nanosheets",
+        "composition": {
+          "amount": 0.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 334.88,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

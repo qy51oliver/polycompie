@@ -1,0 +1,63 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicon boron carbon nitride",
+        "description": "SiBCN ceramic matrix derived from polyborosilazane (PBSZ) precursor and formed by polymer infiltration pyrolysis",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silicon carbide",
+        "description": "2.5D woven SiC fiber reinforcement; preform thickness approximately 3 mm; fiber volume fraction approximately 40%; coated with a 500 nm BN interface by chemical vapor infiltration",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium silicon carbide",
+        "description": "Ti3SiC2 powder, particle size below 74 μm, purity 98%; ball-milled and introduced into the preform by ultrasonic and vacuum infiltration",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 99.88,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "oxidation_temperature",
+            "value": 1400,
+            "unit": "°C"
+          },
+          {
+            "type": "oxidation_time",
+            "value": 25,
+            "unit": "h"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

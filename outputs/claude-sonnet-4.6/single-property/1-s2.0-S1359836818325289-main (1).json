@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA with 30% methyl acrylate content, trade name Elvaloy 1330, DuPont; used in 50/50 wt% blend with EOC",
+        "composition": {
+          "amount": 48.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC bearing 38% octene content, trade name Engage 8207, DuPont; used in 50/50 wt% blend with EMA",
+        "composition": {
+          "amount": 48.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "Diameter 150 nm, length 5 µm, purchased from Novorials USA; selectively localized in EMA phase via solution mixing",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA with 30% methyl acrylate content, trade name Elvaloy 1330, DuPont; used in 50/50 wt% blend with EOC",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC bearing 38% octene content, trade name Engage 8207, DuPont; used in 50/50 wt% blend with EMA",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "Diameter 150 nm, length 5 µm, purchased from Novorials USA; selectively localized in EMA phase via solution mixing",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA with 30% methyl acrylate content, trade name Elvaloy 1330, DuPont; used in 50/50 wt% blend with EOC",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC bearing 38% octene content, trade name Engage 8207, DuPont; used in 50/50 wt% blend with EMA",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "Diameter 150 nm, length 5 µm, purchased from Novorials USA; selectively localized in EMA phase via solution mixing",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA with 30% methyl acrylate content, trade name Elvaloy 1330, DuPont; used in 50/50 wt% blend with EOC",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC bearing 38% octene content, trade name Engage 8207, DuPont; used in 50/50 wt% blend with EMA",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper nanowire",
+        "description": "Diameter 150 nm, length 5 µm, purchased from Novorials USA; selectively localized in EMA phase via solution mixing",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 53.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

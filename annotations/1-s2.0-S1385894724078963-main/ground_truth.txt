@@ -1,0 +1,172 @@
+[
+     {
+        "sample_id": "PEI",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "temperature": {"value": 95.1, "unit": "°C","conditions": [{"type": "heat power", "value": 15,"unit": "W"},{"type": "time", "value": 180,"unit": "s"}]},
+            "electrical_conductivity": {"value": 10e-15, "unit": "S/m"}
+	}
+    },
+     {
+        "sample_id": "MPEI@AgNP-15.9vol%",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "microsphere",
+                "composition": {"amount": 84.1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles",
+                "description": "grow on PEI microsphere",
+                "composition": {"amount": 15.9, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 2.2, "unit": "W/mK"},
+            "in_plane_thermal_conductivity": {"value": 7.6, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "MPEI@Ag-18.9vol%",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "microsphere",
+                "composition": {"amount": 81.1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver",
+                "description": "silver plating",
+                "composition": {"amount": 18.9, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 14.0, "unit": "W/mK"},
+            "in_plane_thermal_conductivity": {"value": 19.9, "unit": "W/mK"},
+            "shielding_effectiveness": {"value": 40.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_effectiveness": {"value": 31.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "temperature": {"value": 81.3, "unit": "°C","conditions": [{"type": "heat power", "value": 15,"unit": "W"},{"type": "time", "value": 180,"unit": "s"}]}
+	}
+    },
+     {
+        "sample_id": "MPEI/Ag-18.9vol%",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "not specified",
+                "composition": {"amount": 81.1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver",
+                "description": "ramdom distribution",
+                "composition": {"amount": 18.9, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 1.1, "unit": "W/mK"},
+            "in_plane_thermal_conductivity": {"value": 6.0, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "LPEI@Ag",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "large microsphere",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver",
+                "description": "silver plating",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 7.7, "unit": "W/mK"},
+            "in_plane_thermal_conductivity": {"value": 14.7, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "HPEI@Ag-31.6vol%",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "hollow microsphere",
+                "composition": {"amount": 68.4, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver",
+                "description": "silver plating",
+                "composition": {"amount": 31.6, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 5.1, "unit": "W/mK"},
+            "in_plane_thermal_conductivity": {"value": 25.9, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "2MPEI@Ag",
+        "matrix_name": [
+        		{
+                "name": "polyetherimide",
+                "description": "microsphere",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver",
+                "description": "silver plating",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.3, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 34.3, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    }
+]

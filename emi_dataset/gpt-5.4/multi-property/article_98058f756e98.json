@@ -1,0 +1,348 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "pristine ABS resin",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 18.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 1013.0,
+        "unit": "kW/m2",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 22.0,
+        "unit": "s",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS nanocomposite matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "unmodified MXene nanosheets dispersed in ABS; sample reported as ABS-2%MXene",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 20.3,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 747.0,
+        "unit": "kW/m2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS nanocomposite matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ag@PZS@MXene",
+        "description": "core-shell Ag@PZS modified Ti3C2Tx MXene nano-additive dispersed in ABS; sample reported as ABS-2%Ag@PZS@MXene",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 24.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 641.0,
+        "unit": "kW/m2",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 51.0,
+        "unit": "s",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS layers in hierarchical sandwich composite reported as ABS/SW",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene film interlayer in hierarchical sandwich composite (SW)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 26.59,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 23.85,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS surface layers in hierarchical sandwich composite reported as ABS-2%MXene/SW",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets dispersed in ABS surface layers",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene film interlayer in hierarchical sandwich composite (SW)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 19.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 10.72,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS surface layers in hierarchical sandwich composite reported as ABS-1%Ag@PZS@MXene/SW",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ag@PZS@MXene",
+        "description": "core-shell Ag@PZS modified Ti3C2Tx MXene nano-additive in ABS surface layers",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene film interlayer in hierarchical sandwich composite (SW)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 29.94,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS surface layers in hierarchical sandwich composite reported as ABS-2%Ag@PZS@MXene/SW",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ag@PZS@MXene",
+        "description": "core-shell Ag@PZS modified Ti3C2Tx MXene nano-additive in ABS surface layers",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene film interlayer in hierarchical sandwich composite (SW)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 32.45,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 26.58,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

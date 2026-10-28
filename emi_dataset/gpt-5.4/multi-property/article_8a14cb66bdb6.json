@@ -1,0 +1,535 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "pure chitosan polymer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.2e-09,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.119,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.74e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 0.54,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.125,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6.05e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 2.44,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.132,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.32e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 5.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.142,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5.54e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 9.75,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.152,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.69e-05,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 19.55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.304,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.513,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.15,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "sodium-based chitosan",
+        "description": "CH/Na polymer matrix prepared from chitosan in sodium ion solution with 1% glycerol plasticizer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper selenide",
+        "description": "CuSe nanoparticles synthesized by chemical coprecipitation",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.608,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.44,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a 50/50 wt% blend with PCL",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polycaprolactone",
+        "description": "CAPA6800, component of a 50/50 wt% blend with PLA",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "JLS-APP-103 N, P content ~32.0 wt%",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 27.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a 50/50 wt% blend with PCL",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polycaprolactone",
+        "description": "CAPA6800, component of a 50/50 wt% blend with PLA",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "JLS-APP-103 N, P content ~32.0 wt%",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500. Modified in-situ by IPU during melt mixing.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Imidazolium-functionalized polyurethane",
+        "description": "Synthesized in-house, acts as a compatibilizer and dispersant for CNTs",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a 50/50 wt% blend with PCL",
+        "composition": {
+          "amount": 41.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polycaprolactone",
+        "description": "CAPA6800, component of a 50/50 wt% blend with PLA",
+        "composition": {
+          "amount": 41.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "JLS-APP-103 N, P content ~32.0 wt%",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a 50/50 wt% blend with PCL",
+        "composition": {
+          "amount": 40.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polycaprolactone",
+        "description": "CAPA6800, component of a 50/50 wt% blend with PLA",
+        "composition": {
+          "amount": 40.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "JLS-APP-103 N, P content ~32.0 wt%",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500. Modified in-situ by IPU during melt mixing.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Imidazolium-functionalized polyurethane",
+        "description": "Synthesized in-house, acts as a compatibilizer and dispersant for CNTs",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 33.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 29.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 75/25 CCP/PS wt/wt ratio",
+        "composition": {
+          "amount": 2.08,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 98.68,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 50/50 CCP/PS wt/wt ratio",
+        "composition": {
+          "amount": 1.32,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 25/75 CCP/PS wt/wt ratio",
+        "composition": {
+          "amount": 0.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 15/85 CCP/PS wt/wt ratio",
+        "composition": {
+          "amount": 0.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "measurement_note",
+            "value": "percolation threshold region; resistivity data used to fit power law",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.76,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 10/90 CCP/PS wt/wt ratio; at percolation threshold",
+        "composition": {
+          "amount": 0.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "measurement_note",
+            "value": "percolation threshold concentration; onset of conductive network formation",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.88,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 5/95 CCP/PS wt/wt ratio",
+        "composition": {
+          "amount": 0.12,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "measurement_note",
+            "value": "below percolation threshold; insulating regime",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; conductive composite powder (CCP) prepared by solution processing with CuNW; no dilution with pure PS",
+        "composition": {
+          "amount": 97.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; undiluted CCP master batch; concentration confirmed by TGA",
+        "composition": {
+          "amount": 2.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_note",
+            "value": "greater than dynamic range of set-up (>50 dB)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; powder prepared by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 97.92,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; present as conductive composite powder (CCP) master batch diluted with pure PS powder; 75/25 CCP/PS wt/wt ratio; EMI SE exceeds set-up dynamic range",
+        "composition": {
+          "amount": 2.08,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

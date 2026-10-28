@@ -1,0 +1,144 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate Acrylonitrile-butadiene-styrene",
+        "description": "Cycoloy C1200HF, pulverized into particles of size 250 um and coated with nickel via electroless deposition.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Coated on PCABS particles via electroless deposition. The coating ratio of PCABS:Ni was 1:0.5.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Carbon fibre",
+        "description": "PAN based 959 carbon fibre (AGM 94)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (3243 from Asbury Carbons)",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 79,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyphenylene Sulfide",
+        "description": "Fortron 0214B1, pulverized into particles 100 to 250 um and coated with nickel via electroless deposition.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Coated on PPS particles via electroless deposition. The coating ratio of PPS:Ni was 1:0.5.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Carbon fibre",
+        "description": "PAN based 959 carbon fibre (AGM 94)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (3243 from Asbury Carbons)",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer on PIC fiber; interfacial nickel nanoparticles present as catalytic seeds but Cu is the reported conductive layer loading",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.55,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3240,
+        "unit": "S/cm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer on PIC fiber",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 5190,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "unheated",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1323,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 300,
+            "unit": "°C"
+          },
+          {
+            "type": "time",
+            "value": 1,
+            "unit": "h"
+          },
+          {
+            "type": "atmosphere",
+            "value": "air",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber fabric",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer on woven PIC fabric",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.6,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 63.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 63.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer on PIC fiber",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 12783,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "as prepared",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 13000,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "after tape peeling",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 11000,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "after tape peeling",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30,
+        "unit": "cN",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "nickel",
+        "description": "electroless plated protective nickel layer on PIC/Cu fiber; nickel layer to PIC fiber matrix weight ratio 20%; thickness about 100 nm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 11342,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "as prepared",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 11057,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 350,
+            "unit": "°C"
+          },
+          {
+            "type": "time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "carboxyl-containing polyimide",
+        "description": "PIC fiber fabric",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "nickel",
+        "description": "electroless plated protective nickel layer on PIC/Cu fibers",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 65.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

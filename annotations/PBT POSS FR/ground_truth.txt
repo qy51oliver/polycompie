@@ -1,0 +1,950 @@
+[
+     {
+        "sample_id": "PBT/GF/OP1200-55/25/20",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 20.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "mass loss starting temperature": {"value": 302, "unit": "°C"},
+            "maximal mass loss rate temperature": {"value": 396, "unit": "°C"},
+            "mass loss":{"value": 0, "unit": "wt%","conditions": [{"type": "temperature", "value": 250,"unit": "°C"}]
+		},
+            "residue yield":{"value": 35, "unit": "wt%","conditions": [{"type": "temperature", "value": 800,"unit": "°C"}]
+		},
+            "limiting oxygen index": {"value": 42, "unit": "vol%"},
+            "peak of heat release rate": {"value": 250, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 66, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 36, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240-55/25/20",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 20.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "mass loss starting temperature": {"value": 330, "unit": "°C"},
+            "maximal mass loss rate temperature": {"value": 391, "unit": "°C"},
+            "mass loss":{"value": 0, "unit": "wt%","conditions": [{"type": "temperature", "value": 250,"unit": "°C"}]
+		},
+            "residue yield":{"value": 38, "unit": "wt%","conditions": [{"type": "temperature", "value": 800,"unit": "°C"}]
+		},
+            "limiting oxygen index": {"value": 40, "unit": "vol%"},
+            "peak of heat release rate": {"value": 191, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 67, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 40, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/AEAIP_POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "AEAIP POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 36, "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 25, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/OM_POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OM POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 43, "unit": "vol%"},
+            "peak of heat release rate": {"value": 172, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 62, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 37, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/TSP_POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "TSP POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 38, "unit": "vol%"},
+            "peak of heat release rate": {"value": 214, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 70, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 63, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-55/25/19/1",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 19.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 1.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": "<45", "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 40, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 53, "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 32, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-55/25/17/3",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 17.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 49, "unit": "vol%"},
+            "peak of heat release rate": {"value": 206, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 56, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 36, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-56/25/17.1/1.9",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 56, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 17.1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 1.9, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 48, "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify"},
+            "total burning time": {"value": 35, "unit": "s"},
+            "cotton inflamed": {"value": 0, "unit": "not specify"},
+            "drops": {"value": 0, "unit": "not specified"},
+            "break": {"value": 0, "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-56/25/16.2/1.8",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 56, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 16.2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 1.8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 48, "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 34, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/kaolin-56/25/15.3/1.7",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 56, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 15.3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 1.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 46, "unit": "vol%"},
+            "flammability": {"value": "V-2", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 47, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 1, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/graphite-55/25/17/3",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 17.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "graphite",
+                "description": "synergist",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 39, "unit": "vol%"},
+            "peak of heat release rate": {"value": 172, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 67, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 67, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/SiO2-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "SiO2",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 43, "unit": "vol%"},
+            "peak of heat release rate": {"value": 213, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 69, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 68, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/talc-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "talc",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 44, "unit": "vol%"},
+            "peak of heat release rate": {"value": 222, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 70, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 41, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1200/Cloisite 30B-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1200",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "Cloisite 30B",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 39, "unit": "vol%"},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 51, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/AEAIP POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "AEAIP POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 38, "unit": "vol%"},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 29, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/OM POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OM POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 42, "unit": "vol%"},
+            "peak of heat release rate": {"value": 135, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 70, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 35, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/TSP POSS-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "TSP POSS",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 38, "unit": "vol%"},
+            "peak of heat release rate": {"value": 134, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 64, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 82, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/kaolin-55/25/17/3",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 17.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "kaolin",
+                "description": "synergist",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 44, "unit": "vol%"},
+            "peak of heat release rate": {"value": 191, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 62, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 59, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/graphite-55/25/17/3",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 17.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "graphite",
+                "description": "synergist",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 44, "unit": "vol%"},
+            "peak of heat release rate": {"value": 217, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 70, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 73, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/SiO2-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "SiO2",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 40, "unit": "vol%"},
+            "peak of heat release rate": {"value": 213, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 79, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 65, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/talc-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "talc",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 41, "unit": "vol%"},
+            "peak of heat release rate": {"value": 203, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "time to ignition": {"value": 67, "unit": "s", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 71, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/GF/OP1240/Cloisite 30B-55/25/18/2",
+        "matrix_name": [
+        		{
+                "name": "Poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 25.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "OP1240",
+                "description": "flame retardants",
+                "composition": {"amount": 18.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "Cloisite 30B",
+                "description": "synergist",
+                "composition": {"amount": 2.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "limiting oxygen index": {"value": 39, "unit": "vol%"},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "total burning time": {"value": 98, "unit": "s","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "cotton inflamed": {"value": 0, "unit": "not specify","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "drops": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]},
+            "break": {"value": 0, "unit": "not specified","conditions": [{"type": "temperature", "value": 23,"unit": "°C"}]}
+        }
+    }
+]

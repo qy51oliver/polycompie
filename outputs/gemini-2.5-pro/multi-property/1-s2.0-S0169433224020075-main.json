@@ -1,0 +1,419 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers prepared by wet spinning, followed by high-temperature cyclization and hot drawing at 380C.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 3.85,
+        "unit": "cN/dtex",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 15.3,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 11.8,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers, surface treated by immersion in 0.5 M NaOH solution for 12 min prior to plating.",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Nickel nanoparticles (Ni NPs) served as catalytic seeds for subsequent electroless plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Copper",
+        "description": "Electroless copper plating.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3240,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "8.0-12.4",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.25,
+        "unit": "cN/dtex",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 4.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 12.5,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers, surface treated by immersion in 0.5 M NaOH solution for 12 min prior to plating.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Nickel nanoparticles (Ni NPs) served as catalytic seeds for subsequent electroless plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Copper",
+        "description": "Electroless copper plating.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5190,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "8.0-12.4",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.15,
+        "unit": "cN/dtex",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 13.2,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers, surface treated by immersion in 0.5 M NaOH solution for 12 min prior to plating.",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Nickel nanoparticles (Ni NPs) served as catalytic seeds for subsequent electroless plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Copper",
+        "description": "Electroless copper plating.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "8.0-12.4",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.13,
+        "unit": "cN/dtex",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 13.8,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 9500,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "comment",
+            "value": "Estimated from graph in Figure 2(g)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers, surface treated by immersion in 0.5 M NaOH solution for 12 min prior to plating.",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Nickel nanoparticles (Ni NPs) served as catalytic seeds for subsequent electroless plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Copper",
+        "description": "Electroless copper plating.",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.6,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12783,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 63.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "8.0-12.4",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.12,
+        "unit": "cN/dtex",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 14.1,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyimide",
+        "description": "Carboxyl-containing PI (PIC) fibers, surface treated by immersion in 0.5 M NaOH solution for 12 min prior to plating.",
+        "composition": {
+          "amount": 57.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Nickel",
+        "description": "Nickel nanoparticles (Ni NPs) served as catalytic seeds for subsequent electroless plating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Copper",
+        "description": "Electroless copper plating.",
+        "composition": {
+          "amount": 31.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Nickel",
+        "description": "Protective nickel layer constructed on the PIC/Cu fibers through further electroless plating after activation in PdCl2 solution.",
+        "composition": {
+          "amount": 11.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 11342,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 65.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range",
+            "value": "8.0-12.4",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 11057,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 350,
+            "unit": "C"
+          },
+          {
+            "type": "time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  }
+]

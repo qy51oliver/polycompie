@@ -1,0 +1,483 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 100,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 65,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 872.3,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 21.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 88,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "not specified",
+        "composition": {
+          "amount": 12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 38,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 148.4,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 88,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "APP@PEI",
+        "description": "Synthesized by reacting ammonium polyphosphate (APP) and polyethyleneimine (PEI) in a 10:1 mass ratio.",
+        "composition": {
+          "amount": 12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 28,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 142.7,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 88,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "APP@PEI@Ti3C2Tx",
+        "description": "Synthesized hybrid flame retardant with a mass ratio of APP@PEI to Ti3C2Tx of 20:1.",
+        "composition": {
+          "amount": 12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 31,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 174.4,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 31.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 88,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "APP@PEI@Ti3C2Tx",
+        "description": "Synthesized hybrid flame retardant with a mass ratio of APP@PEI to Ti3C2Tx of 10:1.",
+        "composition": {
+          "amount": 12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 22,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 138.9,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 27.9,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": 88,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "APP@PEI@Ti3C2Tx",
+        "description": "Synthesized hybrid flame retardant with a mass ratio of APP@PEI to Ti3C2Tx of 5:1.",
+        "composition": {
+          "amount": 12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 23,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 179.1,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat reflux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 25.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL-94 rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "not specified",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film combined with TPU composite using air-assisted thermocompression to form a hierarchical structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.92,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Base composite contains 88 wt% TPU.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "APP@PEI@Ti3C2Tx",
+        "description": "Synthesized hybrid flame retardant with a mass ratio of APP@PEI to Ti3C2Tx of 5:1. Present at 12 wt% in the base composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film combined with the base composite using air-assisted thermocompression to form a hierarchical structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

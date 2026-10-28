@@ -1,0 +1,260 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA component of a 90/10 vol/vol PLA/HDPE matrix blend; CNT loading for this reported data point was not specified.",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE component of a 90/10 vol/vol PLA/HDPE matrix blend; CNT loading for this reported data point was not specified.",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT (Industrial NC7000); filler loading not specified for this reported data point.",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.6,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA component of a 10/90 vol/vol PLA/HDPE matrix blend; CNT loading for this reported data point was not specified.",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE component of a 10/90 vol/vol PLA/HDPE matrix blend; CNT loading for this reported data point was not specified.",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT (Industrial NC7000); filler loading not specified for this reported data point.",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 23.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA in a 90/10 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 3.5 vol% CNT loading.",
+        "composition": {
+          "amount": 86.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE in a 90/10 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 3.5 vol% CNT loading.",
+        "composition": {
+          "amount": 9.65,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT (Industrial NC7000); CNT loading reported as approximately 3.5 vol%.",
+        "composition": {
+          "amount": 3.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA in a 50/50 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 5.9 vol% CNT loading.",
+        "composition": {
+          "amount": 47.05,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE in a 50/50 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 5.9 vol% CNT loading.",
+        "composition": {
+          "amount": 47.05,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT (Industrial NC7000); CNT loading reported as approximately 5.9 vol%.",
+        "composition": {
+          "amount": 5.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA in a 10/90 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 8.8 vol% CNT loading.",
+        "composition": {
+          "amount": 9.12,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE in a 10/90 PLA/HDPE blend; overall composite fraction calculated from the reported matrix ratio and approximately 8.8 vol% CNT loading.",
+        "composition": {
+          "amount": 82.08,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT (Industrial NC7000); CNT loading reported as approximately 8.8 vol%.",
+        "composition": {
+          "amount": 8.8,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

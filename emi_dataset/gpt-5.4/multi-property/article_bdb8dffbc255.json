@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2805; composite with reflection-absorption-integrated shielding compartments assembled from polycarbonate microspheres (CFP-4).",
+        "composition": {
+          "amount": 91.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "NC7000 carbon nanotubes (average diameter 9.5 nm, length 1.5 μm); located on the microsphere surface to form conductive walls.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "reduced graphene oxide/iron(II,III) oxide",
+        "description": "RGF hybrid filler dispersed inside the shielding compartments; Fe3O4 nanoparticles (~10 nm) deposited on reduced graphene oxide, with Fe3O4 about 80 wt% of the hybrid.",
+        "composition": {
+          "amount": 4.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 43.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Makrolon 2805; comparison composite with randomly dispersed fillers (r-CFP-4).",
+        "composition": {
+          "amount": 91.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "NC7000 carbon nanotubes (average diameter 9.5 nm, length 1.5 μm); randomly dispersed conductive filler.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "reduced graphene oxide/iron(II,III) oxide",
+        "description": "RGF hybrid filler randomly dispersed in the matrix; Fe3O4 nanoparticles deposited on reduced graphene oxide.",
+        "composition": {
+          "amount": 4.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  }
+]

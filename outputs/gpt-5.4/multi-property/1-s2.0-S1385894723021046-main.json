@@ -1,0 +1,330 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2 sample prepared with EVA to NaCl mass ratio of 1:12",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "unfilled EVA foam",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 78.2,
+        "unit": "C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2P1 sample prepared with EVA to NaCl mass ratio of 1:12 and PPy polymerization time 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 3.78,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2P1A5 sample prepared with EVA to NaCl mass ratio of 1:12, PPy polymerization time 1 h, and AgNO3 concentration 5 mg mL^-1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating; Ag loading reported as 19.69 wt%",
+        "composition": {
+          "amount": 19.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2P1A10 sample prepared with EVA to NaCl mass ratio of 1:12, PPy polymerization time 1 h, and AgNO3 concentration 10 mg mL^-1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating; Ag loading reported as 32.54 wt%",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 61.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 0.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 38.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 30.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 50.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2P1A20 sample prepared with EVA to NaCl mass ratio of 1:12, PPy polymerization time 1 h, and AgNO3 concentration 20 mg mL^-1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating; Ag loading reported as 51.95 wt%",
+        "composition": {
+          "amount": 51.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 107.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "chemically crosslinked EVA foam framework; El2A20 sample prepared by direct electroless Ag plating on EVA foam without PPy layer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag deposited directly on EVA foam without PPy interlayer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

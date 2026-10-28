@@ -1,0 +1,151 @@
+[
+     {
+        "sample_id": "PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "stability_temperature": {"value": 87, "unit": "°C","conditions": [{"type": "heat source", "value": "LED chip","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "BNNR/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 90.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "boron nitride nanoribbons",
+                "description": "not specified",
+                "composition": {"amount": 9.3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 8.19, "unit": "W*m^-1*K^-1"},
+            "stability_temperature": {"value": 52, "unit": "°C","conditions": [{"type": "heat source", "value": "LED chip","unit": "none"}]},
+            "tensile_strength": {"value": 1.9, "unit": "MPa"}
+	}
+    },
+     {
+        "sample_id": "2-VG-BNNR/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 90.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "boron nitride nanoribbons",
+                "description": "with VG 2 hours growth time",
+                "composition": {"amount": 9.3, "type": "wt%"},
+                "surface_treatment": "vertical graphene"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 65, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 33.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency higher bound", "value": 40,"unit": "GHz"}]},
+            "tensile_strain": {"value": 35, "unit": "%"},
+            "tensile_strength": {"value": 6.28, "unit": "MPa"}
+	}
+    },
+     {
+        "sample_id": "4-VG-BNNR/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 90.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "boron nitride nanoribbons",
+                "description": "with VG 4 hours growth time",
+                "composition": {"amount": 9.3, "type": "wt%"},
+                "surface_treatment": "vertical graphene"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 48.5, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency higher bound", "value": 40,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "8-VG-BNNR/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 90.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "boron nitride nanoribbons",
+                "description": "with VG 8 hours growth time",
+                "composition": {"amount": 9.3, "type": "wt%"},
+                "surface_treatment": "vertical graphene"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 56.4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency higher bound", "value": 40,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "12-VG-BNNR/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 90.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "boron nitride nanoribbons",
+                "description": "with VG 12 hours growth time",
+                "composition": {"amount": 9.3, "type": "wt%"},
+                "surface_treatment": "vertical graphene"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "through_plane_thermal_conductivity": {"value": 14.50, "unit": "W*m^-1*K^-1","conditions": [{"type": "temperature", "value": "room temperature","unit": "none"}]},
+            "through_plane_thermal_conductivity_2": {"value": 17.2, "unit": "W*m^-1*K^-1","conditions": [{"type": "temperature", "value": "200","unit": "°C"}]},
+            "stability_temperature": {"value": 46, "unit": "°C","conditions": [{"type": "heat source", "value": "LED chip","unit": "none"}]},
+            "electrical_conductivity": {"value": 280, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 64.9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency higher bound", "value": 40,"unit": "GHz"}]},
+            "transmittance": {"value": 10e-6, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency higher bound", "value": 40,"unit": "GHz"}]},
+            "tensile_strength": {"value": 11.4, "unit": "MPa"}
+	}
+    }
+]

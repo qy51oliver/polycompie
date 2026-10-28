@@ -1,0 +1,398 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Pure PEDOT:PSS coating",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite",
+        "composition": {
+          "amount": 70.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets",
+        "composition": {
+          "amount": 29.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite",
+        "composition": {
+          "amount": 54.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets",
+        "composition": {
+          "amount": 45.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite",
+        "composition": {
+          "amount": 37.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets",
+        "composition": {
+          "amount": 62.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite",
+        "composition": {
+          "amount": 23.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets",
+        "composition": {
+          "amount": 76.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 31.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 32.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 0,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite after bending test",
+        "composition": {
+          "amount": 23.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets after 500 bending cycles",
+        "composition": {
+          "amount": 76.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported; after 500 bending cycles",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 29.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 500,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating matrix in MXene/AgNWs/PEDOT:PSS composite after bending test",
+        "composition": {
+          "amount": 23.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets after 800 bending cycles",
+        "composition": {
+          "amount": 76.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanowires (AgNWs); present in composite but individual wt% not separately reported; after 800 bending cycles",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 800,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  }
+]

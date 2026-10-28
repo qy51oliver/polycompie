@@ -1,0 +1,128 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate (Makrolon 2407, Covestro).",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber; unidirectional tape laminate made via infiltration by liquid PC; laminate thickness reported as 2 mm; CF fraction in laminate 60 wt%.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 11.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "state_change",
+            "value": "decrease after erosion vs before erosion",
+            "unit": "not specified"
+          },
+          {
+            "type": "erosion_time",
+            "value": 2.0,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "state",
+            "value": "before sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate (Makrolon 2407, Covestro). Sample after sand erosion (2 min).",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber; unidirectional tape laminate; CF fraction in laminate 60 wt%. Sample after sand erosion (2 min).",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 11.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "state_change",
+            "value": "decrease after erosion vs before erosion",
+            "unit": "not specified"
+          },
+          {
+            "type": "erosion_time",
+            "value": 2.0,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295)",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-12,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "ambient",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295)",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 8.2,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 2.9,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 16.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295)",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 26.9,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 6.9,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295)",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "soda-lime borosilicate glass",
+        "description": "hollow glass microspheres (HGμS, Im30K), average diameter 18 μm",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.001,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "ambient",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295); composition corresponds to the w-HGμS_50 formulation at φeff,FG = 50 vol%",
+        "composition": {
+          "amount": 25.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh; apparent loading computed from φeff,FG = 50 vol%",
+        "composition": {
+          "amount": 25.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "soda-lime borosilicate glass",
+        "description": "hollow glass microspheres (HGμS, Im30K), average diameter 18 μm",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 51.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (WHT-1295)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flake graphite platelets (FG), average diameter 23 μm, 600 mesh",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "soda-lime borosilicate glass",
+        "description": "hollow glass microspheres (HGμS, Im30K), average diameter 18 μm",
+        "composition": {
+          "amount": 50.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 20.54,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 6.55,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 69.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

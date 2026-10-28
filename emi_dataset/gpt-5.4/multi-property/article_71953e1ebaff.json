@@ -1,0 +1,484 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced sample rL1C20; described by the authors as a homogeneous film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs); loading in rL1C20 was not explicitly stated.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 9.58,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 3.05,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4.64,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 1,
+            "unit": "V"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced alternating multilayer sample rL3C20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs); loading in rL3C20 was not explicitly stated.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 11.48,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 4.36,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 23.68,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 1,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced alternating multilayer sample rL5C20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs); loading in rL5C20 was not explicitly stated.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 14.45,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced alternating multilayer sample rL7C20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs).",
+        "composition": {
+          "amount": 21.56,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C20 indicates a total combined GO+MWCNT mass of 20 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 60,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10.28,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 1,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced alternating multilayer sample rL7C40.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs).",
+        "composition": {
+          "amount": 11.93,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C40 indicates a total combined GO+MWCNT mass of 40 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C40 indicates a total combined GO+MWCNT mass of 40 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 14.66,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 1,
+            "unit": "mm min^-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "bamboo cellulose",
+        "description": "TEMPO-oxidized bamboo cellulose nanofibers (BCNF) used as the matrix in reduced alternating multilayer sample rL7C80.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver nanoparticles (AgNPs) generated in situ on BCNF (BCNF@AgNPs).",
+        "composition": {
+          "amount": 7.57,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) obtained after vitamin C reduction; sample code C80 indicates a total combined GO+MWCNT mass of 80 mg, but the individual rGO amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the conductive phase; sample code C80 indicates a total combined GO+MWCNT mass of 80 mg, but the individual MWCNT amount was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 41.05,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 1,
+            "unit": "V"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 37.59,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "Reduced graphene oxide (rGO) in the control rGO/MWCNT film without BCNF matrix; exact rGO fraction was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) in the control rGO/MWCNT film without BCNF matrix; exact MWCNT fraction was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 23.59,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

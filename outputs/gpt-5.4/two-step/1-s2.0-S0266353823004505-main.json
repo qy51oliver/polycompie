@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; CFRP composite prepared by vacuum-assisted resin infusion using 6 layers of carbon fiber fabric",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven carbon fiber fabric; pretreated by desizing in acetone and oxidizing in nitric acid before composite fabrication",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": null,
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 38.9,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 13615.5,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; CFRP composite prepared by vacuum-assisted resin infusion using 6 layers of carbon fiber fabric",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven carbon fiber fabric; pretreated by desizing in acetone and oxidizing in nitric acid before composite fabrication",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanoparticles electrophoretically deposited onto carbon fiber surface to form MXene@CF core-shell structure; MXene mass fraction on CF fabric reported as 13 wt%",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": null,
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 58.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 15624.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin cured with curing agent; CFRP composite prepared by vacuum-assisted resin infusion using 6 layers of carbon fiber fabric",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven carbon fiber fabric; pretreated by desizing in acetone and oxidizing in nitric acid before composite fabrication",
+        "composition": {
+          "amount": null,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Thermally annealed/reduced MXene nanoparticles electrophoretically deposited onto carbon fiber surface to form rMXene@CF core-shell structure; precursor MXene mass fraction on CF fabric reported as 13 wt%; annealed at 350 C under nitrogen for 6 h",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": null,
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 64.44,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 16292,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 34.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

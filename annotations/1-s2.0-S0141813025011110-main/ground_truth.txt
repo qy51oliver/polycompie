@@ -1,0 +1,249 @@
+[
+     {
+        "sample_id": "LPPC-0",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 8.9e-11, "unit": "S/cm"},
+            "tensile_stress": {"value": 29.85, "unit": "MPa"},
+            "breaking_strain": {"value": 6.16, "unit": "%"},
+            "air_permeability": {"value": 17.62, "unit": "μm*Pa^-1*s^-1"}
+        }
+    },
+     {
+        "sample_id": "LPPC-10",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-20",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-30",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-40",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 40, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-50",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":47, "unit":"μm"},
+        "properties": {
+            "electrical_conductivity_1": {"value": 29.67, "unit": "S/cm","conditions": [{"type": "treatment", "value": "none","unit": "none"}]},
+            "electrical_conductivity_2": {"value": 29.67, "unit": "S/cm","conditions": [{"type": "treatment", "value": "ultrasound for 2h","unit": "none"}]},
+            "electrical_conductivity_3": {"value": 29.67, "unit": "S/cm","conditions": [{"type": "treatment", "value": "bending for 1000 cycles","unit": "none"}]},
+            "electrical_conductivity_4": {"value": 29.67, "unit": "S/cm","conditions": [{"type": "treatment", "value": "peeling for 1000 cycles","unit": "none"}]},
+            "electrical_conductivity_5": {"value": 29.67, "unit": "S/cm","conditions": [{"type": "treatment", "value": "immersing in water for 24 h","unit": "none"}]},
+            "shielding_effectiveness_1": {"value": ">66", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "none","unit": "none"}]},
+            "shielding_effectiveness_2": {"value": ">66", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "ultrasound for 2h","unit": "none"}]},
+            "shielding_effectiveness_3": {"value": ">66", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "bending for 1000 cycles","unit": "none"}]},
+            "shielding_effectiveness_4": {"value": ">66", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "peeling for 1000 cycles","unit": "none"}]},
+            "shielding_effectiveness_5": {"value": ">66", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "immersing in water for 24 h","unit": "none"}]},
+            "absorption_loss": {"value": 59.06, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absolute_shielding_effectiveness": {"value": 14525.5, "unit": "dB*cm^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficients_R": {"value": 0.88, "unit": "none"},
+            "power_coefficients_A": {"value": 0.12, "unit": "none"},
+            "tensile_stress": {"value": 44.42, "unit": "MPa"},
+            "breaking_strain": {"value": 4.32, "unit": "%"},
+            "air_permeability": {"value": 9.89, "unit": "μm*Pa^-1*s^-1"}
+        }
+    },
+     {
+        "sample_id": "LPPC-50-37μm",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":37, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 52.21, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "none","unit": "none"}]},
+            "R_value": {"value": 0.86, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "A_value": {"value": 0.14, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "LPPC-50-65μm",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":65, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-50-82μm",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":82, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "LPPC-50-104μm",
+        "matrix_name": [
+        		{
+                "name": "conductive cellulose nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+                "description": "0.05 mmol of Li-TFSI",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "lithium bis(tri- floromethanesulfonyl) imide (Li-TFSI)"
+            }
+        ],
+        "sample_thickness": {"value":104, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 97.03, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "treatment", "value": "none","unit": "none"}]},
+            "R_value": {"value": 0.91, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "A_value": {"value": 0.09, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

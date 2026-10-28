@@ -1,0 +1,694 @@
+[
+     {
+        "sample_id": "PLA",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "mess_loss": {"value": 2.38, "unit": "%","conditions": [{"type": "time", "value": 14,"unit": "day"}]}
+	}
+    },
+     {
+        "sample_id": "PBAT",
+        "matrix_name": [
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "mess_loss": {"value": 1.21, "unit": "%","conditions": [{"type": "time", "value": 14,"unit": "day"}]}
+	}
+    },
+     {
+        "sample_id": "T5",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "random",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "T10",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "random",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 36.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "volume_resistivity": {"value": 0.3, "unit": "Ω⋅cm"}
+	}
+    },
+     {
+        "sample_id": "T15",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "random",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 40.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "E10",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "expanded graphite",
+                "description": "random",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "E5T5",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "expanded graphite",
+                "description": "random",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotubes",
+                "description": "random",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "P@E10",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "expanded graphite",
+                "description": "segregated",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "volume_resistivity": {"value": "<10e9", "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 7.4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "P@E5T5",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "expanded graphite",
+                "description": "segregated",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "volume_resistivity": {"value": "<10e9", "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 29.4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "absorbtion_shielding_ratio": {"value": 84.3, "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "absorbtion_coefficient": {"value": 0.31, "unit": "not specified","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "P@T5",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 76, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 18.9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "P@T10",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "volume_resistivity": {"value": 2.4e9, "unit": "Ω⋅cm"},
+            "absorbtion_shielding_ratio": {"value": 85.1, "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "P@T15",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 68, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 37.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "f-P@T10-110",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "Sc-CO2 foaming",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "density": {"value": 0.96, "unit": "g/cm^3"},
+            "volume_resistivity": {"value": ">1e10", "unit": "Ω⋅cm"},
+            "specific_absorbtion_shielding_effectiveness": {"value": 26.6, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "cell_viability": {"value": ">90", "unit": "%","conditions": [{"type": "time", "value": 3,"unit": "day"}]},
+            "mess_loss": {"value": 7.39, "unit": "%","conditions": [{"type": "time", "value": 14,"unit": "day"}]}
+	}
+    },
+     {
+        "sample_id": "f-P@T10-130",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "Sc-CO2 foaming",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "volume_resistivity": {"value": ">1e10", "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 24.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "cell_viability": {"value": ">90", "unit": "%","conditions": [{"type": "time", "value": 3,"unit": "day"}]},
+            "mess_loss": {"value": 10.97, "unit": "%","conditions": [{"type": "time", "value": 14,"unit": "day"}]}
+	}
+    },
+     {
+        "sample_id": "f-P@T10-150",
+        "matrix_name": [
+        		{
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "poly-butylene adipate terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "Sc-CO2 foaming",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "density": {"value": 0.69, "unit": "g/cm^3"},
+            "compressive_modulus": {"value": 136.6, "unit": "MPa"},
+            "compressive_strength": {"value": 47.0, "unit": "MPa","conditions": [{"type": "strain", "value": 50,"unit": "%"}]},
+            "volume_resistivity": {"value": 3.98e9, "unit": "Ω⋅cm"},
+            "shielding_effectiveness": {"value": 30.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "absorbtion_shielding_ratio": {"value": 90.6, "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 43.6, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "cell_viability": {"value": ">90", "unit": "%","conditions": [{"type": "time", "value": 3,"unit": "day"}]},
+            "mess_loss": {"value": 4.76, "unit": "%","conditions": [{"type": "time", "value": 14,"unit": "day"}]}
+	}
+    },
+     {
+        "sample_id": "PVDF/Ni",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+	],
+        "fillers":[
+        		{
+                "name": "Nickel",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 26.80, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 24.81, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"},
+	}
+    },
+    {
+        "sample_id": "PVDF/CNTs",
+        "matrix_name": [
+            {
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 16.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 26.1, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PS/PMMA/CNTs",
+        "matrix_name": [
+            {
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 25.3, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 51.6, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PSU/CNTs",
+        "matrix_name": [
+            {
+                "name": "polysulfone",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 23.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 27.6, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PP/CNTs/CB",
+        "matrix_name": [
+            {
+                "name": "polypropylene",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "carbon black",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 7.22, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 72.23, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PLA/graphite",
+        "matrix_name": [
+            {
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "graphite",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 45, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 64.29, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PS/CNTs",
+        "matrix_name": [
+            {
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 98.12, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 1.88, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 23.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 49.36, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PMMA/Fe3O4/CNTs",
+        "matrix_name": [
+            {
+                "name": "poly(methyl methacrylate)",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 13.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 50, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PLA/CNTs",
+        "matrix_name": [
+            {
+                "name": "polylactic acid",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 23, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 77, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    },
+    {
+        "sample_id": "PP/SSF",
+        "matrix_name": [
+            {
+                "name": "polypropylene",
+                "description": "not specified",
+                "composition": {"amount": 98.9, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "fillers":[
+            {
+                "name": "stainless steel fibers",
+                "description": "not specified",
+                "composition": {"amount": 1.1, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 48, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 75, "unit": "dB/(g/cm^3)","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "electrical_insolation": {"value": "No", "unit": "none"}
+        }
+    }
+]

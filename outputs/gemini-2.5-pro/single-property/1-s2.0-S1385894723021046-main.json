@@ -1,0 +1,335 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "Coated on foam framework by vapor phase polymerization (VPP) for 1 hour (P1).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 3.78,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "Coated on foam framework by vapor phase polymerization (VPP) for 1 hour (P1).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles (AgNPs) grown by electroless silver plating from a 10 mg/mL AgNO3 solution (A10).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 61.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12). Sample is compressed and fixed at 30% strain via shape memory effect.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "Coated on foam framework by vapor phase polymerization (VPP) for 1 hour (P1).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles (AgNPs) grown by electroless silver plating from a 10 mg/mL AgNO3 solution (A10).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 30,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12). Sample is compressed and fixed at 50% strain via shape memory effect.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "Coated on foam framework by vapor phase polymerization (VPP) for 1 hour (P1).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles (AgNPs) grown by electroless silver plating from a 10 mg/mL AgNO3 solution (A10).",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "Coated on foam framework by vapor phase polymerization (VPP) for 1 hour (P1).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles (AgNPs) grown by electroless silver plating from a 20 mg/mL AgNO3 solution (A20).",
+        "composition": {
+          "amount": 51.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 107.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam, fabricated using a sacrificial template method with a 1:12 mass ratio of EVA to NaCl (E12).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles (AgNPs) grown by electroless silver plating directly on the EVA foam from a 20 mg/mL AgNO3 solution (A20), without a PPy layer.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

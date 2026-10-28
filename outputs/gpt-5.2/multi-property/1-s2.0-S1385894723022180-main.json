@@ -1,0 +1,599 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "Neat PS (STYRON 610).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 58.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 777.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 18.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix with intumescent flame retardant package.",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent FR system; ratio stated as 3:1 (APP:PER).",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent FR system; ratio stated as 3:1 (APP:PER).",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 316.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2218.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 (Type V)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 3.8,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 (Type V)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 7.5,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D256 (notched Izod)",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS with 25 wt% APP/PER FR and spherical PPE dispersed phase (PPE (S)).",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio.",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "PER in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio.",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(2,6-dimethyl-1,4-phenylene ether)",
+        "description": "PPE dispersed phase with spherical morphology (PPE (S)); loading 15 wt%.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 75.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 284.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 27.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 18.0,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D256 (notched Izod)",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS with 25 wt% APP/PER FR and nanofibrillated PPE network (PPE (F)).",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio.",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "PER in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio.",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(2,6-dimethyl-1,4-phenylene ether)",
+        "description": "PPE dispersed phase with nanofibrillar morphology (PPE (F)); loading 15 wt%.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 91.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 225.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 16.0,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D256 (notched Izod)",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2952.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 (Type V)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 9.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D638 (Type V)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS with 25 wt% APP/PER FR and spherical PPS dispersed phase (PPS (S)).",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio. PPS loading not stated in provided text.",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "PER in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio. PPS loading not stated in provided text.",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "PPS dispersed phase with spherical morphology (PPS (S)); loading not specified in provided text.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 76.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 261.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 25.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS with 25 wt% APP/PER FR and nanofibrillated PPS network (PPS (F)).",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio. PPS loading not stated in provided text.",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "PER in APP/PER intumescent FR system; total FR loading 25 wt% with 3:1 APP:PER ratio. PPS loading not stated in provided text.",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "PPS dispersed phase with nanofibrillar morphology (PPS (F)); loading not specified in provided text.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 201.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 28.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

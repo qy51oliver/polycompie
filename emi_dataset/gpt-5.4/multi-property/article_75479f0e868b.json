@@ -1,0 +1,177 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "Green PVA film; PVA with Mw = 125000 g mol−1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": "0.27±0.06",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; Mw = 125000 g mol−1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene nanosheets exfoliated from graphite oxide; residual –OH/–COOH groups present",
+        "composition": {
+          "amount": 0.08,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron",
+        "description": "Carbonyl iron microparticles",
+        "composition": {
+          "amount": 0.02,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "36±2",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.94,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1.72,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": "3.62±0.11",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 101.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.16,
+        "unit": "GPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; Mw = 125000 g mol−1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene nanosheets exfoliated from graphite oxide; residual –OH/–COOH groups present",
+        "composition": {
+          "amount": 0.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbonyl iron",
+        "description": "No carbonyl iron in this formulation",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "36±2",
+      "unit": "μm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": "3.22±0.17",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

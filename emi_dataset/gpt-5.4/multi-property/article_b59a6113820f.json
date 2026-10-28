@@ -1,0 +1,359 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 5:1; electroless silver-coated",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 36,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 5:1; electroless silver-coated",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 22000.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 110,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 10:1; electroless silver-coated",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00212,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 10:1; electroless silver-coated",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3230.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 110,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 20:1; electroless silver-coated",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00052,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 20:1; electroless silver-coated",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 512.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 25:1; electroless silver-coated",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0003,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "silicone",
+        "description": "CX 3561A/B silicone matrix formed from prepolymer and curing agent mixed at 1:1 ratio",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Ag@PDMS conductive microspheres; PDMS monomer:crosslinker mass ratio 25:1; electroless silver-coated",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 487.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 71,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "near-field",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 500,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer with Tg of 215°C, used as foam matrix prepared by WVIPS process",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; pristine PEI foam",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.042,
+        "unit": "W/(m K)",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer foam matrix prepared by WVIPS process",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene@iron(II,III) oxide",
+        "description": "Graphene decorated with Fe3O4 nanoparticles (~11 nm diameter); GO reduced with hydrazine; weight ratio GO:Fe3O4 ~1:1; well-dispersed in cell walls",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 3.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 5.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer foam matrix prepared by WVIPS process",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene@iron(II,III) oxide",
+        "description": "Graphene decorated with Fe3O4 nanoparticles (~11 nm diameter); GO reduced with hydrazine; weight ratio GO:Fe3O4 ~1:1; well-dispersed in cell walls",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 9.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer foam matrix prepared by WVIPS process",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene@iron(II,III) oxide",
+        "description": "Graphene decorated with Fe3O4 nanoparticles (~11 nm diameter); GO reduced with hydrazine; weight ratio GO:Fe3O4 ~1:1; well-dispersed in cell walls",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 14.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer foam matrix prepared by WVIPS process",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene@iron(II,III) oxide",
+        "description": "Graphene decorated with Fe3O4 nanoparticles (~11 nm diameter); GO reduced with hydrazine; weight ratio GO:Fe3O4 ~1:1; well-dispersed in cell walls",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 18.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.071,
+        "unit": "W/(m K)",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "High-performance polymer foam matrix prepared by WVIPS process; density ~0.40 g/cm³",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles without graphene support; 10 wt% loading; prepared using same WVIPS procedure as G@Fe3O4 foams; poor dispersion due to intrinsic aggregation of magnetic NPs",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.2,
+        "unit": "dB/(g/cm³)",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

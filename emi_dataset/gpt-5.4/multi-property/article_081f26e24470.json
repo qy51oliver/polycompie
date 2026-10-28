@@ -1,0 +1,2413 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat polymer",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 220.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 39.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.11,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.1,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "powder, particle size 0.8-1.35 µm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 49.6,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.31,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.55,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "powder, particle size 0.8-1.35 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 47.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.39,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.28,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "powder, particle size 0.8-1.35 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.82,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 46.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.42,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 2.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 3.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 2.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 1.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 0.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 1.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 0.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 0.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 0.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 0.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 1.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "powder, particle size 0.8-1.35 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.85,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 42.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3.14,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.01,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 8.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 8.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 7.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 6.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 5.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 6.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 7.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 9.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 10.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 12.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "powder, particle size 0.8-1.35 µm",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 39.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3.16,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.91,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 1-5 µm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 40.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.27,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.94,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 1-5 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 45.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.46,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.05,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 1-5 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.85,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 49.9,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.67,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.28,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 42.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 37.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 38.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 37.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 41.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 43.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 44.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 1-5 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.95,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 51.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.98,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.08,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 1-5 µm",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 45.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3.54,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.6,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 78-127 µm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 41.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.23,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.2,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 78-127 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 44.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.3,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.52,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 78-127 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 49.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.39,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.89,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 78-127 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 50.9,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.48,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.05,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "powder, particle size 78-127 µm",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 36.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.68,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.79,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flakes, particle size 25.4 µm",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 39.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.41,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.56,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flakes, particle size 25.4 µm",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 30.5,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.85,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.38,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flakes, particle size 25.4 µm",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 27.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3.25,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 1.35,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite",
+        "description": "flakes, particle size 25.4 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 13.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 5.1,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 0.71,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 21,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 260 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.92,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 44.34,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.57,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.57,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 4.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 7.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 6.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 10.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 3.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 1.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 1.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 0.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 0.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 22,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 260 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.81,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 46.49,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.63,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.69,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 20.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 21.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 19.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 15.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 19.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 26.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 19.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 23.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 23,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 700 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.98,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 51.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.72,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.06,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 15.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 17.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 17.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 22.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 10.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 15.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 15.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 19.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 14.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 24,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 700 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.9,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 52.23,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.79,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.96,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 42.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 37.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 40.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 26.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 33.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 33.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 42.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 26.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 33.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 25,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 1000 µm",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.98,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 50.06,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.71,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.92,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 23.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 20.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 21.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 15.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 12.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 17.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 17.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 21.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 26,
+    "matrix_name": [
+      {
+        "name": "polyimidesiloxane",
+        "description": "SIM-2030M; soluble, fully imidized silicone-imide copolymer",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel",
+        "description": "fibres, diameter 20 µm, length 1000 µm",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 48.45,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2.48,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 42.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.3,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.6,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.7,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": 34.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_11": {
+        "value": 43.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

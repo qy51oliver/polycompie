@@ -1,0 +1,642 @@
+[
+     {
+        "sample_id": "CF/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "defoaming resin and curing agent compound with a 100:30 weight ratio",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "flexural_strength": {"value": 511.3, "unit": "MPa"},
+            "through_plane_electrical_conductivity": {"value": 38.9, "unit": "S/m"},
+            "in_plane_electrical_conductivity": {"value": 13615.5, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 28.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "MXene-CF/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "defoaming resin and curing agent compound with a 100:30 weight ratio",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "MXene mass fraction 13wt%",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "MXene nanoparticle"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "flexural_strength": {"value": 642.4, "unit": "MPa"},
+            "through_plane_electrical_conductivity": {"value": 58.4, "unit": "S/m"},
+            "in_plane_electrical_conductivity": {"value": 15624.3, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 32.9, "unit": "dB","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "rMXene-CF/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "defoaming resin and curing agent compound with a 100:30 weight ratio",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "reduced MXene nanoparticle"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "flexural_strength": {"value": 569.6, "unit": "MPa"},
+            "through_plane_electrical_conductivity": {"value": 64.44, "unit": "S/m"},
+            "in_plane_electrical_conductivity": {"value": 16292, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 34.4, "unit": "dB","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]},
+            "absorption_effectiveness": {"value": 24.6, "unit": "dB","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]},
+            "reflection_effectiveness": {"value": 9.8, "unit": "dB","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]},
+            "absorption_coefficient": {"value": 0.1, "unit": "none","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]},
+            "reflection_effectiveness": {"value": 0.9, "unit": "none","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "EP/G-OH/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 1mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "G-OH"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 5.1, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/G-COOH/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 1mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "G-COOH"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 9.6, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/GO/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 1mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "graphene oxide"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 6, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/CNF/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanofiber"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 4.2, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/Graphene/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "graphene"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 6.5, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/CNT/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanotube"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 9, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/CNT-COOH/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 1mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "CNT-COOH"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 10, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/CNT-OH/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 1mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "CNT-OH"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 3, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/O-CNTs/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 24V, 5min, suspension concentration 0.3mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "O-CNTs"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 9.46, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "Vinyl ester resin/CNT/CF",
+        "matrix_name": [
+        		{
+                "name": "vinyl ester resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanotube"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 10.3, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "Vinyl ester resin/CNT-COOH/CF",
+        "matrix_name": [
+        		{
+                "name": "vinyl ester resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 5A, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "CNT-COOH"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 13.8, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/GO/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "electrophoretic deposition conditions 1V, 30min, suspension concentration 0.5mg/L",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "graphene oxide"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "flexural_strength_improvement": {"value": 14, "unit": "%"},
+	}
+    },
+     {
+        "sample_id": "EP/rGO-CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "reduced graphene oxide"
+            }
+        ],
+        "sample_thickness": {"value":6, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 37.6, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "PP/EPDM/Ni-GF",
+        "matrix_name": [
+        		{
+                "name": "polypropylene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ethylene-propylene-diene monomer",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "Nickel"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22.2, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "PS/CNT-CNF",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanofiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanotube"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 21.9, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "Cement/GO-CF",
+        "matrix_name": [
+        		{
+                "name": "cement",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "graphene oxide"
+            }
+        ],
+        "sample_thickness": {"value":5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 34, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "EP/C-GF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "nanocarbon"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22.5, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "EP/CNT-CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanotube"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 22, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "PP/CNT-CF",
+        "matrix_name": [
+        		{
+                "name": "polypropylene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "carbon nanotube"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 16, "unit": "dB","conditions": [{"type": "measurement method", "value": "Coaxial transmission","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "UP/rGO-CF",
+        "matrix_name": [
+        		{
+                "name": "unsaturated polyester",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "reduced graphene oxide"
+            }
+        ],
+        "sample_thickness": {"value":10, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 37.8, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "EP/BP-GF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "buckypaper"
+            }
+        ],
+        "sample_thickness": {"value":3.5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 28.5, "unit": "dB","conditions": [{"type": "measurement method", "value": "waveguide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "EP/PANI-CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "polyaniline"
+            }
+        ],
+        "sample_thickness": {"value":2.5, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 11.6, "unit": "dB","conditions": [{"type": "measurement method", "value": "coaxial transmission","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "Phenolic/CF",
+        "matrix_name": [
+        		{
+                "name": "phenolic",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2.11, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 23.9, "unit": "dB","conditions": [{"type": "measurement method", "value": "wave guide","unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "Epoxy/CF",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 28.7, "unit": "dB","conditions": [{"type": "measurement method", "value": "wave guide","unit": "none"}]}
+	}
+    }
+]

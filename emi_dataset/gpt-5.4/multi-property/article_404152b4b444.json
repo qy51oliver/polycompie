@@ -1,0 +1,750 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Neat polyurethane film, unstretched.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; neat polyurethane sample.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.17,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Neat polyurethane film, stretched to 200%.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; neat polyurethane sample.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.22,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in composite containing only graphene fluoride; unstretched.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets uniformly distributed in polyurethane.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.78,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in composite containing only graphene fluoride; stretched to 200%.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets aligned after stretching.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 5.86,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in composite containing only liquid metal; unstretched.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) uniformly distributed in polyurethane.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.98,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 37.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in composite containing only liquid metal; stretched to 200%.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) elongated/aligned after stretching.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 3.92,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 58.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in Janus LM/GF composite film; unstretched.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) forming the conductive Janus side.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets contributing to the insulating Janus side.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.8,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "GF side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.91,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "LM side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 14,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in Janus LM/GF composite film; unstretched.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) forming the conductive Janus side.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets contributing to the insulating Janus side.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in Janus LM/GF composite film; unstretched.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) sedimented toward the bottom conductive side of the Janus film.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets associated with the top insulating side of the Janus film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 1.63,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "GF side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 2.62,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "LM side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_3": {
+        "value": 1.82,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "GF side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_4": {
+        "value": 2.62,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "LM side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Polyurethane matrix in Janus LM/GF composite film; permanently stretched to 200%.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "eutectic gallium-indium",
+        "description": "Liquid metal droplets (gallium:indium = 3:1 by weight) elongated and aligned after stretching, forming the conductive Janus side.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene fluoride",
+        "description": "Ball-milled/exfoliated graphene fluoride nanosheets aligned after stretching, associated with the insulating Janus side.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 6.02,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "GF side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 9.62,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "LM side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_3": {
+        "value": 1.22,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "GF side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      },
+      "thermal_conductivity_4": {
+        "value": 2.12,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "side",
+            "value": "LM side",
+            "unit": "not specified"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "GHz"
+          },
+          {
+            "type": "stretching degree",
+            "value": 200,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  }
+]

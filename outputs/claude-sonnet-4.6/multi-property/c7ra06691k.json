@@ -1,0 +1,493 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.225,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.278,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN particles, UHP-1K, 99.9 wt% BN purity, ~24 um mean secondary particle size, ~4.0 um mean lateral size of platelet; no ionic liquid functionalization",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.247,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN particles, UHP-1K, 99.9 wt% BN purity, ~24 um mean secondary particle size, ~4.0 um mean lateral size of platelet; no ionic liquid functionalization",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.52,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "hexagonal boron nitride",
+        "description": "h-BN particles, UHP-1K, 99.9 wt% BN purity, ~24 um mean secondary particle size, ~4.0 um mean lateral size of platelet; no ionic liquid functionalization",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.91,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 5.45,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2a, FR=0.047); few-layered, average 15.9 layers, ~2.9 um average lateral size",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.309,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.36,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 75.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2a, FR=0.047); few-layered, average 15.9 layers, ~2.9 um average lateral size; 14.5 vol%",
+        "composition": {
+          "amount": 24.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.971,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.49,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2a, FR=0.047); few-layered, average 15.9 layers, ~2.9 um average lateral size; ~34 vol%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 5.35,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.3,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA, grade G, 1.19 g/cm3 density",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2b, FR=0.215); few-layered, average 8.1 layers; high FR value leading to lower TC",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.44,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "BNNS loading",
+            "value": 24.5,
+            "unit": "wt%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC, E-2000, 1.20 g/cm3 density",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2a, FR=0.047); few-layered; lower compatibility of [bmim][PF6] with PC",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.18,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT, Duranex-2002, 1.31 g/cm3 density",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "boron nitride nanosheet",
+        "description": "BNNS exfoliated from h-BN and noncovalently functionalized with [bmim][PF6] ionic liquid (complex 2a, FR=0.047); few-layered; 37 vol%; randomly oriented in PBT matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 5.77,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.867,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

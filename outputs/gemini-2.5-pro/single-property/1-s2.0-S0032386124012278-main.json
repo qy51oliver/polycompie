@@ -1,0 +1,262 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres) in a porous impregnated-segregated structure.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Part of the 'mud' phase (PBS/20B) in a porous impregnated-segregated structure.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-wall carbon nanotubes",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Boron nitride",
+        "description": "Part of the 'mud' phase (PBS/20B).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "8.2",
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": "12.4",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres) in a porous impregnated-segregated structure.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Part of the 'mud' phase (PBS/40B) in a porous impregnated-segregated structure.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-wall carbon nanotubes",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Boron nitride",
+        "description": "Part of the 'mud' phase (PBS/40B).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "8.2",
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": "12.4",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres) in a simple segregated structure, denoted as S(5:5)-10B5C-C.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Part of the 'mud' phase (PBS/20B) in a simple segregated structure, denoted as S(5:5)-10B5C-C.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-wall carbon nanotubes",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Boron nitride",
+        "description": "Part of the 'mud' phase (PBS/20B).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 16.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "8.2",
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": "12.4",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres) in a simple segregated structure, denoted as S(5:5)-20B5C-C.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Part of the 'mud' phase (PBS/40B) in a simple segregated structure, denoted as S(5:5)-20B5C-C.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multi-wall carbon nanotubes",
+        "description": "Part of the 'brick' phase (PLA/10C microspheres).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Boron nitride",
+        "description": "Part of the 'mud' phase (PBS/40B).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 11.39,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "8.2",
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": "12.4",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

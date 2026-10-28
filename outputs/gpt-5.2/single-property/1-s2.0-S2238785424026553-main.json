@@ -1,0 +1,185 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder matrix (SLL-2). Sample label: U95C5.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes; >97% carbon. Fixed loading used as conductive filler.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Hollow glass microspheres",
+        "description": "Unmodified HGM. Sample label: HGM5 (UHMWPE/CNS/HGM with 5 wt% HGM).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder matrix (SLL-2). Sample label: U95C5.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes; >97% carbon. Fixed loading used as conductive filler.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "none",
+        "description": "No third component (no HGM or PDA@HGM). Sample label: U95C5.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 36.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder matrix (SLL-2). Sample label: U95C5.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes; >97% carbon. Fixed loading used as conductive filler.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Hollow glass microspheres",
+        "description": "HGM chemically modified with polydopamine (PDA@HGM). Sample label: PDA@HGM5 (UHMWPE/CNS/PDA@HGM with 5 wt% PDA@HGM). PDA content on HGM surface reported ~1.2% (of PDA@HGM particle mass).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 49.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

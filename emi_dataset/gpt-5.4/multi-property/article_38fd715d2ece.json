@@ -1,0 +1,469 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCE5; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCE5; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.23e-16,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 318.0,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 60.6,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT0.25; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT0.25; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 0.25 phr.",
+        "composition": {
+          "amount": 0.25,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.02e-16,
+        "unit": "S cm^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT0.5; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT0.5; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 0.5 phr.",
+        "composition": {
+          "amount": 0.5,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.88e-16,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -3.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT1; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT1; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 1 phr.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.07e-09,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 378.03,
+        "unit": "J/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT2; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT2; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 2 phr.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.18e-06,
+        "unit": "S cm^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT3; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT3; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 3 phr.",
+        "composition": {
+          "amount": 3.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.534e-05,
+        "unit": "S cm^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT4; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT4; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 4 phr.",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.000272,
+        "unit": "S cm^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT5; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT5; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 5 phr.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.000877,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 37.0,
+        "unit": "% increase relative to PC/EMA blend",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Polycarbonate component of sample PCENT10; part of the toughened PC/EMA (95/5 w/w) blend.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene methyl acrylate copolymer",
+        "description": "Ethylene methyl acrylate (EMA) copolymer toughener in sample PCENT10; EMA contains 70 wt% ethylene and 30 wt% methyl acrylate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Multiwalled carbon nanotubes",
+        "description": "NC7000 grade multiwalled carbon nanotubes; about 90% carbon purity, length ~1.5 μm, diameter ~9.6 nm, surface area 250-300 m2 g^-1; loading reported as 10 phr.",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00156,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -26.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 39.0,
+        "unit": "% increase relative to PC/EMA blend",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 60.0,
+        "unit": "% increase relative to PC/EMA blend",
+        "conditions": []
+      }
+    }
+  }
+]

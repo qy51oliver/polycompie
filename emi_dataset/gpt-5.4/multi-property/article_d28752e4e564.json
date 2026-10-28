@@ -1,0 +1,591 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES1. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present in the coating.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.23,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 0.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 0.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 0.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES2. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 69.93,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Micron-size expanded graphite (E-GR); used as purchased.",
+        "composition": {
+          "amount": 30.07,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.31,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 11.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 16.83,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 13.55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES3. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 69.93,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "bismuth(III) oxide",
+        "description": "Submicron Bi2O3 powder with average particle size about 498.5 nm; used as purchased.",
+        "composition": {
+          "amount": 30.07,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.28,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 0.02,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 0.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 0.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES4. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 69.93,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper(II) oxide",
+        "description": "CuO nanopowder with particle size <50 nm; used as purchased.",
+        "composition": {
+          "amount": 30.07,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.27,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 0.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 0.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 0.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES5. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 53.76,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Micron-size expanded graphite (E-GR); used as purchased.",
+        "composition": {
+          "amount": 23.12,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "bismuth(III) oxide",
+        "description": "Submicron Bi2O3 powder with average particle size about 498.5 nm; used as purchased.",
+        "composition": {
+          "amount": 23.12,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.35,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 16.37,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 23.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 19.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES6. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 53.76,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Micron-size expanded graphite (E-GR); used as purchased.",
+        "composition": {
+          "amount": 23.12,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "copper(II) oxide",
+        "description": "CuO nanopowder with particle size <50 nm; used as purchased.",
+        "composition": {
+          "amount": 23.12,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.39,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 13.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 19.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 16.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Sample code PES7. PVDF coating polymer on woven polyester fabric substrate; composition calculated from solid coating ingredients only, excluding solvents and substrate.",
+        "composition": {
+          "amount": 43.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "Micron-size expanded graphite (E-GR); used as purchased.",
+        "composition": {
+          "amount": 18.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "bismuth(III) oxide",
+        "description": "Submicron Bi2O3 powder with average particle size about 498.5 nm; used as purchased.",
+        "composition": {
+          "amount": 18.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "copper(II) oxide",
+        "description": "CuO nanopowder with particle size <50 nm; used as purchased.",
+        "composition": {
+          "amount": 18.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.38,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_min": {
+        "value": 12.67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_max": {
+        "value": 18.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_mean": {
+        "value": 14.88,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

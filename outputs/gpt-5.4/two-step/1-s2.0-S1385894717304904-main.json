@@ -1,0 +1,514 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "APTES-modified glass fiber (A-m-GF)",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 119.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 6.82,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1.85,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL 94 rating",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 45,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 452,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "P-APTES-modified glass fiber (P-m-GF)",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 123.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "derivation",
+            "value": "approximately 4% higher than 119.1 MPa",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 7.02,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "derivation",
+            "value": "approximately 3% higher than 6.82 GPa",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1.96,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "derivation",
+            "value": "approximately 6% higher than 1.85%",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D-638",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 25.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL 94 rating",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 39,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 393,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "APTES-modified glass fiber (A-m-GF)",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate (AIP, Exolit OP 1240)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL 94 rating",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability_1": {
+        "value": 16.2,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "total burning time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 47,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 298,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT matrix",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "P-APTES-modified glass fiber (P-m-GF)",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminium phosphinate",
+        "description": "Aluminium diethylphosphinate (AIP, Exolit OP 1240)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 33.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D2863",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL 94 rating",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability_1": {
+        "value": 1.2,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "average burning time after first flame application",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability_2": {
+        "value": 8.5,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "average burning time after second flame application",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability_3": {
+        "value": 9.7,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "total burning time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test_standard",
+            "value": "ANSI/UL 94-2010",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 218,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Thermosetting epoxy matrix used in aeronautical CFRP laminate; 5-harness satin weave carbon fibre reinforced; mass fraction of fibre is 74%",
+        "composition": {
+          "amount": 26.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "T300 3K carbon fibre, 5-harness satin weave; mass fraction 74% in laminate",
+        "composition": {
+          "amount": 74.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.363,
+        "unit": "W/(mK)",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyphenylene sulphide",
+        "description": "Thermoplastic PPS matrix used in aeronautical CFRP laminate; 5-harness satin weave carbon fibre reinforced; mass fraction of fibre is 58%",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "T300 3K carbon fibre, 5-harness satin weave; mass fraction 58% in laminate",
+        "composition": {
+          "amount": 58.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.288,
+        "unit": "W/(mK)",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "EP matrix impregnated into the Al2O3 platelet-isolated MXene porous microsphere skeleton and then cured.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets assembled into porous microspheres using an NH4HCO3 salt template under vortex flow; KH792 ethanol diluent was used during microsphere preparation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Al2O3 platelets (Al2O3p) with shell-like arrangement around the MXene porous microspheres; platelet radial dimension about 33.7 μm.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.1,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 22.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.6,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

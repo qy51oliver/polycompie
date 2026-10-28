@@ -1,0 +1,391 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "Neat PVA film matrix; PVA molecular weight 125 × 10^3 g/mol.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat PVA film without filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.18e-06,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": "0.24±0.03",
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": "1.88±0.04",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "nanoindentation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": "0.16±0.04",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "17.25±3.34",
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; PVA molecular weight 125 × 10^3 g/mol.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide/α-iron oxyhydroxide",
+        "description": "Hybrid rGO/α-FeOOH nanofiller; α-FeOOH decorated on rGO surface. Prepared using a precursor mass ratio of rGO/Fe3+ = 1:3.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "30±3",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22.97,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "0.68±0.16",
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": "2.18±0.09",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "nanoindentation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": "0.18±0.11",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "26.83±3.36",
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; PVA molecular weight 125 × 10^3 g/mol.",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide/α-iron oxyhydroxide",
+        "description": "Hybrid rGO/α-FeOOH nanofiller; α-FeOOH decorated on rGO surface. Prepared using a precursor mass ratio of rGO/Fe3+ = 1:3.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "30±3",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "1.17±0.15",
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": "2.41±0.03",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "nanoindentation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": "0.27±0.17",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "29.63±4.36",
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; PVA molecular weight 125 × 10^3 g/mol.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide/α-iron oxyhydroxide",
+        "description": "Hybrid rGO/α-FeOOH nanofiller; α-FeOOH decorated on rGO surface. Prepared using a precursor mass ratio of rGO/Fe3+ = 1:3.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "30±3",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.04,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "1.87±0.10",
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": "2.64±0.04",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "nanoindentation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": "0.98±0.15",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "42.05±3.63",
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "PVA film matrix; PVA molecular weight 125 × 10^3 g/mol.",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide/α-iron oxyhydroxide",
+        "description": "Hybrid rGO/α-FeOOH nanofiller; α-FeOOH decorated on rGO surface. Prepared using a precursor mass ratio of rGO/Fe3+ = 1:3.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "30±3",
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6.92,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 28.27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "2.23±0.07",
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": "3.03±0.15",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "nanoindentation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": "1.10±0.17",
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "43.25±3.35",
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

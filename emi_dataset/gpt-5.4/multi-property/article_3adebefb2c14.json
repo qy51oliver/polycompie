@@ -1,0 +1,453 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 3 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 3.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin; strong sedimentation toward the bottom of the foam. Sample label TLF-3/30.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 313.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 2.5,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 4 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin. Sample label TLF-4/30.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 5 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin. Sample label TLF-5/10.",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 19.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 5 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin. Original sample TLF-5/20 and recycled counterpart RTLF-5/20 were both reported.",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 25.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 24.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "recycled",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 10.2,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 10.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "recycled",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break_1": {
+        "value": 662.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 648.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "recycled",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 5 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin. Sample label TLF-5/30.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 33.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 6 g TPU dissolved in 20 mL DMF. Sample label TLF-6/0.",
+        "composition": {
+          "amount": 6.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No conductive filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 741.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 18.9,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Microcellular TPU foam prepared by WVIPS; precursor contained 6 g TPU dissolved in 20 mL DMF.",
+        "composition": {
+          "amount": 6.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin; more uniformly dispersed with a weak top-to-bottom gradient. Sample label TLF-6/30.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "1.0-1.2",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 27.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "before stretch activation",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 628.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 11.5,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Thin microcellular TPU foam prepared by WVIPS; precursor contained 6 g TPU dissolved in 20 mL DMF. Thin sample used for stretching/EMI tests.",
+        "composition": {
+          "amount": 6.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal",
+        "description": "Gallium-containing liquid metal droplets with native Ga2O3 skin; more uniformly dispersed with a weak gradient. Thin sample label TLF-6/30.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 15.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "before first stretching",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_state",
+            "value": "after first stretching activation",
+            "unit": "not specified"
+          },
+          {
+            "type": "activation_strain",
+            "value": 200.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  }
+]

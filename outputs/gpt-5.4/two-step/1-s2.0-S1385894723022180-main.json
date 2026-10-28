@@ -1,0 +1,678 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "Neat PS",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 58,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 18.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 777,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 8,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 4.9,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2503,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 70,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 22,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 316,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 7.5,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2218,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix with graphene nanoplatelets and flame retardant",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; total FR loading 25 wt%; individual APP amount cannot be uniquely determined because graphene nanoplatelet loading varies from 1-15 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; total FR loading 25 wt%; individual PER amount cannot be uniquely determined because graphene nanoplatelet loading varies from 1-15 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphene nanoplatelets",
+        "description": "GnP; loading reported as 1-15 wt% range, exact formulation(s) not individually specified in the article text",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL 94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix with carbon nanotubes and flame retardant",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; total FR loading 25 wt%; individual APP amount cannot be uniquely determined because carbon nanotube loading varies from 1-15 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; total FR loading 25 wt%; individual PER amount cannot be uniquely determined because carbon nanotube loading varies from 1-15 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT; loading reported as 1-15 wt% range, exact formulation(s) not individually specified in the article text",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL 94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite with PPE spherical domains",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene ether",
+        "description": "PPE spherical domains, no stretching",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 75,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 27,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 284,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 18,
+        "unit": "J/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite with PPE nanofibers",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene ether",
+        "description": "PPE nanofibers formed by nano-fibrillation/stretching",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 27,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL 94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite with PPE nanofibers",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene ether",
+        "description": "PPE nanofibers formed by nano-fibrillation/stretching",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 91,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 225,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 16,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 9.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2952,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 26,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite with PPS spherical domains",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "PPS spherical domains",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 76,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 25,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 261,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 27,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS matrix in flame-retardant composite with PPS nanofibers",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Pentaerythritol",
+        "description": "Part of APP/PER intumescent flame retardant system; APP:PER ratio 3:1 within total FR loading of 25 wt%",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "PPS nanofibers formed in situ",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 67,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 28,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL 94",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 201,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  }
+]

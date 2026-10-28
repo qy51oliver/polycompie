@@ -1,0 +1,371 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "Neat PA-6 microspheres, particle size ~50 µm, dried at 80°C for 24 h before use",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.23,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 1e-09,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "less than 10⁻⁹ S m⁻¹ (insulating region)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA-6 microspheres, particle size ~50 µm, processed by mechanochemistry combined with supercritical CO2; hot pressed at 275°C, 10 MPa for 15 min",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Few-layer graphene (FLG, ~10 layers), exfoliated in-situ from bulk graphite by mechanochemistry with scCO2; average thickness ~2.6 nm (~7-8 layers), lateral size ~0.5 µm",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.00033,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 0.00033,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 0.33,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.36,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 3.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA-6 microspheres, particle size ~50 µm, processed by mechanochemistry combined with supercritical CO2; hot pressed at 275°C, 10 MPa for 15 min",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Few-layer graphene (FLG, ~10 layers), exfoliated in-situ from bulk graphite by mechanochemistry with scCO2; average thickness ~2.6 nm (~7-8 layers), lateral size ~0.5 µm",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 13.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximate value read from Fig. 6d; exceeds commercial figure of merit of 20 dB at 1.5 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA-6 microspheres, particle size ~50 µm, processed by mechanochemistry combined with supercritical CO2; hot pressed at 275°C, 10 MPa for 15 min",
+        "composition": {
+          "amount": 98.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Few-layer graphene (FLG, ~10 layers), exfoliated in-situ from bulk graphite by mechanochemistry with scCO2; average thickness ~2.6 nm (~7-8 layers), lateral size ~0.5 µm",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 13.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "meets commercial figure of merit of ≥20 dB at 1.5 wt% FLG loading",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA-6 microspheres, particle size ~50 µm, processed by mechanochemistry combined with supercritical CO2; hot pressed at 275°C, 10 MPa for 15 min",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Few-layer graphene (FLG, ~10 layers), exfoliated in-situ from bulk graphite by mechanochemistry with scCO2; average thickness ~2.6 nm (~7-8 layers), lateral size ~0.5 µm",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 4.59,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 29.59,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 41.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 1.78,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 2.14,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

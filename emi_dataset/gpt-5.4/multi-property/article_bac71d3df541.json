@@ -1,0 +1,584 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Cured polymer resin matrix from the unidirectional prepreg used to fabricate the CFRP laminate; exact polymer chemistry was not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Virgin continuous carbon fiber reinforcement from unidirectional prepreg, laid up at 0°/90° to form bidirectional vCFRPs.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 19.73,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 4146.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 24.36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "average SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 37,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "cone calorimeter",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 143.9,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "cone calorimeter",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Cured polymer resin matrix from the unidirectional prepreg used to fabricate the CFRP laminate; exact polymer chemistry was not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Virgin continuous carbon fiber reinforcement from unidirectional prepreg, laid up at 0°/90°.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon fiber",
+        "description": "Reclaimed carbon fiber nonwoven veil added as two surface layers for comparison; described as untreated rCF veils.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.89,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "average SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 208.13,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "cone calorimeter",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 1433.61,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 91.13,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Cured polymer resin matrix from the unidirectional prepreg used to fabricate the CFRP laminate; exact polymer chemistry was not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Virgin continuous carbon fiber reinforcement from unidirectional prepreg, laid up at 0°/90°.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon fiber",
+        "description": "One reclaimed carbon fiber nonwoven veil layer modified with Ti3C2Tx MXene, PEDOT:PSS, and APP for EMI testing (MPA1-rCFRPs).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Mixed-size Ti3C2Tx nanosheets infused into the reclaimed carbon fiber veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer component in the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Flame-retardant additive assembled into the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 63.19,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "average SET",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Cured polymer resin matrix from the unidirectional prepreg used to fabricate the CFRP laminate; exact polymer chemistry was not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Virgin continuous carbon fiber reinforcement from unidirectional prepreg, laid up at 0°/90°.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon fiber",
+        "description": "Two reclaimed carbon fiber nonwoven veil layers modified with Ti3C2Tx MXene, PEDOT:PSS, and APP; this is the standard MPA-rCFRPs composition and corresponds to MPA2-rCFRPs in EMI testing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Mixed-size Ti3C2Tx nanosheets infused into the reclaimed carbon fiber veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer component in the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Flame-retardant additive assembled into the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 151.41,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 17504.73,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 73.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "average SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 94,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "cone calorimeter",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 108.56,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "cone calorimeter",
+            "unit": "not specified"
+          },
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 54.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 182.03,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "DSC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 1682.74,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 119.79,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tensile",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Cured polymer resin matrix from the unidirectional prepreg used to fabricate the CFRP laminate; exact polymer chemistry was not reported.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Virgin continuous carbon fiber reinforcement from unidirectional prepreg, laid up at 0°/90°.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon fiber",
+        "description": "Four reclaimed carbon fiber nonwoven veil layers modified with Ti3C2Tx MXene, PEDOT:PSS, and APP for EMI testing (MPA4-rCFRPs).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Mixed-size Ti3C2Tx nanosheets infused into the reclaimed carbon fiber veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Conductive polymer component in the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Flame-retardant additive assembled into the modified veil.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 84.09,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "average SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87.12,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "metric",
+            "value": "maximum EMI SE in X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

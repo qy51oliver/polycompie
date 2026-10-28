@@ -1,0 +1,426 @@
+[
+     {
+        "sample_id": "PVDF",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PMX0.5",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 99.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 0.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PMX1",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 1.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PMX5",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PMX10",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+            "electrical_conductiveiy": {"value": 20, "unit": "S/cm"},
+            "shielding_effectiveness": {"value": 18, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]},
+            "absorption": {"value": 10, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "PMX10Ni-S",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Nickel",
+                "description": "spherical",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 26.7, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]},
+            "absorption": {"value": 19, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "PMX10Ni-F",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Nickel",
+                "description": "flower-like",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":20, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 34, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]},
+            "absorption": {"value": 25, "unit": "db","conditions": [{"type": "frequency", "value": 1,"unit": "THz"}]}
+        }
+    },
+
+     {
+        "sample_id": "MXene/PVA",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl alcohol",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":42, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 23, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 2.0,"unit": "THz"}]},
+            "SSE": {"value": 15.21, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 2.0,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 3621, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 2.0,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "MXene(Ti2C)/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene(Ti2C)",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":700, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "<8", "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "SSE": {"value": 7.98, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 114.1, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "OLC/PMMA",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "onion-like carbon",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":120, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 4, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "SSE": {"value": 3.4, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 282.5, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "Graphene/PDMS",
+        "matrix_name": [
+        		{
+                "name": "polymethylmethacrylate",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene(Ti2C)",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":700, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 40, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "SSE": {"value": 40.82, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 583.1, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 3.0,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "SWCNTs/PVA",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl alcohol",
+                "description": "not specified",
+                "composition": {"amount": 98.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "single wale carbon nano tube",
+                "description": "not specified",
+                "composition": {"amount": 1.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":300, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "20-29", "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.3,"unit": "THz"},{"type": "frequency upper bound", "value": 2.1,"unit": "THz"}]},
+            "SSE": {"value": 15.7, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.3,"unit": "THz"},{"type": "frequency upper bound", "value": 2.1,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 523.3, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.3,"unit": "THz"},{"type": "frequency upper bound", "value": 2.1,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "CNF/PVDF/PMMA",
+        "matrix_name": [
+        		{
+                "name": "polyvinylidene fluoride/polymethylmethacrylate",
+                "description": "not specified",
+                "composition": {"amount": 98.9, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanofiber",
+                "description": "not specified",
+                "composition": {"amount": 1.1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"40-100", "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 32, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]},
+            "SSE": {"value": 27.1, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 2710, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "Graphite/PMMA",
+        "matrix_name": [
+        		{
+                "name": "polymethylmethacrylate",
+                "description": "not specified",
+                "composition": {"amount": 64.3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite",
+                "description": "not specified",
+                "composition": {"amount": 35.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":300, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 50, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 0.9,"unit": "THz"}]},
+            "SSE": {"value": 42.4, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 0.9,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 1413, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 0.9,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "CNW/PMC",
+        "matrix_name": [
+        		{
+                "name": "fluoroacrylic co-polymer",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polymer-carbon nanowhisker",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":70, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 40, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]},
+            "SSE": {"value": 36.4, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 5200, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.57,"unit": "THz"},{"type": "frequency upper bound", "value": 0.63,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "MWCNTs/PMMA",
+        "matrix_name": [
+        		{
+                "name": "polymethylmethacrylate",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":300, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 20, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 4,"unit": "THz"}]},
+            "SSE": {"value": 16.9, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 4,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 563.3, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.1,"unit": "THz"},{"type": "frequency upper bound", "value": 4,"unit": "THz"}]}
+        }
+    },
+     {
+        "sample_id": "PAN/PU",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":150, "unit":"μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 42, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 1.2,"unit": "THz"}]},
+            "SSE": {"value": 38.2, "unit": "dBcm^-3g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 1.2,"unit": "THz"}]},
+            "absolute_shielding_effectiveness": {"value": 2546.6, "unit": "dBcm^-2g^-1","conditions": [{"type": "frequency lower bound", "value": 0.2,"unit": "THz"},{"type": "frequency upper bound", "value": 1.2,"unit": "THz"}]}
+        }
+    }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Neat PBT resin (grade 1100-211M)",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled neat polymer",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "notched Izod",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 224.3,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 53,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 572,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in composite with natural wollastonite",
+        "composition": {
+          "amount": 99.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wollastonite",
+        "description": "Natural wollastonite (NW), 600 mesh powder, microscale filler",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "notched Izod",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 225.0,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 44,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 474,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in composite with synthetic wollastonite nanofibers",
+        "composition": {
+          "amount": 99.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wollastonite",
+        "description": "Synthetic wollastonite nanofibers (SWN), nanoscale fibrous filler synthesized by hydrothermal reaction followed by calcination",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "notched Izod",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 226.5,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 50,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 495,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in composite with graphene oxide",
+        "composition": {
+          "amount": 99.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide",
+        "description": "GO powder, average thickness 0.8-2.0 nm and lateral dimension 5-10 um",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 45.2,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "notched Izod",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 224.8,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 42,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 509,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  }
+]

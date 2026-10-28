@@ -1,0 +1,422 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 3,
+  "model": "gpt-5.4",
+  "study": "gpt-5.4/two-step",
+  "scope": "selected",
+  "property_set": [
+    "electrical_conductivity",
+    "elongation_at_break",
+    "flammability",
+    "glass_transition_temperature",
+    "impact_strength",
+    "limiting_oxygen_index",
+    "melting_temperature",
+    "peak_heat_release_rate",
+    "shielding_effectiveness",
+    "tensile_strength",
+    "thermal_conductivity",
+    "time_to_ignition",
+    "youngs_modulus"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 56,
+  "prediction_status": {
+    "present": 59
+  },
+  "later_saved_prediction_articles": [],
+  "avg_similarity": 0.7747409368161822,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.3785,
+      "recall": 0.2899,
+      "f1": 0.3283
+    },
+    "relaxed": {
+      "precision": 0.6042,
+      "recall": 0.4628,
+      "f1": 0.5241
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.4485,
+      "recall": 0.4052,
+      "f1": 0.4258,
+      "tp": 357,
+      "fp": 439,
+      "fn": 524
+    },
+    "strict": {
+      "precision": 0.2588,
+      "recall": 0.2338,
+      "f1": 0.2457,
+      "tp": 206,
+      "fp": 590,
+      "fn": 675
+    }
+  },
+  "per_property_metrics": {
+    "electrical_conductivity": {
+      "relaxed": {
+        "precision": 0.4685,
+        "recall": 0.52,
+        "f1": 0.4929,
+        "tp": 52,
+        "fp": 59,
+        "fn": 48
+      },
+      "strict": {
+        "precision": 0.3423,
+        "recall": 0.38,
+        "f1": 0.3602,
+        "tp": 38,
+        "fp": 73,
+        "fn": 62
+      }
+    },
+    "elongation_at_break": {
+      "relaxed": {
+        "precision": 0.4878,
+        "recall": 0.3774,
+        "f1": 0.4255,
+        "tp": 20,
+        "fp": 21,
+        "fn": 33
+      },
+      "strict": {
+        "precision": 0.3171,
+        "recall": 0.2453,
+        "f1": 0.2766,
+        "tp": 13,
+        "fp": 28,
+        "fn": 40
+      }
+    },
+    "flammability": {
+      "relaxed": {
+        "precision": 0.1316,
+        "recall": 0.2,
+        "f1": 0.1587,
+        "tp": 10,
+        "fp": 66,
+        "fn": 40
+      },
+      "strict": {
+        "precision": 0.0395,
+        "recall": 0.06,
+        "f1": 0.0476,
+        "tp": 3,
+        "fp": 73,
+        "fn": 47
+      }
+    },
+    "glass_transition_temperature": {
+      "relaxed": {
+        "precision": 0.2258,
+        "recall": 0.28,
+        "f1": 0.25,
+        "tp": 7,
+        "fp": 24,
+        "fn": 18
+      },
+      "strict": {
+        "precision": 0.1613,
+        "recall": 0.2,
+        "f1": 0.1786,
+        "tp": 5,
+        "fp": 26,
+        "fn": 20
+      }
+    },
+    "impact_strength": {
+      "relaxed": {
+        "precision": 0.8571,
+        "recall": 0.5714,
+        "f1": 0.6857,
+        "tp": 12,
+        "fp": 2,
+        "fn": 9
+      },
+      "strict": {
+        "precision": 0.5,
+        "recall": 0.3333,
+        "f1": 0.4,
+        "tp": 7,
+        "fp": 7,
+        "fn": 14
+      }
+    },
+    "limiting_oxygen_index": {
+      "relaxed": {
+        "precision": 0.72,
+        "recall": 0.3673,
+        "f1": 0.4865,
+        "tp": 18,
+        "fp": 7,
+        "fn": 31
+      },
+      "strict": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 25,
+        "fn": 49
+      }
+    },
+    "melting_temperature": {
+      "relaxed": {
+        "precision": 0.72,
+        "recall": 0.6316,
+        "f1": 0.6729,
+        "tp": 36,
+        "fp": 14,
+        "fn": 21
+      },
+      "strict": {
+        "precision": 0.56,
+        "recall": 0.4912,
+        "f1": 0.5234,
+        "tp": 28,
+        "fp": 22,
+        "fn": 29
+      }
+    },
+    "peak_heat_release_rate": {
+      "relaxed": {
+        "precision": 0.5588,
+        "recall": 0.5588,
+        "f1": 0.5588,
+        "tp": 38,
+        "fp": 30,
+        "fn": 30
+      },
+      "strict": {
+        "precision": 0.0441,
+        "recall": 0.0441,
+        "f1": 0.0441,
+        "tp": 3,
+        "fp": 65,
+        "fn": 65
+      }
+    },
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.474,
+        "recall": 0.3347,
+        "f1": 0.3923,
+        "tp": 82,
+        "fp": 91,
+        "fn": 163
+      },
+      "strict": {
+        "precision": 0.4162,
+        "recall": 0.2939,
+        "f1": 0.3445,
+        "tp": 72,
+        "fp": 101,
+        "fn": 173
+      }
+    },
+    "tensile_strength": {
+      "relaxed": {
+        "precision": 0.4773,
+        "recall": 0.4667,
+        "f1": 0.4719,
+        "tp": 21,
+        "fp": 23,
+        "fn": 24
+      },
+      "strict": {
+        "precision": 0.3409,
+        "recall": 0.3333,
+        "f1": 0.3371,
+        "tp": 15,
+        "fp": 29,
+        "fn": 30
+      }
+    },
+    "thermal_conductivity": {
+      "relaxed": {
+        "precision": 0.3971,
+        "recall": 0.2842,
+        "f1": 0.3313,
+        "tp": 27,
+        "fp": 41,
+        "fn": 68
+      },
+      "strict": {
+        "precision": 0.2647,
+        "recall": 0.1895,
+        "f1": 0.2209,
+        "tp": 18,
+        "fp": 50,
+        "fn": 77
+      }
+    },
+    "time_to_ignition": {
+      "relaxed": {
+        "precision": 0.5085,
+        "recall": 0.4762,
+        "f1": 0.4918,
+        "tp": 30,
+        "fp": 29,
+        "fn": 33
+      },
+      "strict": {
+        "precision": 0.0508,
+        "recall": 0.0476,
+        "f1": 0.0492,
+        "tp": 3,
+        "fp": 56,
+        "fn": 60
+      }
+    },
+    "youngs_modulus": {
+      "relaxed": {
+        "precision": 0.1111,
+        "recall": 0.4,
+        "f1": 0.1739,
+        "tp": 4,
+        "fp": 32,
+        "fn": 6
+      },
+      "strict": {
+        "precision": 0.0278,
+        "recall": 0.1,
+        "f1": 0.0435,
+        "tp": 1,
+        "fp": 35,
+        "fn": 9
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 109,
+      "fp_s": 179,
+      "fn_s": 267,
+      "tp_r": 174,
+      "fp_r": 114,
+      "fn_r": 202
+    },
+    "prop": {
+      "tp": 357,
+      "fp": 439,
+      "fn": 524,
+      "tp_s": 206,
+      "fp_s": 590,
+      "fn_s": 675,
+      "per_key": {
+        "electrical_conductivity": {
+          "tp": 52,
+          "fp": 59,
+          "fn": 48,
+          "tp_s": 38,
+          "fp_s": 73,
+          "fn_s": 62
+        },
+        "elongation_at_break": {
+          "tp": 20,
+          "fp": 21,
+          "fn": 33,
+          "tp_s": 13,
+          "fp_s": 28,
+          "fn_s": 40
+        },
+        "flammability": {
+          "tp": 10,
+          "fp": 66,
+          "fn": 40,
+          "tp_s": 3,
+          "fp_s": 73,
+          "fn_s": 47
+        },
+        "glass_transition_temperature": {
+          "tp": 7,
+          "fp": 24,
+          "fn": 18,
+          "tp_s": 5,
+          "fp_s": 26,
+          "fn_s": 20
+        },
+        "impact_strength": {
+          "tp": 12,
+          "fp": 2,
+          "fn": 9,
+          "tp_s": 7,
+          "fp_s": 7,
+          "fn_s": 14
+        },
+        "limiting_oxygen_index": {
+          "tp": 18,
+          "fp": 7,
+          "fn": 31,
+          "tp_s": 0,
+          "fp_s": 25,
+          "fn_s": 49
+        },
+        "melting_temperature": {
+          "tp": 36,
+          "fp": 14,
+          "fn": 21,
+          "tp_s": 28,
+          "fp_s": 22,
+          "fn_s": 29
+        },
+        "peak_heat_release_rate": {
+          "tp": 38,
+          "fp": 30,
+          "fn": 30,
+          "tp_s": 3,
+          "fp_s": 65,
+          "fn_s": 65
+        },
+        "shielding_effectiveness": {
+          "tp": 82,
+          "fp": 91,
+          "fn": 163,
+          "tp_s": 72,
+          "fp_s": 101,
+          "fn_s": 173
+        },
+        "tensile_strength": {
+          "tp": 21,
+          "fp": 23,
+          "fn": 24,
+          "tp_s": 15,
+          "fp_s": 29,
+          "fn_s": 30
+        },
+        "thermal_conductivity": {
+          "tp": 27,
+          "fp": 41,
+          "fn": 68,
+          "tp_s": 18,
+          "fp_s": 50,
+          "fn_s": 77
+        },
+        "time_to_ignition": {
+          "tp": 30,
+          "fp": 29,
+          "fn": 33,
+          "tp_s": 3,
+          "fp_s": 56,
+          "fn_s": 60
+        },
+        "youngs_modulus": {
+          "tp": 4,
+          "fp": 32,
+          "fn": 6,
+          "tp_s": 1,
+          "fp_s": 35,
+          "fn_s": 9
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

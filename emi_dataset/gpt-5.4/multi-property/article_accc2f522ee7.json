@@ -1,0 +1,104 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC component of a PC/ABS blend; blend composition reported as 90/10 by weight. Commercial grade Lexan 103R-111.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS component of a PC/ABS blend; blend composition reported as 90/10 by weight. Commercial grade D180.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "Nickel-coated carbon fibre (NCF), MC-HTA-C3-US; filler loading reported as 10 phr.",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "30-32",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1000.0,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC component of a PC/ABS blend; exact PC/ABS ratio for the best-performing sample was not explicitly stated.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS component of a PC/ABS blend; exact PC/ABS ratio for the best-performing sample was not explicitly stated.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "Nickel-coated carbon fibre (NCF), MC-HTA-C3-US; filler loading reported as 30 phr.",
+        "composition": {
+          "amount": 30.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1000.0,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

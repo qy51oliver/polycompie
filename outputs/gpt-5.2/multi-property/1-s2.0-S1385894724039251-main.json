@@ -1,0 +1,593 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "PLA (4032D); random composite labeled T5 (PLA/CNTs).",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs (NC-7000); 1D conductive nanofiller.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "PLA (4032D); random composite labeled T10 (PLA/10CNTs).",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs (NC-7000); 1D conductive nanofiller.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "PLA (4032D); random composite labeled T15 (PLA/CNTs).",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs (NC-7000); 1D conductive nanofiller.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT (TH801T); segregated composite P@T5 made by two-step melting with solid PLA/CNTs particles dispersed/encapsulated in PBAT.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase present as conductive particles (PLA/CNTs) in segregated structure.",
+        "composition": {
+          "amount": 76.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs contained within PLA conductive particles; overall CNT loading computed from 80 wt% of T5 particles (5 wt% CNT in those particles): 0.80*0.05=0.04 (4 wt%).",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT (TH801T); segregated composite P@T10 (Table 1).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase present as conductive particles (PLA/10CNTs) in segregated structure (Table 1 lists PLA=72 wt%, CNTs=8 wt%).",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs (NC-7000).",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT (TH801T); segregated composite P@E10 (Table 1).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase present as conductive particles (PLA/EG) in segregated attempt (Table 1 lists PLA=72 wt%).",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Expanded graphite",
+        "description": "EG; particle size under 10 (unit not specified in text). Table 1 implies EG=8 wt% for P@E10 (since PBAT 20 + PLA 72 => remaining 8).",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT (TH801T); segregated composite P@E5T5 (Table 1).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase present as conductive particles containing hybrid EG/CNT (1:1 mass ratio); Table 1 lists PLA=72 wt%.",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Expanded graphite",
+        "description": "EG in hybrid EG/CNT filler (1:1 mass ratio). Total filler in P@E5T5 inferred as 8 wt% (PBAT 20 + PLA 72).",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs in hybrid EG/CNT filler (1:1 mass ratio). Total filler in P@E5T5 inferred as 8 wt% (PBAT 20 + PLA 72).",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT/PLA/CNTs segregated composite foam f-P@T10-110 produced by Sc-CO2 foaming at 110 °C (batch foaming).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase as conductive particles (same formulation basis as P@T10).",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs; same overall loading as P@T10.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "reported_as",
+            "value": "volume resistivity > 10^10",
+            "unit": "ohm·cm"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "reported as 'around 30 dB'",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT/PLA/CNTs segregated composite foam f-P@T10-130 produced by Sc-CO2 foaming at 130 °C.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase as conductive particles (same formulation basis as P@T10).",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs; same overall loading as P@T10.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "reported_as",
+            "value": "volume resistivity > 10^10",
+            "unit": "ohm·cm"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 24.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT/PLA/CNTs segregated composite foam f-P@T10-150 produced by Sc-CO2 foaming at 150 °C.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase as conductive particles (same formulation basis as P@T10).",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNTs; overall loading stated as 8 wt% in Table 2 for PBAT@PLA/CNTs.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.512562814e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "converted_from_volume_resistivity",
+            "value": 3980000000.0,
+            "unit": "ohm·cm"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 30.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 136.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "compression",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI granules (80–120 meshes); neat PEI sample prepared through hot compression molding",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 49.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 215,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI granules (80–120 meshes); microwave-assisted sinter molded composite with segregated structure",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "industrial-grade CNTs (NC7000), average diameter 9.5 nm and length 1.5 μm; coated on PEI granule surfaces to form a segregated conductive network",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.46,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 93.17,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI granules (80–120 meshes); microwave-assisted sinter molded composite with segregated structure",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "industrial-grade CNTs (NC7000), average diameter 9.5 nm and length 1.5 μm; coated on PEI granule surfaces to form a segregated conductive network",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 32.89,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 126.94,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI granules (80–120 meshes); microwave-assisted sinter molded composite with segregated structure",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "industrial-grade CNTs (NC7000), average diameter 9.5 nm and length 1.5 μm; coated on PEI granule surfaces to form a segregated conductive network",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 17.98,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 34.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 35.71,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 145.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "PEI granules (80–120 meshes); microwave-assisted sinter molded composite with segregated structure",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "industrial-grade CNTs (NC7000), average diameter 9.5 nm and length 1.5 μm; coated on PEI granule surfaces to form a segregated conductive network",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.02,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">18",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

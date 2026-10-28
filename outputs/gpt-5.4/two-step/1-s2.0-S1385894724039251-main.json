@@ -1,0 +1,473 @@
+[
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "PLA matrix in random composite T10",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in random composite T10",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 3.33,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_environment",
+            "value": "ambient conditions in dry air",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT continuous phase in segregated composite P@E5T5",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in segregated composite P@E5T5",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Expanded graphite",
+        "description": "EG component of hybrid filler in segregated composite P@E5T5; EG/CNTs mass ratio 1:1 and total filler loading 8 wt%, so EG = 4 wt%",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT component of hybrid filler in segregated composite P@E5T5; EG/CNTs mass ratio 1:1 and total filler loading 8 wt%, so CNTs = 4 wt%",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT continuous phase in segregated composite P@T10",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in segregated composite P@T10",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in segregated composite P@T10",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT continuous phase in segregated composite P@T5",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in segregated composite P@T5",
+        "composition": {
+          "amount": 76.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in segregated composite P@T5; inferred from secondary blending of PBAT with PLA/5CNTs particles at 20:80 mass ratio",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT phase in foamed segregated composite f-P@T10-110",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in foamed segregated composite f-P@T10-110",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in foamed segregated composite f-P@T10-110",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 110,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT phase in foamed segregated composite f-P@T10-130",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in foamed segregated composite f-P@T10-130",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in foamed segregated composite f-P@T10-130",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 130,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "Polybutylene adipate terephthalate",
+        "description": "PBAT phase in foamed segregated composite f-P@T10-150",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polylactic acid",
+        "description": "PLA phase in foamed segregated composite f-P@T10-150",
+        "composition": {
+          "amount": 72.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "CNT filler in foamed segregated composite f-P@T10-150",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.51e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_environment",
+            "value": "ambient conditions in dry air",
+            "unit": "not specified"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 150,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 30.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 150,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 136.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "compression",
+            "unit": "not specified"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 150,
+            "unit": "C"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 47.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "compression",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain",
+            "value": 50,
+            "unit": "%"
+          },
+          {
+            "type": "foaming_temperature",
+            "value": 150,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  }
+]

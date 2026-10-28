@@ -1,0 +1,150 @@
+[
+     {
+        "sample_id": "PBT/A-m-GF",
+        "matrix_name": [
+        		{
+                "name": "poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 30.0, "type": "wt%"},
+                "surface_treatment": "APTES"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "tensile strength": {"value": 119.1, "unit": "MPa"},
+            "Young's modulus": {"value": 6.82, "unit": "GPa"},
+            "elongation at break": {"value": 1.85, "unit": "%"},
+            "maximal mass loss rate temperature": {"value": 405, "unit": "°C"},
+            "residue yield":{"value": 31.7, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "°C"}]},
+            "limiting oxygen index": {"value": 22.0, "unit": "%"},
+            "t1/t2": {"value": "BC", "unit": "s","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "dripping": {"value": "yes", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "ignition of cotton": {"value": "yes", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "flammability": {"value": "NR", "unit": "not specify","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "time to ignition": {"value": 41, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 452, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 63.0, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "residue": {"value": 31.2, "unit": "wt%", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/P-m-GF",
+        "matrix_name": [
+        		{
+                "name": "poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 30.0, "type": "wt%"},
+                "surface_treatment": "P-APTES"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "tensile strength": {"value": 124.3, "unit": "MPa"},
+            "Young's modulus": {"value": 7.35, "unit": "GPa"},
+            "elongation at break": {"value": 1.96, "unit": "%"},
+            "residue yield":{"value": 35.3, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "°C"}]},
+            "limiting oxygen index": {"value": 25.5, "unit": "%"},
+            "t1/t2": {"value": "BC", "unit": "s","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "dripping": {"value": "yes", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "ignition of cotton": {"value": "yes", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "flammability": {"value": "NR", "unit": "not specify","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "time to ignition": {"value": 39, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 393, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 54.6, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "residue": {"value": 36.3, "unit": "wt%", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/A-m-GF/AIP15",
+        "matrix_name": [
+        		{
+                "name": "poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 30.0, "type": "wt%"},
+                "surface_treatment": "APTES"
+            },
+            {
+                "name": "aluminium phosphinate",
+                "description": "flame retardants",
+                "composition": {"amount": 15.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "residue yield":{"value": 35.8, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "°C"}]},
+            "limiting oxygen index": {"value": 31.5, "unit": "%"},
+            "t1/t2": {"value": "2.4/13.8", "unit": "s","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "dripping": {"value": "no", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "ignition of cotton": {"value": "no", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "flammability": {"value": "V-1", "unit": "not specify","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "time to ignition": {"value": 47, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 298, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 48.5, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "residue": {"value": 36.5, "unit": "wt%", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    },
+     {
+        "sample_id": "PBT/P-m-GF/AIP15",
+        "matrix_name": [
+        		{
+                "name": "poly(1,4-butylene terephthalate)",
+                "description": "not specified",
+                "composition": {"amount": 55, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "reinforcement filler",
+                "composition": {"amount": 30.0, "type": "wt%"},
+                "surface_treatment": "P-APTES"
+            },
+            {
+                "name": "aluminium phosphinate",
+                "description": "flame retardants",
+                "composition": {"amount": 15.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "residue yield":{"value": 39.1, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "°C"}]},
+            "limiting oxygen index": {"value": 33.0, "unit": "%"},
+            "t1/t2": {"value": "1.2/8.5", "unit": "s","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "dripping": {"value": "no", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "ignition of cotton": {"value": "no", "unit": "not specified","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "flammability": {"value": "V-0", "unit": "not specify","conditions": [{"type": "bar", "value": 3,"unit": "mm"}]},
+            "time to ignition": {"value": 48, "unit": "s", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "peak of heat release rate": {"value": 218, "unit": "kW/m^2", "conditions": [{"type": "External heat flux", "value": 50,"unit": "kW/m2"}]},
+            "total heat release": {"value": 42.9, "unit": "MJ/m^2", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]},
+            "residue": {"value": 39.8, "unit": "wt%", "conditions": [{"type": "heat flux", "value": 50,"unit": "kW/m^2"}]}
+        }
+    }
+]
+

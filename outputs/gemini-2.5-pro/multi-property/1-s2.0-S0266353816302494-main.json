@@ -1,0 +1,551 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "Pristine PA6 (1022B, specific gravity 1.14)",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.22,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": 2.5,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.43,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.28,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": 2.86,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.78,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 78.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.32,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": 2.7,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.87,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 71.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-co-glycidyl methacrylate)",
+        "description": "Bondfast E, 12 wt% glycidyl methacrylate, specific gravity 0.94",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.34,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": 2.25,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.72,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 2.5,
+        "unit": "kJ m-2",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "Charpy notched",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14. Prepared by blending with a pre-made MWCNT/PPS master batch.",
+        "composition": {
+          "amount": 71.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-co-glycidyl methacrylate)",
+        "description": "Bondfast E, 12 wt% glycidyl methacrylate, specific gravity 0.94",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.34,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 77.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "(3-glycidyloxypropyl)trimethoxysilane",
+        "description": "purity >= 98%, density 1.07 g/ml",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.35,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus_1": {
+        "value": 3.22,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 1.08,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 2.8,
+        "unit": "kJ m-2",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "Charpy notched",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 76.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 2.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "(3-glycidyloxypropyl)trimethoxysilane",
+        "description": "purity >= 98%, density 1.07 g/ml",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.433,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3.86,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "flexural modulus",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 2.9,
+        "unit": "kJ m-2",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "Charpy notched",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "1022B, specific gravity 1.14",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7, chemical vapor grown, diameter 40-90 nm, length 5-15 um, purity >99.5 wt%",
+        "composition": {
+          "amount": 3.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "specific gravity 1.35",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 3.78,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "flexural modulus",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 1.4,
+        "unit": "kJ m-2",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "Charpy notched",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework (trade name Elvax 460; VA content 18 wt%); porous structure made using NaCl sacrificial template; sample label El2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization (VPP); sample label El2P1 indicates polymerization time 1 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating on PPy-coated EVA foam; AgNO3 concentration 20 mg/mL; sample label El2P1A20. Reported AgNP loading (by mass method) 51.95 wt% (basis relative to composite not explicitly clarified).",
+        "composition": {
+          "amount": 51.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 107.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "Chemically crosslinked EVA foam framework (Elvax 460; VA content 18 wt%); porous structure made using NaCl sacrificial template; sample label El2 (EVA:NaCl = 1:12).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coating deposited by vapor phase polymerization (VPP); sample label El2P1 indicates polymerization time 1 h.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag nanoparticles grown by electroless silver plating on PPy-coated EVA foam; AgNO3 concentration 10 mg/mL; sample label El2P1A10. Reported tunable EMI SE under compressive strain for this formulation.",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 61.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 0.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 38.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 30.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "compressive_strain",
+            "value": 50.0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  }
+]

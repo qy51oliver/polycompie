@@ -1,0 +1,65 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "PEI resin; composite prepared by hot-pressing PEI@Ag core-shell microspheres (segregated Ag network). PEI microsphere type: MPEI (Dv50 ~10 µm).",
+        "composition": {
+          "amount": 81.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag shell on PEI microspheres (PEI@Ag core-shell); composite abbreviated as MPEI@Ag. Ag loading reported as 18.9 vol%.",
+        "composition": {
+          "amount": 18.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.41,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "SET (total shielding effectiveness)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

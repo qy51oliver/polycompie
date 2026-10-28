@@ -1,0 +1,648 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Hot-pressed electrospun PVDF control film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.19,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 33,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 34,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 97.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Spray-coated Ni-CNT on the middle Al2O3@PVDF layer; absent in this formulation.",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.21,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Spray-coated Ni-CNT on the middle Al2O3@PVDF layer; absent in this formulation.",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 3.89,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT spray-coated on both surfaces of the middle Al2O3@PVDF layer.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 4.11,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT spray-coated on both surfaces of the middle Al2O3@PVDF layer.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 4.33,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT spray-coated on both surfaces of the middle Al2O3@PVDF layer.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 65,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 4.02,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 25,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT spray-coated on both surfaces of the middle Al2O3@PVDF layer.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 68.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 483,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyvinylidene fluoride",
+        "description": "Multilayer hot-pressed electrospun PVDF film; top and bottom layers are Ni-CNT/PVDF, and the middle layer is PEI-modified PVDF used for electrostatic adsorption of Al2O3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "Middle-layer PVDF fibers PEI-treated; surface-layer PVDF untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT embedded/oriented in the top and bottom surface PVDF electrospun fiber layers.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum oxide",
+        "description": "Spherical Al2O3 microspheres electrostatically adsorbed in the middle PVDF layer; 5 adsorption cycles.",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "Pre-hydroxylated and PAAS-modified"
+      },
+      {
+        "name": "nickel-coated carbon nanotube",
+        "description": "Ni-CNT spray-coated on both surfaces of the middle Al2O3@PVDF layer.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 23.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 489,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 4.8,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "testing_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  }
+]

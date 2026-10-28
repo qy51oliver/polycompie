@@ -1,0 +1,660 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 3.54,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 429,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.68,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 9.81,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 5.91,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 618,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 6.15,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 541,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 91.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 6.36,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 496,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 13.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 5.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "self-healed",
+            "unit": "not specified"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 5,
+            "unit": "V"
+          },
+          {
+            "type": "healing_time",
+            "value": 15,
+            "unit": "min"
+          },
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 460,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "self-healed",
+            "unit": "not specified"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 5,
+            "unit": "V"
+          },
+          {
+            "type": "healing_time",
+            "value": 15,
+            "unit": "min"
+          },
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 4.36,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 335,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 3.94,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 228,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 82.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 5,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 374.64,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 38.82,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.19,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 179,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 1.98,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "self-healed",
+            "unit": "not specified"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 5,
+            "unit": "V"
+          },
+          {
+            "type": "healing_time",
+            "value": 15,
+            "unit": "min"
+          },
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 132,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "self-healed",
+            "unit": "not specified"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 5,
+            "unit": "V"
+          },
+          {
+            "type": "healing_time",
+            "value": 15,
+            "unit": "min"
+          },
+          {
+            "type": "loading_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 82.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 103.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WPU matrix",
+        "composition": {
+          "amount": 82.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "liquid metal/MXene nanocomposites",
+        "description": "LM@MXene nanocomposites; liquid metal nanoparticles encapsulated by Ti3C2Tx MXene. The liquid metal consists of 68.5 wt% gallium, 21.5 wt% indium, and 10 wt% tin.",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 100,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 67.74,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after 10 self-healing cycles",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 65.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "thermal treatment",
+            "unit": "not specified"
+          },
+          {
+            "type": "thermal_treatment_temperature",
+            "value": 200,
+            "unit": "°C"
+          },
+          {
+            "type": "thermal_treatment_time",
+            "value": 20,
+            "unit": "h"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; carboxyl content controlled by adjusting ratio of 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer with thickness ~220 nm; Ni nanoparticles at interface as catalytic seeds via ion exchange and NaBH4 reduction",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3240,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; carboxyl content controlled by adjusting ratio of 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer; Ni nanoparticles at interface as catalytic seeds via ion exchange and NaBH4 reduction",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5190,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1323,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 300,
+            "unit": "°C"
+          },
+          {
+            "type": "duration",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; carboxyl content controlled by adjusting ratio of 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 65.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer with thickness ~780 nm; Ni nanoparticles at interface as catalytic seeds via ion exchange and NaBH4 reduction",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.6,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12783,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "electrical_conductivity_2": {
+        "value": 13000.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "before tape peeling",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 11000.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "after tape peeling",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 63.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "carboxylate-containing polyimide",
+        "description": "PIC fiber prepared by wet spinning followed by high-temperature cyclization and hot drawing at 380°C; carboxyl content controlled by adjusting ratio of 3,5-diaminobenzoic acid (DABA)",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "electroless plated copper layer (35 wt%); Ni nanoparticles at interface as catalytic seeds",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "electroless plated protective nickel layer on surface of PIC/Cu fiber; thickness ~100 nm; activated by PdCl2 displacement reaction",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 11342,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "unheated",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 11057,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 350,
+            "unit": "°C"
+          },
+          {
+            "type": "duration",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 65.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

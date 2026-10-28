@@ -1,0 +1,201 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass transition temperature 87°C",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite-copper nanoparticles",
+        "description": "Mixture of foliated graphite nanosheets (thickness 30-50 nm, diameter 10 nm, average thickness ~40 nm, mean diameter ~20 mm) and copper nanoparticles (average size 20 nm) mixed at 90/10 wt% ratio; abbreviated as GCu8",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass transition temperature 87°C",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite-copper nanoparticles",
+        "description": "Mixture of foliated graphite nanosheets (thickness 30-50 nm, diameter 10 nm, average thickness ~40 nm, mean diameter ~20 mm) and copper nanoparticles (average size 20 nm) mixed at 90/10 wt% ratio; abbreviated as GCu12",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass transition temperature 87°C",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite-copper nanoparticles",
+        "description": "Mixture of foliated graphite nanosheets (thickness 30-50 nm, diameter 10 nm, average thickness ~40 nm, mean diameter ~20 mm) and copper nanoparticles (average size 20 nm) mixed at 90/10 wt% ratio; abbreviated as GCu16",
+        "composition": {
+          "amount": 16.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinyl chloride",
+        "description": "PVC in powder form, density 1.37, K value (molecular mass) 71, melting point 80°C, glass transition temperature 87°C",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite-copper nanoparticles",
+        "description": "Mixture of foliated graphite nanosheets (thickness 30-50 nm, diameter 10 nm, average thickness ~40 nm, mean diameter ~20 mm) and copper nanoparticles (average size 20 nm) mixed at 90/10 wt% ratio; abbreviated as GCu20",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

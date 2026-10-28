@@ -1,0 +1,377 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and accelerated by DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "mass ratio part"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "foamed graphene aerogel (FGA), compressed at 20% strain before impregnation",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "PDA modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compressive_strain_of_filler",
+            "value": 20,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compressive_strain_of_filler",
+            "value": 20,
+            "unit": "%"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and accelerated by DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "mass ratio part"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "foamed graphene aerogel (FGA), compressed at 80% strain before impregnation",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "PDA modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 112.6,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compressive_strain_of_filler",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compressive_strain_of_filler",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and accelerated by DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "mass ratio part"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel ZoM4GA containing graphene framework with MXene-rich M plane and no Z plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "PDA modified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene deposited on M plane of Janus aerogel; no Co/C-containing Z plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 168.2,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.64,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 65.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 9.42,
+        "unit": "kJ/m2",
+        "conditions": []
+      },
+      "flexural_strength": {
+        "value": 87.7,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and accelerated by DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "mass ratio part"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel Z4MoGA containing graphene framework with Co/C-rich Z plane and no MXene-rich M plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "PDA modified"
+      },
+      {
+        "name": "cobalt/carbon",
+        "description": "Co/C derived from ZIF-67 on Z plane of Janus aerogel; no MXene-rich M plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E51 epoxy resin cured with 4-MTHPA and accelerated by DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "mass ratio part"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel Z3M1GA containing graphene framework with Co/C-rich Z plane and MXene-rich M plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "PDA modified"
+      },
+      {
+        "name": "cobalt/carbon",
+        "description": "Co/C derived from ZIF-67 on Z plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene deposited on M plane",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "from Z-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 67.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "from M-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_heat_treatment_temperature",
+            "value": 70,
+            "unit": "C"
+          },
+          {
+            "type": "post_heat_treatment_duration",
+            "value": 1,
+            "unit": "month"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": "not specified",
+        "unit": "W/m·K",
+        "conditions": []
+      }
+    }
+  }
+]

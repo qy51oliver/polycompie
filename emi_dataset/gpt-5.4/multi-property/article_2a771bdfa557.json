@@ -1,0 +1,314 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyarylene ether nitrile",
+        "description": "dense PEN film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 183,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyarylene ether nitrile",
+        "description": "sandwiched laminated PEN film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "hydroxylated commercial MWCNTs forming one CNT conductive layer in PEN/CNT-1",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 183,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyarylene ether nitrile",
+        "description": "sandwiched laminated PEN film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "hydroxylated commercial MWCNTs forming two CNT conductive layers in PEN/CNT-2",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 183,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyarylene ether nitrile",
+        "description": "sandwiched laminated PEN film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "hydroxylated commercial MWCNTs forming three CNT conductive layers in PEN/CNT-3",
+        "composition": {
+          "amount": 3.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "state",
+            "value": "as-prepared",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "strong acid immersion (concentrated sulfuric acid)",
+            "unit": "not specified"
+          },
+          {
+            "type": "pH",
+            "value": 1,
+            "unit": "pH"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 24,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "strong alkali immersion (concentrated sodium hydroxide)",
+            "unit": "not specified"
+          },
+          {
+            "type": "pH",
+            "value": 14,
+            "unit": "pH"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "high-temperature exposure",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 150,
+            "unit": "°C"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 37,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "strong acid immersion (concentrated sulfuric acid)",
+            "unit": "not specified"
+          },
+          {
+            "type": "pH",
+            "value": 1,
+            "unit": "pH"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 39,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "strong alkali immersion (concentrated sodium hydroxide)",
+            "unit": "not specified"
+          },
+          {
+            "type": "pH",
+            "value": 14,
+            "unit": "pH"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          }
+        ]
+      },
+      "tensile_strength_3": {
+        "value": 33,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "high-temperature exposure",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 150,
+            "unit": "°C"
+          },
+          {
+            "type": "duration",
+            "value": 2,
+            "unit": "month"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 183,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  }
+]

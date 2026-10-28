@@ -1,0 +1,461 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "Pure PEI resin, no filler, used as baseline reference",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "described as negligible compared to composites",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with average particle diameter Dv50 of 10 µm, prepared via reprecipitation method",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Ag powder randomly mixed with PEI microspheres via ball-milling method; random distribution in matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": "not specified",
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "worst performance among all composites at all filler loadings",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": "not specified",
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "worst performance among all composites at all filler loadings",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with average particle diameter Dv50 of 10 µm, prepared via reprecipitation method",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Silver nanoparticles grown on surface of MPEI microspheres (PEI@AgNP core-shell structure); AgNP show agglomeration due to strong NaBH4 reduction; discontinuous point-to-point contact between nanoparticles",
+        "composition": {
+          "amount": 15.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 2.2,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.6,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with average particle diameter Dv50 of 10 µm, prepared via reprecipitation method",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Dense continuous Ag shell deposited on MPEI microspheres via electroless silver plating (PEI@Ag core-shell structure); surface-to-surface contact forming continuous segregated 3D network; hot-pressed at 15 MPa, 250°C",
+        "composition": {
+          "amount": 18.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 14.0,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 19.9,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 70000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "approximate maximum value reached with increasing Ag content",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding type",
+            "value": "total (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 34.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding type",
+            "value": "total (SET) at 2 mm thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 31.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.41,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding type",
+            "value": "absorption (SEA)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "LPEI microspheres with average particle diameter Dv50 of 24 µm, prepared via reprecipitation method at elevated temperature (130°C)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Dense continuous Ag shell deposited on LPEI microspheres via electroless silver plating (LPEI@Ag core-shell structure); hot-pressed at 15 MPa, 250°C",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 7.7,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 14.7,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "LPEI microspheres with average particle diameter Dv50 of 24 µm, prepared via reprecipitation method at elevated temperature (130°C)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Silver nanoparticles grown on surface of LPEI microspheres (LPEI@AgNP core-shell structure); discontinuous point-to-point contact between nanoparticles",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": "not specified",
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "lower than LPEI@Ag at same loading of 36.1 vol%",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": "not specified",
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "lower than LPEI@Ag at same loading of 36.1 vol%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "HPEI hollow microspheres with average particle diameter Dv50 of 28 µm, prepared via reprecipitation method with controlled precipitation solution concentration at 50 mg/mL",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Dense continuous Ag shell deposited on hollow HPEI microspheres via electroless silver plating (HPEI@Ag core-shell structure); hollow structure leads to disordered stacking; hot-pressed at 15 MPa, 250°C",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 5.1,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "HPEI more inclined toward horizontal distribution reducing through-plane TC",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

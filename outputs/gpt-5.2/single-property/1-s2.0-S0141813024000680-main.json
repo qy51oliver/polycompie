@@ -1,0 +1,300 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(lactic acid)",
+        "description": "PLA in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP flame retardant; sample label indicates 10 wt% APP.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs); unmodified (no IPU mentioned for this sample). Sample label indicates 6 wt% CNT.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 27.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(lactic acid)",
+        "description": "PLA in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP flame retardant; sample label indicates 10 wt% APP.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs); unmodified (no IPU mentioned for this sample). Sample label indicates 8 wt% CNT.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(lactic acid)",
+        "description": "PLA in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP flame retardant; sample label indicates 10 wt% APP.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) modified with imidazolium-functionalized polyurethane (IPU); sample label indicates 6 wt% CNT.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "imidazolium-functionalized polyurethane",
+        "description": "IPU compatibilizer/catalytic additive; sample label indicates 1.2 wt% IPU.",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(lactic acid)",
+        "description": "PLA in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 40.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL in PLA/PCL blend (PLA:PCL = 5:5 by mass).",
+        "composition": {
+          "amount": 40.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP flame retardant; sample label indicates 10 wt% APP.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Multi-walled carbon nanotubes (MWCNTs) modified with imidazolium-functionalized polyurethane (IPU); sample label indicates 8 wt% CNT.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "imidazolium-functionalized polyurethane",
+        "description": "IPU compatibilizer/catalytic additive; sample label indicates 1.6 wt% IPU.",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 33.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

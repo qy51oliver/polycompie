@@ -1,0 +1,100 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 2,
+  "model": "claude-sonnet-4.6",
+  "study": "claude-sonnet-4.6/multi-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 59
+  },
+  "later_saved_prediction_articles": [
+    "c7ra06691k"
+  ],
+  "avg_similarity": 0.5649388185261066,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.2131,
+      "recall": 0.4021,
+      "f1": 0.2786
+    },
+    "relaxed": {
+      "precision": 0.2814,
+      "recall": 0.5309,
+      "f1": 0.3679
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.3608,
+      "recall": 0.2857,
+      "f1": 0.3189,
+      "tp": 70,
+      "fp": 124,
+      "fn": 175
+    },
+    "strict": {
+      "precision": 0.2784,
+      "recall": 0.2204,
+      "f1": 0.246,
+      "tp": 54,
+      "fp": 140,
+      "fn": 191
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.3608,
+        "recall": 0.2857,
+        "f1": 0.3189,
+        "tp": 70,
+        "fp": 124,
+        "fn": 175
+      },
+      "strict": {
+        "precision": 0.2784,
+        "recall": 0.2204,
+        "f1": 0.246,
+        "tp": 54,
+        "fp": 140,
+        "fn": 191
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 78,
+      "fp_s": 288,
+      "fn_s": 116,
+      "tp_r": 103,
+      "fp_r": 263,
+      "fn_r": 91
+    },
+    "prop": {
+      "tp": 70,
+      "fp": 124,
+      "fn": 175,
+      "tp_s": 54,
+      "fp_s": 140,
+      "fn_s": 191,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 70,
+          "fp": 124,
+          "fn": 175,
+          "tp_s": 54,
+          "fp_s": 140,
+          "fn_s": 191
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

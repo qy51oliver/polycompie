@@ -1,0 +1,190 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 microspheres with average particle size of 50 µm, used as matrix for composite formation via mechanochemistry combined with supercritical CO2",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG exfoliated in-situ from bulk graphite (~7 µm average particle size, 99.99% carbon content) during mechanochemical milling with scCO2; average ~7-8 layers, lateral size ~0.5 µm",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 microspheres with average particle size of 50 µm, used as matrix for composite formation via mechanochemistry combined with supercritical CO2",
+        "composition": {
+          "amount": 98.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG exfoliated in-situ from bulk graphite (~7 µm average particle size, 99.99% carbon content) during mechanochemical milling with scCO2; average ~7-8 layers, lateral size ~0.5 µm",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 microspheres with average particle size of 50 µm, used as matrix for composite formation via mechanochemistry combined with supercritical CO2",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG exfoliated in-situ from bulk graphite (~7 µm average particle size, 99.99% carbon content) during mechanochemical milling with scCO2; average ~7-8 layers, lateral size ~0.5 µm; optimal loading forming dense FLG coating without voids on PA-6 surface",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyamide-6",
+        "description": "PA-6 microspheres with average particle size of 50 µm, used as matrix for composite formation via mechanochemistry combined with supercritical CO2",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "few-layer graphene",
+        "description": "FLG exfoliated in-situ from bulk graphite (~7 µm average particle size, 99.99% carbon content) during mechanochemical milling with scCO2; average ~7-8 layers, lateral size ~0.5 µm; optimal loading forming dense FLG coating without voids on PA-6 surface",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 41.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 13.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

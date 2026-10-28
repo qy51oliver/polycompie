@@ -1,0 +1,206 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Elium® 188 O acrylic resin",
+        "description": "Liquid thermoplastic acrylic resin matrix used in the pristine glass fiber reinforced composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "E-glass fiber",
+        "description": "Plain weave glass fabric reinforcement; pristine GFRPC laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.65,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "2-4",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X band",
+            "unit": "not specified"
+          },
+          {
+            "type": "reported_as",
+            "value": "around",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Elium® 188 O acrylic resin",
+        "description": "Liquid thermoplastic acrylic resin matrix in glass fiber reinforced composite with a co-cured outer GNP/Elium surface film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "E-glass fiber",
+        "description": "Plain weave glass fabric reinforcement in the composite laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Commercial exfoliated graphene nanoplatelets (xGnP-H25, average particle size 25 μm) incorporated in the co-cured outer Elium surface film for EMI shielding.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.69,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_region",
+            "value": "high X band frequencies",
+            "unit": "not specified"
+          },
+          {
+            "type": "reported_as",
+            "value": "up to",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Elium® 188 O acrylic resin",
+        "description": "Liquid thermoplastic acrylic resin matrix in glass fiber reinforced composite with a co-cured outer GNP/Elium surface film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "E-glass fiber",
+        "description": "Plain weave glass fabric reinforcement in the composite laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Commercial exfoliated graphene nanoplatelets (xGnP-H25, average particle size 25 μm) incorporated in the co-cured outer Elium surface film for EMI shielding.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.69,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

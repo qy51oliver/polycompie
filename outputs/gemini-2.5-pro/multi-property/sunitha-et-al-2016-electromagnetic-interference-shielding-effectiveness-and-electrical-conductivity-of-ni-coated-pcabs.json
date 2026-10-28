@@ -1,0 +1,136 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate Acrylonitrile-butadiene-styrene",
+        "description": "PCABS (Cycoloy C1200HF) particles pulverized to 250 um size and coated with nickel via electroless deposition.",
+        "composition": {
+          "amount": 45,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "PAN based 959 carbon fibre (AGM 94)",
+        "composition": {
+          "amount": 15,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (3243)",
+        "composition": {
+          "amount": 40,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.29,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 79,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyphenylene Sulfide",
+        "description": "PPS (Fortron 0214B1) particles of 100 to 250 um size and coated with nickel via electroless deposition.",
+        "composition": {
+          "amount": 45,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "PAN based 959 carbon fibre (AGM 94)",
+        "composition": {
+          "amount": 15,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (3243)",
+        "composition": {
+          "amount": 40,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19.16,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

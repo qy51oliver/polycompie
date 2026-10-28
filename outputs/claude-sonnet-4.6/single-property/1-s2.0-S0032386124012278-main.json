@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA/CNTs porous microspheres used as 'brick' phase, prepared via emulsion method with interconnected porous structure",
+        "composition": {
+          "amount": 54.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polybutylene succinate",
+        "description": "PBS used as 'mud' phase matrix, melt blended with BN at 140°C",
+        "composition": {
+          "amount": 36.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs incorporated into PLA microspheres at 10 wt% of PLA/CNTs brick phase; PLA/10C microspheres selected as brick phase",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron nitride",
+        "description": "BN incorporated into PBS mud phase at 20 wt% of PBS/BN; recorded as PBS/20B",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 41.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA/CNTs porous microspheres used as 'brick' phase, prepared via emulsion method with interconnected porous structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polybutylene succinate",
+        "description": "PBS used as 'mud' phase matrix, melt blended with BN at 140°C",
+        "composition": {
+          "amount": 44.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs incorporated into PLA microspheres at 10 wt% of PLA/CNTs brick phase; PLA/10C microspheres selected as brick phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron nitride",
+        "description": "BN incorporated into PBS mud phase at 20 wt% of PBS/BN; recorded as PBS/20B",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 41.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA/CNTs porous microspheres used as 'brick' phase, prepared via emulsion method with interconnected porous structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polybutylene succinate",
+        "description": "PBS used as 'mud' phase matrix, melt blended with BN at 140°C",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs incorporated into PLA microspheres at 10 wt% of PLA/CNTs brick phase; PLA/10C microspheres selected as brick phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron nitride",
+        "description": "BN incorporated into PBS mud phase at 40 wt% of PBS/BN; recorded as PBS/40B",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA/CNTs porous microspheres used as 'brick' phase, prepared via emulsion method with interconnected porous structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polybutylene succinate",
+        "description": "PBS used as 'mud' phase matrix, melt blended with BN at 140°C",
+        "composition": {
+          "amount": 36.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs incorporated into PLA microspheres at 10 wt% of PLA/CNTs brick phase; PLA/10C microspheres selected as brick phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron nitride",
+        "description": "BN incorporated into PBS mud phase at 20 wt% of PBS/BN; recorded as PBS/20B; simple segregated structure (S(5:5)-10B5C-C)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "structure type",
+            "value": "simple segregated",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA/CNTs porous microspheres used as 'brick' phase, prepared via emulsion method with interconnected porous structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polybutylene succinate",
+        "description": "PBS used as 'mud' phase matrix, melt blended with BN at 140°C",
+        "composition": {
+          "amount": 27.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs incorporated into PLA microspheres at 10 wt% of PLA/CNTs brick phase; PLA/10C microspheres selected as brick phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron nitride",
+        "description": "BN incorporated into PBS mud phase at 40 wt% of PBS/BN; recorded as PBS/40B; simple segregated structure (S(5:5)-20B5C-C)",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 11.39,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "structure type",
+            "value": "simple segregated",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

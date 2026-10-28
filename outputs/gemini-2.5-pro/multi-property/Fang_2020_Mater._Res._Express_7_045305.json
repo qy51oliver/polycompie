@@ -1,0 +1,107 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Makrolon 2407 model, from Covestro company in Germany",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber",
+        "description": "T700 series, density of 1.5 g cm-3, from Covestro company",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 750.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "un-eroded",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain rate",
+            "value": 1.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 660.75,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after 2 min solid particle erosion",
+            "unit": "not specified"
+          },
+          {
+            "type": "strain rate",
+            "value": 1.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "un-eroded",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 18.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy matrix in a three-dimensional woven carbon/epoxy multiscale composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Three-dimensional woven carbon fiber reinforcement; carbon fiber surface used for multi-walled carbon nanotube growth.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "Grafted/grown on the carbon fiber surface via chemical vapor deposition; acted as nano-stitching in the layered composite structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 595.82,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 20,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "not specified",
+        "description": "Polymer matrix not specified in the review article for the reported multiscale composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "Nanoscale reinforcement in the multiscale composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "cellulose fiber",
+        "description": "Microscale reinforcement in the multiscale composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0083,
+        "unit": "S/cm",
+        "conditions": []
+      }
+    }
+  }
+]

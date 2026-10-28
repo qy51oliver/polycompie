@@ -1,0 +1,99 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 1,
+  "model": "claude-sonnet-4.6",
+  "study": "claude-sonnet-4.6/single-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 42,
+    "empty": 17
+  },
+  "later_saved_prediction_articles": [],
+  "avg_similarity": 0.5811731203824424,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.4049,
+      "recall": 0.4278,
+      "f1": 0.416
+    },
+    "relaxed": {
+      "precision": 0.5024,
+      "recall": 0.5309,
+      "f1": 0.5163
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.4327,
+      "recall": 0.3673,
+      "f1": 0.3974,
+      "tp": 90,
+      "fp": 118,
+      "fn": 155
+    },
+    "strict": {
+      "precision": 0.3654,
+      "recall": 0.3102,
+      "f1": 0.3355,
+      "tp": 76,
+      "fp": 132,
+      "fn": 169
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.4327,
+        "recall": 0.3673,
+        "f1": 0.3974,
+        "tp": 90,
+        "fp": 118,
+        "fn": 155
+      },
+      "strict": {
+        "precision": 0.3654,
+        "recall": 0.3102,
+        "f1": 0.3355,
+        "tp": 76,
+        "fp": 132,
+        "fn": 169
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 83,
+      "fp_s": 122,
+      "fn_s": 111,
+      "tp_r": 103,
+      "fp_r": 102,
+      "fn_r": 91
+    },
+    "prop": {
+      "tp": 90,
+      "fp": 118,
+      "fn": 155,
+      "tp_s": 76,
+      "fp_s": 132,
+      "fn_s": 169,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 90,
+          "fp": 118,
+          "fn": 155,
+          "tp_s": 76,
+          "fp_s": 132,
+          "fn_s": 169
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

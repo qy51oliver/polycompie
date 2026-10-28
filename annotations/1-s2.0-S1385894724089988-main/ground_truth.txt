@@ -1,0 +1,266 @@
+[
+     {
+        "sample_id": "epoxy resin",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "surface_temperature": {"value": "about 40", "unit": "°C","conditions": [{"type": "light intensity", "value": 1,"unit": "sun illumination"}]},
+            "thermal_conductivity": {"value": "about 0.21", "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "FGAs/EP-0% strain",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "foamed graphene aerogels",
+                "description": "0% strain",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":15, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "FGAs/EP-20% strain",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "foamed graphene aerogels",
+                "description": "20% strain",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":12, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 12.3, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 20.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "FGAs/EP-40% strain",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "foamed graphene aerogels",
+                "description": "40% strain",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":9, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "FGAs/EP-60% strain",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "foamed graphene aerogels",
+                "description": "60% strain",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":6, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "FGAs/EP-80% strain",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "foamed graphene aerogels",
+                "description": "80% strain",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 112.6, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 51.9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Z0M4GA/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene& Co/C/graphene composites aerogels with Janus structure",
+                "description": "x and y represent the thickness of ZFGAs and MFGAs",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "flexural_strength": {"value": 87.7, "unit": "MPa"},
+            "impact_strength": {"value": 9.42, "unit": "KJ/m^2"},
+            "tensile_strength": {"value": 65.7, "unit": "MPa"},
+            "electrical_conductivity": {"value": 168.2, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 66.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection": {"value": 8.1, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection_coefficients": {"value": 0.85, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "surface_temperature_1": {"value": 62.4, "unit": "°C","conditions": [{"type": "light intensity", "value": 1,"unit": "sun illumination"}]},
+            "surface_temperature_2": {"value": 95.3, "unit": "°C","conditions": [{"type": "light intensity", "value": 2,"unit": "sun illumination"}]},
+            "surface_temperature_3": {"value": "higher than 60", "unit": "°C","conditions": [{"type": "light intensity", "value": 1,"unit": "sun illumination"},{"type": "cycle", "value": 5,"unit": "cycle"}]},
+            "thermal_conductivity": {"value": 0.64, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "Z1M3GA/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene& Co/C/graphene composites aerogels with Janus structure",
+                "description": "x and y represent the thickness of ZFGAs and MFGAs",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "Z2M2GA/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene& Co/C/graphene composites aerogels with Janus structure",
+                "description": "x and y represent the thickness of ZFGAs and MFGAs",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "Z3M1GA/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene& Co/C/graphene composites aerogels with Janus structure",
+                "description": "x and y represent the thickness of ZFGAs and MFGAs",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 75.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_efficiency": {"value": 93.5, "unit": "%","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Z4M0GA/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy resin",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene& Co/C/graphene composites aerogels with Janus structure",
+                "description": "x and y represent the thickness of ZFGAs and MFGAs",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 69.6, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection": {"value": 4.81, "unit": "db","conditions": [{"type": "frequency lower bound", "value": 5.38,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "surface_temperature_1": {"value": 59.2, "unit": "°C","conditions": [{"type": "light intensity", "value": 1,"unit": "sun illumination"}]}
+        }
+    }
+]

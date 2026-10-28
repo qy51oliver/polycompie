@@ -1,0 +1,550 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Control sample reported as neat PP / PP nonwoven fabric",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 409.1,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 18.0,
+        "unit": "vol%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 27.3,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "after-flame time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test",
+            "value": "vertical flame test (ASTM D6413)",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 23.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 34.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Polypropylene nonwoven fabric hot-pressed into composite sheet (sample MP-C1)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D titanium carbide MXene treated only with sodium hexametaphosphate (SHMP); control sample without PEI",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 317.6,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 20.0,
+        "unit": "vol%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 17.1,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "after-flame time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test",
+            "value": "vertical flame test (ASTM D6413)",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Polypropylene nonwoven fabric hot-pressed into composite sheet (sample MP-5)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D titanium carbide MXene phosphorylated with sodium hexametaphosphate (SHMP)",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyethylenimine",
+        "description": "Sprayed 2 wt% aqueous PEI as cross-linking/flame-retardant additive",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 247.7,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 25.0,
+        "unit": "vol%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 5.2,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "after-flame time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test",
+            "value": "vertical flame test (ASTM D6413)",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 3313.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 23.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Polypropylene nonwoven fabric hot-pressed into composite sheet (sample MP-15)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D titanium carbide MXene phosphorylated with sodium hexametaphosphate (SHMP)",
+        "composition": {
+          "amount": 56.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyethylenimine",
+        "description": "Sprayed 2 wt% aqueous PEI as cross-linking/flame-retardant additive",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 26.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 25.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Polypropylene nonwoven fabric hot-pressed into composite sheet (sample MP-35)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D titanium carbide MXene phosphorylated with sodium hexametaphosphate (SHMP); nominal loading about 70 wt%, actual content reported as 68.8 wt% by TGA",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyethylenimine",
+        "description": "Sprayed 2 wt% aqueous PEI as cross-linking/flame-retardant additive",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 400.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 50.0,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 30.0,
+        "unit": "vol%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 0.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "after-flame time",
+            "unit": "not specified"
+          },
+          {
+            "type": "test",
+            "value": "vertical flame test (ASTM D6413)",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 36779.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 90.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 92.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 23.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 11.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Polypropylene nonwoven fabric hot-pressed into composite sheet (sample MP-C2)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D titanium carbide MXene without SHMP phosphorylation; control sample prepared with untreated MXene",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "polyethylenimine",
+        "description": "Sprayed PEI additive in the control composite protocol",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 96.4,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 715.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,483 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Unfoamed ABS/CNT sheet specimen prepared by melt blending and compression molding.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs (Flotube9000), 1-10 μm length and 10-15 nm diameter, dispersed in ABS.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00391,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample Foam57; single-layer nano-porous ABS/CNT foam (N) prepared by scCO2 foaming at 20 MPa, 57 °C for 2 h.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs dispersed in the pore walls of Foam57.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.7,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 12.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 2.76,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 9.84,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample Foam117; single-layer micro-porous ABS/CNT foam (M) prepared by scCO2 foaming at 20 MPa, 117 °C for 2 h.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs dispersed in the pore walls of Foam117.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0155,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample Foam146; single-layer regular-porous ABS/CNT foam (Re) prepared by scCO2 foaming at 20 MPa, 146 °C for 6 h.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs dispersed in the pore walls of Foam146.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "<1e-6",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample N-M; two-layer ABS/CNT foam assembled in the incident-wave direction as nano-porous upper layer (Foam57) and micro-porous lower layer (Foam117), bonded with commercial glue.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs at the same base loading in both layers of the N-M foam.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 14.74,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample M-N; two-layer ABS/CNT foam assembled in the incident-wave direction as micro-porous upper layer (Foam117) and nano-porous lower layer (Foam57), bonded with commercial glue.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs at the same base loading in both layers of the M-N foam.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 14.84,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 13.76,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample N-Re; two-layer ABS/CNT foam assembled in the incident-wave direction as nano-porous upper layer (Foam57) and regular-porous lower layer (Foam146), bonded with commercial glue.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs at the same base loading in both layers of the N-Re foam.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.43,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample N-Re-M; three-layer sandwich ABS/CNT foam assembled as nano-porous upper layer (Foam57), regular-porous middle layer (Foam146), and micro-porous lower layer (Foam117), bonded with commercial glue.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs at the same base loading in all three layers of the N-Re-M foam.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 19.83,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Sample M-Re-N; three-layer sandwich ABS/CNT foam assembled as micro-porous upper layer (Foam117), regular-porous middle layer (Foam146), and nano-porous lower layer (Foam57), bonded with commercial glue.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs at the same base loading in all three layers of the M-Re-N foam.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 19.44,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 2.43,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 17.01,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

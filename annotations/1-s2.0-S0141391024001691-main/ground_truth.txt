@@ -1,0 +1,438 @@
+[
+     {
+        "sample_id": "ABS",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 380, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate": {"value": 423, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss": {"value": 97.8, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 1.2, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "peak heat release rate": {"value": 665, "unit": "W/g","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "heat release capacity": {"value": 649, "unit": "J/g-K","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "temperature to peak heat release rate": {"value": 473, "unit": "◦C","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "MCC residue": {"value": 2.6, "unit": "%","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+           "time to ignition": {"value": 44, "unit": "s"},
+            "peak of the heat release rate": {"value": 2835, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 113, "unit": "s"},
+            "time to combustion": {"value": 143, "unit": "s"},
+            "effective heat of combustion": {"value": 35, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 968, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": "not specified", "unit": "not specified"},
+            "cone calorimetry residue": {"value": 0.25, "unit": "wt%"},
+            "linear burning rate": {"value": 44, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/30APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 368, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 429, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 606, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 73.3, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 16.12, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 7.9, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "peak heat release rate": {"value": 517, "unit": "W/g","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "heat release capacity": {"value": 498, "unit": "J/g-K","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "temperature to peak heat release rate": {"value": 470, "unit": "◦C","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "MCC residue": {"value": 10.7, "unit": "%","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+           "time to ignition": {"value": 30, "unit": "s"},
+            "peak of the heat release rate": {"value": 864, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 144, "unit": "s"},
+            "time to combustion": {"value": 246, "unit": "s"},
+            "effective heat of combustion": {"value": 31, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 455, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 3.1, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 25, "unit": "wt%"},
+            "linear burning rate": {"value": 24, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/1C/29APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 29, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 366, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 431, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 585, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 73.3, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 13.5, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 9.1, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+           "time to ignition": {"value": 32, "unit": "s"},
+            "peak of the heat release rate": {"value": 852, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 167, "unit": "s"},
+            "time to combustion": {"value": 251, "unit": "s"},
+            "effective heat of combustion": {"value": 31, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 474, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 34, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 25, "unit": "wt%"},
+            "linear burning rate": {"value": 21, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/3C/27APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 27, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 355, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 431, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 560, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 75.8, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 12.6, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 9.1, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "peak heat release rate": {"value": 440, "unit": "W/g","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "heat release capacity": {"value": 419, "unit": "J/g-K","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "temperature to peak heat release rate": {"value": 464, "unit": "◦C","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "MCC residue": {"value": 12.8, "unit": "%","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+           "time to ignition": {"value": 41, "unit": "s"},
+            "peak of the heat release rate": {"value": 680, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 174, "unit": "s"},
+            "time to combustion": {"value": 264, "unit": "s"},
+            "effective heat of combustion": {"value": 29, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 402, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 5.3, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 24, "unit": "wt%"},
+            "linear burning rate": {"value": 19, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/5C/25APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 350, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 429, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 556, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 75.2, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 12.2, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 9.1, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+           "time to ignition": {"value": 31, "unit": "s"},
+            "peak of the heat release rate": {"value": 827, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 147, "unit": "s"},
+            "time to combustion": {"value": 221, "unit": "s"},
+            "effective heat of combustion": {"value": 30, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 487, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 2.5, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 21, "unit": "wt%"},
+            "linear burning rate": {"value": 28, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/10C/20APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 332, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 426, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 536, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 78.4, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 7.4, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 11.3, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+           "time to ignition": {"value": 33, "unit": "s"},
+            "peak of the heat release rate": {"value": 922, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 136, "unit": "s"},
+            "time to combustion": {"value": 220, "unit": "s"},
+            "effective heat of combustion": {"value": 28, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 482, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 3.2, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 18, "unit": "wt%"},
+            "linear burning rate": {"value": 28, "unit": "mm/min"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/15C/15APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 328, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate": {"value": 426, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss": {"value": 80.3, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "residue": {"value": 14.2, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+           "time to ignition": {"value": 26, "unit": "s"},
+            "peak of the heat release rate": {"value": 941, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 150, "unit": "s"},
+            "time to combustion": {"value": 220, "unit": "s"},
+            "effective heat of combustion": {"value": 28, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 541, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 2.4, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 15, "unit": "wt%"},
+            "linear burning rate": {"value": 32, "unit": "mm/min"},
+            "dripping": {"value": "No", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/20C/10APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 319, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 364, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 425, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 14.1, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 69.7, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 14, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "peak heat release rate": {"value": 385, "unit": "W/g","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "heat release capacity": {"value": 360, "unit": "J/g-K","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "temperature to peak heat release rate": {"value": 463, "unit": "◦C","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "MCC residue": {"value": 13.3, "unit": "%","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+           "time to ignition": {"value": 27, "unit": "s"},
+            "peak of the heat release rate": {"value": 932, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 150, "unit": "s"},
+            "time to combustion": {"value": 195, "unit": "s"},
+            "effective heat of combustion": {"value": 27, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 467, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 2.5, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 10, "unit": "wt%"},
+            "linear burning rate": {"value": 24, "unit": "mm/min"},
+            "dripping": {"value": "No", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/25C/5APP",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 312, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 1": {"value": 358, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate 2": {"value": 419, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 1": {"value": 16.2, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss 2": {"value": 70.3, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 500,"unit": "◦C"},{"type": "temperature upper bound", "value": 670,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "TGA residue": {"value": 11.9, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+           "time to ignition": {"value": 29, "unit": "s"},
+            "peak of the heat release rate": {"value": 1155, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 162, "unit": "s"},
+            "time to combustion": {"value": 203, "unit": "s"},
+            "effective heat of combustion": {"value": 30, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 560, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 2.1, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 5, "unit": "wt%"},
+            "linear burning rate": {"value": 32, "unit": "mm/min"},
+            "dripping": {"value": "No", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "ABS/30C",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile-butadiene-styrene",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "cork",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "temperature at 5 % of mass loss": {"value": 325, "unit": "◦C","conditions": [{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "temperature at maximum mass loss rate": {"value": 416, "unit": "◦C","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "mass loss": {"value": 91.2, "unit": "%","conditions": [{"type": "temperature lower bound", "value": 250,"unit": "◦C"},{"type": "temperature upper bound", "value": 500,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "residue": {"value": 6.8, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"},{"type": "sample mass", "value": 20,"unit": "mg"}]},
+            "peak heat release rate": {"value": 523, "unit": "W/g","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "heat release capacity": {"value": 503, "unit": "J/g-K","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "temperature to peak heat release rate": {"value": 451, "unit": "◦C","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+            "MCC residue": {"value": 7.1, "unit": "%","conditions": [{"type": "sample mass", "value": 10,"unit": "mg"}]},
+           "time to ignition": {"value": 33, "unit": "s"},
+            "peak of the heat release rate": {"value": 1374, "unit": "kW/m^2"},
+            "time to peak of the heat release rate": {"value": 158, "unit": "s"},
+            "time to combustion": {"value": 143, "unit": "s"},
+            "effective heat of combustion": {"value": 33, "unit": "MJ/kg"},
+            "maximum average rate of heat emission": {"value": 675, "unit": "kW/m^2"},
+            "fire retardancy index": {"value": 1.7, "unit": "not specified"},
+            "cone calorimetry residue": {"value": 0.3, "unit": "wt%"},
+            "linear burning rate": {"value": 41, "unit": "mm/min"},
+            "dripping": {"value": "No", "unit": "not specified"}
+        }
+    }
+]

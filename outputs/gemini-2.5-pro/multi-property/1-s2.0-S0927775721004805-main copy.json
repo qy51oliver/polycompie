@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "emeraldine salt polyaniline synthesized by oxidative polymerization",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 1.5e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 2e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 1.5e-05,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 100,
+            "unit": "kHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "emeraldine salt polyaniline",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles, labeled as PC1 in the article",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 19.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 2e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 100,
+            "unit": "kHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "emeraldine salt polyaniline",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles, labeled as PC2 in the article. Composition inferred from figures, as text is contradictory.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 4e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 3e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 2e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 100,
+            "unit": "kHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "emeraldine salt polyaniline",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles, labeled as PC3 in the article. Composition inferred from figures, as text is contradictory.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 8e-09,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 6e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 100,
+            "unit": "kHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "emeraldine salt polyaniline",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles, labeled as PC4 in the article. Composition inferred from figures, as text is contradictory.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 6e-09,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 6e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 5e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 100,
+            "unit": "kHz"
+          }
+        ]
+      }
+    }
+  }
+]

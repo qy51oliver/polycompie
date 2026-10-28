@@ -1,0 +1,557 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber mat (CNF).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No additional filler or coating.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.03,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.131,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 17.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 11.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber substrate in PVP/CNF.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyvinylpyrrolidone",
+        "description": "PVP coating on CNF.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.04,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.049,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 16.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 10.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber substrate in PEDOT:PSS-PVP/CNF-1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive coating on CNF.",
+        "composition": {
+          "amount": 0.83,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinylpyrrolidone",
+        "description": "PVP binder/phase-segregation booster coating on CNF.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.04,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.356,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 25.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 19.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber substrate in PEDOT:PSS-PVP/CNF-2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive coating on CNF.",
+        "composition": {
+          "amount": 1.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinylpyrrolidone",
+        "description": "PVP binder/phase-segregation booster coating on CNF.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.05,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.392,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 34.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber substrate in PEDOT:PSS-PVP/CNF-3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive coating on CNF.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinylpyrrolidone",
+        "description": "PVP binder/phase-segregation booster coating on CNF.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.06,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.088,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 39.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pristine PDMS prepared from Sylgard 184 silicone elastomer resin and curing agent.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS composite prepared from Sylgard 184 silicone elastomer resin and curing agent (10:1 wt ratio).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbonized electrospun polyacrylonitrile nanofiber mat embedded in PDMS; based on PEDOT:PSS-PVP/CNF-3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS coating on the CNF filler in the PDMS composite.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinylpyrrolidone",
+        "description": "PVP coating/binder on the CNF filler in the PDMS composite.",
+        "composition": {
+          "amount": 3.34,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.6,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "highest",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 26.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

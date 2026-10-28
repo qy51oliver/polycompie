@@ -1,0 +1,541 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.2e-10,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 95.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton in honeycomb-structured rGMH/epoxy composite",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene phase in honeycomb-structured rGMH/epoxy composite; assembled with graphene framework",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 387.1,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 95.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton; FeNi loaded only on the graphene skeleton (rGMH@FeNi-1 architecture)",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene phase in regular honeycomb rGMH network",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) loaded only on the reduced graphene oxide skeleton",
+        "composition": {
+          "amount": 0.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 378.1,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 95.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton in regular honeycomb composite",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene core; FeNi loaded only on the MXene phase (rGMH@FeNi-2 architecture)",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) loaded only on the MXene core",
+        "composition": {
+          "amount": 0.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 376.5,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 95.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton in regular honeycomb composite",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene core in regular honeycomb composite",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) distributed on both reduced graphene oxide skeleton and MXene core; 27% on rGH and 73% on MXene (rGMH@FeNi-3 architecture)",
+        "composition": {
+          "amount": 0.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 377.2,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 94.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton; FeNi loaded only on the graphene skeleton (rGMH@FeNi-1 architecture)",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene phase in regular honeycomb rGMH network",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) loaded only on the reduced graphene oxide skeleton",
+        "composition": {
+          "amount": 0.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 361.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 61,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "shielding_component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 94.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton in regular honeycomb composite",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene core; FeNi loaded only on the MXene phase (rGMH@FeNi-2 architecture)",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) loaded only on the MXene core",
+        "composition": {
+          "amount": 0.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 356.2,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 94.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "rGH honeycomb skeleton in regular honeycomb composite",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene core in regular honeycomb composite",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles (f-FeNi) distributed on both reduced graphene oxide skeleton and MXene core; 27% on rGH and 73% on MXene (rGMH@FeNi-3 architecture)",
+        "composition": {
+          "amount": 0.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 359.1,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Bisphenol F epoxy resin",
+        "description": "Epon 862 epoxy resin cured with EK3402 curing agent (100/26.5, w/w)",
+        "composition": {
+          "amount": 94.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Reduced graphene oxide",
+        "description": "directly blended reduced graphene oxide in rGM/FeNi/epoxy composite; non-honeycomb structure",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "directly blended MXene in rGM/FeNi/epoxy composite; non-honeycomb structure",
+        "composition": {
+          "amount": 3.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Iron-nickel alloy",
+        "description": "amino-functionalized FeNi alloy particles in directly blended rGM/FeNi/epoxy composite",
+        "composition": {
+          "amount": 0.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.12,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

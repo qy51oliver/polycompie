@@ -1,0 +1,96 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene copolymer",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "conductive carbon fibre",
+        "description": "nickel-coated conductive carbon fibre (NCF)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compounding_method",
+            "value": "Twin-Screw Extruder",
+            "unit": "not specified"
+          },
+          {
+            "type": "reporting_scope",
+            "value": "reported collectively for TSE-compounded composites in the abstract",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene copolymer",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "conductive carbon fibre",
+        "description": "conductive carbon fibre (CF), uncoated",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compounding_method",
+            "value": "Twin-Screw Extruder",
+            "unit": "not specified"
+          },
+          {
+            "type": "reporting_scope",
+            "value": "reported collectively for TSE-compounded composites in the abstract",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,607 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, before mechanical rolling process",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, before mechanical rolling process",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, before mechanical rolling process",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, mechanically sintered by rolling with 3 layers of PI film",
+        "composition": {
+          "amount": 87.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Initial loading was 20 vol% before rolling.",
+        "composition": {
+          "amount": 13.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, mechanically sintered by rolling with 3 layers of PI film",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Initial loading was 30 vol% before rolling.",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, mechanically sintered by rolling with 3 layers of PI film",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Initial loading was 40 vol% before rolling.",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 25,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 44.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 75,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, mechanically sintered by rolling with 1 layer of PI film",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn). Initial loading was 40 vol% before rolling.",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, base material is a rolled film (PLMF/40-3PI) with locally activated parallel conductive slits of 3 mm spacing",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "parallel to E-field",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, base material is a rolled film (PLMF/40-3PI) with locally activated parallel conductive slits of 3 mm spacing",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "perpendicular to E-field",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, base material is a rolled film (PLMF/40-3PI) with locally activated parallel conductive slits of 1 mm spacing",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "parallel to E-field",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "Sylgard 184, base material is a rolled film (PLMF/40-3PI) with locally activated parallel conductive slits of 1 mm spacing",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "Liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn)",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "perpendicular to E-field",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-hexafluoropropylene)",
+        "description": "PVDF-HFP fluoropolymer thin-film matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler present",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "µm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.2,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4.58e-10,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 0.381,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total EMI shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 141.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 55.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "relaxation_type",
+            "value": "beta-relaxation of amorphous phase",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 87.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "relaxation_type",
+            "value": "alpha-relaxation of crystalline phase",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-hexafluoropropylene)",
+        "description": "PVDF-HFP fluoropolymer thin-film matrix",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "type-V MWCNT",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "µm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.242,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.37,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 3.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total EMI shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 108.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "relaxation_type",
+            "value": "alpha-relaxation of crystalline phase",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-hexafluoropropylene)",
+        "description": "PVDF-HFP fluoropolymer thin-film matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "type-V MWCNT",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "µm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 0.443,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.77,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 18.61,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total EMI shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-hexafluoropropylene)",
+        "description": "PVDF-HFP fluoropolymer thin-film matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "type-V MWCNT",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "µm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 1.11,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.74,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 25.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total EMI shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 144.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 60.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "relaxation_type",
+            "value": "beta-relaxation of amorphous phase",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 10.0,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride-co-hexafluoropropylene)",
+        "description": "PVDF-HFP fluoropolymer thin-film matrix",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "type-V MWCNT",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00188,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 38.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total EMI shielding effectiveness (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]
