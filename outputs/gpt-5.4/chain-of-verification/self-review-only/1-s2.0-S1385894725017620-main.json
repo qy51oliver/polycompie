@@ -1,0 +1,214 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK matrix in prefabricated structured composite denoted GW&Ni-CF@PEEK",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "nickel-plated carbon fibre coated with graphene nanosheets and multi-walled carbon nanotubes; heterogeneous filler denoted GW&Ni-CF",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 3.25,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 11.91,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 9364,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 252.39,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "optimised prefabricated structured hybrid PEEK composite denoted GW&Ni-CF@4 hybrid PEEK",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "nickel-plated carbon fibre coated with graphene nanosheets and multi-walled carbon nanotubes; heterogeneous filler denoted GW&Ni-CF; total filler content in composite 34.15 vol%",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 9.66,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 18.28,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 16492,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 285.59,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 1200,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          },
+          {
+            "type": "state",
+            "value": "temperature remained above 285 °C during heating stability test",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK matrix in prefabricated structured composite",
+        "composition": {
+          "amount": 96.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "nickel-plated carbon fibre coated with graphene nanosheets and multi-walled carbon nanotubes; heterogeneous filler denoted GW&Ni-CF",
+        "composition": {
+          "amount": 3.76,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 20.5,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

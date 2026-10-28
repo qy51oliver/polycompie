@@ -1,0 +1,277 @@
+[
+     {
+        "sample_id": "PDMS",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "elongation_at_break": {"value": 180, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "PLMF/20",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "<2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PLMF/30",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "<2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PLMF/40",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "not specified",
+                "composition": {"amount": 40, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": "<2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PLMF/20-3PI",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 87, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 3-layer PI film",
+                "composition": {"amount": 13, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 2.1e2, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 18.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_reflection": {"value": 0.77, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 125.3, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]},
+            "elongation_at_break": {"value": 130, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PLMF/30-3PI",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 81, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 3-layer PI film",
+                "composition": {"amount": 19, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1.5e3, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 26.5, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 176.7, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PLMF/40-1PI",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 61, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 1-layer PI film",
+                "composition": {"amount": 39, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 18.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_reflection": {"value": 0.72, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PLMF/40-2PI",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 62, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 2-layer PI film",
+                "composition": {"amount": 38, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PLMF/40-3PI",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 76, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 3-layer PI film",
+                "composition": {"amount": 24, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1.2e5, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 44.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_reflection": {"value": 0.97, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 298, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"}]},
+            "elongation_at_break": {"value": 108, "unit": "%"},
+            "maximum_stress_recovery_rate": {"value": 98, "unit": "%","conditions": [{"type": "cyclic number", "value": 100,"unit": "cycles"},{"type": "strain", "value": 75,"unit": "%"}]},
+            "maximum_strain_recovery_rate": {"value": 92, "unit": "%","conditions": [{"type": "cyclic number", "value": 100,"unit": "cycles"},{"type": "strain", "value": 75,"unit": "%"}]},
+            "resistance_change": {"value": "<15", "unit": "%","conditions": [{"type": "cyclic number", "value": 1000,"unit": "cycles"},{"type": "strain", "value": 75,"unit": "%"}]},
+            "shielding_effectiveness_2": {"value": 43.4, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "strain", "value": 25,"unit": "%"}]},
+            "shielding_effectiveness_3": {"value": 44.2, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "strain", "value": 50,"unit": "%"}]},
+            "shielding_effectiveness_4": {"value": 44.9, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "strain", "value": 75,"unit": "%"}]},
+            "specific_shielding_effectiveness_2": {"value": 400.9, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "strain", "value": 75,"unit": "%"}]},
+            "steady_state_temperature_1": {"value": 21, "unit": "°C","conditions": [{"type": "voltage", "value": 0.4,"unit": "V"}]},
+            "steady_state_temperature_2": {"value": 102, "unit": "°C","conditions": [{"type": "voltage", "value": 2,"unit": "V"}]},
+            "steady_state_temperature_3": {"value": "~100", "unit": "°C","conditions": [{"type": "voltage", "value": 0.4,"unit": "V"},{"type": "monitoring period", "value": 3600,"unit": "s"}]}
+        }
+    },
+     {
+        "sample_id": "Ecoflex/LM film",
+        "matrix_name": [
+        		{
+                "name": "Ecoflex elastomer",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "after rolling with 3-layer PI film",
+                "composition": {"amount": 40, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "PLMF/40 slit",
+        "matrix_name": [
+        		{
+                "name": "polydimethylsiloxane",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "galinstan alloy",
+                "description": "parallel conductive path slit",
+                "composition": {"amount": 40, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"150", "unit": "μm"},
+        "properties": {
+            "shielding_effectiveness_5": {"value": 16.4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "silt spacing", "value": 3,"unit": "mm"},{"type": "direction", "value": "parallel","unit": "none"}]},
+            "shielding_effectiveness_6": {"value": 39.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "silt spacing", "value": 1,"unit": "mm"},{"type": "direction", "value": "parallel","unit": "none"}]},
+            "shielding_effectiveness_7": {"value": 6.4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "silt spacing", "value": 3,"unit": "mm"},{"type": "direction", "value": "vertical","unit": "none"}]},
+            "shielding_effectiveness_8": {"value": 34.1, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "silt spacing", "value": 1,"unit": "mm"},{"type": "direction", "value": "vertical","unit": "none"}]}
+        }
+    }
+]

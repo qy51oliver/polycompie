@@ -1,0 +1,411 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "Neat PVA free-standing film prepared by solvent casting.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.49,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 338.74,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 95,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 39.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA matrix in the binary PVA/PEDOT:PSS film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "DMSO-modified PEDOT:PSS; PEDOT:PSS weight ratio 0.625; 5 vol.% DMSO added.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No MWCNT filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.58,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 22.5,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 180.86,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 369,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 48.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA matrix in the ternary composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "DMSO-modified PEDOT:PSS; PEDOT:PSS weight ratio 0.625; 5 vol.% DMSO added.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Acid-functionalized and PEDOT:PSS-coated MWCNT; diameter 30-50 nm, length at least 20 µm; loading defined relative to total composite solution weight.",
+        "composition": {
+          "amount": 0.05,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 44.59,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 9.5,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 114.99,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 445,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA matrix in the ternary composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "DMSO-modified PEDOT:PSS; PEDOT:PSS weight ratio 0.625; 5 vol.% DMSO added.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Acid-functionalized and PEDOT:PSS-coated MWCNT; diameter 30-50 nm, length at least 20 µm; loading defined relative to total composite solution weight.",
+        "composition": {
+          "amount": 0.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 12,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 54.72,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 721,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA matrix in the ternary composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "DMSO-modified PEDOT:PSS; PEDOT:PSS weight ratio 0.625; 5 vol.% DMSO added.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "Acid-functionalized and PEDOT:PSS-coated MWCNT; diameter 30-50 nm, length at least 20 µm; loading defined relative to total composite solution weight.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60.37,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 25,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 11.32,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1723,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 134,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC in powder form (density 1.37, K value 71, meting point 80 C, glass temperature 87 C)",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets prepared from natural flake graphite via exfoliation and sonication. Thickness: 30-50 nm (average 40 nm), mean diameter of roughly 20 mm.",
+        "composition": {
+          "amount": 7.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles with an average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC in powder form (density 1.37, K value 71, meting point 80 C, glass temperature 87 C)",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets prepared from natural flake graphite via exfoliation and sonication. Thickness: 30-50 nm (average 40 nm), mean diameter of roughly 20 mm.",
+        "composition": {
+          "amount": 10.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles with an average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC in powder form (density 1.37, K value 71, meting point 80 C, glass temperature 87 C)",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets prepared from natural flake graphite via exfoliation and sonication. Thickness: 30-50 nm (average 40 nm), mean diameter of roughly 20 mm.",
+        "composition": {
+          "amount": 14.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles with an average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC in powder form (density 1.37, K value 71, meting point 80 C, glass temperature 87 C)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "Graphite nanosheets prepared from natural flake graphite via exfoliation and sonication. Thickness: 30-50 nm (average 40 nm), mean diameter of roughly 20 mm.",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "Copper nanoparticles with an average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 52,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

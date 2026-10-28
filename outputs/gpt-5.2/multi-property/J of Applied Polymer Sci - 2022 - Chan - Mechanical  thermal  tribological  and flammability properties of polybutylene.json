@@ -1,0 +1,298 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (grade 1100-211M, Chang Chun Plastics Ltd.)",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat PBT (no filler)",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 224.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "DSC heating scan",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 53,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 572,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (grade 1100-211M, Chang Chun Plastics Ltd.)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "natural wollastonite (NW) powder, 600 mesh; 1.0 phr loading",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 225.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "DSC heating scan",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 474,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (grade 1100-211M, Chang Chun Plastics Ltd.)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "synthetic wollastonite nanofibers (SWN); synthesized via hydrothermal reaction + calcination; 1.0 phr loading",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 226.5,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "DSC heating scan",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 50,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 495,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (grade 1100-211M, Chang Chun Plastics Ltd.)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "GO powder (UGOX, 99% purity; average thickness 0.8–2.0 nm; lateral dimension 5–10 µm); 1.0 phr loading",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 224.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "DSC heating scan",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 42,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 509,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "cone calorimetry (ISO 5660)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

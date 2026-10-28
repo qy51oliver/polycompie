@@ -1,0 +1,102 @@
+{
+  "annotated_dir": "annotations",
+  "experiments_dir": "outputs",
+  "phase": 2,
+  "model": "gemini-2.5-pro",
+  "study": "gemini-2.5-pro/multi-property",
+  "scope": "emi",
+  "property_set": [
+    "shielding_effectiveness"
+  ],
+  "evaluated_articles": 59,
+  "skipped_articles": 0,
+  "reference_positive_articles": 40,
+  "prediction_status": {
+    "present": 58,
+    "empty": 1
+  },
+  "later_saved_prediction_articles": [
+    "1-s2.0-S0032386124012278-main",
+    "PBT POSS FR"
+  ],
+  "avg_similarity": 0.5536024989135159,
+  "composition_matching": {
+    "strict": {
+      "precision": 0.2206,
+      "recall": 0.3969,
+      "f1": 0.2836
+    },
+    "relaxed": {
+      "precision": 0.2894,
+      "recall": 0.5206,
+      "f1": 0.372
+    }
+  },
+  "property_matching": {
+    "relaxed": {
+      "precision": 0.3109,
+      "recall": 0.3388,
+      "f1": 0.3242,
+      "tp": 83,
+      "fp": 184,
+      "fn": 162
+    },
+    "strict": {
+      "precision": 0.2285,
+      "recall": 0.249,
+      "f1": 0.2383,
+      "tp": 61,
+      "fp": 206,
+      "fn": 184
+    }
+  },
+  "per_property_metrics": {
+    "shielding_effectiveness": {
+      "relaxed": {
+        "precision": 0.3109,
+        "recall": 0.3388,
+        "f1": 0.3242,
+        "tp": 83,
+        "fp": 184,
+        "fn": 162
+      },
+      "strict": {
+        "precision": 0.2285,
+        "recall": 0.249,
+        "f1": 0.2383,
+        "tp": 61,
+        "fp": 206,
+        "fn": 184
+      }
+    }
+  },
+  "counts": {
+    "comp": {
+      "tp_s": 77,
+      "fp_s": 272,
+      "fn_s": 117,
+      "tp_r": 101,
+      "fp_r": 248,
+      "fn_r": 93
+    },
+    "prop": {
+      "tp": 83,
+      "fp": 184,
+      "fn": 162,
+      "tp_s": 61,
+      "fp_s": 206,
+      "fn_s": 184,
+      "per_key": {
+        "shielding_effectiveness": {
+          "tp": 83,
+          "fp": 184,
+          "fn": 162,
+          "tp_s": 61,
+          "fp_s": 206,
+          "fn_s": 184
+        }
+      }
+    }
+  },
+  "evaluation_policy": "All 59 articles; fixed recorded judgments; no fresh API calls"
+}

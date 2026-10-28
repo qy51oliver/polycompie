@@ -1,0 +1,757 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled unidirectional carbon-fiber-reinforced polymer laminate with lay-up [90°, 0°, +45°, −45°, 0°, 90°]; specific polymer chemistry not specified. Each ply was 0.125 mm thick.",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in unidirectional plies; fiber orientations follow the lay-up [90°, 0°, +45°, −45°, 0°, 90°]. Fiber volume fraction in the CFRP plies was 0.60.",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.75,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled unidirectional carbon-fiber-reinforced polymer laminate with lay-up [90°, 0°, +45°, −45°, 0°, 90°]2 (symmetric reverse repetition); specific polymer chemistry not specified. Each ply was 0.125 mm thick.",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in unidirectional plies; fiber orientations follow the lay-up [90°, 0°, +45°, −45°, 0°, 90°, 90°, 0°, −45°, +45°, 0°, 90°]. Fiber volume fraction in the CFRP plies was 0.60.",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled unidirectional carbon-fiber-reinforced polymer laminate with lay-up [90°, 0°, +45°, −45°]; specific polymer chemistry not specified. Each ply was 0.125 mm thick.",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in unidirectional plies; fiber orientations follow the lay-up [90°, 0°, +45°, −45°]. Fiber volume fraction in the CFRP plies was 0.60.",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled unidirectional carbon-fiber-reinforced polymer laminate with lay-up [90°, 90°, 90°, 90°]; specific polymer chemistry not specified. Each ply was 0.125 mm thick.",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in unidirectional plies; all plies were oriented at 90° (fibers along the y-direction). Fiber volume fraction in the CFRP plies was 0.60.",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled unidirectional carbon-fiber-reinforced polymer laminate with lay-up [90°, 0°]; specific polymer chemistry not specified. Each ply was 0.125 mm thick.",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in two unidirectional plies with lay-up [90°, 0°]. Fiber volume fraction in the CFRP plies was 0.60.",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled multifunctional CFRP/copper-mesh laminate with stacking order [Cu, 90°, 0°]. The CFRP sublaminate consisted of two 0.125 mm unidirectional plies; specific polymer chemistry not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in the CFRP plies of the [Cu, 90°, 0°] laminate. The CFRP plies used a fiber volume fraction of 0.60.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "Copper wire mesh layer placed as the first incident layer in the laminate ([Cu, 90°, 0°]); wire radius 0.05 mm, wire separation 474 μm, 45% open area.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_4": {
+        "value": 58700000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "copper mesh wire",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": "5–10",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase relative to baseline CFRP lay-up [90°, 0°] after adding one Cu mesh layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 50,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 10,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled multifunctional CFRP/copper-mesh laminate with stacking order [90°, Cu, 0°]. The CFRP sublaminate consisted of two 0.125 mm unidirectional plies; specific polymer chemistry not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in the CFRP plies of the [90°, Cu, 0°] laminate. The CFRP plies used a fiber volume fraction of 0.60.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "Copper wire mesh layer placed between the two CFRP plies in the laminate ([90°, Cu, 0°]); wire radius 0.05 mm, wire separation 474 μm, 45% open area.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_4": {
+        "value": 58700000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "copper mesh wire",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": "5–10",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase relative to baseline CFRP lay-up [90°, 0°] after adding one Cu mesh layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 50,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 10,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polymer",
+        "description": "Insulating polymer matrix in a modeled multifunctional CFRP/copper-mesh laminate with stacking order [90°, 0°, Cu]. The CFRP sublaminate consisted of two 0.125 mm unidirectional plies; specific polymer chemistry not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite fiber",
+        "description": "IM7 graphite fiber reinforcement in the CFRP plies of the [90°, 0°, Cu] laminate. The CFRP plies used a fiber volume fraction of 0.60.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "Copper wire mesh layer placed after the two CFRP plies in the laminate ([90°, 0°, Cu]); wire radius 0.05 mm, wire separation 474 μm, 45% open area.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 40000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "longitudinal (parallel to fibers)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "transverse",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 8,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "homogenized CFRP ply",
+            "unit": "not specified"
+          },
+          {
+            "type": "direction",
+            "value": "cross-ply / through-thickness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_4": {
+        "value": 58700000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "copper mesh wire",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": "5–10",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase relative to baseline CFRP lay-up [90°, 0°] after adding one Cu mesh layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 50,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 10,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

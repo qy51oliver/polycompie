@@ -1,0 +1,106 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate, Makrolon 2407 model, Covestro company, Germany; used as matrix in unidirectional tape laminate with 2 mm thickness",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber, density 1.5 g/cm3, Covestro company; unidirectional tapes laid as laminate via thermo-compression; before sand erosion",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "before sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "Thermoplastic polycarbonate, Makrolon 2407 model, Covestro company, Germany; used as matrix in unidirectional tape laminate; after 2 min sand erosion at 30 degrees, thickness reduced",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T700 series carbon fiber, density 1.5 g/cm3, Covestro company; unidirectional tapes laid as laminate via thermo-compression; after 2 min sand erosion at 30 degrees",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "erosion_state",
+            "value": "after 2 min sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

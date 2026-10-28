@@ -1,0 +1,188 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate/acrylonitrile-butadiene-styrene",
+        "description": "PCABS powder particles (pulverized ~250 µm) electroless nickel-coated prior to compounding; sample code: NiPCABS composite",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "PAN-based carbon fibre (959 carbon fibre, AGM 94)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (Asbury Carbons 3243)",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.4,
+      "unit": "cm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.29,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "two-probe DC (Keithley source-measure unit)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_dimensions",
+            "value": "8 x 1 x 0.4",
+            "unit": "cm"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 57.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000.0,
+            "unit": "MHz"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D4935 (coaxial holder)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 79.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000.0,
+            "unit": "MHz"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D4935 (coaxial holder)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "PPS powder particles (pulverized ~100–250 µm) electroless nickel-coated prior to compounding; sample code: NiPPS composite",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "PAN-based carbon fibre (959 carbon fibre, AGM 94)",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Graphite",
+        "description": "Graphite flakes (Asbury Carbons 3243)",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.4,
+      "unit": "cm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19.16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "two-probe DC (Keithley source-measure unit)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_dimensions",
+            "value": "8 x 1 x 0.4",
+            "unit": "cm"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 67.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 2000.0,
+            "unit": "MHz"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D4935 (coaxial holder)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 87.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 4000.0,
+            "unit": "MHz"
+          },
+          {
+            "type": "test_standard",
+            "value": "ASTM D4935 (coaxial holder)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,817 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network synthesized from oligooxypropylene glycol (OPG) and tolylenediisocyanate (TDI) (OPG:TDI = 1:2) with trimethylolpropane (TMP) as crosslinking agent; composite prepared by reaction molding.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (length 5–10 µm, outer diameter 20 nm, surface area 190 m^2/g); introduced in situ by ultrasonic dispersion; composite contains Fe(acac)3 modifier (1 wt%).",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          },
+          {
+            "type": "processing",
+            "value": "ultrasonic dispersion of CNT",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network synthesized from oligooxypropylene glycol (OPG) and tolylenediisocyanate (TDI) (OPG:TDI = 1:2) with trimethylolpropane (TMP) as crosslinking agent; composite prepared by reaction molding.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes (length 5–10 µm, outer diameter 20 nm, surface area 190 m^2/g); introduced in situ by mechanical mixing; composite contains Fe(acac)3 modifier (1 wt%).",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          },
+          {
+            "type": "processing",
+            "value": "mechanical mixing of CNT",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network synthesized from oligooxypropylene glycol (OPG) and tolylenediisocyanate (TDI) (OPG:TDI = 1:2) with trimethylolpropane (TMP) as crosslinking agent; composite prepared by reaction molding.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; PU filled with 3 wt% CNT; conductivity reported for unmodified PU/CNT system.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "none (unmodified)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network; PU filled with 3 wt% CNT; conductivity reported for Cr(acac)3-modified PU/CNT system.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; composite includes chromium(III) acetylacetonate modifier (1 wt%).",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "chromium(III) acetylacetonate (Cr(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network; PU filled with 3 wt% CNT; conductivity reported for Fe(acac)3-modified PU/CNT system.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; composite includes iron(III) acetylacetonate modifier (1 wt%).",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network; unfilled PU conductivity reported as ~1e-12 S/cm.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-12,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 20,
+            "unit": "C"
+          },
+          {
+            "type": "modifier",
+            "value": "none (unmodified)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Cross-linked polyurethane (PU) network; unfilled PU with 1 wt% coordination metal complex; ionic conductivity enhanced up to ~1e-7 S/cm.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; contains 1 wt% transition metal acetylacetonate coordination complex (Fe(acac)3 or Cr(acac)3; specific complex not specified for this conductivity value).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 20,
+            "unit": "C"
+          },
+          {
+            "type": "modifier",
+            "value": "transition metal acetylacetonate coordination complex, 1 wt% (specific metal not specified)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled SIPN (unmodified).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "none (unmodified)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled SIPN modified with chromium(III) acetylacetonate (Cr(acac)3) (1 wt%).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "chromium(III) acetylacetonate (Cr(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled SIPN modified with iron(III) acetylacetonate (Fe(acac)3) (1 wt%).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; SIPN filled in situ with 3 wt% CNT; modified with iron(III) acetylacetonate (Fe(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; SIPN filled in situ with 1.5 wt% CNT; modified with iron(III) acetylacetonate (Fe(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Nickel",
+        "description": "Spherical metallic Ni microparticles (~10 µm); SIPN filled in situ with 1.5 wt% Ni; modified with iron(III) acetylacetonate (Fe(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "iron(III) acetylacetonate (Fe(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; SIPN filled in situ with 3 wt% CNT; modified with chromium(III) acetylacetonate (Cr(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "chromium(III) acetylacetonate (Cr(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; SIPN filled in situ with 1.5 wt% CNT; modified with chromium(III) acetylacetonate (Cr(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Nickel",
+        "description": "Spherical metallic Ni microparticles (~10 µm); SIPN filled in situ with 1.5 wt% Ni; modified with chromium(III) acetylacetonate (Cr(acac)3) 1 wt%.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "modifier",
+            "value": "chromium(III) acetylacetonate (Cr(acac)3), 1 wt%",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Simultaneous semi-interpenetrating polymer network (SIPN) blend: cross-linked polyurethane network + linear poly(methyl methacrylate) (PMMA), PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Poly(methyl methacrylate)",
+        "description": "Simultaneous SIPN component; PU/PMMA = 50/50 (basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multiwall carbon nanotubes; SIPN/CNT composite (filler content not explicitly stated here; conductivity statement refers to SIPN/CNT composites of same filler content as PU/CNT, i.e., 3 wt% CNT).",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

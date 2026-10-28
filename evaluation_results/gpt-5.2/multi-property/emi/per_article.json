@@ -1,0 +1,2362 @@
+[
+  {
+    "article_id": "1",
+    "n_gt": 3,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 3,
+    "relaxed_matches": 3,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 3,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 1,
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 2,
+            "fn": 1,
+            "tp_s": 2,
+            "fp_s": 2,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0008622321008502-main",
+    "n_gt": 0,
+    "n_pr": 12,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 12,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 12,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0021979723011311-main",
+    "n_gt": 3,
+    "n_pr": 3,
+    "avg_sim": 0.533,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 3,
+        "tp_r": 0,
+        "fp_r": 3,
+        "fn_r": 3
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0032386124012278-main",
+    "n_gt": 2,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 3,
+            "fp_s": 1,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0141391015300033-main",
+    "n_gt": 0,
+    "n_pr": 4,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0141391018301058-main",
+    "n_gt": 0,
+    "n_pr": 2,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0141391024001691-main",
+    "n_gt": 0,
+    "n_pr": 10,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 10,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 10,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0141813024000680-main",
+    "n_gt": 4,
+    "n_pr": 6,
+    "avg_sim": 0.8,
+    "strict_matches": 0,
+    "relaxed_matches": 4,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 4,
+        "tp_r": 4,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 4
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0141813025011110-main",
+    "n_gt": 3,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 3,
+    "relaxed_matches": 3,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 3,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 5,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 5,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0169433224020075-main",
+    "n_gt": 2,
+    "n_pr": 4,
+    "avg_sim": 0.5,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0266353816302494-main",
+    "n_gt": 0,
+    "n_pr": 5,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 5,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0266353816310041-main (1)",
+    "n_gt": 3,
+    "n_pr": 3,
+    "avg_sim": 0.4,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 3,
+        "tp_r": 0,
+        "fp_r": 3,
+        "fn_r": 3
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 5,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 5,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0266353818314507-main",
+    "n_gt": 13,
+    "n_pr": 13,
+    "avg_sim": 0.969,
+    "strict_matches": 12,
+    "relaxed_matches": 12,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 12,
+        "fp_s": 1,
+        "fn_s": 1,
+        "tp_r": 12,
+        "fp_r": 1,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 12,
+        "fp_s": 1,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 12,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 12,
+            "fp_s": 1,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0266353820322107-main",
+    "n_gt": 2,
+    "n_pr": 7,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 5,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 5,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "tp_s": 1,
+        "fp_s": 3,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 3,
+            "tp_s": 1,
+            "fp_s": 3,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0266353823004505-main",
+    "n_gt": 11,
+    "n_pr": 2,
+    "avg_sim": 0.8,
+    "strict_matches": 0,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 11,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 9
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 14,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 15,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 14,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 15
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0925838824008934-main copy",
+    "n_gt": 12,
+    "n_pr": 5,
+    "avg_sim": 0.4,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 10,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 10
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 10,
+        "tp_s": 3,
+        "fp_s": 0,
+        "fn_s": 10,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 10,
+            "tp_s": 3,
+            "fp_s": 0,
+            "fn_s": 10
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0925838824042592-main",
+    "n_gt": 0,
+    "n_pr": 9,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 9,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 9,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S0927775721004805-main copy",
+    "n_gt": 3,
+    "n_pr": 5,
+    "avg_sim": 0.867,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1359835X10002265-main",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 0.6,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 5,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1359835X25000090-main",
+    "n_gt": 4,
+    "n_pr": 5,
+    "avg_sim": 0.75,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 2,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 2,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1359836816305133-main",
+    "n_gt": 2,
+    "n_pr": 3,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 5,
+        "fp": 2,
+        "fn": 1,
+        "tp_s": 5,
+        "fp_s": 2,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 5,
+            "fp": 2,
+            "fn": 1,
+            "tp_s": 5,
+            "fp_s": 2,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1359836818325289-main (1)",
+    "n_gt": 32,
+    "n_pr": 4,
+    "avg_sim": 0.7,
+    "strict_matches": 1,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 3,
+        "fn_s": 31,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 30
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 32,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 32,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 32,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 32
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894717304904-main",
+    "n_gt": 0,
+    "n_pr": 2,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894721006434-main",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 0.8,
+    "strict_matches": 0,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 2,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S138589472301570X-main",
+    "n_gt": 5,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 4,
+    "relaxed_matches": 4,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 1,
+        "tp_r": 4,
+        "fp_r": 0,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "tp_s": 4,
+            "fp_s": 0,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894723021046-main",
+    "n_gt": 4,
+    "n_pr": 2,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 0,
+        "fn_s": 2,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 5,
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 5,
+            "tp_s": 3,
+            "fp_s": 1,
+            "fn_s": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894723022180-main",
+    "n_gt": 0,
+    "n_pr": 4,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S138589472302764X-main",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 0.9,
+    "strict_matches": 1,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 4,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 5,
+        "fn": 0,
+        "tp_s": 2,
+        "fp_s": 6,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 5,
+            "fn": 0,
+            "tp_s": 2,
+            "fp_s": 6,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894723031765-main",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 0,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724025397-main",
+    "n_gt": 7,
+    "n_pr": 7,
+    "avg_sim": 0.771,
+    "strict_matches": 4,
+    "relaxed_matches": 4,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 3,
+        "fn_s": 3,
+        "tp_r": 4,
+        "fp_r": 3,
+        "fn_r": 3
+      },
+      "prop": {
+        "tp": 4,
+        "fp": 8,
+        "fn": 7,
+        "tp_s": 4,
+        "fp_s": 8,
+        "fn_s": 7,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 4,
+            "fp": 8,
+            "fn": 7,
+            "tp_s": 4,
+            "fp_s": 8,
+            "fn_s": 7
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724039251-main",
+    "n_gt": 18,
+    "n_pr": 7,
+    "avg_sim": 1.0,
+    "strict_matches": 7,
+    "relaxed_matches": 7,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 7,
+        "fp_s": 0,
+        "fn_s": 11,
+        "tp_r": 7,
+        "fp_r": 0,
+        "fn_r": 11
+      },
+      "prop": {
+        "tp": 8,
+        "fp": 2,
+        "fn": 11,
+        "tp_s": 8,
+        "fp_s": 2,
+        "fn_s": 11,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 8,
+            "fp": 2,
+            "fn": 11,
+            "tp_s": 8,
+            "fp_s": 2,
+            "fn_s": 11
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724078963-main",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 3,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724089988-main",
+    "n_gt": 3,
+    "n_pr": 4,
+    "avg_sim": 0.667,
+    "strict_matches": 0,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 5,
+            "fn_s": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724091010-main",
+    "n_gt": 3,
+    "n_pr": 5,
+    "avg_sim": 0.867,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "tp_s": 2,
+        "fp_s": 0,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "tp_s": 2,
+            "fp_s": 0,
+            "fn_s": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894724098942-main",
+    "n_gt": 1,
+    "n_pr": 3,
+    "avg_sim": 1.0,
+    "strict_matches": 1,
+    "relaxed_matches": 1,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 4
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S1385894725017620-main",
+    "n_gt": 1,
+    "n_pr": 4,
+    "avg_sim": 0.6,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 1,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S2238785423020690-main",
+    "n_gt": 5,
+    "n_pr": 4,
+    "avg_sim": 0.9,
+    "strict_matches": 3,
+    "relaxed_matches": 3,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 2,
+        "tp_r": 3,
+        "fp_r": 1,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 3,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 3,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S2238785423021385-main",
+    "n_gt": 1,
+    "n_pr": 1,
+    "avg_sim": 1.0,
+    "strict_matches": 1,
+    "relaxed_matches": 1,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "tp_s": 1,
+        "fp_s": 1,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "tp_s": 1,
+            "fp_s": 1,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S2238785424026553-main",
+    "n_gt": 3,
+    "n_pr": 2,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 0,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 1,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 1,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "1-s2.0-S2949822824001898-main",
+    "n_gt": 2,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 2,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "40820_2021_Article_693",
+    "n_gt": 2,
+    "n_pr": 4,
+    "avg_sim": 0.5,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 4
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "Fang_2020_Mater._Res._Express_7_045305",
+    "n_gt": 1,
+    "n_pr": 1,
+    "avg_sim": 1.0,
+    "strict_matches": 1,
+    "relaxed_matches": 1,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 2,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 2,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "Goyal_2010_J._Phys._D__Appl._Phys._43_365404",
+    "n_gt": 0,
+    "n_pr": 7,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 7,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 7,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "J of Applied Polymer Sci - 2015 - Deng - PPS recycled PEEK  carbon nanotube composites  Structure  properties and",
+    "n_gt": 0,
+    "n_pr": 7,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 7,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 7,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "J of Applied Polymer Sci - 2022 - Chan - Mechanical  thermal  tribological  and flammability properties of polybutylene",
+    "n_gt": 0,
+    "n_pr": 3,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "PBT POSS FR",
+    "n_gt": 0,
+    "n_pr": 20,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 20,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 20,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "Study_of_the_Relationship_Between_Flammability_and_Melt-1071",
+    "n_gt": 0,
+    "n_pr": 6,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 6,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "c7ra06691k",
+    "n_gt": 0,
+    "n_pr": 9,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 9,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 9,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "c8tc03493a",
+    "n_gt": 4,
+    "n_pr": 5,
+    "avg_sim": 0.9,
+    "strict_matches": 3,
+    "relaxed_matches": 3,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 2,
+        "fn_s": 1,
+        "tp_r": 3,
+        "fp_r": 2,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "tp_s": 4,
+        "fp_s": 2,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 4,
+            "fp": 2,
+            "fn": 3,
+            "tp_s": 4,
+            "fp_s": 2,
+            "fn_s": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "jcs-07-00117",
+    "n_gt": 0,
+    "n_pr": 4,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 3,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "ling-et-al-2013-lightweight-multifunctional-polyetherimide-graphene-fe3o4-composite-foams-for-shielding-of",
+    "n_gt": 4,
+    "n_pr": 5,
+    "avg_sim": 1.0,
+    "strict_matches": 4,
+    "relaxed_matches": 4,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 4,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 6,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 6,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "molecules-29-03108-v2",
+    "n_gt": 2,
+    "n_pr": 5,
+    "avg_sim": 0.667,
+    "strict_matches": 0,
+    "relaxed_matches": 1,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 2,
+        "tp_r": 1,
+        "fp_r": 4,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "morishita-okamoto-2016-facile-exfoliation-and-noncovalent-superacid-functionalization-of-boron-nitride-nanosheets-and",
+    "n_gt": 0,
+    "n_pr": 5,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 5,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "polybenzoxazine copy",
+    "n_gt": 13,
+    "n_pr": 4,
+    "avg_sim": 1.0,
+    "strict_matches": 4,
+    "relaxed_matches": 4,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 9,
+        "tp_r": 4,
+        "fp_r": 0,
+        "fn_r": 9
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 10,
+        "tp_s": 3,
+        "fp_s": 0,
+        "fn_s": 10,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 10,
+            "tp_s": 3,
+            "fp_s": 0,
+            "fn_s": 10
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "polymers-14-00017-v3",
+    "n_gt": 0,
+    "n_pr": 7,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 7,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 7,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "polymers-15-01911",
+    "n_gt": 4,
+    "n_pr": 3,
+    "avg_sim": 0.8,
+    "strict_matches": 0,
+    "relaxed_matches": 3,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 4,
+        "tp_r": 3,
+        "fp_r": 0,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 8,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 8,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 8
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "s10973-016-5484-9",
+    "n_gt": 0,
+    "n_pr": 7,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 7,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 7,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "sunitha-et-al-2016-electromagnetic-interference-shielding-effectiveness-and-electrical-conductivity-of-ni-coated-pcabs",
+    "n_gt": 2,
+    "n_pr": 2,
+    "avg_sim": 0.8,
+    "strict_matches": 0,
+    "relaxed_matches": 2,
+    "skipped": false,
+    "reference_eligible": true,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 4
+          }
+        }
+      }
+    }
+  },
+  {
+    "article_id": "zong-et-al-2023-phase-morphology-and-conductive-properties-of-pbt-poe-g-gma-pp-cnt-nanocomposites-with-a-tri-continuous (1)",
+    "n_gt": 0,
+    "n_pr": 3,
+    "avg_sim": 0.0,
+    "strict_matches": 0,
+    "relaxed_matches": 0,
+    "skipped": false,
+    "reference_eligible": false,
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    }
+  }
+]

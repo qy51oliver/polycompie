@@ -1,0 +1,182 @@
+[
+     {
+        "sample_id": "ABS",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "MFI": {"value": 1.7, "unit": "Gr/10 min","conditions": [{"type": "not specified", "value": 200,"unit": "◦C/5kg"}]},
+            "izod_impact_strength": {"value": 25, "unit": "Kj*m^-2","conditions": [{"type": "not specified", "value": "1/8","unit": "inch"}]},
+            "tensile_strength_at_yield": {"value": 440, "unit": "Kgf*cm^-2","conditions": [{"type": "not specified", "value": 5,"unit": "mm/min"}]},
+            "elongation_at_break": {"value": 40, "unit": "%","conditions": [{"type": "not specified", "value": 5,"unit": "mm/min"}]},
+            "flexural_strength_at_yield": {"value": 640, "unit": "Kgf*cm^-2","conditions": [{"type": "not specified", "value": 2.8,"unit": "mm/min"}]},
+            "flexural_modulus_1": {"value": 20500, "unit": "Kgf*cm^-2","conditions": [{"type": "not specified", "value": 2.8,"unit": "mm/min"}]},
+            "vicat_softening_temperature": {"value": 99, "unit": "◦C","conditions": [{"type": "not specified", "value": 5,"unit": "kg"}]},
+            "rockwell_hardness": {"value": 104, "unit": "R-scale"},
+            "youngs_modulus": {"value": 2.48, "unit": "not specified"},
+            "flexural_modulus_2": {"value": 1.84, "unit": "GPa"},
+            "temperature_at_20wt%_loss": {"value": 399.45, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 420.26, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 438.60, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 2.16, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "ABS+GNB3",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "temperature_at_20wt%_loss": {"value": 399.45, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 419.84, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 439.35, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 4.55, "unit": "%"},
+            "imaginary_permittivity": {"value": "0.12-0.2", "unit": "not specified","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "magnetic_loss_1": {"value": -0.2, "unit": "not specified","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "magnetic_loss_2": {"value": 0.15, "unit": "not specified","conditions": [{"type": "frequency", "value": 12.4,"unit": "GHz"}]},
+            "highest_shielding_effectiveness": {"value": 5.79, "conditions": [{"type": "frequency lower bound", "value": 10,"unit": "GHz"},{"type": "frequency upper bound", "value": 10.5,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "ABS+GNB6",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 94, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "temperature_at_20wt%_loss": {"value": 396.45, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 419.05, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 439.89, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 6.58, "unit": "%"},
+            "highest_shielding_effectiveness": {"value": 10.97, "conditions": [{"type": "frequency lower bound", "value": 10,"unit": "GHz"},{"type": "frequency upper bound", "value": 10.5,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "ABS+GNB9",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 91, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 9, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "temperature_at_20wt%_loss": {"value": 400.85, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 420.45, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 444.09, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 10.71, "unit": "%"},
+            "highest_shielding_effectiveness": {"value": 25.59, "conditions": [{"type": "frequency lower bound", "value": 10,"unit": "GHz"},{"type": "frequency upper bound", "value": 10.5,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "ABS+GNB12",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "temperature_at_20wt%_loss": {"value": 402.45, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 421.85, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 442.69, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 11.30, "unit": "%"},
+            "highest_shielding_effectiveness": {"value": 28.66, "conditions": [{"type": "frequency lower bound", "value": 10,"unit": "GHz"},{"type": "frequency upper bound", "value": 10.5,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "ABS+GNB15",
+        "matrix_name": [
+        		{
+                "name": "acrylonitrile butadiene styrene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":350, "unit":"μm"},
+        "properties": {
+            "youngs_modulus": {"value": 6.86, "unit": "not specified"},
+            "flexural_modulus_2": {"value": 3.45, "unit": "GPa"},
+            "temperature_at_20wt%_loss": {"value": 402.42, "unit": "◦C"},
+            "temperature_at_50wt%_loss": {"value": 424.65, "unit": "◦C"},
+            "temperature_at_80wt%_loss": {"value": 448.28, "unit": "◦C"},
+            "residue_at_600◦C": {"value": 14.22, "unit": "%"},
+            "imaginary_permittivity": {"value": 0.4, "unit": "not specified","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "magnetic_loss_1": {"value": 0.15, "unit": "not specified","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "magnetic_loss_2": {"value": 0.08, "unit": "not specified","conditions": [{"type": "frequency", "value": 9.2,"unit": "GHz"}]},
+            "magnetic_loss_3": {"value": -0.02, "unit": "not specified","conditions": [{"type": "frequency", "value": 11.2,"unit": "GHz"}]},
+            "highest_shielding_effectiveness": {"value": 30.74, "conditions": [{"type": "frequency lower bound", "value": 10,"unit": "GHz"},{"type": "frequency upper bound", "value": 10.5,"unit": "GHz"}]}
+        }
+    }
+]

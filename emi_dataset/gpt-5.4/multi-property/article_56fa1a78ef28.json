@@ -1,0 +1,209 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxidized magnolol/diallyl disulfide crosslinked network",
+        "description": "Control sample DGEM/DADS/(3SH)4/(4SH)6 prepared by photo-induced thiol-ene click reaction using epoxidized magnolol monomer (DGEM) and diallyl disulfide (DADS), cured with trimethylolpropane tris(3-mercaptopropionate) and pentaerythritol tetrakis(3-mercaptopropionate) at a 3SH:4SH molar ratio of 0.4:0.6; no 1-octadecanethiol grafting.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 75,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "1-octadecanethiol-modified epoxidized magnolol/diallyl disulfide crosslinked network",
+        "description": "DGEM-18/DADS/(3SH)4/(4SH)6 photo-cured phase change crosslinked network, prepared from 1-octadecanethiol-modified epoxidized magnolol monomer (DGEM-18) and diallyl disulfide (DADS), cured with trimethylolpropane tris(3-mercaptopropionate) and pentaerythritol tetrakis(3-mercaptopropionate) at a 3SH:4SH molar ratio of 0.4:0.6.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "beeswax",
+        "description": "Phase change component in DGEM-18/DADS/(3SH)4/(4SH)6-45%BW; 45 wt% relative content in the phase change components.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Carboxylated multiwalled carbon nanotubes (CCNTs) sprayed as the outer functional layer on DGEM-18/DADS/(3SH)4/(4SH)6-45%BW; reference sample without AgNWs.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "1-octadecanethiol-modified epoxidized magnolol/diallyl disulfide crosslinked network",
+        "description": "DGEM-18/DADS/(3SH)4/(4SH)6 photo-cured phase change crosslinked network, prepared from 1-octadecanethiol-modified epoxidized magnolol monomer (DGEM-18) and diallyl disulfide (DADS), cured with trimethylolpropane tris(3-mercaptopropionate) and pentaerythritol tetrakis(3-mercaptopropionate) at a 3SH:4SH molar ratio of 0.4:0.6.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "beeswax",
+        "description": "Phase change component in DGEM-18/DADS/(3SH)4/(4SH)6-45%BW; 45 wt% relative content in the phase change components.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver nanowires",
+        "description": "AgNWs layer sprayed onto the PCM surface before CCNT deposition; sample designated DGEM-18/DADS/(3SH)4/(4SH)6-45%BW/AgNWs1/CCNTs with AgNWs spray dose of 0.4 mg/cm2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Carboxylated multiwalled carbon nanotubes (CCNTs) sprayed as the outer layer on the AgNWs-coated PCM surface.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "1-octadecanethiol-modified epoxidized magnolol/diallyl disulfide crosslinked network",
+        "description": "DGEM-18/DADS/(3SH)4/(4SH)6 photo-cured phase change crosslinked network, prepared from 1-octadecanethiol-modified epoxidized magnolol monomer (DGEM-18) and diallyl disulfide (DADS), cured with trimethylolpropane tris(3-mercaptopropionate) and pentaerythritol tetrakis(3-mercaptopropionate) at a 3SH:4SH molar ratio of 0.4:0.6; together with beeswax, the matrix accounts for 93.7 wt% of the final composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "beeswax",
+        "description": "Phase change component in DGEM-18/DADS/(3SH)4/(4SH)6-45%BW; 45 wt% relative content in the phase change components.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver nanowires",
+        "description": "AgNWs layer sprayed onto the PCM surface before CCNT deposition; sample designated DGEM-18/DADS/(3SH)4/(4SH)6-45%BW/AgNWs3/CCNTs with AgNWs spray dose of 0.8 mg/cm2. This corresponds to the lamellar AgNWs/CCNTs sample highlighted in the abstract/conclusion. Total filler content (AgNWs + CCNTs) was 6.3 wt% in the final composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Carboxylated multiwalled carbon nanotubes (CCNTs) sprayed as the outer layer on the AgNWs-coated PCM surface; combined filler content with AgNWs was 6.3 wt% in the final composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 39,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

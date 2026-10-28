@@ -1,0 +1,225 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-vinyl acetate)",
+        "description": "Neat electrospun EVA fiber membrane, UV-cured to form a highly cross-linked membrane.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 70.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 2.52,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 354.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-vinyl acetate)",
+        "description": "Hot-pressed sandwich-structured EVA outer layers; electrospun, UV-cured, highly cross-linked fiber membrane.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx) MXene",
+        "description": "Few-layer MXene nanosheets forming the conductive interlayer; sample suffix 20 denotes 20 mg MXene incorporated.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.8,
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 3.23,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 349.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-vinyl acetate)",
+        "description": "Hot-pressed sandwich-structured EVA outer layers; electrospun, UV-cured, highly cross-linked fiber membrane.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx) MXene",
+        "description": "Few-layer MXene nanosheets forming the conductive interlayer; sample suffix 40 denotes 40 mg MXene incorporated.",
+        "composition": {
+          "amount": 40.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 0.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 22.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 25.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 14.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 30.0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 39.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "shape recovered",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 3.55,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 330.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-vinyl acetate)",
+        "description": "Hot-pressed sandwich-structured EVA outer layers; electrospun, UV-cured, highly cross-linked fiber membrane.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx) MXene",
+        "description": "Few-layer MXene nanosheets forming the conductive interlayer; sample suffix 100 denotes 100 mg MXene incorporated.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.6,
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 3.82,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 249.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

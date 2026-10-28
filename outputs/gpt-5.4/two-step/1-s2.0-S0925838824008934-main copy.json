@@ -1,0 +1,193 @@
+[
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyvinylidene fluoride",
+        "description": "PVDF polymer matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide MXene",
+        "description": "Ti3C2Tx MXene flakes",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 20,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "filler_content",
+            "value": 10,
+            "unit": "wt%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyvinylidene fluoride",
+        "description": "PVDF polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide MXene",
+        "description": "Ti3C2Tx MXene flakes",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 20,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyvinylidene fluoride",
+        "description": "PVDF polymer matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide MXene",
+        "description": "Ti3C2Tx MXene flakes",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Nickel",
+        "description": "Ni-S spherical nickel nanoparticles synthesized without external magnetic field",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyvinylidene fluoride",
+        "description": "PVDF polymer matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide MXene",
+        "description": "Ti3C2Tx MXene flakes",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Nickel",
+        "description": "Ni-F flower-like nickel nanoparticles synthesized under external magnetic field",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 20.0,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "THz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; neat resin sample named PBA-a",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 1.57e-12,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1.01e-06,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1000000,
+            "unit": "Hz"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2304,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 154.7,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 174,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.3196,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; composite sample named PBA-a/1GN",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene in graphene/nickel composite filler GN; GN contains 50 wt% graphene and 50 wt% nickel; graphene layers decorated with flower-shaped nickel particles",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel in graphene/nickel composite filler GN; metallic nickel deposited on graphene, flower-shaped particles around 100 nm; GN contains 50 wt% graphene and 50 wt% nickel",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.1e-08,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 15,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2466,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 171.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 189.4,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; composite sample named PBA-a/2GN",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene in graphene/nickel composite filler GN; GN contains 50 wt% graphene and 50 wt% nickel; graphene layers decorated with flower-shaped nickel particles",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel in graphene/nickel composite filler GN; metallic nickel deposited on graphene, flower-shaped particles around 100 nm; GN contains 50 wt% graphene and 50 wt% nickel",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 2799,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 165.6,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 188.3,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; composite sample named PBA-a/3GN",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene in graphene/nickel composite filler GN; GN contains 50 wt% graphene and 50 wt% nickel; graphene layers decorated with flower-shaped nickel particles",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel in graphene/nickel composite filler GN; metallic nickel deposited on graphene, flower-shaped particles around 100 nm; GN contains 50 wt% graphene and 50 wt% nickel",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 3657,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 170.9,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 188.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; composite sample named PBA-a/4GN",
+        "composition": {
+          "amount": 96.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene in graphene/nickel composite filler GN; GN contains 50 wt% graphene and 50 wt% nickel; graphene layers decorated with flower-shaped nickel particles",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel in graphene/nickel composite filler GN; metallic nickel deposited on graphene, flower-shaped particles around 100 nm; GN contains 50 wt% graphene and 50 wt% nickel",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 3036,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 177.1,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 196.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polybenzoxazine",
+        "description": "Polybenzoxazine derived from benzoxazine monomer BA-a; composite sample named PBA-a/5GN",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Graphene in graphene/nickel composite filler GN; GN contains 50 wt% graphene and 50 wt% nickel; graphene layers decorated with flower-shaped nickel particles",
+        "composition": {
+          "amount": 2.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Nickel in graphene/nickel composite filler GN; metallic nickel deposited on graphene, flower-shaped particles around 100 nm; GN contains 50 wt% graphene and 50 wt% nickel",
+        "composition": {
+          "amount": 2.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.21,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 3941,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 40,
+            "unit": "C"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 189.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA E'' peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 203.2,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tanδ peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.4904,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  }
+]

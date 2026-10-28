@@ -1,0 +1,247 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Solid injection-molded polypropylene (PP) matrix; base resin F350HC2 supplied by Braskem.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless steel fiber (SSF); solid injection-molded PP-SSF composite. Reported filler content follows article notation.",
+        "composition": {
+          "amount": 1.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Foam injection-molded polypropylene (PP) matrix; sample had 25% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless steel fiber (SSF); foam injection-molded composite with 25% void fraction. Reported as 1.5 vol.% SSF initial content in the solid precursor.",
+        "composition": {
+          "amount": 1.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Foam injection-molded polypropylene (PP) matrix; sample had 25% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless steel fiber (SSF); foam injection-molded composite with 25% void fraction. Reported filler content is final content with respect to total foamed sample volume.",
+        "composition": {
+          "amount": 0.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 16.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Solid injection-molded polypropylene (PP) matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless steel fiber (SSF); solid PP-SSF composite cited for specific EMI shielding effectiveness.",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.0,
+        "unit": "dB.g^-1.cm^3",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "basis",
+            "value": "specific",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "Foam injection-molded polypropylene (PP) matrix; reported maximum specific EMI shielding sample with 35% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless steel fiber (SSF); PP-SSF composite foam reported for maximum specific EMI shielding effectiveness. Reported as 1.1 vol.% final SSF content; article also states this corresponds to 1.5 vol.% in the solid precursor.",
+        "composition": {
+          "amount": 1.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 75.0,
+        "unit": "dB.g^-1.cm^3",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "basis",
+            "value": "specific",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate",
+        "description": "EVA copolymer containing 18 wt% vinyl acetate",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-09,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "frequency",
+            "value": "low frequency",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate",
+        "description": "EVA copolymer containing 18 wt% vinyl acetate",
+        "composition": {
+          "amount": 96.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Dodecylbenzene sulfonic acid-doped polyaniline (PAni.DBSA), prepared by in situ inverted emulsion polymerization",
+        "composition": {
+          "amount": 4.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 8e-08,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "frequency_range_lower_bound",
+            "value": 0.1,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper_bound",
+            "value": 39,
+            "unit": "Hz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate",
+        "description": "EVA copolymer containing 18 wt% vinyl acetate",
+        "composition": {
+          "amount": 67.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Dodecylbenzene sulfonic acid-doped polyaniline (PAni.DBSA), prepared by in situ inverted emulsion polymerization",
+        "composition": {
+          "amount": 33.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0001,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "type": "frequency_range_lower_bound",
+            "value": 0.1,
+            "unit": "Hz"
+          },
+          {
+            "type": "frequency_range_upper_bound",
+            "value": 10,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS purchased from Daejung Chemicals & Metals",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-16,
+        "unit": "S cm-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 300,
+            "unit": "KHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS purchased from Daejung Chemicals & Metals",
+        "composition": {
+          "amount": 97.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper coated expanded polymer beads",
+        "description": "Derived from expandable polymer beads (Expancel 461 DU 40), which are an acrylonitrile-based copolymer shell with isobutane blowing agent. Expanded to 20-40 um diameter, then coated with a Cu shell of about 1 um thickness via electroless plating. Compressed into oblate ellipsoids in the composite.",
+        "composition": {
+          "amount": 2.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.1e-07,
+        "unit": "S cm-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS purchased from Daejung Chemicals & Metals",
+        "composition": {
+          "amount": 93.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper coated expanded polymer beads",
+        "description": "Derived from expandable polymer beads (Expancel 461 DU 40), which are an acrylonitrile-based copolymer shell with isobutane blowing agent. Expanded to 20-40 um diameter, then coated with a Cu shell of about 1 um thickness via electroless plating. Compressed into oblate ellipsoids in the composite.",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 780.0,
+        "unit": "S cm-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS purchased from Daejung Chemicals & Metals",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper coated expanded polymer beads",
+        "description": "Derived from expandable polymer beads (Expancel 461 DU 40), which are an acrylonitrile-based copolymer shell with isobutane blowing agent. Expanded to 20-40 um diameter, then coated with a Cu shell of about 1 um thickness via electroless plating. Compressed into oblate ellipsoids in the composite.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4200.0,
+        "unit": "S cm-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 80.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "KHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 62.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS purchased from Daejung Chemicals & Metals",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper solid beads",
+        "description": "Isotropic Cu solid beads with a diameter of 40 um. Purchased from Sigma Aldrich.",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5e-05,
+        "unit": "S cm-1",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 5.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "KHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

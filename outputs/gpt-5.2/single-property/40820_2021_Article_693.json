@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels–Alder bonds",
+        "description": "CPA microspheres (cationic waterborne polyurethane containing reversible Diels–Alder bonds); used to form segregated structure via electrostatic assembly.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO) with negative charge; electrostatically assembled onto CPA microsphere surfaces to form segregated conductive networks.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels–Alder bonds",
+        "description": "CPA microspheres (cationic waterborne polyurethane containing reversible Diels–Alder bonds); used to form segregated structure via electrostatic assembly.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO) with negative charge; electrostatically assembled onto CPA microsphere surfaces to form segregated conductive networks.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels–Alder bonds",
+        "description": "CPA microspheres (cationic waterborne polyurethane containing reversible Diels–Alder bonds); used to form segregated structure via electrostatic assembly.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO) with negative charge; electrostatically assembled onto CPA microsphere surfaces to form segregated conductive networks.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "state",
+            "value": "initial (before cutting/healing)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels–Alder bonds",
+        "description": "CPA microspheres (cationic waterborne polyurethane containing reversible Diels–Alder bonds); composite CG@CPA-10 after 1st cutting/healing cycle (1HC). Healing protocol: 130 °C for 10 min then 60 °C for 2 h.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO); composite CG@CPA-10 after 1st cutting/healing cycle (1HC).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "state",
+            "value": "after 1 cutting/healing cycle (1HC); healed at 130 °C for 10 min then 60 °C for 2 h",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Cationic waterborne polyurethane with Diels–Alder bonds",
+        "description": "CPA microspheres (cationic waterborne polyurethane containing reversible Diels–Alder bonds); composite CG@CPA-10 after 3rd cutting/healing cycle (3HC). Healing protocol: 130 °C for 10 min then 60 °C for 2 h.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotube/graphene oxide hybrid",
+        "description": "CNT/GO hybrid (CNTIGO); composite CG@CPA-10 after 3rd cutting/healing cycle (3HC).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "state",
+            "value": "after 3 cutting/healing cycles (3HC); healed at 130 °C for 10 min then 60 °C for 2 h",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

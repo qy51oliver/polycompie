@@ -1,0 +1,455 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "PI substrate in the screen-printed PI-Ag reflection film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "ultrasonically cleaned"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Ag conductive ink cured to form a dense Ag reflection layer/Ag nanosheet conductive network; sample label PI-Ag film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 30.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2949.85,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "curing_temperature",
+            "value": 150,
+            "unit": "°C"
+          },
+          {
+            "type": "curing_time",
+            "value": 3,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Four-layer WPU/Fe3O4/CNT/rGO electromagnetic gradient absorber; sample label WFCR",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles, about 20 nm; magnetic filler with content decreasing from top layer to bottom layer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs, diameter 8–15 nm and length 50 μm; conductive filler with content increasing from top layer to bottom layer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO; conductive filler with content increasing from top layer to bottom layer",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 1.49,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "reflection (SER)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 12.68,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "absorption (SEA)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WFCR absorber portion of the asymmetric multilayer composite; sample label Ag-WFCR-1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyimide",
+        "description": "PI substrate beneath the Ag reflection layer in Ag-WFCR-1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "ultrasonically cleaned"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles, about 20 nm; magnetic filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs, diameter 8–15 nm and length 50 μm; conductive filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Screen-printed grid-pattern Ag reflection layer; blank square side length 1 mm; reflective/conductive Ag area reported as 77.85%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 38.96,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 1.66,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "reflection (SER)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 30.66,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "absorption (SEA)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 9.25,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 57.91,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 102.01,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "WFCR absorber portion of the asymmetric multilayer composite; sample label Ag-WFCR-3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyimide",
+        "description": "PI substrate beneath the Ag reflection layer in Ag-WFCR-3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "ultrasonically cleaned"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 nanoparticles, about 20 nm; magnetic filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs, diameter 8–15 nm and length 50 μm; conductive filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO conductive filler in the multilayer WFCR absorber",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Screen-printed grid-pattern Ag reflection layer; blank square side length 3 mm; reflective/conductive Ag area reported as 50.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.4,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 17.43,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "total (SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.18,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "SE_component",
+            "value": "reflection (SER)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

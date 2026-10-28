@@ -1,0 +1,661 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine (PI@PDA).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 10.01,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 14.06,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; sample IWM0.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU used as impregnation matrix/binder; IWM0 was prepared from WPU dispersion without MXene.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No conductive filler in IWM0.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 14.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 25.06,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; sample IWM20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU used as impregnation matrix/binder in WPU/MXene dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D MXene dispersed in WPU; impregnation dispersion concentration 20 mg mL^-1.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 15.0,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "longitudinal",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 35.58,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 14.23,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; sample IWA1.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU used as impregnation matrix/binder in WPU/Ag NWs dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "1D silver nanowires (Ag NWs) dispersed in WPU; impregnation dispersion concentration 1 mg mL^-1.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 135.1,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "longitudinal",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; sample IWA4.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU used as impregnation matrix/binder in WPU/Ag NWs dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "1D silver nanowires (Ag NWs) dispersed in WPU; impregnation dispersion concentration 4 mg mL^-1.",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 434.8,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "longitudinal",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; three PI@PDA layers stacked into a symmetric sandwich and hot-pressed; sample IWM20-IWA0-IWM20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU present in all layers as impregnation matrix/binder; outer layers contain MXene and the core layer contains no Ag NWs.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D MXene located in the two outer layers; each outer layer prepared from WPU/MXene dispersion with 20 mg mL^-1 MXene.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.0,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "longitudinal",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 33.87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 31.31,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 29.64,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 37.85,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; three PI@PDA layers stacked into a symmetric sandwich and hot-pressed; sample IWM20-IWA1-IWM20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU present in all layers as impregnation matrix/binder.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D MXene located in the two outer layers; each outer layer prepared from WPU/MXene dispersion with 20 mg mL^-1 MXene.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "1D silver nanowires (Ag NWs) located in the core layer; core layer prepared from WPU/Ag NWs dispersion with 1 mg mL^-1 Ag NWs.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Electrospun polyimide fibrous film coated with polydopamine; three PI@PDA layers stacked into a symmetric sandwich and hot-pressed; sample IWM20-IWA4-IWM20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "waterborne polyurethane",
+        "description": "Flexible WPU present in all layers as impregnation matrix/binder.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "2D MXene located in the two outer layers; each outer layer prepared from WPU/MXene dispersion with 20 mg mL^-1 MXene.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "1D silver nanowires (Ag NWs) located in the core layer; core layer prepared from WPU/Ag NWs dispersion with 4 mg mL^-1 Ag NWs.",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 79.54,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 71.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 36.16,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 72.22,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  }
+]

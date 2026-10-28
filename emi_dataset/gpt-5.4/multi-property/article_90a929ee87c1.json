@@ -1,0 +1,301 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.1GF. The '0.1' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.1 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2296.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 28.2,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.2GF. The '0.2' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.2 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2175.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 26.0,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.4GF. The '0.4' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.4 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2103.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 25.5,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.6GF. The '0.6' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.6 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1924.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 25.3,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix formed from PS powder during hot pressing; control sample label PSgrGF prepared by mechanical grinding.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) mechanically mixed with PS powder by mortar and pestle; no pre-decoration with PS nanoparticles.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 9140.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 36.3,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.1GF. The '0.1' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.1 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Polystyrene matrix derived from PS nanoparticles during hot pressing; sample label PS0.1GF. The '0.1' refers to the PS concentration in the precursor chloroform solution used to decorate graphite, not the final composite composition.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite flakes",
+        "description": "Graphite flakes (GF; lateral size ≤10 μm, thickness 50–100 nm) pre-decorated with PS nanoparticles by co-precipitation from a 0.1 wt% PS chloroform solution.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 85.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

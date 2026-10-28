@@ -1,0 +1,116 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "Epoxy foam matrix based on DGEBA epoxy powder with MeTHPA hardener and DMP-30 curing aid; prepared using a two-step limited-then-free foaming process (Limited-Free foam); reported foam density 0.401 g/cm3. The formulation was prepared with 0.75 wt% chemical foaming agent.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT with carbon purity >99%, diameter 8–15 nm, length 10–50 μm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 1.0,
+        "unit": "unitless",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "average total EMI shielding effectiveness ratio",
+            "unit": "not specified"
+          },
+          {
+            "type": "reported_as",
+            "value": "SE_parallel/SE_perpendicular",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "Epoxy foam matrix based on DGEBA epoxy powder with MeTHPA hardener and DMP-30 curing aid; prepared using a two-step limited-then-limited foaming process (Limited-Limited foam); reported foam density 0.304 g/cm3. The formulation was prepared with 0.75 wt% chemical foaming agent.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT with carbon purity >99%, diameter 8–15 nm, length 10–50 μm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0.99,
+        "unit": "unitless",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "average total EMI shielding effectiveness ratio",
+            "unit": "not specified"
+          },
+          {
+            "type": "reported_as",
+            "value": "SE_parallel/SE_perpendicular",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 26.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

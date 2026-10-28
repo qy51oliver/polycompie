@@ -1,0 +1,144 @@
+[
+     {
+        "sample_id": "EMA",
+        "matrix_name": [
+        		{
+                "name": "ethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "direct_current_conductivity": {"value": 2e-10, "unit": "S/cm"},
+            "thermal_conductivity": {"value": 0.11, "unit": "W/mK"},
+            "tensile_strength": {"value": 7.3, "unit": "MPa"},
+            "Elongation": {"value": 1152, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "EX0FG100",
+        "matrix_name": [
+        		{
+                "name": "ethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Fe3O4-g-C3N4",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "direct_current_conductivity": {"value": 8.3e-4, "unit": "S/cm"},
+            "shielding_effectiveness": {"value": -25, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "skin_depth": {"value": 0.84, "unit": "mm"},
+            "thermal_conductivity": {"value": 0.82, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "EX10FG90",
+        "matrix_name": [
+        		{
+                "name": "ethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Fe3O4-g-C3N4",
+                "description": "not specified",
+                "composition": {"amount": 9, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "EX30FG70",
+        "matrix_name": [
+        		{
+                "name": "ethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Fe3O4-g-C3N4",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "EX50FG50",
+        "matrix_name": [
+        		{
+                "name": "ethyl methacrylate",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Fe3O4-g-C3N4",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "direct_current_conductivity": {"value": 1.5e-2, "unit": "S/cm"},
+            "shielding_effectiveness": {"value": -36, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "skin_depth": {"value": 0.44, "unit": "mm"},
+            "thermal_conductivity": {"value": 0.98, "unit": "W/mK"},
+            "tensile_strength": {"value": 9.5, "unit": "MPa"},
+            "Elongation": {"value": 755, "unit": "%"}
+	}
+    }
+]

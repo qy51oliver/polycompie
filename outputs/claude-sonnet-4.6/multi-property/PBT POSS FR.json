@@ -1,0 +1,2174 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 42.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 250.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 66.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "amino-ethyl-amino propyl-isobutyl polyhedral oligomeric silsesquioxane",
+        "description": "AEAIP POSS (Hybrid Plastics), closed nano-cage POSS with amino functional groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 36.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "octamethyl polyhedral oligomeric silsesquioxane",
+        "description": "OM POSS (Hybrid Plastics), closed nano-cage POSS with methyl groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 43.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 172.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 62.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "trisilanol phenyl polyhedral oligomeric silsesquioxane",
+        "description": "TSP POSS (Hybrid Plastics), open nano-cage POSS with phenyl and silanol groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 214.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 19.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 45.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "reported as <45",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 53.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 49.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 206.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 56.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 17.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 1.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 48.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 16.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 1.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 48.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 15.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin; Table 6 lists 1.7 wt% kaolin for this row",
+        "composition": {
+          "amount": 1.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 46.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "expandable graphite",
+        "description": "Expandable Graphite ES 350 F5 (Graphit Kropfmühl AG), onset of thermal expansion at 175°C",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 172.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "Fumed SiO2 HDK H30RM (Wacker), BET surface area 270-330 m2/g",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 43.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 213.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 69.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Talc Jetfine (Rio Tinto Minerals), median particle size 1 µm",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 222.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate with melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant), combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "montmorillonite clay",
+        "description": "Cloisite 30B (Southern Clay Products), organically modified montmorillonite with amino concentration 125 meq/100g",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 191.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt; Table 4 lists 28 wt% but context and Table 6 indicate 18 wt%",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "amino-ethyl-amino propyl-isobutyl polyhedral oligomeric silsesquioxane",
+        "description": "AEAIP POSS (Hybrid Plastics), closed nano-cage POSS with amino functional groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "octamethyl polyhedral oligomeric silsesquioxane",
+        "description": "OM POSS (Hybrid Plastics), closed nano-cage POSS with methyl groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 42.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 135.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "trisilanol phenyl polyhedral oligomeric silsesquioxane",
+        "description": "TSP POSS (Hybrid Plastics), open nano-cage POSS with phenyl and silanol groups",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 134.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 64.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Kaolin VP Cocoon 2125 (Benefit), potassium acetate modified layered kaolin",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 44.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 191.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 62.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "expandable graphite",
+        "description": "Expandable Graphite ES 350 F5 (Graphit Kropfmühl AG), onset of thermal expansion at 175°C",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 44.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 217.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 21,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "Fumed SiO2 HDK H30RM (Wacker), BET surface area 270-330 m2/g",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 213.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 79.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 22,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Talc Jetfine (Rio Tinto Minerals), median particle size 1 µm",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 41.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 203.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E 906",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 23,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "Commercial grade PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 (Evonik), used as reinforcement",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant), aluminum diethylphosphinate salt",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "montmorillonite clay",
+        "description": "Cloisite 30B (Southern Clay Products), organically modified montmorillonite with amino concentration 125 meq/100g",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  }
+]

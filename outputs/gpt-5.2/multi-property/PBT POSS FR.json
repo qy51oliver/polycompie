@@ -1,0 +1,2158 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant); combination of aluminum diethylphosphinate salt with melamine cyanurate",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 42.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 250.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 66.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Amino-ethyl-amino propyl-isobutyl POSS (AEAPI POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 36.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Octamethyl POSS (OM POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 43.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 172.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 62.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Trisilanol phenyl POSS (TSP POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 214.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 19.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 45.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          },
+          {
+            "type": "value_qualifier",
+            "value": "<",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 53.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 49.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 206.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 56.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 17.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 1.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 48.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 16.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 1.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 48.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 15.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125); table shows 1.7 wt% kaolin (row formatting in article is corrupted but consistent with 20 wt% total FR+synergist)",
+        "composition": {
+          "amount": 1.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 46.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Expandable graphite ES 350 F5",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 172.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "Fumed SiO2 HDK H30RM",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 43.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 213.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 69.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Talc Jetfine; median particle size ~1 (unit not specified in article table)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 222.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate + melamine cyanurate",
+        "description": "Exolit OP 1200 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "montmorillonite",
+        "description": "Organomodified clay Cloisite 30B",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 191.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Amino-ethyl-amino propyl-isobutyl POSS (AEAPI POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Octamethyl POSS (OM POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 42.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 135.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyhedral oligomeric silsesquioxane",
+        "description": "Trisilanol phenyl POSS (TSP POSS)",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 38.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 134.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 64.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "kaolin",
+        "description": "Potassium acetate modified layered kaolin (Kaolin VP Cocoon 2125)",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 44.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 191.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 62.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 17.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphite",
+        "description": "Expandable graphite ES 350 F5",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 44.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 217.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 21,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silicon dioxide",
+        "description": "Fumed SiO2 HDK H30RM",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 213.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 79.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 22,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "talc",
+        "description": "Talc Jetfine",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 41.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 203.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          },
+          {
+            "type": "test_method",
+            "value": "mass loss calorimetry (ASTM E906)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 23,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-butylene terephthalate)",
+        "description": "PBT Ultradur B4520 (BASF)",
+        "composition": {
+          "amount": 55.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "PPG 3786 glass fibers",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "aluminum diethylphosphinate",
+        "description": "Exolit OP 1240 (Clariant)",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "montmorillonite",
+        "description": "Organomodified clay Cloisite 30B",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 39.0,
+        "unit": "vol%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ISO 4589",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801",
+            "unit": "not specified"
+          },
+          {
+            "type": "sample_thickness",
+            "value": 1.6,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  }
+]

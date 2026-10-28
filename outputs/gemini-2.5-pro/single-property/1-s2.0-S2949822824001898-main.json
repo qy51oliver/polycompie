@@ -1,0 +1,197 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4@g-C3N4, synthesised by coprecipitate method",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide (MXene)",
+        "description": "Ti3C2Tx, synthesised using the least intensive layer deposition (MILD) technique",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4@g-C3N4, synthesised by coprecipitate method",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate",
+        "description": "EMA (Elvaloy@ 1330)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide (MXene)",
+        "description": "Ti3C2Tx, synthesised using the least intensive layer deposition (MILD) technique",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4@g-C3N4, synthesised by coprecipitate method",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate",
+        "description": "EMA (Elvaloy@ 1330), sample code EX50FG50",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Titanium carbide (MXene)",
+        "description": "Ti3C2Tx, synthesised using the least intensive layer deposition (MILD) technique",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4@g-C3N4, synthesised by coprecipitate method",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

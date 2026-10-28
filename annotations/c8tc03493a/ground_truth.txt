@@ -1,0 +1,278 @@
+[
+     {
+        "sample_id": "0.5 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 0.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "1.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 1.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            " electrical conductivity": {"value": 1.3, "unit": "Sm^-1"},
+            " shielding effectiveness": {"value": 25.0, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "3.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding effectiveness": {"value": 37.4, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "5.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical conductivity": {"value": 72.0, "unit": "Sm^-1"},
+            "shielding effectiveness": {"value": 49.6, "unit": "dB"},
+            "SEA": {"value": 44.5, "unit": "dB","conditions": [{"type": "frequency", "value": "10.2","unit": "GHz"}]},
+            "SER": {"value": 5.0, "unit": "dB","conditions": [{"type": "frequency", "value": "10.2","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "0.5mm 5.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            " shielding effectiveness": {"value": 25.8, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "1.0mm 5.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "1.5mm 5.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":1.5, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "2.0mm 5.0 wt% s-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "segregated",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "1.0 wt% r-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "conventional",
+                "composition": {"amount": 1.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "electrical conductivity": {"value": "below e-10", "unit": "Sm^-1"}
+        }
+    },
+     {
+        "sample_id": "3.0 wt% r-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "conventional",
+                "composition": {"amount": 3.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            " shielding effectiveness": {"value": 17.5, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "5.0 wt% r-CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "conventional",
+                "composition": {"amount": 5.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            " shielding effectiveness": {"value": 24.9, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "15.0 wt% CNT/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotubes",
+                "description": "melt-blended",
+                "composition": {"amount": 15.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            " shielding effectiveness": {"value": 17.8, "unit": "dB"}
+        }
+    }
+]

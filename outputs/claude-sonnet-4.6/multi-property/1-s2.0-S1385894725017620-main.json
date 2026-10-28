@@ -1,0 +1,882 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles, intrinsic thermal conductivity 0.24 W/(m·K)",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.24,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix for random blend composite",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "GnPs randomly dispersed in PEEK matrix along with MWCNTs and Ni-CF; equal mass proportions of GnPs and MWCNTs",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "MWCNTs randomly dispersed in PEEK matrix along with GnPs and Ni-CF; equal mass proportions of GnPs and MWCNTs",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "carbon fibre",
+        "description": "Nickel-plated carbon fibre (Ni-CF) randomly dispersed in PEEK matrix; total filler volume fraction 34.15%",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1921,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 98.19,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 1.81%",
+        "composition": {
+          "amount": 1.81,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 96.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 3.76%",
+        "composition": {
+          "amount": 3.76,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 20.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 91.93,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 8.07%",
+        "composition": {
+          "amount": 8.07,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 52.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          },
+          {
+            "type": "state",
+            "value": "steady-state saturation",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 86.91,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 13.09%",
+        "composition": {
+          "amount": 13.09,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "demonstration",
+            "value": "lamp switched off at 13.98% loading",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 81.02,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 18.98%",
+        "composition": {
+          "amount": 18.98,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 167.45,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          },
+          {
+            "type": "state",
+            "value": "steady-state saturation",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 74.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 26.00%",
+        "composition": {
+          "amount": 26.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Pure PEEK particles used as matrix; prefabricated network-structured composite",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler: nickel-plated carbon fibre with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; total filler volume fraction 34.15%",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": 3.25,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": 11.91,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 9364,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "GHz"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 252.39,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          },
+          {
+            "type": "state",
+            "value": "steady-state saturation",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles with internal cooperative continuous filler network (filler volume fraction 3.76% within hybrid particles) used as matrix component; optimised prefabricated structured composite GW&Ni-CF@1 hybrid PEEK; total composite filler content 34.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; total composite filler volume fraction 34.15%; hybrid PEEK particles contain GnPs, MWCNTs, Ni-CF at 3.76 vol% within particles",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles with internal cooperative continuous filler network (filler volume fraction 8.07% within hybrid particles) used as matrix component; optimised prefabricated structured composite GW&Ni-CF@2 hybrid PEEK; total composite filler content 34.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; total composite filler volume fraction 34.15%; hybrid PEEK particles contain GnPs, MWCNTs, Ni-CF at 8.07 vol% within particles",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles with internal cooperative continuous filler network (filler volume fraction 13.09% within hybrid particles) used as matrix component; optimised prefabricated structured composite GW&Ni-CF@3 hybrid PEEK; total composite filler content 34.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; total composite filler volume fraction 34.15%; hybrid PEEK particles contain GnPs, MWCNTs, Ni-CF at 13.09 vol% within particles",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": "not specified",
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles with internal cooperative continuous filler network (filler volume fraction 18.98% within hybrid particles) used as matrix component; optimised prefabricated structured composite GW&Ni-CF@4 hybrid PEEK; total composite filler content 34.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; total composite filler volume fraction 34.15%; hybrid PEEK particles contain GnPs, MWCNTs, Ni-CF at 18.98 vol% within particles; this is the GW&Ni-CF@4 hybrid PEEK composite",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": 9.66,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_in_plane": {
+        "value": 18.28,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 16492,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 285.59,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          },
+          {
+            "type": "state",
+            "value": "steady-state stable temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

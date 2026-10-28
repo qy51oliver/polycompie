@@ -1,0 +1,319 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "Thermoplastic polyetherimide (PEI, Ultem 1000) used as the matrix of the 3D-printed CFRP.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Continuous carbon fiber (CCF800H) reinforcement in the CFRP prepreg/printed matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.8,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 1462.63,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "prepreg filament",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 1422.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "prepreg filament",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 80.3,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "prepreg filament",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 7.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_source",
+            "value": "alcohol lamp outer flame",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_temperature",
+            "value": 510.0,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "3D-printed PEI CFRP substrate in the GAC composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyimide",
+        "description": "Transition/precursor layer formed from thermoset PI liquid and thermoplastic PI powder (2:1 mass ratio in the paste); exact amount in the final composite not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Continuous carbon fiber (CCF800H) reinforcement in the CFRP substrate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene",
+        "description": "Laser-induced graphene aerogel surface layer; the specific laser scribing spacing for this thermal/flammability test sample was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.0247,
+        "unit": "W/(m·k)",
+        "conditions": [
+          {
+            "type": "location",
+            "value": "surface graphene aerogel layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 30.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_source",
+            "value": "alcohol lamp outer flame",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_temperature",
+            "value": 510.0,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "3D-printed PEI CFRP substrate in the GAC composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyimide",
+        "description": "Transition/precursor layer formed from thermoset PI liquid and thermoplastic PI powder (2:1 mass ratio in the paste); exact amount in the final composite not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Continuous carbon fiber (CCF800H) reinforcement in the CFRP substrate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene",
+        "description": "Laser-induced graphene aerogel surface layer, sample L0.05, fabricated with 0.05 mm laser scribing spacing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyetherimide",
+        "description": "3D-printed PEI CFRP substrate in the GAC composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyimide",
+        "description": "Transition/precursor layer formed from thermoset PI liquid and thermoplastic PI powder (2:1 mass ratio in the paste); exact amount in the final composite not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Continuous carbon fiber (CCF800H) reinforcement in the CFRP substrate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene",
+        "description": "Laser-induced graphene aerogel surface layer, sample L0.5, fabricated with 0.5 mm laser scribing spacing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 37.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

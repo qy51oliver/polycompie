@@ -1,0 +1,246 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (base agent + hardener mixed 10:1 mass ratio; 5 wt% diluent added relative to PDMS solution for processing).",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Boron nitride nanoribbons (BNNR) arranged as vertically aligned array/aerogel skeleton; heat-treated at 1700 °C in Ar before composite impregnation.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces by low-pressure CVD (CH3OH carbon source), VG growth time = 2 h; forms VG-BNNR hybrid filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 33.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (base agent + hardener mixed 10:1 mass ratio; 5 wt% diluent added relative to PDMS solution for processing).",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Boron nitride nanoribbons (BNNR) arranged as vertically aligned array/aerogel skeleton; heat-treated at 1700 °C in Ar before composite impregnation.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces by low-pressure CVD (CH3OH carbon source), VG growth time = 4 h; forms VG-BNNR hybrid filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (base agent + hardener mixed 10:1 mass ratio; 5 wt% diluent added relative to PDMS solution for processing).",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Boron nitride nanoribbons (BNNR) arranged as vertically aligned array/aerogel skeleton; heat-treated at 1700 °C in Ar before composite impregnation.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces by low-pressure CVD (CH3OH carbon source), VG growth time = 8 h; forms VG-BNNR hybrid filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 56.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polydimethylsiloxane",
+        "description": "PDMS (base agent + hardener mixed 10:1 mass ratio; 5 wt% diluent added relative to PDMS solution for processing).",
+        "composition": {
+          "amount": 90.7,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Boron nitride nanoribbons (BNNR) arranged as vertically aligned array/aerogel skeleton; heat-treated at 1700 °C in Ar before composite impregnation.",
+        "composition": {
+          "amount": 9.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene",
+        "description": "Vertical graphene (VG) grown in situ on BNNR surfaces by low-pressure CVD (CH3OH carbon source), VG growth time = 12 h; forms VG-BNNR hybrid filler and nanoscale 3D interconnection network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 64.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 40.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

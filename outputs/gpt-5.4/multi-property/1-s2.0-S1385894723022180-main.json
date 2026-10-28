@@ -1,0 +1,603 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Neat PS",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 18.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 58.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 777.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 8.0,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 4.9,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2503.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix in flame-retardant composite",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "pentaerythritol",
+        "description": "PER, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 70.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 316.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 7.5,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2218.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix in flame-retardant composite containing spherical polyphenylene ether",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "pentaerythritol",
+        "description": "PER, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyphenylene ether",
+        "description": "PPE with spherical morphology, 15 wt%",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 27.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 75.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 284.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 18.0,
+        "unit": "J/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix in flame-retardant composite containing nanofibrillar polyphenylene ether",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 18.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "pentaerythritol",
+        "description": "PER, part of APP/PER flame retardant system with 3:1 APP:PER ratio",
+        "composition": {
+          "amount": 6.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyphenylene ether",
+        "description": "PPE nanofibers, fibrillar morphology, 15 wt%",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 30.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 91.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 225.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 16.0,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 9.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2952.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix in flame-retardant composite containing spherical polyphenylene sulfide",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP, part of APP/PER flame retardant system; total FR loading 25 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "pentaerythritol",
+        "description": "PER, part of APP/PER flame retardant system; total FR loading 25 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyphenylene sulfide",
+        "description": "PPS with spherical morphology",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 25.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "No Rating",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 76.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 261.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix in flame-retardant composite containing nanofibrillar polyphenylene sulfide",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP, part of APP/PER flame retardant system; total FR loading 25 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "pentaerythritol",
+        "description": "PER, part of APP/PER flame retardant system; total FR loading 25 wt%",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyphenylene sulfide",
+        "description": "PPS nanofibers, fibrillar morphology",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 28.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL94",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 67.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 201.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix containing spherical polyphenylene ether without flame retardant",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyphenylene ether",
+        "description": "PPE with spherical morphology, 15 wt%",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "impact_strength": {
+        "value": 18.0,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 2682.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "PS matrix containing nanofibrillar polyphenylene ether without flame retardant",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyphenylene ether",
+        "description": "PPE nanofibers, fibrillar morphology, 15 wt%",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "impact_strength": {
+        "value": 26.0,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 11.89,
+        "unit": "%",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 3310.0,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  }
+]

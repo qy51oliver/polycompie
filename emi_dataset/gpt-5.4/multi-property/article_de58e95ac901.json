@@ -1,0 +1,240 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide 66",
+        "description": "PA66 thermoplastic resin matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized short-cut untreated carbon fiber (M T300C-3K-42B-0)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 7.4,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide 66",
+        "description": "PA66 thermoplastic resin matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized short-cut carbon fiber coated with polydopamine (PDA-CF)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 23.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 4.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase",
+            "unit": "not specified"
+          },
+          {
+            "type": "reference_sample",
+            "value": "untreated-CF/PA66",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyamide 66",
+        "description": "PA66 thermoplastic resin matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized short-cut carbon fiber first coated with polydopamine and then grafted with polyethyleneimine (PEI@P-CF)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "polydopamine coating followed by polyethyleneimine grafting"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 24.8,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 30.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 11.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase",
+            "unit": "not specified"
+          },
+          {
+            "type": "reference_sample",
+            "value": "untreated-CF/PA66",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyamide 66",
+        "description": "PA66 thermoplastic resin matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "desized short-cut carbon fiber decorated with a hierarchical layer of polydopamine, polyethyleneimine, and multi-walled carbon nanotubes (CNT@PP-CF)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "hierarchical coating of polydopamine, polyethyleneimine, and multi-walled carbon nanotubes"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 35.2,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 38.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 19.2,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison",
+            "value": "increase",
+            "unit": "not specified"
+          },
+          {
+            "type": "reference_sample",
+            "value": "untreated-CF/PA66",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

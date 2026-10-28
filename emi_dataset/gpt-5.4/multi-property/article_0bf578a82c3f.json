@@ -1,0 +1,668 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix.",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; hydro-active phase absent in this formulation.",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.09,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 0.00339,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix.",
+        "composition": {
+          "amount": 78.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; BSS 44 mesh screened; hydro-active phase.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.09,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 64.72,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix.",
+        "composition": {
+          "amount": 63.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; BSS 44 mesh screened; hydro-active phase.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.09,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 70.04,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 74.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 14.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 0.00469,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix; base dry formulation same as S3.",
+        "composition": {
+          "amount": 63.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; hydro-active phase.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "water",
+        "description": "Absorbed water after immersion in water for 30 min at 40 °C; amount reported relative to total dry S3 sample weight.",
+        "composition": {
+          "amount": 7.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 85.07,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix; base dry formulation same as S3.",
+        "composition": {
+          "amount": 63.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; hydro-active phase.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "water",
+        "description": "Absorbed water after immersion in water for 60 min at 40 °C; amount reported relative to total dry S3 sample weight.",
+        "composition": {
+          "amount": 16.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.12,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 87.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 91.64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 14.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 0.01451,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pt-catalyzed Ecoflex-00-50 PDMS matrix; dried state after prior wetting.",
+        "composition": {
+          "amount": 63.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs; average diameter 0.83 nm and average length 1 μm.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; hydro-active phase.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles; carbon-doped zinc stannate.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.09,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.00595,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "post_treatment_state",
+            "value": "dried at 40 °C for 1 h after the S3W16.3 state",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix used in the SWCNT-loading study.",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 51.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix used in the SWCNT-loading study.",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNTs.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO nanoparticles.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 77.84,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix for the individual PVA comparison composite.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "PVA particles; electromagnetically transparent comparison composite.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 1.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix for the individual CZTO comparison composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon-doped zinc stannate",
+        "description": "CZTO-only filler in PDMS.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS matrix for the individual SWCNT comparison composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotubes",
+        "description": "SWCNT-only filler in PDMS.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.94,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "bare cuprammonium fabric (regenerated cellulose fabric) substrate",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": "3.6 ± 0.4",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cellulose",
+        "description": "cuprammonium fabric (regenerated cellulose fabric) substrate in the multilayer CF/PPy/Cu conductive textile composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "internal conductive PPy coating formed by in-situ chemical polymerization of pyrrole using sodium p-toluenesulfonate dopant and FeCl3 oxidant; average PPy coating thickness reported as 1.52 um",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "external electroless plated copper layer deposited on APTMS-modified CF/PPy substrate; Cu coating amount reported as 35.13% relative mass gain",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "30.3–50.4",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 30,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1000,
+            "unit": "MHz"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "2.9 ± 0.5",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

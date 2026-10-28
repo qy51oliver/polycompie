@@ -1,0 +1,528 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 39.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 36.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET minimum in X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "HGM, density 0.58-0.63 g/cm3, unmodified, Guangdong Zhaotong Glass Plastic Technology Co.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "HGM, density 0.58-0.63 g/cm3, unmodified, Guangdong Zhaotong Glass Plastic Technology Co.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "HGM, density 0.58-0.63 g/cm3, unmodified, Guangdong Zhaotong Glass Plastic Technology Co.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "PDA@HGM: HGM surface-modified with polydopamine via in situ oxidative polymerization of dopamine in Tris-HCl buffer at 35°C for 24h; PDA content ~1.2 wt% of PDA@HGM",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "PDA@HGM: HGM surface-modified with polydopamine via in situ oxidative polymerization of dopamine in Tris-HCl buffer at 35°C for 24h; PDA content ~1.2 wt% of PDA@HGM",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 32.31,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "PDA@HGM: HGM surface-modified with polydopamine via in situ oxidative polymerization of dopamine in Tris-HCl buffer at 35°C for 24h; PDA content ~1.2 wt% of PDA@HGM",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE nascent powder, SLL-2, average molecular weight 3.00e6 g/mol",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS with crosslinked branched carbon nanotubes, >97% carbon, Cabot Co. Ltd.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "hollow glass microspheres",
+        "description": "PDA@HGM: HGM surface-modified with polydopamine via in situ oxidative polymerization of dopamine in Tris-HCl buffer at 35°C for 24h; PDA content ~1.2 wt% of PDA@HGM",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_component",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

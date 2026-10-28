@@ -1,0 +1,292 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Pristine chitosan (CS) film; chitosan viscosity 50–800 mPa·s and degree of deacetylation 80–95%.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 1.98,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 0.27,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 8.531e-06,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "electrode_distance",
+            "value": 1,
+            "unit": "cm"
+          },
+          {
+            "type": "sample_diameter",
+            "value": 5,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Chitosan (CS) film matrix reinforced with extracted cellulose nanofibers.",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "Extracted cellulose nanofibers (ECNFs) from Imperata cylindrica grass; average diameter about 90 nm and length about 11 μm; obtained by alkali treatment and bleaching.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 16.77,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1.37,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 1,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Chitosan (CS) matrix in hybrid ECNFs/CS/GNP composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "Extracted cellulose nanofibers (ECNFs) from Imperata cylindrica grass used as reinforcing filler in the hybrid film.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Graphene nanoplatelets (GNPs), surface area 750 m2/g, relative gravity 2.0–2.25 g/cm3.",
+        "composition": {
+          "amount": 0.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0006524,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "electrode_distance",
+            "value": 1,
+            "unit": "cm"
+          },
+          {
+            "type": "sample_diameter",
+            "value": 5,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Chitosan (CS) matrix in hybrid ECNFs/CS/GNP composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "Extracted cellulose nanofibers (ECNFs) from Imperata cylindrica grass used as reinforcing filler in the hybrid film.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Graphene nanoplatelets (GNPs), surface area 750 m2/g, relative gravity 2.0–2.25 g/cm3.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.001003,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "electrode_distance",
+            "value": 1,
+            "unit": "cm"
+          },
+          {
+            "type": "sample_diameter",
+            "value": 5,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "chitosan",
+        "description": "Chitosan (CS) matrix in hybrid ECNFs/CS/GNP composite film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "Extracted cellulose nanofibers (ECNFs) from Imperata cylindrica grass used as reinforcing filler in the hybrid film.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Graphene nanoplatelets (GNPs), surface area 750 m2/g, relative gravity 2.0–2.25 g/cm3.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.02564,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "electrode_distance",
+            "value": 1,
+            "unit": "cm"
+          },
+          {
+            "type": "sample_diameter",
+            "value": 5,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  }
+]

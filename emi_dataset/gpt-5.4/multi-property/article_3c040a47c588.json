@@ -1,0 +1,381 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA); EP-0 formulation with nominal M2070 content of 0 wt%; unfoamed cured matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 94.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 49.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 9.8,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA); EP-5 formulation with nominal M2070 content of 5 wt%; unfoamed cured matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 54.4,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 11.3,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA) and polyetheramine (M2070); EP-15 formulation with nominal M2070 content of 15 wt%; unfoamed cured matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.33e-12,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 2.89,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 53.9,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 18.3,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA) and polyetheramine (M2070); EP-25 formulation with nominal M2070 content of 25 wt%; unfoamed cured matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 21.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 28.9,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA) and polyetheramine (M2070); EP-15 matrix in unfoamed EP/rGO/Ni-chains0 composite",
+        "composition": {
+          "amount": 99.56,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "thermally reduced graphene oxide aerogel conductive skeleton; Ni-chains to GO mass ratio 0:1",
+        "composition": {
+          "amount": 0.44,
+          "type": "wt%"
+        },
+        "surface_treatment": "thermal annealing/reduction"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00151,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 13.02,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "orientation",
+            "value": "perpendicular to orientation direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA) and polyetheramine (M2070); EP-15 matrix in unfoamed EP/rGO/Ni-chains20 composite",
+        "composition": {
+          "amount": 90.24,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "component of hierarchical rGO/Ni-chains20 aerogel conductive skeleton; amount calculated from total filler loading of 9.76 wt% and Ni-chains:GO mass ratio of 20:1",
+        "composition": {
+          "amount": 0.4647619048,
+          "type": "wt%"
+        },
+        "surface_treatment": "thermal annealing/reduction"
+      },
+      {
+        "name": "nickel",
+        "description": "chain-like nickel filler in hierarchical rGO/Ni-chains20 aerogel conductive skeleton; amount calculated from total filler loading of 9.76 wt% and Ni-chains:GO mass ratio of 20:1",
+        "composition": {
+          "amount": 9.2952380952,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.39,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 44.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "orientation",
+            "value": "perpendicular to orientation direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "E44 liquid epoxy cured with diethyltoluenediamine (DETDA) and polyetheramine (M2070); EP-15 microcellular foam matrix in EP/rGO/Ni-chains20 foam",
+        "composition": {
+          "amount": 90.24,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "component of hierarchical rGO/Ni-chains20 aerogel conductive skeleton in microcellular foam; amount calculated from total filler loading of 9.76 wt% and Ni-chains:GO mass ratio of 20:1",
+        "composition": {
+          "amount": 0.4647619048,
+          "type": "wt%"
+        },
+        "surface_treatment": "thermal annealing/reduction"
+      },
+      {
+        "name": "nickel",
+        "description": "chain-like nickel filler in hierarchical rGO/Ni-chains20 aerogel conductive skeleton in microcellular foam; amount calculated from total filler loading of 9.76 wt% and Ni-chains:GO mass ratio of 20:1",
+        "composition": {
+          "amount": 9.2952380952,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.44,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 41.11,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "orientation",
+            "value": "perpendicular to orientation direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

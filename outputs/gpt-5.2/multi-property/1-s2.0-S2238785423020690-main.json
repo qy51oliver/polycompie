@@ -1,0 +1,244 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder, trade name SLL-2; average molecular weight 3.00×10^6 g/mol",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material; >97% carbon (Cabot)",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.07,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_low",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 45.7,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder, trade name SLL-2; average molecular weight 3.00×10^6 g/mol",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material; >97% carbon (Cabot)",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 46.2,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder, trade name SLL-2; average molecular weight 3.00×10^6 g/mol",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material; >97% carbon (Cabot)",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_low",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 46.51,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 350.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Ultrahigh molecular weight polyethylene",
+        "description": "UHMWPE powder, trade name SLL-2; average molecular weight 3.00×10^6 g/mol",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanostructures",
+        "description": "CNS: crosslinked, branched carbon nanotube material; >97% carbon (Cabot)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_low",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 2.42,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.7217,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 37.6,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 150.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA (Elvaloy 1330), 30% methyl acrylate content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC (Engage 8207), 38% octene content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowire (CuN), diameter ~150 nm, length ~5 µm",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": 34.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tg1)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -55.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tg2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 87.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tm1)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC conductivity",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA (Elvaloy 1330), 30% methyl acrylate content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC (Engage 8207), 38% octene content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowire (CuN), diameter ~150 nm, length ~5 µm; selectively localized mainly in EMA phase (reported)",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": 33.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tg1)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -59.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tg2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 85.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tm1)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 66.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tm2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1406.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D412",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 500.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA (Elvaloy 1330), 30% methyl acrylate content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC (Engage 8207), 38% octene content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowire (CuN), diameter ~150 nm, length ~5 µm",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": -34.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tg1) as reported in Table 1",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -57.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tg2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 85.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tm1)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(ethylene-co-methyl acrylate)",
+        "description": "EMA (Elvaloy 1330), 30% methyl acrylate content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-octene copolymer",
+        "description": "EOC (Engage 8207), 38% octene content; part of immiscible EMA/EOC (50/50 wt%) co-continuous blend",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowire (CuN), diameter ~150 nm, length ~5 µm",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": -36.5,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tg1) as reported in Table 1",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": -58.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tg2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_1": {
+        "value": 85.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EMA phase (Tm1)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 64.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "EOC phase (Tm2)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1127.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "ASTM D412",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 500.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 53.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "reported in Table 4 (our study); sample thickness not specified in Table 4",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

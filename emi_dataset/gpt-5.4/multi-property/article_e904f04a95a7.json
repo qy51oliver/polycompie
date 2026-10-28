@@ -1,0 +1,650 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, all layers uncoated; article sample C1 (N-C in flammability table).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -7.59,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28.59,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "UL94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "horizontal",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C2 configuration; 2 MXene-coated layers placed on the outer surfaces and remaining layers uncoated; article sample 5MXC2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 5 dip-coating cycles; coated fabrics contained approximately 9.65 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -9.11,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C3 configuration; greater number of MXene-coated outer-surface layers than C2; article sample 5MXC3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 5 dip-coating cycles; coated fabrics contained approximately 9.65 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -15.29,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C4 configuration; 2 MXene-coated layers positioned in the middle of the laminate and remaining layers uncoated; article sample 5MXC4.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 5 dip-coating cycles; coated fabrics contained approximately 9.65 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -13.07,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, all layers MXene-coated; article sample 5MXC5.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 5 dip-coating cycles; coated fabrics contained approximately 9.65 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.59,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -18.75,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 24.23,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "UL94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "horizontal",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C2 configuration; 2 MXene-coated layers placed on the outer surfaces and remaining layers uncoated; article sample 10MXC2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 10 dip-coating cycles; coated fabrics contained approximately 13.55 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -16.94,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C3 configuration; greater number of MXene-coated outer-surface layers than C2; article sample 10MXC3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 10 dip-coating cycles; coated fabrics contained approximately 13.55 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -18.72,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, C4 configuration; 2 MXene-coated layers positioned in the middle of the laminate and remaining layers uncoated; article sample 10MXC4.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 10 dip-coating cycles; coated fabrics contained approximately 13.55 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -18.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "MGS LR160 epoxy resin cured with MGS LH160 hardener (100:25); VARTM-fabricated laminate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "glass fiber",
+        "description": "Twill weave glass fabric (300 g/m2), six-layer laminate, all layers MXene-coated; article sample 10MXC5.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene-coated glass fabric prepared by 10 dip-coating cycles; coated fabrics contained approximately 13.55 wt% MXene by fiber weight.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -23.21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM D5568-08",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "average total shielding effectiveness (SET)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 21.07,
+        "unit": "mm/min",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "UL94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "horizontal",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "burning rate",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

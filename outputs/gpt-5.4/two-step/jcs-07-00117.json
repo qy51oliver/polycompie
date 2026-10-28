@@ -1,0 +1,183 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Neat ABS; SD-0150 grade ABS supplied by Samsung India Pvt. Ltd.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200.0,
+      "unit": "um"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 2.48,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 25,
+        "unit": "kJ/m2",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 440,
+        "unit": "kgf/cm2",
+        "conditions": [
+          {
+            "type": "test state",
+            "value": "at yield",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix; SD-0150 grade ABS supplied by Samsung India Pvt. Ltd.",
+        "composition": {
+          "amount": 91.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "S-grade GNPs; surface area 80-200 m2/g, average lateral dimension 1-5 um, thickness 5-10 nm, purity 99%, prepared by chemical exfoliation method",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix; SD-0150 grade ABS supplied by Samsung India Pvt. Ltd.",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "S-grade GNPs; surface area 80-200 m2/g, average lateral dimension 1-5 um, thickness 5-10 nm, purity 99%, prepared by chemical exfoliation method",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200.0,
+      "unit": "um"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix; SD-0150 grade ABS supplied by Samsung India Pvt. Ltd.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "S-grade GNPs; surface area 80-200 m2/g, average lateral dimension 1-5 um, thickness 5-10 nm, purity 99%, prepared by chemical exfoliation method",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 200.0,
+      "unit": "um"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 6.86,
+        "unit": "GPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.74,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 10.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  }
+]

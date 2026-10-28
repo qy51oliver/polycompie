@@ -1,0 +1,499 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powders used as the matrix for a randomly blended composite.",
+        "composition": {
+          "amount": 91.93,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Ni-CF, randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powders used as the matrix for a randomly blended composite.",
+        "composition": {
+          "amount": 81.02,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Ni-CF, randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powders used as the matrix for a randomly blended composite.",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Ni-CF, randomly dispersed in the PEEK matrix.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 65,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK particles used as the matrix for a prefabricated network structure composite.",
+        "composition": {
+          "amount": 91.93,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Core of the composite filler (GW&Ni-CF). The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK particles used as the matrix for a prefabricated network structure composite.",
+        "composition": {
+          "amount": 81.02,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Core of the composite filler (GW&Ni-CF). The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 55,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK particles used as the matrix for a prefabricated network structure composite.",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Part of a composite filler (GW&Ni-CF) where GnPs and MWCNTs are deposited on Ni-CF using a polybenzoxazine binder. The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Core of the composite filler (GW&Ni-CF). The composite filler forms a prefabricated network structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 90,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Optimised prefabricated structure. The matrix consists of hybrid PEEK particles which themselves contain an internal network of GnPs, MWCNTs, and Ni-CF. This sample is the GW&Ni-CF@4 hybrid PEEK, where the filler content in the hybrid PEEK particles is 18.98 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "Present as part of the primary GW&Ni-CF filler and also within the hybrid PEEK matrix particles. The total filler content of the composite is 34.15 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Present as part of the primary GW&Ni-CF filler and also within the hybrid PEEK matrix particles. The total filler content of the composite is 34.15 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel-plated carbon fibre",
+        "description": "Present as part of the primary GW&Ni-CF filler and also within the hybrid PEEK matrix particles. The total filler content of the composite is 34.15 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 128,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

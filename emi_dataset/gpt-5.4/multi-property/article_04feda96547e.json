@@ -1,0 +1,197 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-methyl acrylate)",
+        "description": "EMA; trade name Elvaloy 1330; methyl acrylate content 30%; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyolefin",
+        "description": "TPO; trade name Tafmer DF 740; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat EMA/TPO blend without added filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 8.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 200,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.15,
+        "unit": "W/m.K",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-methyl acrylate)",
+        "description": "EMA; trade name Elvaloy 1330; methyl acrylate content 30%; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyolefin",
+        "description": "TPO; trade name Tafmer DF 740; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "MWCNT; diameter 10-60 nm, length 5-30 μm; preferentially localized in the EMA phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 14.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(ethylene-co-methyl acrylate)",
+        "description": "EMA; trade name Elvaloy 1330; methyl acrylate content 30%; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "thermoplastic polyolefin",
+        "description": "TPO; trade name Tafmer DF 740; component of the EMA/TPO 80/20 w/w blend matrix",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotube",
+        "description": "MWCNT; diameter 10-60 nm, length 5-30 μm; preferentially localized in the EMA phase",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -35.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 14.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.01,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.85,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  }
+]

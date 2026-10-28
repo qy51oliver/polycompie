@@ -1,0 +1,636 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane network based on oligooxypropylene glycol and tolylenediisocyanate, crosslinked with trimethylolpropane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes introduced in situ into polyurethane; prepared by ultrasonic dispersion",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "more than twice lower than sample 2",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane network based on oligooxypropylene glycol and tolylenediisocyanate, crosslinked with trimethylolpropane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes introduced in situ into polyurethane; prepared by mechanical mixing",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "more than twice higher than sample 1",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes in SIPN composite",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "12-13",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 273,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 333,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes in SIPN composite",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Spherical metallic nickel microparticles, about 10 um dispersion",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "12-13",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled SIPN",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "insignificant",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 273,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 333,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes in SIPN composite",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "24-25",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 260,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 363,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Multiwall carbon nanotubes in SIPN composite",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "Spherical metallic nickel microparticles, about 10 um dispersion",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "simultaneous semi-interpenetrating polymer network of polyurethane and poly(methyl methacrylate)",
+        "description": "Incompatible polymer blend consisting of cross-linked polyurethane and linear poly(methyl methacrylate) with PU/PMMA ratio 50/50; modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyurethane",
+        "description": "Cross-linked polyurethane component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Linear PMMA component of SIPN",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled SIPN",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "insignificant",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "kHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 260,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 363,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,584 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron",
+        "description": "spherical particles, size 3 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "dendritic particles, size 50 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 15.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "dendritic particles, size 50 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 37.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 2.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron",
+        "description": "spherical particles, size 3 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 2.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 5.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 2.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "dendritic particles, size 50 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 2.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron",
+        "description": "spherical particles, size 3 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper",
+        "description": "dendritic particles, size 50 µm; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.7,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 36.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "thermally exfoliated graphite",
+        "description": "high-porosity powder with cellular structured particles, cell parameters: cells 5-10 µm, walls 40-80 nm; bulk density 0.005 g/cm3; used as nanofiller in segregated structure",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 4.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 96.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "thermally exfoliated graphite",
+        "description": "high-porosity powder with cellular structured particles, cell parameters: cells 5-10 µm, walls 40-80 nm; bulk density 0.005 g/cm3; used as nanofiller in segregated structure",
+        "composition": {
+          "amount": 3.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 23.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "thermally exfoliated graphite",
+        "description": "high-porosity powder with cellular structured particles, cell parameters: cells 5-10 µm, walls 40-80 nm; bulk density 0.005 g/cm3; used as nanofiller in segregated structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 37.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "isotactic polypropylene PPH 7060, pellet form; used as matrix in composite with random filler distribution, produced by extrusion",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller with random distribution in polymer matrix",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 7.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "anthracite",
+        "description": "thermally treated anthracite (Svierdlovski), flake-shaped, thermally treated up to 2000°C in N2 atmosphere; used as microfiller in segregated structure",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 33.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "ultrahigh-molecular-weight polyethylene",
+        "description": "UHMWPE Hostalen GUR, type GHR 8110, powdered form, particle size 125/90 µm after sieving; used as matrix in segregated structure composite",
+        "composition": {
+          "amount": 98.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "commercial graphene nanoplatelets NOO2-PDR, true density <2.2 g/cm3, carbon content <97%, specific surface area 400-800 m2/g, lamellar shape; used as nanofiller in segregated structure",
+        "composition": {
+          "amount": 2.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 27.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

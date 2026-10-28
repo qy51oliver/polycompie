@@ -1,0 +1,79 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Neat PEBA; commercial grade Pebax 4533 SP 01",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature_1": {
+        "value": 100.8,
+        "unit": "C",
+        "conditions": []
+      },
+      "melting_temperature_2": {
+        "value": 150.0,
+        "unit": "C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix in composite; commercial grade Pebax 4533 SP 01",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300 carbon fiber, average diameter about 7 um, density 1.76 g/cm3",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 146.1,
+        "unit": "C",
+        "conditions": []
+      }
+    }
+  }
+]

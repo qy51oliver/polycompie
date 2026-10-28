@@ -1,0 +1,321 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with an average particle diameter (Dv50) of 10 µm",
+        "composition": {
+          "amount": 81.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Continuous shell on PEI microspheres via electroless plating, forming a segregated network (PEI@Ag structure)",
+        "composition": {
+          "amount": 18.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_in_plane": {
+        "value": 19.9,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "thermal_conductivity_through_plane": {
+        "value": 14.0,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 70000.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 40.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "MPEI microspheres with an average particle diameter (Dv50) of 10 µm",
+        "composition": {
+          "amount": 84.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Nanoparticles grown on the surface of PEI microspheres (PEI@AgNP structure)",
+        "composition": {
+          "amount": 15.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_in_plane": {
+        "value": 7.6,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "thermal_conductivity_through_plane": {
+        "value": 2.2,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 20000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "LPEI microspheres with an average particle diameter (Dv50) of 24 µm",
+        "composition": {
+          "amount": 63.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Continuous shell on PEI microspheres via electroless plating, forming a segregated network (PEI@Ag structure)",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_in_plane": {
+        "value": 14.7,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "thermal_conductivity_through_plane": {
+        "value": 7.7,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 60000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "LPEI microspheres with an average particle diameter (Dv50) of 24 µm",
+        "composition": {
+          "amount": 63.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Nanoparticles grown on the surface of PEI microspheres (PEI@AgNP structure)",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 30000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "Hollow HPEI microspheres with an average particle diameter (Dv50) of 28 µm",
+        "composition": {
+          "amount": 63.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Continuous shell on PEI microspheres via electroless plating, forming a segregated network (PEI@Ag structure)",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": 5.1,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 50000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "Hollow HPEI microspheres with an average particle diameter (Dv50) of 28 µm",
+        "composition": {
+          "amount": 63.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Silver",
+        "description": "Nanoparticles grown on the surface of PEI microspheres (PEI@AgNP structure)",
+        "composition": {
+          "amount": 36.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 25000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyetherimide",
+        "description": "Pure PEI resin",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

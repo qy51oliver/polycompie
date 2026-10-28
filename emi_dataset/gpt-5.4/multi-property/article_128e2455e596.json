@@ -1,0 +1,232 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ether-ether-ketone)",
+        "description": "PEEK matrix in the continuous-structure composite film denoted MWCNTs&GnPs@PBO-PBZ/PEEK",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(p-phenylene benzobisoxazole)",
+        "description": "PBO fibers modified with polybenzoxazine (PBZ), forming a continuous structural skeleton/support in the composite film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes and graphene nanoplatelets",
+        "description": "Combined MWCNT/GnP carbon nanofiller system coated on the PBZ-modified PBO fibers; total carbon nanofiller content reported for this sample",
+        "composition": {
+          "amount": 2.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.79,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ether-ether-ketone)",
+        "description": "PEEK matrix in the continuous-structure composite film denoted MWCNTs&GnPs@PBO-PBZ/PEEK",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(p-phenylene benzobisoxazole)",
+        "description": "PBO fibers modified with polybenzoxazine (PBZ), forming a continuous structural skeleton/support in the composite film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes and graphene nanoplatelets",
+        "description": "Combined MWCNT/GnP carbon nanofiller system coated on the PBZ-modified PBO fibers; total carbon nanofiller content reported for this sample",
+        "composition": {
+          "amount": 23.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 32.01,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 3.05,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 3830.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(ether-ether-ketone)",
+        "description": "PEEK matrix in the continuous-structure composite film denoted MWCNTs&GnPs@PBO-PBZ/PEEK",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(p-phenylene benzobisoxazole)",
+        "description": "PBO fibers modified with polybenzoxazine (PBZ), forming a continuous structural skeleton/support in the composite film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes and graphene nanoplatelets",
+        "description": "Combined MWCNT/GnP carbon nanofiller system coated on the PBZ-modified PBO fibers; the EMI shielding section reports the total carbon nanofiller content for this sample as 2.58 vol%",
+        "composition": {
+          "amount": 2.58,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 31.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(ether-ether-ketone)",
+        "description": "PEEK matrix in the random-structure composite film denoted MWCNTs&GnPs@PBO/PEEK",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(p-phenylene benzobisoxazole)",
+        "description": "PBO fibers without PBZ modification in the random-structure comparator composite film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes and graphene nanoplatelets",
+        "description": "Combined MWCNT/GnP carbon nanofiller system in the random-structure comparator; reported in comparison with the 23.11 vol% continuous-structure sample",
+        "composition": {
+          "amount": 23.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.29,
+        "unit": "W·m−1·K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

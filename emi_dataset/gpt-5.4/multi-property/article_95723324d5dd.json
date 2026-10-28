@@ -1,0 +1,275 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycaprolactone",
+        "description": "Neat PCL control sample used for comparison.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; neat matrix control.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.31,
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycaprolactone",
+        "description": "PCL matrix in a multilayer gradient PCL/F@M absorption composite.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "magnetite@multi-walled carbon nanotubes",
+        "description": "Fe3O4@MWCNTs hybrid filler (F@M), arranged as a three-layer gradient using F@M-2, F@M-3, and F@M-4.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 3.1,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polycaprolactone",
+        "description": "Etched/sensitized/activated PCL granules electroless-plated with Ag and hot-pressed at 70 °C to preserve a segregated structure (SPCL@Ag-2).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-plated Ag network on PCL granules; sample prepared using 20 g L^-1 AgNO3 and exhibiting a segregated conductive structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 51.4,
+        "unit": "dB",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 1.101,
+        "unit": "W m^-1 K^-1",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polycaprolactone",
+        "description": "Layered PCL system comprising a PCL/F@M absorption layer and an Ag-coated PCL reflection layer; the PCL granules in the Ag layer were pretreated before electroless plating. Optimized segregated sample PFMSA-2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "magnetite@multi-walled carbon nanotubes",
+        "description": "Fe3O4@MWCNTs gradient absorption-layer filler; reported as 10 wt% within the PCL/F@M layer, but overall fraction in PFMSA-2 was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag-coated PCL segregated reflection layer prepared from PCL@Ag-2 using 20 g L^-1 AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 57.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 53.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "1 HC",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing voltage",
+            "value": 1.5,
+            "unit": "V"
+          },
+          {
+            "type": "healing time",
+            "value": 5,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "5 HC",
+            "unit": "not specified"
+          },
+          {
+            "type": "healing voltage",
+            "value": 1.5,
+            "unit": "V"
+          },
+          {
+            "type": "healing time",
+            "value": 5,
+            "unit": "min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "14.3 ± 0.4",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "24.7 ± 0.2",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polycaprolactone",
+        "description": "Layered PCL system corresponding to PFMSA-2, but the Ag-coated PCL layer was hot-pressed at 80 °C to destroy the segregated structure; sample denoted PFMMA-2.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "magnetite@multi-walled carbon nanotubes",
+        "description": "Fe3O4@MWCNTs gradient absorption-layer filler.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Ag-coated PCL layer prepared from PCL@Ag-2 using 20 g L^-1 AgNO3, but rendered non-segregated by high-temperature compression.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 37.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  }
+]

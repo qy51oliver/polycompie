@@ -1,0 +1,581 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA (60:40 w/w) blend",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA (60:40 w/w) blend; EMA contains 9% methyl acrylate",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat PS/EMA blend without filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 8e-11,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": -4.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), high-structured conductive carbon black",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0025,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.6,
+        "unit": "W/m.K",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": -22.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 3 parts in a 3:1 VCB/f-CNT hybrid filler",
+        "composition": {
+          "amount": 11.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Multiwalled carbon nanotube",
+        "description": "Acid-functionalized MWCNT (f-CNT), high aspect ratio nanofiller; 1 part in a 3:1 VCB/f-CNT hybrid filler",
+        "composition": {
+          "amount": 3.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -27.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 1 part in a 1:1 VCB/f-CNT hybrid filler",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Multiwalled carbon nanotube",
+        "description": "Acid-functionalized MWCNT (f-CNT), high aspect ratio nanofiller; 1 part in a 1:1 VCB/f-CNT hybrid filler; sample P60E40V50T50",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.071,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.81,
+        "unit": "W/m.K",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": -31.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 1 part in a 1:1 VCB/f-CNT hybrid filler",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Multiwalled carbon nanotube",
+        "description": "Acid-functionalized MWCNT (f-CNT), high aspect ratio nanofiller; 1 part in a 1:1 VCB/f-CNT hybrid filler; sample P60E40V50T50",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -22.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 3 parts in a 3:1 VCB/f-CNF hybrid filler",
+        "composition": {
+          "amount": 11.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Carbon nanofiber",
+        "description": "Acid-functionalized carbon nanofiber (f-CNF), high aspect ratio nanofiller; 1 part in a 3:1 VCB/f-CNF hybrid filler",
+        "composition": {
+          "amount": 3.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 1 part in a 1:1 VCB/f-CNF hybrid filler",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Carbon nanofiber",
+        "description": "Acid-functionalized carbon nanofiber (f-CNF), high aspect ratio nanofiller; 1 part in a 1:1 VCB/f-CNF hybrid filler; sample P60E40V50F50",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.098,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "DC",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.83,
+        "unit": "W/m.K",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": -32.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS component of the co-continuous PS/EMA blend; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 51.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ethylene-co-methyl acrylate",
+        "description": "EMA component of the co-continuous PS/EMA blend; EMA contains 9% methyl acrylate; computed from 60:40 PS/EMA blend with 15 wt% total hybrid filler",
+        "composition": {
+          "amount": 34.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon black",
+        "description": "Vulcan XC-72 (VCB), conductive carbon black; 1 part in a 1:1 VCB/f-CNF hybrid filler",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "Carbon nanofiber",
+        "description": "Acid-functionalized carbon nanofiber (f-CNF), high aspect ratio nanofiller; 1 part in a 1:1 VCB/f-CNF hybrid filler; sample P60E40V50F50",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": -23.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

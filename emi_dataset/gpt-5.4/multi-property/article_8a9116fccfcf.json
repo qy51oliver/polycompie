@@ -1,0 +1,139 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA phase in an equal-proportion PLA/PCL blend.",
+        "composition": {
+          "amount": 46.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "PCL phase in an equal-proportion PLA/PCL blend.",
+        "composition": {
+          "amount": 46.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "Hydroxylated carbon nanotubes (CNT-OH); average diameter 20–30 nm and length 10–30 μm.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA phase in an equal-proportion PLA/PCL blend.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "PCL phase in an equal-proportion PLA/PCL blend.",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Imidazole-functionalized polyurethane containing PLA and PCL segments grafted onto MXene nanosheets (IPU-PLA-PCL-MXene).",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Hydroxylated carbon nanotubes (CNT-OH); average diameter 20–30 nm and length 10–30 μm.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 287.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 64.1,
+        "unit": "kJ/m2",
+        "conditions": [
+          {
+            "type": "impact_mode",
+            "value": "notched",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 38.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

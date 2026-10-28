@@ -1,0 +1,858 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.14,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 39.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.14,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 41.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 60.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 45.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.17,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 58.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF may be absent from the CNT/CNF conductive layer at 100 wt% CNT loading.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.18,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 60.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 61.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 36.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 1.5,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 50.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 39.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.5,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 49.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 3.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 45.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 20 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.12,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 30 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 30.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.13,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 59.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 40.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 40 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 40.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.14,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 61.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 41.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 200 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 200.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 65.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofibers",
+        "description": "CNF host network forming the insulating middle layer; middle-layer dosage is 50 mg. CNF also forms the remainder of the 50 mg CNT/CNF conductive layer.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNT in the CNT/CNF conductive layer; loading reported relative to the 50 mg CNT/CNF layer.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS conductive layer; dosage reported as mL of commercial dispersion used.",
+        "composition": {
+          "amount": 0.3,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.09,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 27.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "CNT/CNF layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 19.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_side",
+            "value": "PEDOT:PSS layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

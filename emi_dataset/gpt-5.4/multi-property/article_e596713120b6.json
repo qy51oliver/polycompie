@@ -1,0 +1,347 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); solid injection-molded (SIM) composite.",
+        "composition": {
+          "amount": 99.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); 5 mm length, average diameter 8 μm; supplied as bundles containing 75 wt% SSF, coated with ethylene acrylic acid zinc ionomer and sized with a thermoplastic polyester.",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.3e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 0.1,
+            "unit": "Hz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); foam injection-molded (FIM) composite with 35% void fraction, processed using 3 wt% CO2 as physical blowing agent.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); 5 mm length, average diameter 8 μm; supplied as bundles containing 75 wt% SSF, coated with ethylene acrylic acid zinc ionomer and sized with a thermoplastic polyester. Reported on an initial loading basis.",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0004,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 0.1,
+            "unit": "Hz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); foam injection-molded (FIM) composite with 25% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); reported as 0.37 vol% final SSF content for the foam sample.",
+        "composition": {
+          "amount": 0.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 16.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); solid injection-molded (SIM) composite.",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); 5 mm length, average diameter 8 μm; supplied as bundles containing 75 wt% SSF, coated with ethylene acrylic acid zinc ionomer and sized with a thermoplastic polyester.",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38.0,
+        "unit": "dB·g^-1·cm^3",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); solid injection-molded (SIM) composite.",
+        "composition": {
+          "amount": 98.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); 5 mm length, average diameter 8 μm; supplied as bundles containing 75 wt% SSF, coated with ethylene acrylic acid zinc ionomer and sized with a thermoplastic polyester.",
+        "composition": {
+          "amount": 1.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); foam injection-molded (FIM) composite with 25% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); reported on an initial loading basis for the 25% void-fraction foam sample.",
+        "composition": {
+          "amount": 1.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "High-crystallinity injection-molding grade homopolymer polypropylene (PP F350HC2); foam injection-molded (FIM) composite. The discussion associates the maximum specific EMI shielding performance with 35% void fraction.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless-steel fiber",
+        "description": "Beki-Shield GR75-C12-E stainless-steel fiber (SSF); reported in the article summary/Table 2 as 1.1 vol% final SSF content for the foam sample with maximum specific EMI shielding effectiveness.",
+        "composition": {
+          "amount": 1.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.1,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 48.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 75.0,
+        "unit": "dB·g^-1·cm^3",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

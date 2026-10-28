@@ -1,0 +1,672 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 2835.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 44.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 864.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 30.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 24.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 29.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": 21.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 27.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 680.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 41.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 19.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 827.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 922.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 33.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 28.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 941.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 26.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 32.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 932.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 27.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 24.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "AP422, polymerization degree (n) > 1000, phosphorus content 31-32 wt.%, nitrogen content 14-15 wt.%, average particle size 15 um",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 1155.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 29.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 32.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "Acrylonitrile-butadiene-styrene",
+        "description": "ELIXTM 128 IG, contains 26-28 wt. % of butadiene in a matrix of styrene acrylonitrile (SAN)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Cork powder",
+        "description": "bio-based additive, median diameter (d50) of 144 um, composition: 40 wt.% suberin, 24 wt.% lignin, 19 wt.% polysaccharides, 14 wt.% extractives",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 4.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 1374.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 33.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35.0,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 41.0,
+        "unit": "mm/minute",
+        "conditions": [
+          {
+            "type": "test_standard",
+            "value": "UL-94 HB",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

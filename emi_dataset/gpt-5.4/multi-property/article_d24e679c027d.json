@@ -1,0 +1,746 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "single-layer electrospun PVA film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 8.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 68.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "single-layer electrospun PVA/Fe3O4 film",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles in the electrospun film",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 3.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 34.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer hot-pressed electrospun PVA film",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 11.22,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 147.7,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer hot-pressed electrospun PVA/Fe3O4 film",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles in the electrospun film",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 6.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 107.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "single-layer electrospun PVA/Fe3O4 fibrous film with sprayed AgNW coating",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; sample label x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; sample label y=10 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/10-Fe3O4 layers and 3 PVA/10-Fe3O4@2-AgNW layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=2 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6000.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 43.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/10-Fe3O4 layers and 3 PVA/10-Fe3O4@4-AgNW layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=4 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 49.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/10-Fe3O4 layers and 3 PVA/10-Fe3O4@6-AgNW layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=6 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 6.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 57.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/10-Fe3O4 layers and 3 PVA/10-Fe3O4@8-AgNW layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=8 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 8.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 68.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/10-Fe3O4 layers and 3 PVA/10-Fe3O4@10-AgNW layers",
+        "composition": {
+          "amount": 88.24,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; overall film reported as 9.80 wt% Fe3O4. Sample label x=10 denotes 10 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 9.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; overall film reported as 1.96 wt% AgNW. Sample label y=10 denotes the AgNW concentration in the sprayed AgNW/ethanol dispersion",
+        "composition": {
+          "amount": 1.96,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 30,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 150000.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 80.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 82.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 16.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 200.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "tensile_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA layers and 3 PVA@8-AgNW layers; x=0 indicates no Fe3O4",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=8 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 8.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 59.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyvinyl alcohol",
+        "description": "6-layer alternating hot-pressed laminate composed of 3 PVA/15-Fe3O4 layers and 3 PVA/15-Fe3O4@8-AgNW layers",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ferroferric oxide",
+        "description": "Fe3O4 magnetic nanoparticles; x=15 denotes 15 wt% Fe3O4 in the PVA/Fe3O4 electrospun layer",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanowire",
+        "description": "conductive sprayed AgNW coating; y=8 denotes the AgNW concentration in the AgNW/ethanol dispersion used for spraying, exact final loading basis not specified",
+        "composition": {
+          "amount": 8.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 71.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

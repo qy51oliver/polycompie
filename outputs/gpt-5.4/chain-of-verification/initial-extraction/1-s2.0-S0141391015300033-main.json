@@ -1,0 +1,484 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452, higher MFI grade",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat polypropylene",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 29.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 1221.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300, lower MFI grade",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat polypropylene",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 27.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 1006.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452 matrix in composite with wool",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibres",
+        "description": "short scoured coarse wool fibres",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 17.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 856.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300 matrix in composite with wool",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibres",
+        "description": "short scoured coarse wool fibres",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 16.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 778.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452 with APP additive",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, coated intumescent combination, average particle size 14 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 20.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 256.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300 with APP additive",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, coated intumescent combination, average particle size 14 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 20.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 296.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452 matrix in composite with wool and APP",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibres",
+        "description": "short scoured coarse wool fibres",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, coated intumescent combination, average particle size 14 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 19.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 227.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300 matrix in composite with wool and APP",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibres",
+        "description": "short scoured coarse wool fibres",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, coated intumescent combination, average particle size 14 µm",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 19.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 232.0,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94",
+        "conditions": []
+      }
+    }
+  }
+]

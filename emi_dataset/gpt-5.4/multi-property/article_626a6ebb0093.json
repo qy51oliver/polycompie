@@ -1,0 +1,567 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "Neat ABS control sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.95,
+      "unit": "mm"
+    },
+    "properties": {
+      "glass_transition_temperature_1": {
+        "value": 83.56,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 115.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg2)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_3": {
+        "value": 100.76,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "loss modulus peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_4": {
+        "value": 116.01,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "tan delta peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix in bucky paper reinforced composite",
+        "composition": {
+          "amount": 66.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Pristine MWCNT bucky paper reinforcement; average diameter 25.8 nm and average length 350 μm",
+        "composition": {
+          "amount": 33.33,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.45,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": -38.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -37.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 13.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 77.83,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 120.61,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg2)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_3": {
+        "value": 102.18,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "loss modulus peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_4": {
+        "value": 122.28,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "tan delta peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix in bucky paper reinforced composite",
+        "composition": {
+          "amount": 66.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Functionalized carbon nanotube bucky paper reinforcement prepared by nitric acid reflux of MWCNTs for 24 h at 100 °C",
+        "composition": {
+          "amount": 33.33,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.45,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": -36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -35.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 13.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 63.01,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 111.43,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg2)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_3": {
+        "value": 86.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "loss modulus peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_4": {
+        "value": 103.83,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "tan delta peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile butadiene styrene",
+        "description": "ABS matrix in bucky paper reinforced composite",
+        "composition": {
+          "amount": 66.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "Graphene oxide component of GCNT hybrid; prepared by improved Hummers' method; equal quantity with functionalized CNTs",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "Functionalized MWCNT component of GCNT hybrid; equal quantity with graphene oxide; CNTs were nitric-acid treated before hybridization",
+        "composition": {
+          "amount": 16.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.45,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": -49.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": -49.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 13.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 85.05,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 127.03,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "storage modulus (Tg2)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_3": {
+        "value": 112.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "loss modulus peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature_4": {
+        "value": 119.4,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "tan delta peak",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 2,
+            "unit": "°C/min"
+          }
+        ]
+      }
+    }
+  }
+]

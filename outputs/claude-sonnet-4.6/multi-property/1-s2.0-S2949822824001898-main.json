@@ -1,0 +1,488 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330), composed of ethylene and methyl acrylate monomers; used as pure matrix reference",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 7.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 412",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1152.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 412",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.11,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330); used as polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets, synthesized by co-precipitation; sample code EX0FG100 (0 wt% MXene, 10 wt% FG of 10 wt% total hybrid filler)",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00083,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.82,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 9.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 412",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 755.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 412",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330); used as polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized from Ti3AlC2 MAX phase by MILD etching with LiF/HCl; 10 wt% of the 10 wt% hybrid filler = 1 wt% of total composite; sample code EX10FG90",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 90 wt% of the 10 wt% hybrid filler = 9 wt% of total composite; sample code EX10FG90",
+        "composition": {
+          "amount": 9.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.001,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "approximate value read from Fig. 4",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximate value from Fig. 5a",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.88,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "not specified",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "approximate value from Fig. 7",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330); used as polymer matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized from Ti3AlC2 MAX phase by MILD etching with LiF/HCl; 30 wt% of the 10 wt% hybrid filler = 3 wt% of total composite; sample code EX30FG70",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 70 wt% of the 10 wt% hybrid filler = 7 wt% of total composite; sample code EX30FG70",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.005,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "approximate value read from Fig. 4",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximate value from Fig. 5a",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.93,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "not specified",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "approximate value from Fig. 7",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ethylene methyl acrylate",
+        "description": "EMA copolymer (Elvaloy 1330); used as polymer matrix; sample code EX50FG50",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanoflakes synthesized from Ti3AlC2 MAX phase by MILD etching with LiF/HCl; 50 wt% of the 10 wt% hybrid filler = 5 wt% of total composite; sample code EX50FG50",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "iron(II,III) oxide decorated graphitic carbon nitride",
+        "description": "Fe3O4 nanoparticles decorated on g-C3N4 nanosheets; 50 wt% of the 10 wt% hybrid filler = 5 wt% of total composite; sample code EX50FG50",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.015,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "current type",
+            "value": "DC",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 36.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.98,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 9.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D 412",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "graphite nanosheets in graphite/copper mixture; foliated graphite nanosheets, thickness 30-50 nm, average thickness about 40 nm, mean diameter roughly 20 um; mixed with copper at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 7.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "copper nanoparticles in graphite/copper mixture; average particle size 20 nm; mixed with graphite at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "graphite nanosheets in graphite/copper mixture; foliated graphite nanosheets, thickness 30-50 nm, average thickness about 40 nm, mean diameter roughly 20 um; mixed with copper at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 10.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "copper nanoparticles in graphite/copper mixture; average particle size 20 nm; mixed with graphite at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "graphite nanosheets in graphite/copper mixture; foliated graphite nanosheets, thickness 30-50 nm, average thickness about 40 nm, mean diameter roughly 20 um; mixed with copper at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 14.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "copper nanoparticles in graphite/copper mixture; average particle size 20 nm; mixed with graphite at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "PVC matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphite",
+        "description": "graphite nanosheets in graphite/copper mixture; foliated graphite nanosheets, thickness 30-50 nm, average thickness about 40 nm, mean diameter roughly 20 um; mixed with copper at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Copper",
+        "description": "copper nanoparticles in graphite/copper mixture; average particle size 20 nm; mixed with graphite at 90/10 wt.% within filler",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 52.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 70.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 1.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 20.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

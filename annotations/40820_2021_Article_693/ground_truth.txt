@@ -1,0 +1,184 @@
+[
+     {
+        "sample_id": "CPA",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "tensile strength": {"value": 17.5, "unit": "MPa"},
+            "elongation at break": {"value": 700, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "CG@CPA",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 0.8333, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 0.1667, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"2", "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 5.0, "unit": "S/m"}
+        }
+    },
+     {
+        "sample_id": "CG@CPA-3",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 2.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 0.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"2", "unit":"mm"},
+        "properties": {
+            "shielding effectiveness": {"value": 34.1, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"}]},
+            "tensile strength": {"value": 43.1, "unit": "MPa"},
+            "elongation at break": {"value": 626, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "CG@CPA-5",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 4.1667, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 0.8333, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"2", "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "CG@CPA-7",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 5.8333, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1.1667, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"2", "unit":"mm"},
+        "properties": {
+            "tensile strength 1": {"value": 32.5, "unit": "MPa"},
+            "elongation at break 1": {"value": 431, "unit": "%"},
+            "elongation at break 2": {"value": 426.69, "unit": "%","conditions": [{"type": "cutting/healing cycles", "value": 1,"unit": "not specified"}]},
+            "elongation at break 3": {"value": 413.76, "unit": "%","conditions": [{"type": "cutting/healing cycles", "value": 2,"unit": "not specified"}]},
+            "elongation at break 4": {"value": 410, "unit": "%","conditions": [{"type": "cutting/healing cycles", "value": 3,"unit": "not specified"}]},
+            "tensile strength 2": {"value": 30, "unit": "MPa","conditions": [{"type": "cutting/healing cycles", "value": 3,"unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "CG@CPA-10",
+        "matrix_name": [
+        		{
+                "name": "cationic waterborne polyurethanes microspheres with DA bonds",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 8.333, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1.667, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample thickness": {"value":"2", "unit":"mm"},
+        "properties": {
+            "shielding effectiveness 1": {"value": 52.7, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"}]},
+            "SER": {"value": 4.0, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"}]},
+            "SEA": {"value": 48.7, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"}]},
+            "shielding effectiveness 2": {"value": 51.1, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"},{"type": "cutting/healing cycles", "value": 1,"unit": "not specified"}]},
+            "shielding effectiveness 3": {"value": 47.3, "unit": "dB","conditions": [{"type": "frequency", "value": "8.2–12.4","unit": "GHz"},{"type": "cutting/healing cycles", "value": 3,"unit": "not specified"}]},
+            "electrical conductivity": {"value": 52.0, "unit": "S/m"},
+            "tensile strength": {"value": 30.5, "unit": "MPa"},
+            "elongation at break": {"value": 400, "unit": "%"}
+        }
+    }
+]

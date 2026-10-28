@@ -1,0 +1,166 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent (resin:curing agent = 100:30 by weight); composite fabricated by vacuum-assisted resin infusion (VARI).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K); carbon fibers were pretreated by desizing (boiling acetone) and oxidizing (nitric acid) prior to composite fabrication.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent (resin:curing agent = 100:30 by weight); composite fabricated by vacuum-assisted resin infusion (VARI).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K); carbon fibers pretreated by desizing and oxidizing; carbon fiber surface coated with Ti3C2Tx MXene via electrophoretic deposition (EPD). MXene mass fraction on CF fabric reported as 13 wt% (relative to CF fabric).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide MXene (Ti3C2Tx)",
+        "description": "MXene nanoparticles deposited onto carbon fiber surface by EPD (20 V, 30 min) using MgCl2·6H2O in aqueous suspension; MXene loading on CF fabric reported as 13 wt% (relative to CF fabric).",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent (resin:curing agent = 100:30 by weight); composite fabricated by vacuum-assisted resin infusion (VARI).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "Plain woven carbon fiber fabric (T300, 12K); carbon fibers pretreated by desizing and oxidizing; carbon fiber surface coated with thermally annealed/reduced Ti3C2Tx MXene (rMXene) after EPD.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide MXene (Ti3C2Tx)",
+        "description": "MXene nanoparticles deposited onto carbon fiber surface by EPD, then thermally annealed at 350 °C for 6 h under N2 to reduce oxygen-containing groups (rMXene-CF). MXene loading on CF fabric reported as 13 wt% (relative to CF fabric, prior to annealing).",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 34.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

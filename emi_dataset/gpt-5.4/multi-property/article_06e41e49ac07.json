@@ -1,0 +1,576 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "SA matrix in Ti3C2Tx-SA EMI shielding composite film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene flakes",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "SA matrix in MXene/SA hybrid aerogel with vertically aligned unidirectional porous channels",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in MS hybrid aerogel; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2211,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 72,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "SA-based MS foam derived from MXene/SA hybrid aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Thin elastic PDMS coating applied to the internal conductive network of the MS foam",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in PDMS-coated MS foam; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 48.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compression-release cycles",
+            "value": 500,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "Ti3C2Tx/SA film with pearl-like layered structure prepared via vacuum filtration and divalent metal ion induced crosslinking",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in pearl-like layered film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 14,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 43.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "calcium alginate",
+        "description": "Ti3C2Tx/calcium alginate aerogel film with sponge-like structure induced by Ca2+ crosslinking",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx MXene in sponge-like aerogel film",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 26,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 54.3,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "3D printed porous SA/MXene aerogel network reinforced through multistage calcium-ion crosslinking",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in 3D printed aerogel; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2850.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "Oxidized sodium alginate component of OAPM-Gly organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyacrylamide",
+        "description": "Polyacrylamide component of OAPM-Gly organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "glycerol",
+        "description": "Glycerol component of the organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "water",
+        "description": "Water component of the organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide",
+        "description": "Polydopamine-modified Ti3C2Tx MXene",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 1037,
+        "unit": "%",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 0.17,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "SA matrix in sustainable flexible flame-retardant STM composite biofilm",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "chitin",
+        "description": "TEMPO-oxidized chitin nanocrystals (TOChNs)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene nanosheets in STM biofilm; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 45.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "Superhydrophobic sodium alginate sponge in MXene-SA sponge (SMSS) pressure sensor; modulus summarized in Table 3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in SMSS; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 44.6,
+        "unit": "kPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyacrylic acid",
+        "description": "Polyacrylic acid component of SAA/Al3+/MXene double-network hydrogel; modulus summarized in Table 3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "sodium alginate",
+        "description": "Ionic sodium alginate component in Al3+-crosslinked double-network hydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in SAA/Al3+/MXene hydrogel; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 0.09,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyacrylamide",
+        "description": "Polyacrylamide component of MXene-PAM/SA-Ca2+ organohydrogel; modulus summarized in Table 3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "sodium alginate",
+        "description": "SA component in Ca2+-crosslinked organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in MXene-PAM/SA-Ca2+ organohydrogel; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 72,
+        "unit": "kPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyacrylamide",
+        "description": "Polyacrylamide matrix in MXene-doped PAM/SA organohydrogels; modulus summarized in Table 3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "sodium alginate",
+        "description": "Sodium alginate matrix component in MXene-doped PAM/SA organohydrogels",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in PAM/SA organohydrogels; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 2.19,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "sodium alginate",
+        "description": "Dopamine-modified alginate (Alg-DA) component of Alg-DA/Alg-PBA/PAAm-MXene organohydrogel; modulus summarized in Table 3",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "sodium alginate",
+        "description": "Phenylboronic-acid-modified alginate (Alg-PBA) component of Alg-DA/Alg-PBA/PAAm-MXene organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "polyacrylamide",
+        "description": "PAAm component of Alg-DA/Alg-PBA/PAAm-MXene organohydrogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene",
+        "description": "MXene filler in Alg-DA/Alg-PBA/PAAm-MXene organohydrogel; exact MXene chemistry not specified in the review text",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "youngs_modulus": {
+        "value": 14,
+        "unit": "kPa",
+        "conditions": []
+      }
+    }
+  }
+]

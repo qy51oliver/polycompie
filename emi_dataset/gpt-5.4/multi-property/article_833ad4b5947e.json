@@ -1,0 +1,191 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polytetrafluoroethylene",
+        "description": "PTFE matrix in PTFE-10CNTs composite; mechanically blended and cold-pressed; unsintered.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multi-walled CNTs (TNM3), purity above 98%, average diameter 10–20 nm, average length 10–30 μm.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 70.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 0,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 0,
+            "unit": "min"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polytetrafluoroethylene",
+        "description": "PTFE matrix in porous PTFE-10CNTs composite; sintered for 30 min.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multi-walled CNTs (TNM3), purity above 98%, average diameter 10–20 nm, average length 10–30 μm.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.64,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 117.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 30,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 35.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 30,
+            "unit": "min"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polytetrafluoroethylene",
+        "description": "PTFE matrix in porous PTFE-10CNTs composite; sintered for 120 min.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon nanotubes",
+        "description": "Multi-walled CNTs (TNM3), purity above 98%, average diameter 10–20 nm, average length 10–30 μm.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 145.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 120,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 64.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_time",
+            "value": 120,
+            "unit": "min"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

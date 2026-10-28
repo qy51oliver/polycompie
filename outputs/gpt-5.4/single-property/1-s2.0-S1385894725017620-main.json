@@ -1,0 +1,123 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PEEK matrix in prefabricated structured composite",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "Nickel-plated carbon fibre coated with graphene nanosheets and multi-walled carbon nanotubes; heterogeneous filler denoted GW&Ni-CF",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "Hybrid PEEK matrix containing internal cooperative conductive/thermal network; optimised prefabricated structured composite denoted GW&Ni-CF@4 hybrid PEEK",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "Nickel-plated carbon fibre coated with graphene nanosheets and multi-walled carbon nanotubes; heterogeneous filler denoted GW&Ni-CF",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene nanosheets",
+        "description": "Present in hybrid PEEK particles internal network and on heterogeneous fibre surface",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Present in hybrid PEEK particles internal network and on heterogeneous fibre surface",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Nickel",
+        "description": "Nickel plating on carbon fibre and nickel-containing internal network via Ni-CF in hybrid PEEK particles",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

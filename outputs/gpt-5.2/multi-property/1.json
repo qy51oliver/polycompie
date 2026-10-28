@@ -1,0 +1,190 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS (Styron 666D, Mw 200,000 g/mol, MFI 7.5, Tg 100 °C); film prepared by compression molding of conductive composite powder (CCP) only",
+        "composition": {
+          "amount": 97.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowires (CuNWs) synthesized by AC electrodeposition in porous aluminum oxide templates; CCP CuNW content measured by TGA",
+        "composition": {
+          "amount": 2.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "reported as >50 dB (above dynamic range of set-up)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS film made by dry mixing CCP with PS powder followed by compression molding; formulation: 75/25 CCP/PS (wt/wt)",
+        "composition": {
+          "amount": 97.92,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowires (CuNWs); equivalent loading from Table 1 for 75/25 CCP/PS (wt/wt)",
+        "composition": {
+          "amount": 2.08,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "reported for PS with 2.1 vol.% CuNW (Table 1 gives 2.08 vol.%)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS film made by dry mixing CCP with PS powder followed by compression molding; formulation: 50/50 CCP/PS (wt/wt)",
+        "composition": {
+          "amount": 98.68,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowires (CuNWs); equivalent loading from Table 1 for 50/50 CCP/PS (wt/wt)",
+        "composition": {
+          "amount": 1.32,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "reported for PS composite containing 1.3 vol.% CuNW (Table 1 gives 1.32 vol.%)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polystyrene",
+        "description": "PS film made by dry mixing CCP with PS powder followed by compression molding; formulation: 25/75 CCP/PS (wt/wt)",
+        "composition": {
+          "amount": 99.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper",
+        "description": "Copper nanowires (CuNWs); equivalent loading from Table 1 for 25/75 CCP/PS (wt/wt); described in text as ~0.6 vol.% CuNW composite",
+        "composition": {
+          "amount": 0.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "reported for 0.6 vol.% CuNW composite (Table 1 gives 0.63 vol.%)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

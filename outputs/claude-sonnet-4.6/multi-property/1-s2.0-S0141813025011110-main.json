@@ -1,0 +1,388 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; pure CNF paper with no LPP addition (LPPC-0)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler added",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 8.9e-11,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 29.85,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.16,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-10 composite paper with 10 wt% 5LPP dispersion addition",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-10 sample",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-20 composite paper with 20 wt% 5LPP dispersion addition",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-20 sample",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-30 composite paper with 30 wt% 5LPP dispersion addition",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-30 sample",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-40 composite paper with 40 wt% 5LPP dispersion addition",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-40 sample",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-50 composite paper with 50 wt% 5LPP dispersion addition, thickness 47 µm",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-50 sample",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 29.67,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 68.27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 44.42,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 4.32,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-50 composite paper with 50 wt% 5LPP dispersion addition, thickness 37 µm",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-50 sample at 37 µm thickness",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "CNF suspension, 6 wt%, cellulose content >85%, hemicellulose content >5%, lignin content <1%; LPPC-50 composite paper with 50 wt% 5LPP dispersion addition, thickness 104 µm",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) doped with lithium bis(trifluoromethanesulfonyl)imide",
+        "description": "5LPP dispersion; PEDOT:PSS (1.4 wt% aqueous dispersion, PEDOT:PSS weight ratio 1:2.5) doped with 0.05 mmol Li-TFSI; LPPC-50 sample at 104 µm thickness",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 104,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 97.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

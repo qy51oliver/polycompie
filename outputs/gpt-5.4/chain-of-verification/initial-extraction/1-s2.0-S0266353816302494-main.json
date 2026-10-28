@@ -1,0 +1,251 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 68.61,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS domains",
+        "composition": {
+          "amount": 24.03,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-co-glycidyl methacrylate)",
+        "description": "EGMA shell-forming agent",
+        "composition": {
+          "amount": 5.58,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNTs localized in PPS domains",
+        "composition": {
+          "amount": 1.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": "not specified",
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "normal to molding plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2.25,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          },
+          {
+            "type": "property_description",
+            "value": "storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 0.72,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          },
+          {
+            "type": "property_description",
+            "value": "storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 74.03,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS nanodomains",
+        "composition": {
+          "amount": 23.76,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "3-glycidyloxypropyltrimethoxysilane",
+        "description": "GOPTS shell-forming agent",
+        "composition": {
+          "amount": 0.45,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT-PPS nanodomain-linked structure; most ends capped with PPS nanodomains",
+        "composition": {
+          "amount": 1.76,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": "not specified",
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "normal to molding plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 3.22,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          },
+          {
+            "type": "property_description",
+            "value": "storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus_2": {
+        "value": 1.08,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 100,
+            "unit": "C"
+          },
+          {
+            "type": "property_description",
+            "value": "storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 76.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(p-phenylene sulfide)",
+        "description": "PPS nanodomains",
+        "composition": {
+          "amount": 21.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "3-glycidyloxypropyltrimethoxysilane",
+        "description": "GOPTS shell-forming agent",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNT-PPS nanodomain-linked structure",
+        "composition": {
+          "amount": 2.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.433,
+        "unit": "W m-1 K-1",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 2.9,
+        "unit": "kJ m-2",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "Charpy notched",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

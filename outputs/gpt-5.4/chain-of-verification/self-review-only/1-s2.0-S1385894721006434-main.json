@@ -1,0 +1,289 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Pure PPS resin sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.23,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 34.07,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "friction_coefficient": {
+        "value": 0.43,
+        "unit": "dimensionless",
+        "conditions": []
+      },
+      "wear_rate": {
+        "value": 76.13,
+        "unit": "×10^-5 mm3/Nm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.78,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D silver conductive network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.22,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5763,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.43,
+        "unit": "W/m·K",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.53,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D silver conductive network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.47,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "friction_coefficient": {
+        "value": 0.15,
+        "unit": "dimensionless",
+        "conditions": []
+      },
+      "wear_rate": {
+        "value": 6.94,
+        "unit": "×10^-5 mm3/Nm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 99.11,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D silver conductive network formed from Ag-coated PPS granules",
+        "composition": {
+          "amount": 0.89,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 59.62,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix in Ag/PPS composite",
+        "composition": {
+          "amount": 98.52,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "3D silver conductive network formed from Ag-coated PPS granules; silver-sulfur coordination reaction-induced interfacial enhancement",
+        "composition": {
+          "amount": 1.48,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 88000,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 87.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 87.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after immersion in solvents for 10 h",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 73.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after burning in alcohol lamp flame for 10 s in air",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.15,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 49.01,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "limiting_oxygen_index": {
+        "value": 40.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": [
+          {
+            "type": "test",
+            "value": "vertical burning test",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

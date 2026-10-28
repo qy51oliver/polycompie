@@ -1,0 +1,536 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NS series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NS series",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NS series",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; sample NS-1.0",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5.263157894736842e-12,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 190000000000.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "before annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NS series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NS series",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NS series",
+        "composition": {
+          "amount": 35.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; annealed sample NS-1.0-T",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.639344262295082e-08,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 61000000.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after annealing",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 240.0,
+            "unit": "C"
+          },
+          {
+            "type": "annealing_pressure",
+            "value": 10.0,
+            "unit": "MPa"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1.0,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NIO series",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; sample NIO-1.0",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.5384615384615385e-09,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 650000000.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "before annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NIO series",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; annealed sample NIO-1.0-T",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.0869565217391306e-06,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 920000.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after annealing",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 240.0,
+            "unit": "C"
+          },
+          {
+            "type": "annealing_pressure",
+            "value": 10.0,
+            "unit": "MPa"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1.0,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NIO series",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; sample NIO-2.0",
+        "composition": {
+          "amount": 2.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4e-05,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 25000.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "before annealing",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NIO series",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NIO series",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; annealed sample NIO-2.0-T",
+        "composition": {
+          "amount": 2.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0007692307692307692,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 1300.0,
+            "unit": "ohm·m"
+          },
+          {
+            "type": "state",
+            "value": "after annealing",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 240.0,
+            "unit": "C"
+          },
+          {
+            "type": "annealing_pressure",
+            "value": 10.0,
+            "unit": "MPa"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1.0,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/POE-g-GMA/PP blend; NIS series",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(ethylene-octene) grafted with glycidyl methacrylate",
+        "description": "POE-g-GMA third component in tri-continuous blend; NIS series",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/POE-g-GMA/PP blend; NIS series",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "carboxyl-modified CNTs; sample NIS-1.0",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "carboxyl-modified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(butylene terephthalate)",
+        "description": "PBT in PBT/PP blend; control sample B73-x",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polypropylene",
+        "description": "PP in PBT/PP blend; control sample B73-x",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNTs in control PBT/PP/CNT composite; sample B73-2",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.545454545454545e-10,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 2200000000.0,
+            "unit": "ohm·m"
+          }
+        ]
+      }
+    }
+  }
+]

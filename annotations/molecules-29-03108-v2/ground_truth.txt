@@ -1,0 +1,408 @@
+[
+     {
+        "sample_id": "TPU",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 65, "unit": "s"},
+            "peak_heat_release_rate": {"value": 872.3, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 63.7, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.1868, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 2058.8, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0066, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 1.2117, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.4803, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 37.9, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 21.6, "unit": "%"},
+            "flammability": {"value": "NR", "unit": "not specified"},
+            "carbon residue": {"value": 9.6, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "◦C"}]},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": 2.47, "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "TPU/APP",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 38, "unit": "s"},
+            "peak_heat_release_rate": {"value": 148.4, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 20.7, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.0928, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 529.8, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0031, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 0.2315, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.0757, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 10.0, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 30.6, "unit": "%"},
+            "flammability": {"value": "V-1", "unit": "not specified"},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": 2.67, "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "TPU/APP@PEI",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 28, "unit": "s"},
+            "peak_heat_release_rate": {"value": 142.7, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 14.8, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.0966, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 689.6, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0028, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 0.1582, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.0689, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 7.5, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 30.4, "unit": "%"},
+            "flammability": {"value": "V-1", "unit": "not specified"},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": ">2.67", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "TPU/20APP@PEI@1TC",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 11.43, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 0.57, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 31, "unit": "s"},
+            "peak_heat_release_rate": {"value": 174.4, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 29.1, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.1125, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 730.7, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0048, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 1.0359, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.0878, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 14.6, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 27.9, "unit": "%"},
+            "flammability": {"value": "V-0", "unit": "not specified"},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": ">2.67", "unit": "none"},
+            "carbon residue": {"value": 30.1, "unit": "wt%","conditions": [{"type": "temperature", "value": 700,"unit": "◦C"}]}
+        }
+    },
+     {
+        "sample_id": "TPU/10APP@PEI@1TC",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10.91, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 1.09, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 22, "unit": "s"},
+            "peak_heat_release_rate": {"value": 138.9, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 36.2, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.1051, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 774.2, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0041, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 0.8564, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.0712, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 15.6, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 31.6, "unit": "%"},
+            "flammability": {"value": "V-0", "unit": "not specified"},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": ">2.67", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "TPU/5APP@PEI@1TC",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.5, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 23, "unit": "s"},
+            "peak_heat_release_rate": {"value": 179.1, "unit": "kW*m^-2"},
+            "total_heat_release": {"value": 25.6, "unit": "MJ*m^-2"},
+            "peak_smoke_production_rate": {"value": 0.1267, "unit": "m^2s^-1"},
+            "total_smoke_release": {"value": 603.4, "unit": "m^2m^-2"},
+            "peak_carbon_monoxide_production_rate": {"value": 0.0053, "unit": "g*s^-1"},
+            "total_carbon_monoxide_yield": {"value": 0.9102, "unit": "kg*kg^-1"},
+            "peak_carbon_dioxide_production_rate": {"value": 0.0797, "unit": "g*s^-1"},
+            "total_carbon_dioxide_yield": {"value": 11.4, "unit": "kg*kg^-1"},
+            "limiting_oxygen_index": {"value": 25.2, "unit": "%"},
+            "flammability": {"value": "V-2", "unit": "not specified"},
+            "area_ratio_of_the_D_band_to_the_G_band": {"value": ">2.67", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "TPU/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 7.92, "unit": "dB"}
+        }
+    },
+     {
+        "sample_id": "TPU/APP/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "TPU/APP@PEI/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate", 
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "TPU/20APP@PEI@1TC/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 11.43, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 0.57, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "TPU/10APP@PEI@1TC/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10.91, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 1.09, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+        }
+    },
+     {
+        "sample_id": "TPU/5APP@PEI@1TC/rGO",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "polyethyleneimine"
+            },
+        		{
+                "name": "Ti3C2Tx nanosheets",
+                "description": "not specified",
+                "composition": {"amount": 2, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "reduced graphene oxide",
+                "description": "intermediary layer",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 15.53, "unit": "dB"}
+        }
+    }
+]

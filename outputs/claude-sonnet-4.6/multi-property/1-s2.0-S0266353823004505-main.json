@@ -1,0 +1,335 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent, 100:30 weight ratio, cured at 90°C for 8h via vacuum assisted resin infusion (VARI)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven CF fabric, pretreated by desizing (boiling acetone, 60°C, 48h) and oxidizing (nitric acid, 80°C, 6h); 6 CF layers stacked; no MXene deposited",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 511.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "three-point bending (flexural strength), ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "loading rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 38.9,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness (out-of-plane)",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 13615.5,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 28.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement method",
+            "value": "waveguide (VNA)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent, 100:30 weight ratio, cured at 90°C for 8h via vacuum assisted resin infusion (VARI)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven CF fabric, pretreated by desizing and oxidizing; 6 CF layers stacked; core of core-shell structure",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide MXene",
+        "description": "Ti3C2Tx MXene nanoparticles deposited onto CF surface via electrophoretic deposition (EPD) at 20V for 30 min; suspension concentration 0.125 mg/mL; no thermal annealing; MXene mass fraction on CF fabric 13 wt%; forms flower-shaped shell on CF core",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 642.4,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "three-point bending (flexural strength), ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "loading rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 58.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness (out-of-plane)",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 15624.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 32.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement method",
+            "value": "waveguide (VNA)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy 5015 resin with curing agent, 100:30 weight ratio, cured at 90°C for 8h via vacuum assisted resin infusion (VARI)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300, 12K, plain woven CF fabric, pretreated by desizing and oxidizing; 6 CF layers stacked; core of core-shell structure",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide MXene",
+        "description": "Ti3C2Tx MXene nanoparticles deposited onto CF surface via EPD at 20V for 30 min; suspension concentration 0.125 mg/mL; subsequently thermally annealed at 350°C under nitrogen atmosphere for 6h (rMXene); MXene mass fraction on CF fabric 13 wt%; forms shell on CF core",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 569.6,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test method",
+            "value": "three-point bending (flexural strength), ASTM D790",
+            "unit": "not specified"
+          },
+          {
+            "type": "loading rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity_1": {
+        "value": 64.44,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-thickness (out-of-plane)",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 16292.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement method",
+            "value": "four-probe method",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 34.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement method",
+            "value": "waveguide (VNA)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

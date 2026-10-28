@@ -1,0 +1,336 @@
+[
+  {
+    "sample_id": "Green PVC",
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "Green PVC, in powder form (density 1.37, K value 71, meting point 80 C and glass temperature 87 C), obtained from Tokyo Chemical Industry Co., Ltd",
+        "composition": {
+          "amount": 100,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "GCu8",
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "not specified",
+        "composition": {
+          "amount": 92.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite nanosheets",
+        "description": "Foliated graphite, prepared by sonicating expanded graphite. Thickness: 30-50 nm, average thickness ~40 nm. Diameter is reported inconsistently as 10 nm and 20 mm (likely a typo for 20 µm). High aspect ratio (200-1000).",
+        "composition": {
+          "amount": 7.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanoparticles",
+        "description": "Average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.1,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 22,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "GCu12",
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "not specified",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite nanosheets",
+        "description": "Foliated graphite, prepared by sonicating expanded graphite. Thickness: 30-50 nm, average thickness ~40 nm. Diameter is reported inconsistently as 10 nm and 20 mm (likely a typo for 20 µm). High aspect ratio (200-1000).",
+        "composition": {
+          "amount": 10.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanoparticles",
+        "description": "Average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "GCu16",
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "not specified",
+        "composition": {
+          "amount": 84.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite nanosheets",
+        "description": "Foliated graphite, prepared by sonicating expanded graphite. Thickness: 30-50 nm, average thickness ~40 nm. Diameter is reported inconsistently as 10 nm and 20 mm (likely a typo for 20 µm). High aspect ratio (200-1000).",
+        "composition": {
+          "amount": 14.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanoparticles",
+        "description": "Average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 10.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "GCu20",
+    "matrix_name": [
+      {
+        "name": "Polyvinyl chloride",
+        "description": "not specified",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite nanosheets",
+        "description": "Foliated graphite, prepared by sonicating expanded graphite. Thickness: 30-50 nm, average thickness ~40 nm. Diameter is reported inconsistently as 10 nm and 20 mm (likely a typo for 20 µm). High aspect ratio (200-1000).",
+        "composition": {
+          "amount": 18.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanoparticles",
+        "description": "Average particle size of 20 nm, prepared by ball milling.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 100.0,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 52,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 20,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

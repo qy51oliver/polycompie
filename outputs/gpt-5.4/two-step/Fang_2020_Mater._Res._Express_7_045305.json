@@ -1,0 +1,76 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polycarbonate",
+        "description": "Makrolon 2407 model from Covestro; thermoplastic matrix",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber",
+        "description": "T700 series carbon fiber; continuous unidirectional laminate reinforcement",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "sample_state",
+            "value": "before sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 28,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "after sand erosion",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 11.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "sample_state",
+            "value": "decrease after 2 min erosion",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

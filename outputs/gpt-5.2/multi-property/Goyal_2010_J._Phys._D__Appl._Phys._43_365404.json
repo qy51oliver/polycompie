@@ -1,0 +1,478 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "Commercial PPS powder (Aldrich; Mn ~10000; CAS 25212-74-2).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG powder; untreated; dispersed via ethanol solvent suspension + ultrasonication, then hot pressed.",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.47e-16,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 3.25,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 0.005,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 0.6 vol% reported for 1 wt% EG.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.53e-15,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 6.43,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 0.014,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 98.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 0.9 vol% reported for 1.5 wt% EG.",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 6.4e-05,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 686,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 4.2,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 98.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 1.21 vol% reported for 2 wt% EG.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.011,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 3216,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 6.6,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 1.82 vol% reported for 3 wt% EG.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0166,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 5385,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 8.2,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 3.06 vol% reported for 5 wt% EG.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.022,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 120000.0,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 53,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(phenylene sulfide)",
+        "description": "PPS matrix.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "expanded graphite",
+        "description": "EG nanofiller; equivalent 6.25 vol% reported for 10 wt% EG.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.045,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "dielectric_constant_1mhz": {
+        "value": 820000.0,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      },
+      "dissipation_factor_1mhz": {
+        "value": 76,
+        "unit": "dimensionless",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "temperature",
+            "value": 30,
+            "unit": "C"
+          }
+        ]
+      }
+    }
+  }
+]

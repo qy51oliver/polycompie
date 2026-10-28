@@ -1,0 +1,974 @@
+[
+  {
+    "sample_id": "S(4:6)-8B6C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 54.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 32.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 35.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.8,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 38.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 800.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 5.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(4:6)-16B6C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 54.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 24.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 16.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.1,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 32.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 900.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 4.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(5:5)-10B5C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-13,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 41.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.0,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 45.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 950.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 6.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(5:5)-20B5C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.37,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 38.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1000.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 5.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(6:4)-12B4C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 36.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 48.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.1,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 54.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1112.9,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 7.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(6:4)-24B4C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Brick phase component of a porous impregnated-segregated structure, formed into porous microspheres with CNTs",
+        "composition": {
+          "amount": 36.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Mud phase component of a porous impregnated-segregated structure, blended with BN",
+        "composition": {
+          "amount": 36.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Dispersed in PBS to form the insulating/thermally conductive 'mud' phase",
+        "composition": {
+          "amount": 24.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Dispersed in PLA to form the conductive 'brick' phase",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.3,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 42.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1150.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 7.1,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Pure PLA",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Neat polymer",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-16,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.2,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 60.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 1200.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 2.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Pure PBS",
+    "matrix_name": [
+      {
+        "name": "Polybutylene succinate",
+        "description": "Neat polymer",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-16,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.2,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 35.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": 400.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 4.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(5:5)-10B5C-C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-13,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 16.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.9,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 3.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "S(5:5)-20B5C-C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Component of a simple segregated structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 11.39,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.2,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 2.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "R(5:5)-10B5C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.001,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 18.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.6,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 8.0,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "R(5:5)-20B5C",
+    "matrix_name": [
+      {
+        "name": "Polylactic acid",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Polybutylene succinate",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Boron nitride",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "Component of a randomly dispersed structure",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0001,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.8,
+        "unit": "W/mK",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 6.5,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  }
+]

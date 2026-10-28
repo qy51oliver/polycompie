@@ -1,0 +1,254 @@
+[
+     {
+        "sample_id": "Epoxy",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 0.19, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "G",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 97.69, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 2.31, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 0.48, "unit": "W*m^-1*K^-1"},
+            "electrical_conductivity": {"value": 28.65, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 29.82, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "transmission_coefficient": {"value": 1.1e-3, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "skin_depth": {"value": 103.26, "unit": " μm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "GG",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 97.08, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 2.30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "vertical edge-rich graphene",
+                "description": "not specified",
+                "composition": {"amount": 0.62, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 1.92, "unit": "W*m^-1*K^-1"},
+            "electrical_conductivity": {"value": 67.33, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 45.85, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "GT",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 97.01, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 2.31, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 0.68, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 2.01, "unit": "W*m^-1*K^-1"},
+            "electrical_conductivity": {"value": 73.25, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 47.37, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "GTG",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 96.45, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 2.30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 0.67, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "vertical edge-rich graphene",
+                "description": "not specified",
+                "composition": {"amount": 0.58, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 2.46, "unit": "W*m^-1*K^-1"},
+            "electrical_conductivity": {"value": 81.88, "unit": "S*m^-1"},
+            "shielding_effectiveness": {"value": 56.65, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "transmission_coefficient": {"value": 2.5e-6, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "skin_depth": {"value": 61.41, "unit": " μm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 56.65, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Ag-CF/EP",
+        "matrix_name": [
+        		{
+                "name": "epoxy",
+                "description": "not specified",
+                "composition": {"amount": 95.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon fiber",
+                "description": "not specified",
+                "composition": {"amount": 4.5, "type": "wt%"},
+                "surface_treatment": "silver"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "thermal_conductivity": {"value": 2.33, "unit": "W*m^-1*K^-1"},
+            "specific_shielding_effectiveness": {"value": 15.20, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "CNT/TPU",
+        "matrix_name": [
+        		{
+                "name": "thermoplastic polyurethane",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "thermal_conductivity": {"value": 0.51, "unit": "W*m^-1*K^-1"},
+            "specific_shielding_effectiveness": {"value": 53.13, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "EG/CNTs/MXD6",
+        "matrix_name": [
+        		{
+                "name": "poly(m-xylylene adipamide)",
+                "description": "not specified",
+                "composition": {"amount": 82, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "expanded Graphite",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "thermal_conductivity": {"value": 2.06, "unit": "W*m^-1*K^-1"}
+        }
+    },
+     {
+        "sample_id": "Ni0.7Zn0.3Fe2O4-PANI ",
+        "matrix_name": [
+        		{
+                "name": "Polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Ni0.7Zn0.3Fe2O4",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 60, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

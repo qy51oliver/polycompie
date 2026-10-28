@@ -1,0 +1,601 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Pristine TPU (65E85); sample code TPU/0P/0T.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 21.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 62,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 764,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (65E85) matrix; sample code TPU/15P/0T.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP).",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 29.6,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "UL-94 rating",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 32,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 248,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (65E85) matrix; sample code TPU/14P/1T.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP).",
+        "composition": {
+          "amount": 14.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid).",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 36,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 228,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (65E85) matrix; sample code TPU/13P/2T.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP).",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid).",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 31.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 41,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 247,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "TPU (65E85) matrix; sample code TPU/11P/4T.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP).",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid).",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 29.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 35,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 235,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Hierarchical TPU film with rGO core; sample code TPU/0P/0T/rGO.",
+        "composition": {
+          "amount": 98.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film core layer; measured loading reported for TPU/0P/0T/rGO.",
+        "composition": {
+          "amount": 1.33,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 18.77,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Hierarchical TPU shell/core film; sample code TPU/14P/1T/rGO.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 14.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film core layer in the hierarchical structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Hierarchical TPU shell/core film; sample code TPU/13P/2T/rGO.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 13.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film core layer in the hierarchical structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.76,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Hierarchical TPU shell/core film; sample code TPU/11P/4T/rGO.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Piperazine-modified ammonium polyphosphate (PA-APP); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "titanium carbide",
+        "description": "Ti3C2Tx nanosheets decorated with salicylaldehyde-modified chitosan (Ti3C2Tx-SCS nanohybrid); loading given by sample code for the TPU shell composition.",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO film core layer in the hierarchical structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

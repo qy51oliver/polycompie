@@ -1,0 +1,461 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 78.2,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "crosslinking state",
+            "value": "chemically crosslinked",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP, coated with PPy via vapor phase polymerization for 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coated on EVA foam via vapor phase polymerization (VPP) with reaction time of 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 3.78,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP, coated with PPy via VPP for 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coated on EVA foam via vapor phase polymerization (VPP) with reaction time of 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanoparticles",
+        "description": "AgNPs grown on PPy-coated EVA foam via electroless silver plating using AgNO3 concentration of 5 mg/mL; AgNPs loading 19.69 wt%",
+        "composition": {
+          "amount": 19.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "sample label",
+            "value": "E12P1A5",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP, coated with PPy via VPP for 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coated on EVA foam via vapor phase polymerization (VPP) with reaction time of 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanoparticles",
+        "description": "AgNPs grown on PPy-coated EVA foam via electroless silver plating using AgNO3 concentration of 10 mg/mL; AgNPs loading 32.54 wt%",
+        "composition": {
+          "amount": 32.54,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_uncompressed": {
+        "value": 61.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_30pct": {
+        "value": 38.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive strain",
+            "value": 30,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_50pct": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_after_cycling": {
+        "value": 53.72,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after compression-releasing cycles",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP, coated with PPy via VPP for 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polypyrrole",
+        "description": "PPy coated on EVA foam via vapor phase polymerization (VPP) with reaction time of 1 h",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver nanoparticles",
+        "description": "AgNPs grown on PPy-coated EVA foam via electroless silver plating using AgNO3 concentration of 20 mg/mL; AgNPs loading 51.95 wt%; highest electrical conductivity among EPA foams; heating temperature of 81.1 °C at 1 V",
+        "composition": {
+          "amount": 51.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 107.45,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "compressive strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "ethylene-vinyl acetate copolymer",
+        "description": "EVA foam with VA content of 18 wt%, prepared by sacrificial template method with NaCl:EVA mass ratio of 1:12, chemically crosslinked with DCP; no PPy layer, AgNPs deposited directly on EVA foam via electroless Ag plating using AgNO3 concentration of 20 mg/mL",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver nanoparticles",
+        "description": "AgNPs deposited directly on EVA foam without PPy layer via electroless Ag plating using AgNO3 concentration of 20 mg/mL; non-uniform distribution due to absence of PPy",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_initial": {
+        "value": 38.73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "before compression-releasing cycles",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_after_cycling": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency lower bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency upper bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post-treatment state",
+            "value": "after compression-releasing cycles",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

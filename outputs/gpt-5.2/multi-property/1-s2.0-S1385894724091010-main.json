@@ -1,0 +1,351 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased dynamic polyimine film formulation denoted BQP-10Si (polyimine network containing short siloxane chains via BTD; 6FAPB:TPE-Q molar ratio 1:1; '10Si' indicates BTD molar ratio is 10% of total diamine moles).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat polymer film (no filler).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 72.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 12.29,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 96.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA tan(delta) peak temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2330.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 35,
+            "unit": "°C"
+          },
+          {
+            "type": "DMA metric",
+            "value": "storage modulus (E')",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 157.3,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "MCC (microcalorimeter)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature_threshold",
+            "value": 350,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased dynamic polyimine matrix denoted BS (based on BQP-10Si) used for BS/GF composites.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned by sonication in water/ethanol and thermally oxidized in air at 420 °C for 10 h prior to composite fabrication.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 9.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "SEr (reported as total shielding effectiveness in text for this sample)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 29.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.103,
+        "unit": "W/m-K",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 130.0,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "MCC (microcalorimeter)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature_threshold",
+            "value": 350,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased dynamic polyimine matrix denoted BS (based on BQP-10Si) used for BS/GF composites.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned by sonication in water/ethanol and thermally oxidized in air at 420 °C for 10 h prior to composite fabrication.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 129.0,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "MCC (microcalorimeter)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature_threshold",
+            "value": 350,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased dynamic polyimine matrix denoted BS (based on BQP-10Si) used for BS/GF composites.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned by sonication in water/ethanol and thermally oxidized in air at 420 °C for 10 h prior to composite fabrication.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 110.8,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "MCC (microcalorimeter)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature_threshold",
+            "value": 350,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased dynamic polyimine matrix denoted BS (based on BQP-10Si) used for BS/GF composites.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned by sonication in water/ethanol and thermally oxidized in air at 420 °C for 10 h prior to composite fabrication.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "metric",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 83.3,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "MCC (microcalorimeter)",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature_threshold",
+            "value": 350,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

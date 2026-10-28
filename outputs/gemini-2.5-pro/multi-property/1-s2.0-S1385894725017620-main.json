@@ -1,0 +1,335 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "Pure PEEK resin matrix",
+        "composition": {
+          "amount": 100,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.24,
+        "unit": "W/(m-K)",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "not specified",
+        "composition": {
+          "amount": 96.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Heterogeneous fiber filler (GW&Ni-CF) where carbon fibers are nickel-plated and then coated with a mixture of graphene nanosheets and multi-walled carbon nanotubes using a polybenzoxazine binder.",
+        "composition": {
+          "amount": 3.76,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 20.5,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "not specified",
+        "composition": {
+          "amount": 91.93,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Heterogeneous fiber filler (GW&Ni-CF) where carbon fibers are nickel-plated and then coated with a mixture of graphene nanosheets and multi-walled carbon nanotubes using a polybenzoxazine binder.",
+        "composition": {
+          "amount": 8.07,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "joule_heating_temperature": {
+        "value": 52.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "not specified",
+        "composition": {
+          "amount": 81.02,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Heterogeneous fiber filler (GW&Ni-CF) where carbon fibers are nickel-plated and then coated with a mixture of graphene nanosheets and multi-walled carbon nanotubes using a polybenzoxazine binder.",
+        "composition": {
+          "amount": 18.98,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "joule_heating_temperature": {
+        "value": 167.45,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "not specified",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Prefabricated network-structured composite using heterogeneous fiber filler (GW&Ni-CF) where carbon fibers are nickel-plated and then coated with a mixture of graphene nanosheets and multi-walled carbon nanotubes using a polybenzoxazine binder.",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": 3.25,
+        "unit": "W/(m-K)",
+        "conditions": []
+      },
+      "thermal_conductivity_in_plane": {
+        "value": 11.91,
+        "unit": "W/(m-K)",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 9364,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 252.39,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "not specified",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Random blend of nickel-plated carbon fibers (Ni-CF), graphene nanosheets (GnPs), and multi-walled carbon nanotubes (MWCNTs) in the PEEK matrix.",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1921,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "Used in the form of hybrid particles which themselves contain a 18.98 vol% filler network of Graphene nanosheets, Multi-walled carbon nanotubes, and Nickel-plated Carbon Fibers.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber, Graphene nanosheets, Multi-walled carbon nanotubes",
+        "description": "Optimised prefabricated structured composite, denoted GW&Ni-CF@4 hybrid PEEK. A combination of a primary heterogeneous fiber filler (GW&Ni-CF) and secondary fillers (GnPs, MWCNTs, Ni-CF) contained within the hybrid PEEK matrix particles.",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_through_plane": {
+        "value": 9.66,
+        "unit": "W/(m-K)",
+        "conditions": []
+      },
+      "thermal_conductivity_in_plane": {
+        "value": 18.28,
+        "unit": "W/(m-K)",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 16492,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "joule_heating_temperature": {
+        "value": 285.59,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "voltage",
+            "value": 3,
+            "unit": "V"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Sample label 1CNT-S; solution-mixed, hot-pressed, and supercritical-CO2-foamed PS/MWCNT composite foam with uniform filler dispersion and uniform cell structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Nanocyl 7000 MWCNT; mean diameter 9.5 nm, mean length 1.5 µm, purity 90%; nominal loading 1%; uniformly dispersed by solution mixing.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "1.8e-7 ± 5.2e-8",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Sample label 9CNT-S; solution-mixed, hot-pressed, and supercritical-CO2-foamed PS/MWCNT composite foam with uniform filler dispersion and uniform cell structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Nanocyl 7000 MWCNT; mean diameter 9.5 nm, mean length 1.5 µm, purity 90%; nominal loading 9%; uniformly dispersed by solution mixing.",
+        "composition": {
+          "amount": 9.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "1.0 ± 0.3",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Sample label 1CNT-M-s; mechanically mixed using small PS particles (25-74 µm), hot-pressed, and supercritical-CO2-foamed PS/MWCNT composite foam with segregated conductive network and bimodal cell structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Nanocyl 7000 MWCNT; mean diameter 9.5 nm, mean length 1.5 µm, purity 90%; nominal loading 1%; mechanically mixed so nanotubes coated PS particle surfaces, yielding a segregated network.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "5.9e-4 ± 4.9e-4",
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Sample label 9CNT-M-s; mechanically mixed using small PS particles (25-74 µm), hot-pressed, and supercritical-CO2-foamed PS/MWCNT composite foam with segregated conductive network and bimodal cell structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Nanocyl 7000 MWCNT; mean diameter 9.5 nm, mean length 1.5 µm, purity 90%; nominal loading 9%; mechanically mixed so nanotubes coated PS particle surfaces, yielding a segregated network.",
+        "composition": {
+          "amount": 9.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": "1.3 ± 0.4",
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 10.52,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

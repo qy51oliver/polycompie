@@ -1,0 +1,612 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade B1452 (MFI 8.0 g/10 min, as described in article).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat polypropylene (no filler).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 29.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 1221.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade H5300 (MFI 3.5 g/10 min, as described in article).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat polypropylene (no filler).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 27.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 1006.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade B1452 (MFI 8.0 g/10 min).",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wool",
+        "description": "Short scoured coarse wool fibres; composite formulation 'B1452-wool 30 wt%'.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 17.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 856.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade H5300 (MFI 3.5 g/10 min).",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wool",
+        "description": "Short scoured coarse wool fibres; composite formulation 'H5300-wool 30 wt%'.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 16.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 778.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade B1452 (MFI 8.0 g/10 min).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP Budit 3167; coated intumescent; average particle size 14 µm; formulation 'B1452-APP 20 wt%'.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 20.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 256.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade H5300 (MFI 3.5 g/10 min).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP Budit 3167; coated intumescent; average particle size 14 µm; formulation 'H5300-APP 20 wt%'.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 20.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 296.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade B1452 (MFI 8.0 g/10 min).",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wool",
+        "description": "Short scoured coarse wool fibres.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP Budit 3167; coated intumescent; average particle size 14 µm.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 19.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 227.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Polypropylene",
+        "description": "PP grade H5300 (MFI 3.5 g/10 min).",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Wool",
+        "description": "Short scoured coarse wool fibres.",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ammonium polyphosphate",
+        "description": "APP Budit 3167; coated intumescent; average particle size 14 µm.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "time_to_ignition": {
+        "value": 19.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 232.0,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "external_heat_flux",
+            "value": 50.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "test_method",
+            "value": "ASTM E1354 cone calorimeter",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "ASTM D3801 (UL-94 vertical burn)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,471 @@
+[
+     {
+        "sample_id": "Pure PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 42, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "1% GO/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 30, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "4% GO/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 96, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 32, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "1% GO/TiO2/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "titanium dioxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 44, "unit": "%"},
+            "shielding_effectiveness": {"value": 7.28, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 9.3,"unit": "GHz"},{"type": "frequency upper bound", "value": 9.5,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "4% GO/TiO2/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": " graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": " titanium dioxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 56, "unit": "%"},
+            "shielding_effectiveness": {"value": 3.27, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 6.56, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 9.3,"unit": "GHz"},{"type": "frequency upper bound", "value": 9.5,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "1% rGO/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 38, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "4% rGO/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 96, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 42, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "1% rGO/TiO2/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 98, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "titanium dioxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 51, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "4% rGO/TiO2/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "titanium dioxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "cristallinity": {"value": 33, "unit": "%"},
+            "shielding_effectiveness": {"value": 31.34, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency upper bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 55.80, "unit": "dB/mm","conditions": [{"type": "frequency", "value": 9.9,"unit": "GHz"}]},
+            "absorption": {"value": 82.5, "unit": "%","conditions": [{"type": "frequency", "value": 9.9,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "Fe3O4@3Dporous carbon/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "3D porous carbon",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.30, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 50, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "PVA/AC@rGO",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "reduced graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "activated carbon",
+                "description": "not specified",
+                "composition": {"amount": 9, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.00, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 17.5, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "Gr@MgO/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "MgO",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.0, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 20.6, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "Fe3O4/Gr/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene",
+                "description": "not specified",
+                "composition": {"amount": 0.08, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.20, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 203.5, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "GO/aPAN",
+        "matrix_name": [
+        		{
+                "name": "polyacrylonitrile nanofibers",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "alkali"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.01, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 5500, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "Mxene/graphene@Fe3O4/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene",
+                "description": "not specified",
+                "composition": {"amount": 33, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Fe3O4",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Mxene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1.00, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 36, "unit": "dB/mm","conditions": [{"type": "frequency lower bound", "value": 8,"unit": "GHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "Gr/cellulose/PVA",
+        "matrix_name": [
+        		{
+                "name": "poly(vinyl alcohol)",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "cellulose",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.04, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 658, "unit": "dB/mm","conditions": [{"type": "frequency", "value": 10,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "MWNT/Gr/PANI",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphene",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi- wall carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":0.20, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 260, "unit": "dB/mm","conditions": [{"type": "frequency", "value": 10,"unit": "GHz"}]}
+	}
+    }
+]

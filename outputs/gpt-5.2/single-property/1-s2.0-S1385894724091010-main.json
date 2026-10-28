@@ -1,0 +1,106 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network film (BQP-10Si / BS), prepared from TFMP + (6FAPB:TPE-Q = 1:1) with siloxane diamine BTD at 10% molar ratio of total diamines; used as polymer substrate for BS/GF composites.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned (water/ethanol sonication cycles) and thermally oxidized in air at 420 °C for 10 h before impregnation.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 9.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "SEr",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network film (BQP-10Si / BS), prepared from TFMP + (6FAPB:TPE-Q = 1:1) with siloxane diamine BTD at 10% molar ratio of total diamines; used as polymer substrate for BS/GF composites.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF); cleaned (water/ethanol sonication cycles) and thermally oxidized in air at 420 °C for 10 h before impregnation.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "shielding_metric",
+            "value": "SET",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

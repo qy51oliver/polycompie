@@ -1,0 +1,116 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Thermosetting epoxy matrix in carbon fibre laminate (C/epoxy). Fibre mass fraction reported as 74% (therefore matrix mass fraction 26%).",
+        "composition": {
+          "amount": 26.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "T300 3K carbon fibre, 5-harness satin weave reinforcement.",
+        "composition": {
+          "amount": 74.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": 22.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "mass loss after fire exposure",
+            "unit": "not specified"
+          },
+          {
+            "type": "fire exposure time",
+            "value": 300.0,
+            "unit": "s"
+          },
+          {
+            "type": "incident heat flux",
+            "value": 106.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "flame atmosphere",
+            "value": "non-oxidising (nitrogen co-flow; low oxygen)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyphenylene sulfide",
+        "description": "Thermoplastic PPS matrix in carbon fibre laminate (C/PPS). Fibre mass fraction reported as 58% (therefore matrix mass fraction 42%).",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fibre",
+        "description": "T300 3K carbon fibre, 5-harness satin weave reinforcement.",
+        "composition": {
+          "amount": 58.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": 6.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "metric",
+            "value": "mass loss after fire exposure",
+            "unit": "not specified"
+          },
+          {
+            "type": "fire exposure time",
+            "value": 300.0,
+            "unit": "s"
+          },
+          {
+            "type": "incident heat flux",
+            "value": 106.0,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "flame atmosphere",
+            "value": "non-oxidising (nitrogen co-flow; low oxygen)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

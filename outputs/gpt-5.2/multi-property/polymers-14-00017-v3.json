@@ -1,0 +1,422 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Commercial unreinforced PBT resin (VALOX 310, Sabic), granular form.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unreinforced PBT (0% glass fiber).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 0.15,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "tensile (ISO 527-2, specimen type 1B)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 36.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in PBT/glass fiber composite (prepared by mixing VALOX 310 with VALOX 420).",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers; average diameter 13.8 µm (as provided in VALOX 420-based blend).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in PBT/glass fiber composite (prepared by mixing VALOX 310 with VALOX 420).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers (as provided in VALOX 420-based blend).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in PBT/glass fiber composite (prepared by mixing VALOX 310 with VALOX 420).",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers (as provided in VALOX 420-based blend).",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in PBT/glass fiber composite (prepared by mixing VALOX 310 with VALOX 420).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers (as provided in VALOX 420-based blend).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": 9.2,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "PBT matrix in PBT/glass fiber composite (prepared by mixing VALOX 310 with VALOX 420).",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers (as provided in VALOX 420-based blend).",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "flammability": {
+        "value": 5.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Polybutylene terephthalate",
+        "description": "Commercial 30 wt% GF/PBT (VALOX 420, Sabic), granular form; short glass fiber reinforced.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Glass fiber",
+        "description": "Short glass fibers; average diameter 13.8 µm (reported for used short glass fibers).",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "elongation_at_break": {
+        "value": 0.015,
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "tensile (ISO 527-2, specimen type 1B)",
+            "unit": "not specified"
+          },
+          {
+            "type": "crosshead_speed",
+            "value": 5.0,
+            "unit": "mm/min"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 4.4,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "test_method",
+            "value": "glow wire (IEC 60695-2-13 / IEC 60695-2-11 / IEC 60335-1)",
+            "unit": "not specified"
+          },
+          {
+            "type": "glow_wire_temperature",
+            "value": 850.0,
+            "unit": "C"
+          },
+          {
+            "type": "contact_time",
+            "value": 30.0,
+            "unit": "s"
+          },
+          {
+            "type": "measured_parameter",
+            "value": "flame height",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

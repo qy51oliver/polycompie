@@ -1,0 +1,368 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "Blank ABS insulating polymer, grade no. 120",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler present",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 41.73,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 2.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 5.91,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 90.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 26.6,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 11.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 80.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 20.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.88,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 18.42,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 70.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 30.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 18.59,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 45.19,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 60.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 40.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 17.21,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 45.61,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "acrylonitrile-butadiene-styrene",
+        "description": "ABS matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Conducting polyaniline doped with mixed organic hybrid dopants dodecylbenzene sulfonic acid and p-toluene sulfonic acid; exact dopant ratio for this reported sample not specified",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 14.14,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": ">60",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 101,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

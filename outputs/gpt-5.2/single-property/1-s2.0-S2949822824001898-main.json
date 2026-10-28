@@ -1,0 +1,124 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate (EMA)",
+        "description": "EMA polymer matrix (Elvaloy 1330).",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 decorated on graphitic carbon nitride (Fe3O4-g-C3N4) as part of a 10 wt% hybrid filler; this sample corresponds to 10 wt% Fe3O4-g-C3N4 and 0 wt% MXene (i.e., EX0FG100 implied).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene (Ti3C2Tx)",
+        "description": "MXene flakes; not present in this formulation (0% substitution).",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "ethyl methacrylate (EMA)",
+        "description": "EMA polymer matrix (Elvaloy 1330).",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "MXene (Ti3C2Tx)",
+        "description": "MXene flakes; hybrid filler total loading fixed at 10 wt%. Sample code: EX50FG50 (50 wt% of the hybrid filler is MXene).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(II,III) oxide",
+        "description": "Fe3O4 decorated on graphitic carbon nitride (Fe3O4-g-C3N4); hybrid filler total loading fixed at 10 wt%. Sample code: EX50FG50 (50 wt% of the hybrid filler is Fe3O4-g-C3N4).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

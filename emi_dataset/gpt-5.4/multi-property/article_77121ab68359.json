@@ -1,0 +1,303 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC matrix",
+        "composition": {
+          "amount": 94.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel",
+        "description": "conductive stainless steel fibers (SSF), length 6 mm, diameter 7 μm",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 60,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 10,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 60,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 270,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 70,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 20,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 22.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 60,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 280,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 80,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 30,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 30.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 70,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 70,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 30,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 19.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 70,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 270,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 80,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 10,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 20.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 70,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 280,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 20,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_7": {
+        "value": 25.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 80,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 30,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_8": {
+        "value": 28.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 270,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 60,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 20,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_9": {
+        "value": 18.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 80,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 280,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 70,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 10,
+            "unit": "bar"
+          }
+        ]
+      },
+      "shielding_effectiveness_10": {
+        "value": ">30",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "injection_speed",
+            "value": 60,
+            "unit": "%"
+          },
+          {
+            "type": "melt_temperature",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "type": "mold_temperature",
+            "value": 70,
+            "unit": "°C"
+          },
+          {
+            "type": "packing_pressure",
+            "value": 30,
+            "unit": "bar"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 200,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1600,
+            "unit": "MHz"
+          }
+        ]
+      }
+    }
+  }
+]

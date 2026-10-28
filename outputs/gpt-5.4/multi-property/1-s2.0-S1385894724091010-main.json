@@ -1,0 +1,444 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased BQP-5Si polyimine film containing phosphorus, nitrogen, and short siloxane chains",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 85.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 98.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA tan delta peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2624.15,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 35,
+            "unit": "°C"
+          },
+          {
+            "type": "measurement_method",
+            "value": "DMA storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased BQP-10Si polyimine film containing phosphorus, nitrogen, and short siloxane chains",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 72.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 12.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 96.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA tan delta peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2330.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 35,
+            "unit": "°C"
+          },
+          {
+            "type": "measurement_method",
+            "value": "DMA storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 157.3,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 6.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "description",
+            "value": "extinguishing time after removal from approximately 1100 °C butane torch flame",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased BQP-15Si polyimine film containing phosphorus, nitrogen, and short siloxane chains",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 65.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 14.3,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 94.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA tan delta peak",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1868.2,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 35,
+            "unit": "°C"
+          },
+          {
+            "type": "measurement_method",
+            "value": "DMA storage modulus",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "BS/10GF composite matrix based on BQP-10Si polyimine",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-derived graphite felt, cleaned and thermally oxidized before impregnation",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 29.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.103,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 9.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "description",
+            "value": "total shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 130.0,
+        "unit": "W/g",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "BS/20GF composite matrix based on BQP-10Si polyimine",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-derived graphite felt, cleaned and thermally oxidized before impregnation",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 129.0,
+        "unit": "W/g",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "BS/30GF composite matrix based on BQP-10Si polyimine",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-derived graphite felt, cleaned and thermally oxidized before impregnation",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 110.8,
+        "unit": "W/g",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "BS/50GF composite matrix based on BQP-10Si polyimine",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-derived graphite felt, cleaned and thermally oxidized before impregnation",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "description",
+            "value": "total shielding effectiveness",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 83.3,
+        "unit": "W/g",
+        "conditions": []
+      },
+      "flammability": {
+        "value": 1.1,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "description",
+            "value": "extinguishing time after removal from approximately 1100 °C butane torch flame",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "format_version": 1,
+  "raw_annotations": "59 original files; duplicate-preserving parse; no source-based annotation errata",
+  "studies": 13,
+  "predictions": 767,
+  "original_predictions": 764,
+  "later_saved_predictions": 3,
+  "scoring_configurations": 17,
+  "article_evaluations": 1003,
+  "article_policy": "All 59 articles. Empty predictions contribute false negatives; predictions on reference-negative articles contribute false positives. GT sample filtering and all prediction samples follow the original scoring design.",
+  "reference_positive_articles": {
+    "selected": 56,
+    "emi": 40
+  },
+  "reference_samples": {
+    "selected": 376,
+    "emi": 194
+  },
+  "reference_measurements": {
+    "selected": 881,
+    "emi": 245
+  },
+  "prediction_property_mapping_count": 51,
+  "excluded_property_mapping_count": 18,
+  "material_article_pair_decisions": 9340,
+  "material_decision_provenance_counts": {
+    "archived_llm": 4288,
+    "previous_assistant_review": 5032,
+    "additional_assistant_review": 20,
+    "normalized_exact_fallback": 0
+  },
+  "additional_assistant_review": {
+    "source": "assistant_review_of_explicit_material_names_20261104",
+    "true": 4,
+    "false": 16
+  },
+  "material_provenance_note": "These are recorded LLM and explicitly labeled assistant decisions, not all cached GPT-4o judgments or human adjudications. Source-document hashes and row indices identify the preserved review evidence.",
+  "deterministic_ineligible_edges": {
+    "article_pair_records": 645,
+    "configuration_uses": 1526,
+    "article_configuration_invariance_checks": 195,
+    "policy": "Placeholder or amount-ineligible filler comparisons; no material identity judgment is inferred. Replay flips shortcut flags and checks identical assignments and counts."
+  },
+  "later_saved_prediction_provenance": [
+    {
+      "article": "c7ra06691k",
+      "model": "claude-sonnet-4.6",
+      "original_log": "historical_archive/data/experiments/c7ra06691k/phase2/claude-sonnet-4.6/log.json",
+      "input": "historical_archive/data/annotated_wo_figs/c7ra06691k/outputs/cleaned/c7ra06691k.md",
+      "input_sha256": "206b8b380270b092d982f8ef4fe5dcad3670a1fe6a843acfee51623fbc238db5",
+      "config": {
+        "model_string": "anthropic/claude-sonnet-4.6",
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "max_retries": 2
+      },
+      "later_run": {
+        "output": "data/experiments/c7ra06691k/phase2/claude-sonnet-4.6/output.json",
+        "output_sha256": "1634653fe8fbf818022292c7007be2c69f9430e4fbc829ae703558754f37cb83",
+        "log": "data/experiments/c7ra06691k/phase2/claude-sonnet-4.6/log.json",
+        "timestamp": "2026-05-30T19:01:04.329899",
+        "config": {
+          "model_string": "claude-sonnet-4-6",
+          "temperature": 0.0,
+          "reasoning_effort": null,
+          "seed": null,
+          "max_output_tokens": 16384,
+          "max_retries": 2
+        },
+        "identical_cleaned_input": true,
+        "sample_count": 10,
+        "property_count": 16,
+        "provider": "Anthropic API"
+      },
+      "released_prediction": "outputs/claude-sonnet-4.6/multi-property/c7ra06691k.json",
+      "original_provider": "OpenRouter"
+    },
+    {
+      "article": "1-s2.0-S0032386124012278-main",
+      "model": "gemini-2.5-pro",
+      "original_log": "historical_archive/data/experiments/1-s2.0-S0032386124012278-main/phase2/gemini-2.5-pro/log.json",
+      "input": "historical_archive/data/annotated_wo_figs/1-s2.0-S0032386124012278-main/outputs/cleaned/1-s2.0-S0032386124012278-main.md",
+      "input_sha256": "e8fcc49596f9b6dd78f14f2edb5b9d6f77731531dd16f25b0d46fede396d1905",
+      "config": {
+        "model_string": "google/gemini-2.5-pro",
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "max_retries": 2
+      },
+      "later_run": {
+        "output": "data/experiments/1-s2.0-S0032386124012278-main/phase2/gemini-2.5-pro/output.json",
+        "output_sha256": "dc113d677c5cd959ce98380cd60d6f89130c30bf751a80ce3fb66a91fc9e4e01",
+        "log": "data/experiments/1-s2.0-S0032386124012278-main/phase2/gemini-2.5-pro/log.json",
+        "timestamp": "2026-05-30T18:50:20.449035",
+        "config": {
+          "model_string": "gemini-2.5-pro",
+          "temperature": 0.0,
+          "reasoning_effort": null,
+          "seed": null,
+          "max_output_tokens": 32768,
+          "max_retries": 2
+        },
+        "identical_cleaned_input": true,
+        "sample_count": 12,
+        "property_count": 62,
+        "provider": "Google API"
+      },
+      "released_prediction": "outputs/gemini-2.5-pro/multi-property/1-s2.0-S0032386124012278-main.json",
+      "original_provider": "OpenRouter"
+    },
+    {
+      "article": "PBT POSS FR",
+      "model": "gemini-2.5-pro",
+      "original_log": "historical_archive/data/experiments/PBT POSS FR/phase2/gemini-2.5-pro/log.json",
+      "input": "historical_archive/data/annotated_wo_figs/PBT POSS FR/outputs/cleaned/PBT POSS FR.md",
+      "input_sha256": "28985f11fc4ddff38f4d6f0586720bb8021d0c4b2b6b163609bcf5d24bd44f8f",
+      "config": {
+        "model_string": "google/gemini-2.5-pro",
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "max_retries": 2
+      },
+      "later_run": {
+        "output": "data/experiments/PBT POSS FR/phase2/gemini-2.5-pro/output.json",
+        "output_sha256": "7ce359d609972393d04769ed1038cee828c0572a35e4484712b911e33417aa50",
+        "log": "data/experiments/PBT POSS FR/phase2/gemini-2.5-pro/log.json",
+        "timestamp": "2026-05-30T18:55:28.172305",
+        "config": {
+          "model_string": "gemini-2.5-pro",
+          "temperature": 0.0,
+          "reasoning_effort": null,
+          "seed": null,
+          "max_output_tokens": 32768,
+          "max_retries": 2
+        },
+        "identical_cleaned_input": true,
+        "sample_count": 22,
+        "property_count": 70,
+        "provider": "Google API"
+      },
+      "released_prediction": "outputs/gemini-2.5-pro/multi-property/PBT POSS FR.json",
+      "original_provider": "OpenRouter"
+    }
+  ],
+  "retry_prompt_file_comparison": {
+    "scope": "Config files present at the paths recorded by the runs. The logs contain neither the sent prompt nor its digest.",
+    "march_tree": {
+      "path": "historical_archive/src/polm_ie/extraction/prompts/prompts.yaml",
+      "template_sha256": "55e6546d9f8061e8a2e1fcd9562061e9f83e4f192ce237dd18c9794df0588c6c",
+      "property_order": [
+        "shielding_effectiveness",
+        "electrical_conductivity",
+        "time_to_ignition",
+        "limiting_oxygen_index",
+        "flammability",
+        "thermal_conductivity",
+        "elongation_at_break",
+        "tensile_strength",
+        "peak_heat_release_rate",
+        "melting_temperature",
+        "glass_transition_temperature",
+        "impact_strength",
+        "youngs_modulus"
+      ],
+      "configured_prompt_sha256": "56399d9c45efeed9fb5e4d509940fcf03946d17f7c3ba6e63cc6c5e7de6c45b6"
+    },
+    "may_tree": {
+      "path": "src/polycompie/extraction/prompts/prompts.yaml",
+      "template_sha256": "55e6546d9f8061e8a2e1fcd9562061e9f83e4f192ce237dd18c9794df0588c6c",
+      "property_order": [
+        "shielding_effectiveness",
+        "electrical_conductivity",
+        "thermal_conductivity",
+        "peak_heat_release_rate",
+        "time_to_ignition",
+        "melting_temperature",
+        "elongation_at_break",
+        "flammability",
+        "limiting_oxygen_index",
+        "tensile_strength",
+        "impact_strength",
+        "glass_transition_temperature",
+        "youngs_modulus"
+      ],
+      "configured_prompt_sha256": "55f053e65dc2ca1556b5c6d7ae6a719a4b8d04df6de32326ba1b4578cead85bc"
+    }
+  },
+  "chain_of_verification_initialization": {
+    "shared_initial_articles": 58,
+    "total_articles": 59,
+    "different_initial": {
+      "1-s2.0-S1359836818325289-main (1)": {
+        "E": {
+          "samples": 7,
+          "properties": 24
+        },
+        "A": {
+          "samples": 8,
+          "properties": 26
+        },
+        "B": {
+          "samples": 8,
+          "properties": 26
+        },
+        "D": {
+          "samples": 8,
+          "properties": 26
+        }
+      }
+    },
+    "caution": "Full refinement used a different initial extraction for one article, so differences are not exclusively attributable to refinement."
+  },
+  "tested_environment": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "private_preservation": {
+    "source": "private review archive; not required for replay",
+    "original_outputs_and_results_zip_sha256": "f271301c2109ef942a882e00c639628c3bb35f2be69bad6b048ba9cef50ac3a4",
+    "full_judgment_provenance_zip_sha256": "8301526f896b2ce0b774410346613d12f85bef2cd02693611efc7e617f8ca77f"
+  }
+}

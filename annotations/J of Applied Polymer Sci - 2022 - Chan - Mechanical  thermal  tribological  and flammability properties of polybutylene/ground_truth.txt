@@ -1,0 +1,183 @@
+[
+     {
+        "sample_id": "PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not sepcified",
+                "composition": {"amount": 0.0, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 52.6, "unit": "J/m"},
+            "friction coefficient": {"value": 0.624, "unit": "not specified"},
+            "time to ignition": {"value": 53, "unit": "s"},
+            "time to peak of heat release rate": {"value": 162, "unit": "s"},
+            "peak of heat release rate": {"value": 572, "unit": "kW/m^2"},
+            "fire growth rate": {"value": 3.5300, "unit": "kW/m^2*s"},
+            "fire performance index": {"value": 0.0927, "unit": "m^2*s/kW"},
+            "peak of smoke release rate": {"value": 0.1249, "unit": "m^2/s"},
+            "peak of carbon dioxide production": {"value": 0.4672, "unit": "g/s"},
+            "peak of carbon monoxide production": {"value": 0.0107, "unit": "g/s"},
+            "tensile toughness":{"value": 68, "unit": "MJ/m^3"},
+            "melting temperature": {"value": 224.3, "unit": "°C"},
+            "enthalpy of melting": {"value": 49.3, "unit": "J/g"},
+            "crystalline fraction": {"value": 35.2, "unit": "%"},
+            "onset crystallization temperature": {"value": 203.4, "unit": "°C"},
+            "crystallization temperature": {"value": 196.1, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 49.3, "unit": "J/g"},
+            "onset temperature": {"value": 372.5, "unit": "°C"},
+            "endset temperature": {"value": 411.7, "unit": "°C"},
+            "degradation temperature 1": {"value": 377.0, "unit": "°C", "conditions": [{"type": "mass loss", "value": "20","unit": "%"}]},
+            "degradation temperature 2": {"value": 392.0, "unit": "°C", "conditions": [{"type": "mass loss", "value": "50","unit": "%"}]},
+            "maximum degradation rate": {"value": 395.2, "unit": "°C"},
+            "residue weight": {"value": 2.20, "unit": "wt%", "conditions": [{"type": "temperature", "value": "600","unit": "°C"}]}
+	}
+    },
+     {
+        "sample_id": "PBT/NW 1.0",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "natural wollastonite",
+                "description": "reinforcement filler",
+                "composition": {"amount": 1.0, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 47.0, "unit": "J/m"},
+            "friction coefficient": {"value": 0.599, "unit": "not specified"},
+            "time to ignition": {"value": 44, "unit": "s"},
+            "time to peak of heat release rate": {"value": 155, "unit": "s"},
+            "peak of heat release rate": {"value": 474, "unit": "kW/m^2"},
+            "fire growth rate": {"value": 3.0573, "unit": "kW/m^2*s"},
+            "fire performance index": {"value": 0.0929, "unit": "m^2*s/kW"},
+            "peak of smoke release rate": {"value": 0.1094, "unit": "m^2/s"},
+            "peak of carbon dioxide production": {"value": 0.3779, "unit": "g/s"},
+            "peak of carbon monoxide production": {"value": 0.0082, "unit": "g/s"},
+            "elongation at break":{"value": "149.6", "unit": "%",},
+            "tensile toughness":{"value": 51.4, "unit": "MJ/m^3"},
+            "melting temperature": {"value": 225.0, "unit": "°C"},
+            "enthalpy of melting": {"value": 49.2, "unit": "J/g"},
+            "crystalline fraction": {"value": 35.5, "unit": "%"},
+            "onset crystallization temperature": {"value": 206.2, "unit": "°C"},
+            "crystallization temperature": {"value": 198.5, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 54.8, "unit": "J/g"},
+            "onset temperature": {"value": 373.6, "unit": "°C"},
+            "endset temperature": {"value": 415.2, "unit": "°C"},
+            "degradation temperature 1": {"value": 381.8, "unit": "°C", "conditions": [{"type": "mass loss", "value": "20","unit": "%"}]},
+            "degradation temperature 2": {"value": 396.9, "unit": "°C", "conditions": [{"type": "mass loss", "value": "50","unit": "%"}]},
+            "maximum degradation rate": {"value": 399.5, "unit": "°C"},
+            "residue weight": {"value": 3.89, "unit": "wt%", "conditions": [{"type": "temperature", "value": "600","unit": "°C"}]}
+	}
+    },
+     {
+        "sample_id": "PBT/SWN 1.0",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "wollastonite nanofibers",
+                "description": "reinforcement filler",
+                "composition": {"amount": 1.0, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 47.9, "unit": "J/m"},
+            "friction coefficient": {"value": 0.554, "unit": "not specified"},
+            "time to ignition": {"value": 50, "unit": "s"},
+            "time to peak of heat release rate": {"value": 155, "unit": "s"},
+            "peak of heat release rate": {"value": 495, "unit": "kW/m^2"},
+            "fire growth rate": {"value": 3.1921, "unit": "kW/m^2*s"},
+            "fire performance index": {"value": 0.1011, "unit": "m^2*s/kW"},
+            "peak of smoke release rate": {"value": 0.1236, "unit": "m^2/s"},
+            "peak of carbon dioxide production": {"value": 0.4024, "unit": "g/s"},
+            "peak of carbon monoxide production": {"value": 0.0089, "unit": "g/s"},
+            "tensile toughness":{"value": 7.6, "unit": "MJ/m^3"},
+            "melting temperature": {"value": 226.5, "unit": "°C"},
+            "enthalpy of melting": {"value": 50.5, "unit": "J/g"},
+            "crystalline fraction": {"value": 36.4, "unit": "%"},
+            "onset crystallization temperature": {"value": 207.8, "unit": "°C"},
+            "crystallization temperature": {"value": 198.8, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 53.6, "unit": "J/g"},
+            "onset temperature": {"value": 384.0, "unit": "°C"},
+            "endset temperature": {"value": 423.0, "unit": "°C"},
+            "degradation temperature 1": {"value": 393.0, "unit": "°C", "conditions": [{"type": "mass loss", "value": "20","unit": "%"}]},
+            "degradation temperature 2": {"value": 406.0, "unit": "°C", "conditions": [{"type": "mass loss", "value": "50","unit": "%"}]},
+            "maximum degradation rate": {"value": 409.0, "unit": "°C"},
+            "residue weight": {"value": 3.92, "unit": "wt%", "conditions": [{"type": "temperature", "value": "600","unit": "°C"}]}
+	}
+    },
+     {
+        "sample_id": "PBT/GO 1.0",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "fillers":[
+        		{
+                "name": "graphene oxide",
+                "description": "reinforcement filler",
+                "composition": {"amount": 1.0, "type": "phr"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "properties": {
+            "impact strength": {"value": 45.2, "unit": "J/m"},
+            "friction coefficient": {"value": 0.461, "unit": "not specified"},
+            "time to ignition": {"value": 42, "unit": "s"},
+            "time to peak of heat release rate": {"value": 147, "unit": "s"},
+            "peak of heat release rate": {"value": 509, "unit": "kW/m^2"},
+            "fire growth rate": {"value": 3.4611, "unit": "kW/m^2*s"},
+            "fire performance index": {"value": 0.0826, "unit": "m^2*s/kW"},
+            "peak of smoke release rate": {"value": 0.1104, "unit": "m^2/s"},
+            "peak of carbon dioxide production": {"value": 0.3907, "unit": "g/s"},
+            "peak of carbon monoxide production": {"value": 0.0078, "unit": "g/s"},
+            "tensile toughness":{"value": 6.0, "unit": "MJ/m^3"},
+            "melting temperature": {"value": 224.8, "unit": "°C"},
+            "enthalpy of melting": {"value": 49.2, "unit": "J/g"},
+            "crystalline fraction": {"value": 35.5, "unit": "%"},
+            "onset crystallization temperature": {"value": 209.8, "unit": "°C"},
+            "crystallization temperature": {"value": 199.7, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 54.8, "unit": "J/g"},
+            "onset temperature": {"value": 383.7, "unit": "°C"},
+            "endset temperature": {"value": 422.7, "unit": "°C"},
+            "degradation temperature 1": {"value": 390.7, "unit": "°C", "conditions": [{"type": "mass loss", "value": "20","unit": "%"}]},
+            "degradation temperature 2": {"value": 403.7, "unit": "°C", "conditions": [{"type": "mass loss", "value": "50","unit": "%"}]},
+            "maximum degradation rate": {"value": 404.7, "unit": "°C"},
+            "residue weight": {"value": 1.67, "unit": "wt%", "conditions": [{"type": "temperature", "value": "600","unit": "°C"}]}
+	}
+    }
+]

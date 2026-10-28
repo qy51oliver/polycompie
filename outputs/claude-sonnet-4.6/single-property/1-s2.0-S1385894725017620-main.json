@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, used as received, thermally compression-moulded at 380°C",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets",
+        "description": "GnPs, randomly dispersed in PEEK matrix along with MWCNTs and Ni-CF; part of random blend GnPs/MWCNTs/Ni-CF/PEEK composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "MWCNTs, randomly dispersed in PEEK matrix along with GnPs and Ni-CF; part of random blend GnPs/MWCNTs/Ni-CF/PEEK composite",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel-plated carbon fibres",
+        "description": "Ni-CF, carbon fibres electroplated with nickel, randomly dispersed in PEEK matrix; part of random blend GnPs/MWCNTs/Ni-CF/PEEK composite; total filler volume fraction 34.15%",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "total_filler_volume_fraction",
+            "value": 34.15,
+            "unit": "vol%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 98.19,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 1.81 vol%",
+        "composition": {
+          "amount": 1.81,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 96.2,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 3.80 vol%",
+        "composition": {
+          "amount": 3.8,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 86.91,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 13.09 vol%",
+        "composition": {
+          "amount": 13.09,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 81.02,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 18.98 vol%",
+        "composition": {
+          "amount": 18.98,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 73.24,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 26.76 vol%",
+        "composition": {
+          "amount": 26.76,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK powder, thermally compression-moulded at 380°C; forms prefabricated network-structured composite with GW&Ni-CF heterogeneous fibre filler",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF: nickel-plated carbon fibres with GnPs and MWCNTs deposited on surface via PBZ binder, forming scaly three-core-shell structure; prefabricated network structure; filler volume fraction 34.15 vol%",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles (GW&Ni-CF@1): PEEK matrix containing internal cooperative conductive network of GnPs, MWCNTs, and Ni-CF prepared via non-solvent-induced phase separation; filler content in hybrid particles 3.76 vol%; combined with GW&Ni-CF heterogeneous fibre filler to total 34.15 vol% filler",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; combined with hybrid PEEK particles; total filler content 34.15 vol%; GW&Ni-CF@1 hybrid PEEK composite",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles (GW&Ni-CF@2): PEEK matrix containing internal cooperative conductive network of GnPs, MWCNTs, and Ni-CF prepared via non-solvent-induced phase separation; filler content in hybrid particles 8.07 vol%; combined with GW&Ni-CF heterogeneous fibre filler to total 34.15 vol% filler",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; combined with hybrid PEEK particles; total filler content 34.15 vol%; GW&Ni-CF@2 hybrid PEEK composite",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles (GW&Ni-CF@3): PEEK matrix containing internal cooperative conductive network of GnPs, MWCNTs, and Ni-CF prepared via non-solvent-induced phase separation; filler content in hybrid particles 13.09 vol%; combined with GW&Ni-CF heterogeneous fibre filler to total 34.15 vol% filler",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; combined with hybrid PEEK particles; total filler content 34.15 vol%; GW&Ni-CF@3 hybrid PEEK composite",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Hybrid PEEK particles (GW&Ni-CF@4): PEEK matrix containing internal cooperative conductive network of GnPs, MWCNTs, and Ni-CF prepared via non-solvent-induced phase separation; filler content in hybrid particles 18.98 vol%; combined with GW&Ni-CF heterogeneous fibre filler to total 34.15 vol% filler; optimised prefabricated structured composite",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre",
+        "description": "GW&Ni-CF heterogeneous fibre filler forming external macroscopic framework; combined with hybrid PEEK particles at highest internal filler loading (18.98 vol% in particles); total filler content 34.15 vol%; GW&Ni-CF@4 hybrid PEEK composite; achieved ultra-high conductivity of 16,492 S/m",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

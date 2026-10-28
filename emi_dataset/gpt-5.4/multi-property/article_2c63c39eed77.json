@@ -1,0 +1,380 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyacrylonitrile",
+        "description": "Nonconductive base polymer (PAN) in the electrospun dual-polymer thin film; other component loadings were reported relative to PAN.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Conductive polymer (PANI), emeraldine base form; loading reported relative to PAN.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "(1S)-(+)-10-camphorsulfonic acid",
+        "description": "HCSA doping acid used to enhance conductivity; loading reported relative to PAN.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "xGnP graphene nanoplatelets; layer thickness about 15 nm and diameter about 25 μm; loading reported relative to PAN.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron oxide quantum dots",
+        "description": "FeQDs supplied as a suspension in anhydrous chloroform; loading reported relative to PAN.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 50,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 350000,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "four-point probe",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": "30-35",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 250,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1000,
+            "unit": "MHz"
+          },
+          {
+            "type": "field_type",
+            "value": "magnetic",
+            "unit": "not specified"
+          },
+          {
+            "type": "method",
+            "value": "measured",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": "40-45",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 0,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "field_type",
+            "value": "magnetic",
+            "unit": "not specified"
+          },
+          {
+            "type": "method",
+            "value": "measured",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": "40-50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 0,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 1,
+            "unit": "MHz"
+          },
+          {
+            "type": "field_type",
+            "value": "magnetic",
+            "unit": "not specified"
+          },
+          {
+            "type": "method",
+            "value": "computational model",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyacrylonitrile",
+        "description": "Nonconductive base polymer (PAN) in the electrospun dual-polymer thin film; other component loadings were reported relative to PAN.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Conductive polymer (PANI), emeraldine base form; loading reported relative to PAN.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "(1S)-(+)-10-camphorsulfonic acid",
+        "description": "HCSA doping acid used to enhance conductivity; loading reported relative to PAN.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "xGnP graphene nanoplatelets; layer thickness about 15 nm and diameter about 25 μm; loading reported relative to PAN.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron oxide quantum dots",
+        "description": "FeQDs supplied as a suspension in anhydrous chloroform; loading reported relative to PAN.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 90,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 170,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "method",
+            "value": "computational model",
+            "unit": "not specified"
+          },
+          {
+            "type": "measurement_configuration",
+            "value": "waveguide",
+            "unit": "not specified"
+          },
+          {
+            "type": "field_regime",
+            "value": "near-field",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": "65-90",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 100,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "method",
+            "value": "computational model",
+            "unit": "not specified"
+          },
+          {
+            "type": "field_regime",
+            "value": "far-field",
+            "unit": "not specified"
+          },
+          {
+            "type": "excitation",
+            "value": "plane wave",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 100,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "method",
+            "value": "3D HFSS simulation",
+            "unit": "not specified"
+          },
+          {
+            "type": "field_regime",
+            "value": "far-field",
+            "unit": "not specified"
+          },
+          {
+            "type": "excitation",
+            "value": "plane wave",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyacrylonitrile",
+        "description": "Nonconductive base polymer (PAN) in the electrospun dual-polymer thin film; other component loadings were reported relative to PAN.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Conductive polymer (PANI), emeraldine base form; loading reported relative to PAN.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "(1S)-(+)-10-camphorsulfonic acid",
+        "description": "HCSA doping acid used to enhance conductivity; loading reported relative to PAN.",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "xGnP graphene nanoplatelets; layer thickness about 15 nm and diameter about 25 μm; loading reported relative to PAN.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "70-100",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 100,
+            "unit": "MHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "method",
+            "value": "computational model",
+            "unit": "not specified"
+          },
+          {
+            "type": "field_regime",
+            "value": "far-field",
+            "unit": "not specified"
+          },
+          {
+            "type": "excitation",
+            "value": "plane wave",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

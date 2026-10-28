@@ -1,0 +1,368 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network based on oligooxypropylene glycol, tolylenediisocyanate, and trimethylolpropane; filled in situ with CNT via ultrasonic dispersion; modified with Fe(acac)3",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced by ultrasonic dispersion",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 37.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "lower SE than mechanical mixing sample; approximately half the value of mechanical mixing sample based on Fig. 2a description",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network based on oligooxypropylene glycol, tolylenediisocyanate, and trimethylolpropane; filled in situ with CNT via mechanical mixing; modified with Fe(acac)3",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced by mechanical mixing",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 37.5,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "more than twice the SE of ultrasonic dispersion sample based on Fig. 2a description",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network; simultaneous semi-IPN with linear poly(methyl methacrylate) at PU/PMMA ratio 50/50; modified with Fe(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear PMMA component of simultaneous semi-IPN at PU/PMMA ratio 50/50; modified with Fe(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced in situ",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximately 12-13 dB as reported in text; Fig. 4a curve 3",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network; simultaneous semi-IPN with linear poly(methyl methacrylate) at PU/PMMA ratio 50/50; modified with Fe(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear PMMA component of simultaneous semi-IPN at PU/PMMA ratio 50/50; modified with Fe(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced in situ",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "spherical microparticles of metallic Ni, dispersion of 10 um; introduced in situ",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 12.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximately 12-13 dB as reported in text; Fig. 4a curve 2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network; simultaneous semi-IPN with linear poly(methyl methacrylate) at PU/PMMA ratio 50/50; modified with Cr(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear PMMA component of simultaneous semi-IPN at PU/PMMA ratio 50/50; modified with Cr(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced in situ",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 24.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximately 24-25 dB as reported in text; Fig. 4b curve 1",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane network; simultaneous semi-IPN with linear poly(methyl methacrylate) at PU/PMMA ratio 50/50; modified with Cr(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear PMMA component of simultaneous semi-IPN at PU/PMMA ratio 50/50; modified with Cr(acac)3 (1 wt%)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes, length 5-10 um, outer diameter 20 nm, surface area 190 m2/g; introduced in situ",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "spherical microparticles of metallic Ni, dispersion of 10 um; introduced in situ",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 35.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "approximately 13 dB as reported in text; Fig. 4b curve 2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

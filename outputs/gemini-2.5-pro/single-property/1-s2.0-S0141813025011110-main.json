@@ -1,0 +1,441 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Pure CNF paper, also referred to as LPPC-0.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 4.94,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 5.06,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 9.88,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 10.12,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 38,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 14.81,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 15.19,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 19.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 20.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 24.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 25.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 47,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 68.27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 24.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 25.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "Cellulose nanofiber",
+        "description": "CNF suspension (6 wt%, cellulose content >85 %; hemicellulose content >5 %; lignin content <1 %)",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "PEDOT:PSS (1.4 wt%) aqueous dispersion with a PEDOT to PSS weight ratio of 1:2.5. Doped with Li-TFSI.",
+        "composition": {
+          "amount": 24.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Lithium bis(trifloromethanesulfonyl)imide",
+        "description": "Li-TFSI, non-toxic ionic liquid used as a dopant for PEDOT:PSS.",
+        "composition": {
+          "amount": 25.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 104,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 97.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

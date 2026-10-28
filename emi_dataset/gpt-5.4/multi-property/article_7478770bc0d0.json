@@ -1,0 +1,236 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS microspheres prepared from Sylgard 184 prepolymer and curing agent; matrix of the segregated functionalized MXene/PDMS composite reported as FMP1.",
+        "composition": {
+          "amount": 99.04,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Functionalized MXene nanosheets (F-MXene) assembled on PDMS microspheres via hydrophobic interaction using 1H,1H,2H,2H-perfluorooctyltriethoxysilane.",
+        "composition": {
+          "amount": 0.96,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.0036,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS microspheres prepared from Sylgard 184 prepolymer and curing agent; matrix of the segregated functionalized MXene/PDMS composite reported as FMP3.",
+        "composition": {
+          "amount": 95.07,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Functionalized MXene nanosheets (F-MXene) assembled on PDMS microspheres via hydrophobic interaction using 1H,1H,2H,2H-perfluorooctyltriethoxysilane.",
+        "composition": {
+          "amount": 4.93,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.1,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS microspheres prepared from Sylgard 184 prepolymer and curing agent; matrix of the segregated functionalized MXene/PDMS composite reported as FMP4.",
+        "composition": {
+          "amount": 92.62,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Functionalized MXene nanosheets (F-MXene) assembled on PDMS microspheres via hydrophobic interaction using 1H,1H,2H,2H-perfluorooctyltriethoxysilane.",
+        "composition": {
+          "amount": 7.38,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS microspheres prepared from Sylgard 184 prepolymer and curing agent; matrix of the segregated functionalized MXene/PDMS composite reported as FMP5.",
+        "composition": {
+          "amount": 91.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Functionalized MXene nanosheets (F-MXene) assembled on PDMS microspheres via hydrophobic interaction using 1H,1H,2H,2H-perfluorooctyltriethoxysilane.",
+        "composition": {
+          "amount": 8.22,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 99.4,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 31.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS microspheres prepared from Sylgard 184 prepolymer and curing agent; matrix of the segregated functionalized MXene/PDMS composite reported as FMP5.",
+        "composition": {
+          "amount": 91.78,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Functionalized MXene nanosheets (F-MXene) assembled on PDMS microspheres via hydrophobic interaction using 1H,1H,2H,2H-perfluorooctyltriethoxysilane.",
+        "composition": {
+          "amount": 8.22,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 61.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

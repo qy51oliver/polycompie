@@ -1,0 +1,308 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy system based on E51 with curing agent 4-MTHPA and accelerator DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "4-methylhexahydrophthalic anhydride",
+        "description": "Curing agent (4-MTHPA) in epoxy system",
+        "composition": {
+          "amount": 85.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "tris(dimethylaminomethyl) phenol",
+        "description": "Accelerator DMP-30 in epoxy system",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Foamed graphene aerogel (FGA) filler compressed to 80% strain before epoxy impregnation; no MXene or Co/C Janus modification",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 112.6,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compressive strain",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compressive strain",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy system based on E51 with curing agent 4-MTHPA and accelerator DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "4-methylhexahydrophthalic anhydride",
+        "description": "Curing agent (4-MTHPA) in epoxy system",
+        "composition": {
+          "amount": 85.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "tris(dimethylaminomethyl) phenol",
+        "description": "Accelerator DMP-30 in epoxy system",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel filler Z0M4GA; MXene-rich M plane only, derived from PDA-modified foamed graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene nanosheets deposited on PDA-modified foamed graphene aerogel; M plane thickness ratio 4, Z plane thickness ratio 0 in Z0M4GA",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 168.2,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.64,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 65.7,
+        "unit": "MPa",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy system based on E51 with curing agent 4-MTHPA and accelerator DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "4-methylhexahydrophthalic anhydride",
+        "description": "Curing agent (4-MTHPA) in epoxy system",
+        "composition": {
+          "amount": 85.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "tris(dimethylaminomethyl) phenol",
+        "description": "Accelerator DMP-30 in epoxy system",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel filler Z4M0GA; Co/C-rich Z plane only, derived from PDA-modified foamed graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "cobalt/carbon",
+        "description": "Co/C particles formed by annealing ZIF-67 deposited on PDA-modified foamed graphene aerogel; Z plane thickness ratio 4, M plane thickness ratio 0 in Z4M0GA",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epoxy system based on E51 with curing agent 4-MTHPA and accelerator DMP-30",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "4-methylhexahydrophthalic anhydride",
+        "description": "Curing agent (4-MTHPA) in epoxy system",
+        "composition": {
+          "amount": 85.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "tris(dimethylaminomethyl) phenol",
+        "description": "Accelerator DMP-30 in epoxy system",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene aerogel",
+        "description": "Janus aerogel filler Z3M1GA, derived from PDA-modified foamed graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "cobalt/carbon",
+        "description": "Co/C particles formed from annealed ZIF-67 on Z plane; Z plane thickness ratio 3 in Z3M1GA",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "MXene",
+        "description": "MXene nanosheets on M plane; M plane thickness ratio 1 in Z3M1GA",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident wave direction",
+            "value": "from Z-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 67.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident wave direction",
+            "value": "from M-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

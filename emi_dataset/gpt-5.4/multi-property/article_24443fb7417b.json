@@ -1,0 +1,372 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "Neat PEEK.",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-14,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 1.36,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 145,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 334,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "°C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PBZ-modified PEEK particles, 200 mesh; segregated composite sample (GnPs&MWCNTs)@PBZ/PEEK-200.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene nanosheets",
+        "description": "PBZ-modified graphene nanosheets in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 12.68 vol% total filler loading.",
+        "composition": {
+          "amount": 7.608,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "PBZ-modified multi-walled carbon nanotubes in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 12.68 vol% total filler loading.",
+        "composition": {
+          "amount": 5.072,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 15.9,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PBZ-modified PEEK particles, 15 mesh; segregated composite sample (GnPs&MWCNTs)@PBZ/PEEK-15.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene nanosheets",
+        "description": "PBZ-modified graphene nanosheets in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 11.904,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "PBZ-modified multi-walled carbon nanotubes in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 7.936,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 54.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PBZ-modified PEEK particles, 30 mesh; segregated composite sample (GnPs&MWCNTs)@PBZ/PEEK-30.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene nanosheets",
+        "description": "PBZ-modified graphene nanosheets in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 11.904,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "PBZ-modified multi-walled carbon nanotubes in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 7.936,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 52.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PBZ-modified PEEK particles, 50 mesh; segregated composite sample (GnPs&MWCNTs)@PBZ/PEEK-50.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene nanosheets",
+        "description": "PBZ-modified graphene nanosheets in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 11.904,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "PBZ-modified multi-walled carbon nanotubes in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 7.936,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyether ether ketone",
+        "description": "PBZ-modified PEEK particles, 200 mesh; segregated composite sample (GnPs&MWCNTs)@PBZ/PEEK-200.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene nanosheets",
+        "description": "PBZ-modified graphene nanosheets in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 11.904,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Multi-walled carbon nanotubes",
+        "description": "PBZ-modified multi-walled carbon nanotubes in a GnPs/MWCNTs hybrid filler; amount apportioned from the reported 6:4 GnPs:MWCNTs ratio and 19.84 vol% total filler loading.",
+        "composition": {
+          "amount": 7.936,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 3.38,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 6.27,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 524.83,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 35.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

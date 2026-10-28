@@ -1,0 +1,243 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "calcium alginate",
+        "description": "Wet-spun alginate matrix prepared from sodium alginate solution; Na+ was replaced by Ca2+ during coagulation to form a crosslinked alginate network.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 139.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "yarn",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 5.4,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "yarn",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "calcium alginate",
+        "description": "Wet-spun alginate matrix prepared from sodium alginate solution; Na+ was replaced by Ca2+ during coagulation to form a crosslinked alginate network.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes/iron(II,III) oxide hybrid",
+        "description": "MCNT filler; nonmodified carbon nanotubes incorporated with ~3 nm Fe3O4 nanoparticles via in situ coprecipitation. Fe3O4 loading in the MCNT hybrid was reported as 6.4 wt%.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 80.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": 167.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "yarn",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "calcium alginate",
+        "description": "Wet-spun alginate matrix prepared from sodium alginate solution; Na+ was replaced by Ca2+ during coagulation to form a crosslinked alginate network.",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT filler (NC7000); reported diameter 10 nm and length 1.5 μm.",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 491.9,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 25.7,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "calcium alginate",
+        "description": "Wet-spun alginate matrix prepared from sodium alginate solution; Na+ was replaced by Ca2+ during coagulation to form a crosslinked alginate network.",
+        "composition": {
+          "amount": 88.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes/iron(II,III) oxide hybrid",
+        "description": "MCNT filler; nonmodified carbon nanotubes incorporated with ~3 nm Fe3O4 nanoparticles via in situ coprecipitation. Fe3O4 loading in the MCNT hybrid was reported as 6.4 wt%.",
+        "composition": {
+          "amount": 12.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 221.9,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "electrical_conductivity_2": {
+        "value": 207.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "storage_time",
+            "value": 8,
+            "unit": "month"
+          },
+          {
+            "type": "environment",
+            "value": "air",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 38.4,
+        "unit": "dB",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 31.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.8,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 28.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "storage_time",
+            "value": 8,
+            "unit": "month"
+          },
+          {
+            "type": "environment",
+            "value": "air",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 183.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "specimen_form",
+            "value": "yarn",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

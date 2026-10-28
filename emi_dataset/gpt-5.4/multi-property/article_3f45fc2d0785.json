@@ -1,0 +1,234 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; sample label s-CNS0.05; macroscopic segregated structure prepared by direct hot compression of PEBA beads (~3.4 mm).",
+        "composition": {
+          "amount": 99.95,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane, selectively distributed at PEBA bead interfaces in a segregated network.",
+        "composition": {
+          "amount": 0.05,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.095,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; segregated PEBA/CNS composite in the EMI shielding series.",
+        "composition": {
+          "amount": 99.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane, selectively distributed at PEBA bead interfaces in a segregated network.",
+        "composition": {
+          "amount": 0.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 4.73,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; sample label s-CNS0.5; macroscopic segregated structure prepared by direct hot compression of PEBA beads (~3.4 mm).",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane, selectively distributed at PEBA bead interfaces in a segregated network.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.52,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 24.5,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; randomly distributed PEBA/CNS composite in the EMI shielding series.",
+        "composition": {
+          "amount": 99.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane, uniformly dispersed in the PEBA matrix.",
+        "composition": {
+          "amount": 0.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 5.24,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; sample label r-CNS0.5; randomly distributed PEBA/CNS composite.",
+        "composition": {
+          "amount": 99.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane, uniformly dispersed in the PEBA matrix.",
+        "composition": {
+          "amount": 0.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyether block amide",
+        "description": "PEBA; three-layer gradient composite with equal layer thicknesses; sample label CNS0-0.2-0.4 wt%; positive gradient structure.",
+        "composition": {
+          "amount": 99.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanostructures",
+        "description": "CNS; branched multiwalled carbon nanotubes coated with polyurethane; layerwise CNS contents of 0, 0.2, and 0.4 wt% from the incident layer to the back layer; total CNS content 0.2 wt%.",
+        "composition": {
+          "amount": 0.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "polyurethane-coated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 15,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 33.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 5.38,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

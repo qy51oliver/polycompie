@@ -1,0 +1,1495 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": "220-222",
+        "unit": "°C",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "45.93 ± 1.12",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "2.64 ± 0.19",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "3.10 ± 0.30",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "PAN-based, 100 μm long, 10 μm diameter, unsized (Hercules IM6)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "48.90 ± 0.16",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.17 ± 0.04",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.31 ± 0.02",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 100 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "47.34 ± 1.03",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.50 ± 0.21",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.35 ± 0.23",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 100 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 5.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "50.75 ± 1.55",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.45 ± 0.43",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.76 ± 0.21",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 100 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "57.46 ± 2.02",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "6.30 ± 0.19",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.44 ± 0.07",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 100 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "60.19 ± 2.31",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "7.21 ± 0.06",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "0.93 ± 0.11",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 200 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "52.73 ± 0.37",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.62 ± 0.21",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.03 ± 0.02",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 200 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "57.92 ± 1.47",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.54 ± 0.03",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.41 ± 0.04",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 200 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "65.84 ± 1.73",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "6.31 ± 0.51",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.01 ± 0.05",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 200 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "61.69 ± 2.36",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "7.73 ± 0.41",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "0.90 ± 0.11",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 400 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "54.92 ± 0.52",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.71 ± 0.12",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.08 ± 0.11",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 400 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 14.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "60.88 ± 2.03",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.96 ± 0.01",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.69 ± 0.03",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 400 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "73.92 ± 0.81",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "5.93 ± 0.29",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.31 ± 0.01",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 400 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "66.10 ± 1.03",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "8.10 ± 1.12",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "0.86 ± 0.03",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 800 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "56.64 ± 0.63",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.84 ± 0.07",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.01 ± 0.21",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 800 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 19.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "62.09 ± 1.00",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "5.75 ± 0.42",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.37 ± 0.17",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 17,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 3000 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 5.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "48.46 ± 0.70",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.46 ± 0.15",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "2.14 ± 0.11",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 18,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 3000 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "51.15 ± 1.20",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.77 ± 0.61",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.81 ± 0.30",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 19,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 3000 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "57.00 ± 3.10",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.70 ± 0.41",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.58 ± 0.12",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 20,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibres",
+        "description": "isotropic pitch-based, 3000 μm long, 10 μm diameter, unsized (Carboflex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 41.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "64.33 ± 2.23",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "5.78 ± 0.36",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.35 ± 0.08",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 21,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel fibres",
+        "description": "20 μm diameter, 1000 μm long (Fibrex)",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "54.44 ± 0.07",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.65 ± 0.26",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.65 ± 0.24",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 22,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel fibres",
+        "description": "20 μm diameter, 1000 μm long (Fibrex)",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "50.50 ± 1.33",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.25 ± 0.18",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.40 ± 0.15",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 23,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fibres",
+        "description": "30-56 μm diameter, 1590 μm long",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "60.96 ± 1.75",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.66 ± 0.18",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.55 ± 0.21",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 24,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "stainless steel fibres",
+        "description": "30-56 μm diameter, 1590 μm long",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "44.19 ± 0.45",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "5.72 ± 0.57",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.10 ± 0.02",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 25,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 5.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "48.49 ± 2.92",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.49 ± 0.08",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.85 ± 0.19",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 26,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 90.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 10.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "56.47 ± 4.93",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "3.88 ± 0.06",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.47 ± 0.25",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 27,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 85.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "63.95 ± 4.30",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "4.81 ± 0.63",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.34 ± 0.11",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 28,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "65.07 ± 2.71",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "5.22 ± 0.39",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "1.28 ± 0.10",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 29,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "65.92 ± 1.58",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "8.50 ± 0.20",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "0.92 ± 0.21",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 30,
+    "matrix_name": [
+      {
+        "name": "polyethersulfone",
+        "description": "Victrex PES 4100P thermoplastic powder; particle size 100-150 μm",
+        "composition": {
+          "amount": 60.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aluminium flakes",
+        "description": "flake filler, size 1.2 × 1.0 × 0.03 mm; rapid-solidified flakes with one smooth side and one rough side",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "2.82-2.95",
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">50",
+        "unit": "dB",
+        "conditions": []
+      },
+      "tensile_strength": {
+        "value": "67.23 ± 0.49",
+        "unit": "MPa",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "15.53 ± 0.27",
+        "unit": "GPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": "0.60 ± 0.02",
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,330 @@
+[
+     {
+        "sample_id": "PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 37.6, "unit": "J/m"},
+            "tensile strength": {"value": 73.4, "unit": "MPa"},
+            "flexural modulus": {"value": 3200, "unit": "MPa"},
+            "flexural strength": {"value": 107, "unit": "MPa"},
+            "crystallization temperature": {"value": 242.7, "unit": "°C"},
+            "melting temperature": {"value": 283.2, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 39.97, "unit": "Jg^-1"},
+            "degree of crystallinity": {"value": 49.96, "unit": "%"},
+            "heat of fusion": {"value": 80, "unit": "Jg^-1"}
+        }
+    },
+     {
+        "sample_id": "P80/PK20",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 43.9, "unit": "J/m"},
+            "tensile strength": {"value": 84.2, "unit": "MPa"},
+            "flexural modulus": {"value": 3210, "unit": "MPa"},
+            "flexural strength": {"value": 115, "unit": "MPa"},
+            "crystallization temperature 1": {"value": 238.1, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 289.7, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 279.9, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 338.4, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 23.61, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 6.869, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 29.51, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 5.284, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "volume resistivity": {"value": 1e11, "unit": "Ω"}
+        }
+    },
+     {
+        "sample_id": "P50/PK50",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 76.6, "unit": "J/m"},
+            "tensile strength": {"value": 88.8, "unit": "MPa"},
+            "flexural modulus": {"value": 2930, "unit": "MPa"},
+            "flexural strength": {"value": 113, "unit": "MPa"},
+            "crystallization temperature 1": {"value": 225.3, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 290.1, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 276.9, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 338.7, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 15.39, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 21.06, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 19.24, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 16.20, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "P20/PK80",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 90.2, "unit": "J/m"},
+            "tensile strength": {"value": 95.1, "unit": "MPa"},
+            "flexural modulus": {"value": 3030, "unit": "MPa"},
+            "flexural strength": {"value": 116, "unit": "MPa"},
+            "crystallization temperature 1": {"value": 237.1, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 292.8, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 277.4, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 339.9, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 3.039, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 32.07, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 3.799, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 24.67, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "r-PEEK",
+        "matrix_name": [
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "impact strength": {"value": 94.0, "unit": "J/m"},
+            "tensile strength": {"value": 89.85, "unit": "MPa"},
+            "flexural modulus": {"value": 2790, "unit": "MPa"},
+            "flexural strength": {"value": 111, "unit": "MPa"},
+            "crystallization temperature": {"value": 292.3, "unit": "°C"},
+            "melting temperature": {"value": 340.7, "unit": "°C"},
+            "enthalpy of crystallization": {"value": 35.13, "unit": "Jg^-1"},
+            "degree of crystallinity": {"value": 27.02, "unit": "%"},
+            "heat of fusion": {"value": 130, "unit": "Jg^-1"}
+        }
+    },
+     {
+        "sample_id": "P80/PK20/C3",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 77.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 19.4, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "crystallization temperature 1": {"value": 232.9, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 292.4, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 278.1, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 340.2, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 6.238, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 30.06, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 7.798, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 23.12, "unit": "%","conditions": [{"type": "component", "value": "r-PEEk","unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "P80/PK20/C5",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 76, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 19, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "crystallization temperature 1": {"value": 239.5, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 292.5, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 280.4, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 340.0, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 8.786, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 21.05, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 10.98, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 16.19, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "P80/PK20/C10",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 72, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 18, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "crystallization temperature 1": {"value": 236.0, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 293.1, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 279.0, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 339.9, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 22.72, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 13.45, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 28.40, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 10.35, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]}
+        }
+    },
+     {
+        "sample_id": "P80/PK20/C20",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 64, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "recycled poly(ether ether ketone)",
+                "description": "not specified",
+                "composition": {"amount": 16, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "crystallization temperature 1": {"value": 237.2, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "crystallization temperature 2": {"value": 298.3, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "melting temperature 1": {"value": 277.8, "unit": "°C","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "melting temperature 2": {"value": 339.7, "unit": "°C","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "enthalpy of crystallization 1": {"value": 23.29, "unit": "J/g","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "enthalpy of crystallization 2": {"value": 6.891, "unit": "J/g","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "degree of crystallinity 1": {"value": 29.11, "unit": "%","conditions": [{"type": "component", "value": "PPS","unit": "not specified"}]},
+            "degree of crystallinity 2": {"value": 5.301, "unit": "%","conditions": [{"type": "component", "value": "r-PEEK","unit": "not specified"}]},
+            "flexural modulus": {"value": 3968, "unit": "MPa"}
+        }
+    }
+]

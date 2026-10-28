@@ -1,0 +1,340 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "Pristine polyaniline (PANI), emeraldine salt form synthesized by oxidative polymerization in HCl.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler (neat PANI).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Copper(II) oxide",
+        "description": "Pristine CuO nanoparticles (no polymer matrix).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler (neat CuO).",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI matrix in PANI/CuO composite sample labeled PC1.",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper(II) oxide",
+        "description": "CuO particles incorporated into PANI; composite label PC1 (PANI with 5 wt% CuO).",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI matrix in PANI/CuO composite sample labeled PC2.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper(II) oxide",
+        "description": "CuO particles incorporated into PANI; composite label PC2 (PANI with 20 wt% CuO).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "Maximum efficiency reported as 21–22 dB achieved at 20 wt% CuO content",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI matrix in PANI/CuO composite sample labeled PC3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper(II) oxide",
+        "description": "CuO particles incorporated into PANI; composite label PC3 (CuO wt% not explicitly stated in provided text).",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Polyaniline",
+        "description": "PANI matrix in PANI/CuO composite sample labeled PC4.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Copper(II) oxide",
+        "description": "CuO particles incorporated into PANI; composite label PC4 (CuO wt% not explicitly stated in provided text).",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_low",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_high",
+            "value": 18,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "Ku-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Insulating polymer matrix, dissolved in DMF and precipitated with methanol",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 0.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 300.0,
+            "unit": "KHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Insulating polymer matrix, dissolved in DMF and precipitated with methanol",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "Isotropic Cu solid beads with diameter of 40 µm, used as control system",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 5.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "KHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Insulating polymer matrix, dissolved in DMF and precipitated with methanol",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "Cu-coated expanded acrylonitrile-based hollow polymer beads (CuEBs) forming highly anisotropic 2D Cu oblate ellipsoids after compression molding; Cu shell thickness ~1 µm; bead diameter 20-40 µm before molding",
+        "composition": {
+          "amount": 2.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 1.1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "electrical conductivity, not SE; SE value not separately reported for this loading",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Insulating polymer matrix, dissolved in DMF and precipitated with methanol",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "Cu-coated expanded acrylonitrile-based hollow polymer beads (CuEBs) forming highly anisotropic 2D Cu oblate ellipsoids after compression molding; Cu shell thickness ~1 µm; bead diameter 20-40 µm before molding",
+        "composition": {
+          "amount": 7.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 0.078,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "note",
+            "value": "electrical conductivity reported; SE value not separately reported for this loading",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Insulating polymer matrix, dissolved in DMF and precipitated with methanol",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper",
+        "description": "Cu-coated expanded acrylonitrile-based hollow polymer beads (CuEBs) forming highly anisotropic 2D Cu oblate ellipsoids after compression molding; Cu shell thickness ~1 µm; bead diameter 20-40 µm before molding; multilayered sandwich structure with ~100 nm insulating polymer gap between Cu layers",
+        "composition": {
+          "amount": 15.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 80.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 300.0,
+            "unit": "KHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 62.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 60.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 300.0,
+            "unit": "KHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "maintained above 60 dB across entire broadband frequency range",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Electrospun porous TPU fibrous film used as the TPU/CNT substrate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs anchored onto TPU fibers by ultrasound with PVP-assisted dispersion to form the TPU/CNT substrate; loading on the substrate not numerically specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanosheets",
+        "description": "GN-only filtered conductive layer on the TPU/CNT substrate; conductive-layer area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 45.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Electrospun porous TPU fibrous film used as the TPU/CNT substrate.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs anchored onto TPU fibers by ultrasound with PVP-assisted dispersion to form the TPU/CNT substrate; substrate CNT loading not numerically specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanosheets",
+        "description": "Graphene component in the filtered GN/CNT conductive layer; total GN/CNT layer area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Additional CNTs in the filtered conductive layer; 10 wt% relative to the GN/CNT conductive layer, whose total area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 51.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Electrospun porous TPU fibrous film used as the substrate of the double-layer GN/CNT/FeCl3@TPU/CNT film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs anchored onto TPU fibers by ultrasound with PVP-assisted dispersion to form the TPU/CNT substrate; substrate CNT loading not numerically specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanosheets",
+        "description": "Graphene component in the filtered GN/CNT conductive layer; total GN/CNT layer area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Additional CNTs in the filtered conductive layer; 10 wt% relative to the GN/CNT conductive layer, whose total area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(III) chloride hexahydrate",
+        "description": "FeCl3 introduced from a 10 mg/mL GN/CNT/FeCl3 ethanol suspension and diffused into both the GN/CNT layer and TPU fibrous layer; final loading in the composite was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 55.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 10.37,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "thermoplastic polyurethane",
+        "description": "Sandwich-structured composite film with two outer TPU/CNT layers and an inner GN/CNT/FeCl3 conductive layer; hot-pressed film used for subsequent characterization.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "CNTs anchored onto both outer TPU fibrous layers by ultrasound with PVP-assisted dispersion; anchored CNT loading not numerically specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanosheets",
+        "description": "Graphene component in the inner filtered GN/CNT conductive layer; total GN/CNT layer area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "Additional CNTs in the inner filtered conductive layer; 10 wt% relative to the GN/CNT conductive layer, whose total area density was 1.87 mg/cm2.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "iron(III) chloride hexahydrate",
+        "description": "FeCl3 introduced from a 10 mg/mL GN/CNT/FeCl3 suspension and distributed in the inner conductive layer and TPU layers; final loading in the composite was not specified.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 56.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 10.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "hot_pressing_temperature",
+            "value": 170.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 6.53,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "hot_pressing_temperature",
+            "value": 170.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength_1": {
+        "value": 10.16,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "hot_pressing_temperature",
+            "value": 170.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength_2": {
+        "value": 4.7,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "hot_pressing_temperature",
+            "value": 200.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "elongation_at_break_1": {
+        "value": 556.5,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "hot_pressing_temperature",
+            "value": 170.0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 82.9,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "hot_pressing_temperature",
+            "value": 200.0,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  }
+]

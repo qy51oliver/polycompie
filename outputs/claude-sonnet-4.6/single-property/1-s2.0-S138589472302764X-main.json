@@ -1,0 +1,336 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Intrinsically conductive polymer used as binder and matrix; 1.1 wt% aqueous solution (PEDOT:PSS, trade mark PHI000); treated with EG and DMSO additives",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler; pure PEDOT:PSS coating",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Intrinsically conductive polymer used as binder and matrix; 1.1 wt% aqueous solution (PEDOT:PSS, trade mark PHI000); treated with EG and DMSO additives",
+        "composition": {
+          "amount": 70.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "2D MXene nanosheets (Ti3C2Tx) prepared by LiF/HCl etching of Ti3AlC2 MAX phase followed by ultrasonic exfoliation; diameter ~2.5 um, thickness ~2.0 nm",
+        "composition": {
+          "amount": 29.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver nanowires",
+        "description": "1D AgNWs synthesized via polyol reduction with PVP as capping agent; mean length ~15 um, diameter ~168 nm; high aspect ratio",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Intrinsically conductive polymer used as binder and matrix; 1.1 wt% aqueous solution (PEDOT:PSS, trade mark PHI000); treated with EG and DMSO additives",
+        "composition": {
+          "amount": 54.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "2D MXene nanosheets (Ti3C2Tx) prepared by LiF/HCl etching of Ti3AlC2 MAX phase followed by ultrasonic exfoliation; diameter ~2.5 um, thickness ~2.0 nm",
+        "composition": {
+          "amount": 45.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver nanowires",
+        "description": "1D AgNWs synthesized via polyol reduction with PVP as capping agent; mean length ~15 um, diameter ~168 nm; high aspect ratio",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Intrinsically conductive polymer used as binder and matrix; 1.1 wt% aqueous solution (PEDOT:PSS, trade mark PHI000); treated with EG and DMSO additives",
+        "composition": {
+          "amount": 37.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "2D MXene nanosheets (Ti3C2Tx) prepared by LiF/HCl etching of Ti3AlC2 MAX phase followed by ultrasonic exfoliation; diameter ~2.5 um, thickness ~2.0 nm",
+        "composition": {
+          "amount": 62.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver nanowires",
+        "description": "1D AgNWs synthesized via polyol reduction with PVP as capping agent; mean length ~15 um, diameter ~168 nm; high aspect ratio",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylene dioxythiophene):polystyrene sulfonate",
+        "description": "Intrinsically conductive polymer used as binder and matrix; 1.1 wt% aqueous solution (PEDOT:PSS, trade mark PHI000); treated with EG and DMSO additives",
+        "composition": {
+          "amount": 23.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide MXene",
+        "description": "2D MXene nanosheets (Ti3C2Tx) prepared by LiF/HCl etching of Ti3AlC2 MAX phase followed by ultrasonic exfoliation; diameter ~2.5 um, thickness ~2.0 nm",
+        "composition": {
+          "amount": 76.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "silver nanowires",
+        "description": "1D AgNWs synthesized via polyol reduction with PVP as capping agent; mean length ~15 um, diameter ~168 nm; high aspect ratio",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10,
+      "unit": "um"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 31.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "SE_component",
+            "value": "SET (average)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 29.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 500,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 25.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "bending_cycles",
+            "value": 800,
+            "unit": "cycles"
+          }
+        ]
+      }
+    }
+  }
+]

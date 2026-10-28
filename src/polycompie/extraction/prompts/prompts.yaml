@@ -1,0 +1,825 @@
+defaults:
+  max_output_tokens: 16384
+  max_retries: 2
+
+property_sets:
+  emi:
+    - shielding_effectiveness
+
+
+  all:
+    - breaking_strain # GT: 0 (raw: 2, mapped to elongation_at_break)
+    - breaking_strength # GT: 0
+    - compression_strength # GT: 3
+    - compressive_modulus # GT: 1
+    - electrical_conductivity # GT: 100
+    - elongation_at_break # GT: 53
+    - flammability # GT: 50
+    - glass_transition_temperature # GT: 19
+    - impact_strength # GT: 21
+    - limiting_oxygen_index # GT: 49
+    - maximum_compressive_stress # GT: 2
+    - melting_temperature # GT: 57
+    - peak_heat_release_rate # GT: 68
+    - shielding_effectiveness # GT: 256
+    - tensile_strength # GT: 46
+    - tensile_stress # GT: 2
+    - thermal_conductivity # GT: 95
+    - time_to_ignition # GT: 63
+    - ultimate_compressive_strain # GT: 4
+    - ultimate_compressive_strength # GT: 0
+    - volume_conductivity # GT: 0 (raw: 1, mapped to electrical_conductivity)
+    - youngs_modulus # GT: 13
+
+  selected:
+    - shielding_effectiveness # eval GT: 241
+    - electrical_conductivity # eval GT: 100
+    - thermal_conductivity # eval GT: 95
+    - peak_heat_release_rate # eval GT: 68
+    - time_to_ignition # eval GT: 63
+    - melting_temperature # eval GT: 57
+    - elongation_at_break # eval GT: 53
+    - flammability # eval GT: 50
+    - limiting_oxygen_index # eval GT: 49
+    - tensile_strength # eval GT: 45
+    - impact_strength # eval GT: 21
+    - glass_transition_temperature # eval GT: 19
+    - youngs_modulus # eval GT: 10
+
+# ============================================================================
+# PHASE 1: Single-Pass EMI Shielding Properties
+# ============================================================================
+phase1:
+  description: "Baseline single-pass extraction (EMI shielding only)"
+  workflow: "single"
+  property_set: "emi"
+
+  prompt: |
+    You are an expert information extraction assistant specialized in polymer composite materials for EMI shielding.
+    You extract structured JSON data from scientific articles in a consistent, machine-readable format.
+    You will be given a scientific article about polymer composites used for EMI shielding.
+    Your task is to identify every distinct composite sample reported in the article, using the following JSON schema:
+
+        {
+          "sample_id": [Sample ID Number],
+          "matrix_name": [
+            {
+              "name": [Matrix Name],
+              "description": [Matrix Description],
+              "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+              "surface_treatment": [Matrix Surface Treatment]
+            }
+          ],
+          "fillers": [
+            {
+              "name": [Filler Name],
+              "description": [Filler Description],
+              "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+              "surface_treatment": [Filler Surface Treatment]
+            }
+          ],
+          "sample_thickness": {"value": [Sample Thickness Value], "unit": [Sample Thickness Unit]},
+          "properties": {
+            "shielding_effectiveness": {
+              "value": [Value],
+              "unit": [Unit],
+              "conditions": [
+                {"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}
+              ]
+            }
+          }
+        }
+
+    Data Entry Guidelines:
+
+    WHAT COUNTS AS A DISTINCT SAMPLE:
+    - Two samples are distinct if they differ in ANY of: matrix identity, filler identity, or filler composition amount.
+    - Each unique combination of (matrix, filler, filler wt%/vol%) must be its own sample object. Do NOT group measurements from different formulations under a single sample.
+    - When thickness itself is systematically varied as a variable under study (e.g., the article tests 0.5, 1, 1.5, 2 mm to study the effect of thickness on properties), each thickness is a separate sample.
+
+    NAMING RULES:
+    - Matrix Name: full polymer/chemical name; exclude size/treatment descriptors (put those in description).
+    - Filler Name: full chemical name; exclude nano/micro/size/treatment descriptors (put those in description).
+    - If multiple matrices are present, include multiple entries in "matrix_name".
+    - If multiple fillers are present, include multiple entries in "fillers".
+    - Concatenate property name with underscore. Example: "shielding_effectiveness".
+
+    COMPOSITION RULES:
+    - Report both amount (float) and type ("vol%", "wt%", or "not specified").
+    - If either matrix(s) or filler(s) has a numeric composition in wt% or vol%, you may compute the other composition using the following rules:
+      - If exactly one matrix and exactly one filler and the article implies totals sum to 100% with no other components, compute other = 100 - known.
+      - If multiple matrices and/or fillers are present, use the total-sum rule ONLY if ALL matrix/filler amounts are explicitly given AND share the same basis (all wt% or all vol%) AND the paper implies the basis totals to 100%.
+      - If the paper does not explicitly state the basis or total, or if there are other components with unknown amounts, do not compute the other composition. Use "not specified".
+    - If no filler is present, set filler name to "none" and amount to 0.0 and type to "not specified".
+    - If a ratio is given (e.g., "3:1") along with a total loading (e.g., "25 wt%"), compute the individual amounts (e.g., 18.75 wt% and 6.25 wt%). Only do this when both the ratio AND total are explicitly stated in the article.
+
+    SURFACE TREATMENT RULES:
+    - Use "treated", "untreated", or "not specified" depending on available details. Put details in "description".
+
+    SAMPLE THICKNESS RULES:
+    - Report the sample thickness value and unit if provided, or "not specified".
+    - If the same composition has different thicknesses for different tests, prefer the thickness used for EMI shielding testing.
+
+    PROPERTIES RULES:
+    - Only output shielding effectiveness (SE) values.
+    - Extract values EXACTLY as reported, including scientific notation. If a value is reported as e.g. 8.9 x 10^-11, output it as 8.9e-11. Do NOT round or drop exponents.
+    - Each property value must include its numeric value, unit, and any conditions.
+    - If multiple SE values are given under different frequencies or other test conditions, record each as a separate property (e.g., "shielding_effectiveness_1", "shielding_effectiveness_2").
+    - CONDITIONS are test parameters that vary the measurement itself. Examples include frequency range, temperature, strain rate, applied pressure, post-treatment state. Do NOT put sample IDs, sample labels, or sample thickness in conditions — those are already captured in dedicated top-level fields.
+    - For frequency ranges, record both upper and lower bounds as separate conditions.
+    - Use "not specified" for missing subfields. Do NOT guess.
+
+    OUTPUT RULES:
+    - Include ONLY samples that have at least one reported shielding effectiveness value.
+    - Ensure the JSON is well-structured and parseable.
+
+  models:
+    gpt-5.2:
+      model_string: "gpt-5.2-2025-12-11"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    gpt-5.4:
+      model_string: "gpt-5.4-2026-03-05"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    claude-sonnet-4.6:
+      model_string: "claude-sonnet-4-6"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+    gemini-2.5-pro:
+      model_string: "gemini-2.5-pro"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+
+# ============================================================================
+# PHASE 2: Single-Pass Selected Properties
+# ============================================================================
+phase2:
+  description: "Baseline single-pass extraction (selected properties)"
+  workflow: "single"
+  property_set: "selected"
+
+  prompt: |
+    You are an expert information extraction assistant specialized in polymer composite materials.
+    You extract structured JSON data from scientific articles in a consistent, machine-readable format.
+    You will be given a scientific article about polymer composites.
+    Your task is to identify every distinct composite sample reported in the article, using the following JSON schema:
+
+        {
+          "sample_id": [Sample ID Number],
+          "matrix_name": [
+            {
+              "name": [Matrix Name],
+              "description": [Matrix Description],
+              "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+              "surface_treatment": [Matrix Surface Treatment]
+            }
+          ],
+          "fillers": [
+            {
+              "name": [Filler Name],
+              "description": [Filler Description],
+              "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+              "surface_treatment": [Filler Surface Treatment]
+            }
+          ],
+          "sample_thickness": {"value": [Sample Thickness Value], "unit": [Sample Thickness Unit]},
+          "properties": {
+            "property_name": {
+              "value": [Value],
+              "unit": [Unit],
+              "conditions": [
+                {"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}
+              ]
+            }
+          }
+        }
+
+    List of properties you should extract, if PRESENT in the article:
+
+    {PROPERTY_LIST}
+
+    Data Entry Guidelines:
+
+    WHAT COUNTS AS A DISTINCT SAMPLE:
+    - Two samples are distinct if they differ in ANY of: matrix identity, filler identity, or filler composition amount.
+    - Each unique combination of (matrix, filler, filler wt%/vol%) must be its own sample object. Do NOT group measurements from different formulations under a single sample.
+    - When thickness itself is systematically varied as a variable under study (e.g., the article tests 0.5, 1, 1.5, 2 mm to study the effect of thickness on properties), each thickness is a separate sample.
+
+    NAMING RULES:
+    - Matrix Name: full polymer/chemical name; exclude size/treatment descriptors (put those in description).
+    - Filler Name: full chemical name; exclude nano/micro/size/treatment descriptors (put those in description).
+    - If multiple matrices are present, include multiple entries in "matrix_name".
+    - If multiple fillers are present, include multiple entries in "fillers".
+    - Concatenate property name with underscore. Example: "property_name".
+
+    COMPOSITION RULES:
+    - Report both amount (float) and type ("vol%", "wt%", or "not specified").
+    - If either matrix(s) or filler(s) has a numeric composition in wt% or vol%, you may compute the other composition using the following rules:
+      - If exactly one matrix and exactly one filler and the article implies totals sum to 100% with no other components, compute other = 100 - known.
+      - If multiple matrices and/or fillers are present, use the total-sum rule ONLY if ALL matrix/filler amounts are explicitly given AND share the same basis (all wt% or all vol%) AND the paper implies the basis totals to 100%.
+      - If the paper does not explicitly state the basis or total, or if there are other components with unknown amounts, do not compute the other composition. Use "not specified".
+    - If no filler is present, set filler name to "none" and amount to 0.0 and type to "not specified".
+    - If a ratio is given (e.g., "3:1") along with a total loading (e.g., "25 wt%"), compute the individual amounts (e.g., 18.75 wt% and 6.25 wt%). Only do this when both the ratio AND total are explicitly stated in the article.
+
+    SURFACE TREATMENT RULES:
+    - Use "treated", "untreated", or "not specified" depending on available details. Put details in "description".
+
+    SAMPLE THICKNESS RULES:
+    - Report the sample thickness value and unit if provided, or "not specified".
+    - If the same composition has different thicknesses for different tests, use this priority order:
+      (1) Prefer the thickness used for EMI shielding testing if present.
+      (2) Otherwise, prefer the thickness stated in the sample preparation or fabrication section.
+      (3) If neither applies or it is still ambiguous, record "not specified".
+
+    PROPERTIES RULES:
+    - Only extract properties that are in the allowed list above and are explicitly reported in the article.
+    - If a property is not reported, omit it. Do not invent any properties.
+    - Extract values EXACTLY as reported, including scientific notation. If a value is reported as e.g. 8.9 x 10^-11, output it as 8.9e-11. Do NOT round or drop exponents.
+    - Each property value must include its numeric value, unit, and any conditions.
+    - If multiple values are given under different test conditions for the same property type, record each as a separate property (e.g., "property_name_1", "property_name_2").
+    - CONDITIONS are test parameters that vary the measurement itself. Examples include frequency range, temperature, strain rate, applied pressure, post-treatment state. Do NOT put sample IDs, sample labels, or sample thickness in conditions — those are already captured in dedicated top-level fields.
+    - For frequency ranges, record both upper and lower bounds as separate conditions.
+    - Use "not specified" for missing subfields. Do NOT guess.
+
+    OUTPUT RULES:
+    - Include ONLY samples that have at least one property value in the allowed list above.
+    - Ensure the JSON is well-structured and parseable.
+
+  models:
+    gpt-5.2:
+      model_string: "gpt-5.2-2025-12-11"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    gpt-5.4:
+      model_string: "gpt-5.4-2026-03-05"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    claude-sonnet-4.6:
+      model_string: "claude-sonnet-4-6"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+    gemini-2.5-pro:
+      model_string: "gemini-2.5-pro"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+    # Ollama (local) — model_string is overridden at runtime from the UI's
+    # local-model picker. The placeholder satisfies PromptManager's
+    # non-empty check. Phase 2 only; agentic phases are not supported
+    # because OSS models often need raw-output inspection on parse failures.
+    ollama:
+      model_string: "set-at-runtime-from-ui"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+
+# ============================================================================
+# PHASE 3: Two-Step Sequential
+# ============================================================================
+phase3:
+  description: "Two-step extraction (inventory -> attach properties)"
+  workflow: "agentic"
+  property_set: "selected"
+
+  agentic_steps:
+    inventory: |
+      You are an expert information extraction assistant specialized in polymer composite materials.
+      You extract structured JSON data from scientific articles in a consistent, machine-readable format.
+      Your task is to identify every distinct composite sample reported in the article.
+      IMPORTANT:
+      - In this step, do NOT extract any measured properties.
+      - Focus on identifying all distinct sample formulations and variants (different matrices, fillers, thicknesses).
+      Return a valid JSON array using the following schema:
+
+            {
+              "sample_id": [Sample ID Number],
+              "matrix_name": [
+                {
+                  "name": [Matrix Name],
+                  "description": [Matrix Description],
+                  "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+                  "surface_treatment": [Matrix Surface Treatment]
+                }
+              ],
+              "fillers": [
+                {
+                  "name": [Filler Name],
+                  "description": [Filler Description],
+                  "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+                  "surface_treatment": [Filler Surface Treatment]
+                }
+              ],
+              "sample_thickness": {"value": [Sample Thickness Value], "unit": [Sample Thickness Unit]}
+            }
+
+      Data Entry Guidelines:
+
+      WHAT COUNTS AS A DISTINCT SAMPLE:
+      - Two samples are distinct if they differ in ANY of: matrix identity, filler identity, or filler composition amount.
+      - Each unique combination of (matrix, filler, filler wt%/vol%) must be its own sample object. Do NOT group measurements from different formulations under a single sample.
+      - When thickness itself is systematically varied as a variable under study (e.g., the article tests 0.5, 1, 1.5, 2 mm to study the effect of thickness on properties), each thickness is a separate sample.
+
+      NAMING RULES:
+      - Matrix Name: full polymer/chemical name; exclude size/treatment descriptors (put those in description).
+      - Filler Name: full chemical name; exclude nano/micro/size/treatment descriptors (put those in description).
+      - If multiple matrices are present, include multiple entries in "matrix_name".
+      - If multiple fillers are present, include multiple entries in "fillers".
+
+      COMPOSITION RULES:
+      - Report both amount (float) and type ("vol%", "wt%", or "not specified").
+      - If either matrix(s) or filler(s) has a numeric composition in wt% or vol%, you may compute the other composition using the following rules:
+        - If exactly one matrix and exactly one filler and the article implies totals sum to 100% with no other components, compute other = 100 - known.
+        - If multiple matrices and/or fillers are present, use the total-sum rule ONLY if ALL matrix/filler amounts are explicitly given AND share the same basis (all wt% or all vol%) AND the paper implies the basis totals to 100%.
+        - If the paper does not explicitly state the basis or total, or if there are other components with unknown amounts, do not compute the other composition. Use "not specified".
+      - If no filler is present, set filler name to "none" and amount to 0.0 and type to "not specified".
+      - If a ratio is given (e.g., "3:1") along with a total loading (e.g., "25 wt%"), compute the individual amounts (e.g., 18.75 wt% and 6.25 wt%). Only do this when both the ratio AND total are explicitly stated in the article.
+
+      SURFACE TREATMENT RULES:
+      - Use "treated", "untreated", or "not specified" depending on available details. Put details in "description".
+
+      SAMPLE THICKNESS RULES:
+      - Report the sample thickness value and unit if provided, or "not specified".
+      - If the same composition has different thicknesses for different tests, use this priority order:
+        (1) Prefer the thickness used for EMI shielding testing if present.
+        (2) Otherwise, prefer the thickness stated in the sample preparation or fabrication section.
+        (3) If neither applies or it is still ambiguous, record "not specified".
+
+      OUTPUT RULES:
+      - Include ALL distinct sample formulations, even if they may not have reportable properties. The next step will filter by property coverage.
+      - Ensure the JSON is well-structured and parseable.
+
+    attach_properties: |
+      You are an expert information extraction assistant specialized in polymer composite materials and scientific measurement reporting.
+      You extract structured JSON data from scientific articles in a consistent, machine-readable format.
+      You will receive:
+        1. INPUT A: A JSON array of objects describing composite samples.
+        2. INPUT B: The article text where measured properties are reported for the samples.
+      Your task:
+        1. Attach measured properties to the correct sample objects from INPUT A.
+        2. Do NOT change sample composition, thickness, or surface treatment. These fields are fixed from INPUT A.
+        3. Only extract properties that are in the allowed list below and are explicitly reported in the article.
+      Return a valid JSON array using the following schema:
+
+            {
+              "sample_id": [Sample ID Number],
+              "matrix_name": [
+                {
+                  "name": [Matrix Name],
+                  "description": [Matrix Description],
+                  "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+                  "surface_treatment": [Matrix Surface Treatment]
+                }
+              ],
+              "fillers": [
+                {
+                  "name": [Filler Name],
+                  "description": [Filler Description],
+                  "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+                  "surface_treatment": [Filler Surface Treatment]
+                }
+              ],
+              "sample_thickness": {"value": [Sample Thickness Value], "unit": [Sample Thickness Unit]},
+              "properties": {
+                "property_name": {
+                  "value": [Value],
+                  "unit": [Unit],
+                  "conditions": [
+                    {"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}
+                  ]
+                }
+              }
+            }
+
+      List of properties you should extract, if PRESENT in the article:
+
+      {PROPERTY_LIST}
+
+      PROPERTIES RULES:
+      - Only extract properties that are in the allowed list above and are explicitly reported in the article.
+      - If a property is not reported, omit it. Do not invent any properties.
+      - Concatenate property name with underscore. Example: "property_name".
+      - Extract values EXACTLY as reported, including scientific notation. If a value is reported as e.g. 8.9 x 10^-11, output it as 8.9e-11. Do NOT round or drop exponents.
+      - Each property value must include its numeric value, unit, and any conditions.
+      - If multiple values are given under different test conditions for the same property type, record each as a separate property (e.g., "property_name_1", "property_name_2").
+      - CONDITIONS are test parameters that vary the measurement itself. Examples include frequency range, temperature, strain rate, applied pressure, post-treatment state. Do NOT put sample IDs, sample labels, or sample thickness in conditions — those are already captured in dedicated top-level fields.
+      - For frequency ranges, record both upper and lower bounds as separate conditions.
+      - Use "not specified" for missing subfields. Do NOT guess.
+
+      OUTPUT RULES:
+      - Include ONLY samples that have at least one property in the allowed list above. Remove any sample from INPUT A that has no reportable properties.
+      - Ensure the JSON is well-structured and parseable.
+
+  models:
+    gpt-5.2:
+      model_string: "gpt-5.2-2025-12-11"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    gpt-5.4:
+      model_string: "gpt-5.4-2026-03-05"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+    claude-sonnet-4.6:
+      model_string: "claude-sonnet-4-6"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+    gemini-2.5-pro:
+      model_string: "gemini-2.5-pro"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+
+# ============================================================================
+# PHASE 4: Agentic chain-of-verification extraction
+# extract -> self_review -> per-sample [add_evidence -> verify -> route -> repair] x N
+# ============================================================================
+phase4:
+  description: "Agentic chain-of-verification: extract, self-review, then per-sample evidence grounding with adaptive verify+repair loop"
+  workflow: "agentic"
+  property_set: "selected"
+
+  agentic_steps:
+
+    extract: |
+      You are an expert information extraction assistant specialized in polymer composite materials.
+      You extract structured JSON data from scientific articles in a consistent, machine-readable format.
+      You will be given a scientific article about polymer composites.
+      Your task is to identify every distinct composite sample reported in the article, using the following JSON schema:
+
+          {
+            "sample_id": [Sample ID Number],
+            "matrix_name": [
+              {
+                "name": [Matrix Name],
+                "description": [Matrix Description],
+                "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+                "surface_treatment": [Matrix Surface Treatment]
+              }
+            ],
+            "fillers": [
+              {
+                "name": [Filler Name],
+                "description": [Filler Description],
+                "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+                "surface_treatment": [Filler Surface Treatment]
+              }
+            ],
+            "sample_thickness": {"value": [Sample Thickness Value], "unit": [Sample Thickness Unit]},
+            "properties": {
+              "property_name": {
+                "value": [Value],
+                "unit": [Unit],
+                "conditions": [
+                  {"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}
+                ]
+              }
+            }
+          }
+
+      List of properties you should extract, if PRESENT in the article:
+
+      {PROPERTY_LIST}
+
+      Data Entry Guidelines:
+
+      WHAT COUNTS AS A DISTINCT SAMPLE:
+      - Two samples are distinct if they differ in ANY of: matrix identity, filler identity, or filler composition amount.
+      - Each unique combination of (matrix, filler, filler wt%/vol%) must be its own sample object. Do NOT group measurements from different formulations under a single sample.
+      - When thickness itself is systematically varied as a variable under study (e.g., the article tests 0.5, 1, 1.5, 2 mm to study the effect of thickness on properties), each thickness is a separate sample.
+
+      NAMING RULES:
+      - Matrix Name: full polymer/chemical name; exclude size/treatment descriptors (put those in description).
+      - Filler Name: full chemical name; exclude nano/micro/size/treatment descriptors (put those in description).
+      - If multiple matrices are present, include multiple entries in "matrix_name".
+      - If multiple fillers are present, include multiple entries in "fillers".
+      - Concatenate property name with underscore. Example: "property_name".
+
+      COMPOSITION RULES:
+      - Report both amount (float) and type ("vol%", "wt%", or "not specified").
+      - If either matrix(s) or filler(s) has a numeric composition in wt% or vol%, you may compute the other composition using the following rules:
+        - If exactly one matrix and exactly one filler and the article implies totals sum to 100% with no other components, compute other = 100 - known.
+        - If multiple matrices and/or fillers are present, use the total-sum rule ONLY if ALL matrix/filler amounts are explicitly given AND share the same basis (all wt% or all vol%) AND the paper implies the basis totals to 100%.
+        - If the paper does not explicitly state the basis or total, or if there are other components with unknown amounts, do not compute the other composition. Use "not specified".
+      - If no filler is present, set filler name to "none" and amount to 0.0 and type to "not specified".
+      - If a ratio is given (e.g., "3:1") along with a total loading (e.g., "25 wt%"), compute the individual amounts (e.g., 18.75 wt% and 6.25 wt%). Only do this when both the ratio AND total are explicitly stated in the article.
+
+      SURFACE TREATMENT RULES:
+      - Use "treated", "untreated", or "not specified" depending on available details. Put details in "description".
+
+      SAMPLE THICKNESS RULES:
+      - Report the sample thickness value and unit if provided, or "not specified".
+      - If the same composition has different thicknesses for different tests, use this priority order:
+        (1) Prefer the thickness used for EMI shielding testing if present.
+        (2) Otherwise, prefer the thickness stated in the sample preparation or fabrication section.
+        (3) If neither applies or it is still ambiguous, record "not specified".
+
+      PROPERTIES RULES:
+      - Only extract properties that are in the allowed list above and are explicitly reported in the article.
+      - If a property is not reported, omit it. Do not invent any properties.
+      - Extract values EXACTLY as reported, including scientific notation. If a value is reported as e.g. 8.9 x 10^-11, output it as 8.9e-11. Do NOT round or drop exponents.
+      - Each property value must include its numeric value, unit, and any conditions.
+      - If multiple values are given under different test conditions for the same property type, record each as a separate property (e.g., "property_name_1", "property_name_2").
+      - CONDITIONS are test parameters that vary the measurement itself. Examples include frequency range, temperature, strain rate, applied pressure, post-treatment state. Do NOT put sample IDs, sample labels, or sample thickness in conditions — those are already captured in dedicated top-level fields.
+      - For frequency ranges, record both upper and lower bounds as separate conditions.
+      - Use "not specified" for missing subfields. Do NOT guess.
+
+      OUTPUT RULES:
+      - Include ONLY samples that have at least one property value in the allowed list above.
+      - Ensure the JSON is well-structured and parseable.
+
+    # STEP 2: Self-Review (global — reflect on extraction quality)
+    self_review: |
+      You are a self-review assistant for polymer composite data extraction.
+      You will receive:
+        1. INPUT A: A JSON array of samples you previously extracted.
+        2. INPUT B: The original article text.
+
+      Your task: review the extraction for errors and tag each sample with a confidence level.
+
+      CHECK FOR THESE ERROR TYPES:
+
+      1. COMPOSITION ERRORS:
+         - Does each sample's matrix and filler composition match what the article reports?
+         - Are the amounts (wt%, vol%) correct? Check against tables and text.
+         - If the article gives a ratio (e.g., "3:1") and a total, verify the computed amounts.
+         - Are matrix + filler amounts consistent (e.g., do they sum correctly)?
+
+      2. MISSING SAMPLES:
+         - Did you miss any distinct formulations reported in the article?
+         - Check tables systematically — each row often represents a distinct sample.
+         - If you find missing samples, add them.
+
+      3. PROPERTY ASSIGNMENT ERRORS:
+         - Is each property value assigned to the correct sample?
+         - Check that property values match the sample composition they belong to.
+         - Verify values against tables — a common error is reading the wrong row.
+
+      4. PROPERTY VALUE ERRORS:
+         - Are numeric values correct? Check scientific notation, decimal places.
+         - Are units correct for each property?
+
+      For each sample, assign a confidence level:
+      - "_confidence": "HIGH" — you checked this sample against the article and found no errors.
+      - "_confidence": "LOW" — you are uncertain about at least one field (composition, property value, or property assignment), or you could not verify it against the article.
+
+      When in doubt, tag as LOW. It is better to flag a correct sample for verification than to miss an error.
+
+      Return ONLY a valid JSON array of sample objects. Each sample must have the same schema as INPUT A,
+      plus a "_confidence" field. You may correct errors you find, add missing samples, or remove
+      samples that should not exist. Every sample in your output must have "_confidence": "HIGH" or "LOW".
+
+      Do NOT include any text outside the JSON array.
+
+    # STEP 3: Add Evidence (per-sample — attach verbatim quotes)
+    add_evidence: |
+      You are an expert evidence-grounding assistant for polymer composite extraction.
+
+      You will receive:
+      1) INPUT A: a single extracted sample as a JSON object (may already contain evidence arrays from a previous iteration).
+      2) INPUT B: the full article text.
+      3) INPUT C (optional): the verifier verdict from the previous iteration. Only present on iteration 2+.
+
+      Your task depends on whether INPUT C is present:
+
+      IF INPUT C IS NOT PRESENT (first iteration — fresh grounding):
+      - Find verbatim evidence snippets from INPUT B for every field:
+        (a) each matrix entry: name, description, composition (amount + type), surface_treatment
+        (b) each filler entry: name, description, composition (amount + type), surface_treatment
+        (c) sample_thickness: value and unit
+        (d) each property value: value, unit, and conditions
+
+      IF INPUT C IS PRESENT (subsequent iteration — targeted re-grounding):
+      - INPUT C is the verifier verdict from the previous iteration.
+      - For fields whose verdict is SUPPORTED: copy the existing evidence arrays from INPUT A
+        exactly as they are — do NOT search for new snippets, do NOT change anything.
+      - For fields whose verdict is NEEDS_MORE_EVIDENCE or CONTRADICTED: discard the existing
+        evidence and search INPUT B for better, more specific snippets.
+      - composition_verdict covers all of matrix_name, fillers, and sample_thickness together.
+        If composition_verdict is not SUPPORTED, re-ground all composition fields.
+        If composition_verdict is SUPPORTED, preserve all composition evidence arrays unchanged.
+
+      Evidence rules (apply to all fields being grounded):
+      - Evidence must be copied VERBATIM from INPUT B — no paraphrasing, no summarization.
+      - Prefer tight, specific snippets (a table row with headers, or the exact sentence with the value).
+      - If support is scattered across multiple locations, include all relevant snippets.
+      - If you cannot find support for a field, set its evidence to []. Do NOT invent snippets.
+
+      CRITICAL constraints:
+      - Do NOT change any values in INPUT A (sample_id, names, compositions, amounts, types, property values, units, conditions).
+      - Do NOT add new properties that are not already in INPUT A.
+      - Your output must be the same sample object as INPUT A, with "evidence" arrays added or preserved.
+
+      Return ONLY a single valid JSON object (not an array) using this shape:
+
+        {
+          "sample_id": [Sample ID Number],
+          "matrix_name": [
+            {
+              "name": [Matrix Name],
+              "description": [Matrix Description],
+              "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+              "surface_treatment": [Matrix Surface Treatment],
+              "evidence": ["verbatim snippet 1", "verbatim snippet 2", ...]
+            }
+          ],
+          "fillers": [
+            {
+              "name": [Filler Name],
+              "description": [Filler Description],
+              "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+              "surface_treatment": [Filler Surface Treatment],
+              "evidence": ["verbatim snippet 1", ...]
+            }
+          ],
+          "sample_thickness": {
+            "value": [Sample Thickness Value],
+            "unit": [Sample Thickness Unit],
+            "evidence": ["verbatim snippet 1", ...]
+          },
+          "properties": {
+            "property_name": {
+              "value": [Value],
+              "unit": [Unit],
+              "conditions": [{"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}],
+              "evidence": ["verbatim snippet 1", ...]
+            }
+          }
+        }
+
+    # STEP 4: Verify Evidence (per-sample — check if quotes support claims)
+    verify_evidence: |
+      You are an evidence verification assistant for polymer composite extraction.
+
+      You will receive a single sample JSON object. Fields contain an "evidence": [...] list of verbatim snippets
+      that are claimed to support the extracted values.
+
+      Your job: determine whether the evidence actually supports each claim.
+
+      Output TWO verdict sections:
+
+      SECTION A — COMPOSITION VERDICT (exactly one, covering the whole sample)
+      Check whether evidence supports composition fields for THIS specific sample:
+      - matrix_name entries (names, descriptions, compositions, surface treatments)
+      - fillers entries (names, descriptions, compositions, surface treatments)
+      - sample_thickness (value and unit)
+
+      Rules:
+      - SUPPORTED: every present composition claim is backed by a snippet that (a) contains the claimed value verbatim AND (b) clearly identifies THIS specific sample — via a sample label, a unique composition descriptor, or a table-row reference the article ties to this sample. Numeric-presence alone is NOT sufficient when the same number could plausibly refer to a different sample in the article.
+      - NEEDS_MORE_EVIDENCE: the evidence list is empty for a claimed value, OR no snippet contains the claimed value, OR the value appears in snippets but cannot be attributed to THIS specific sample (e.g., the same number appears for a different formulation in the same paper).
+      - CONTRADICTED: a snippet clearly identifies THIS sample and reports a different value than what is claimed (e.g. snippet ties 8.9e-11 to this sample but claimed value is 8.9).
+      - Do NOT penalize fields that are explicitly "not specified". Treat those as neutral.
+
+      SECTION B — PROPERTY VERDICTS (one per property key in sample["properties"])
+      For each property, check whether its evidence supports the value, unit, and conditions for THIS specific sample.
+
+      Rules:
+      - SUPPORTED: at least one snippet contains (a) the numeric value and unit being claimed AND (b) enough context to tie it to THIS sample — a sample label, a unique composition descriptor, or a table row the article maps to this sample. Numeric-presence alone is NOT sufficient when the article contains the same number for multiple samples.
+      - NEEDS_MORE_EVIDENCE: the evidence list is empty, OR no snippet contains the claimed numeric value, OR the value appears but the snippet does not tie it to this specific sample (cross-sample number collision is the common case).
+      - CONTRADICTED: a snippet clearly identifies THIS sample and reports a different numeric value than what is claimed.
+      - "Sample-identifying context" means: a sample ID/label, a unique composition fingerprint (e.g. "3 vol% Cu/PE"), or a table row the article unambiguously maps to this sample. A bare numeric value with no surrounding sample reference is NOT sample-identifying.
+
+      Return ONLY valid JSON in this exact format:
+
+        {
+          "composition_verdict": {
+            "status": "SUPPORTED|NEEDS_MORE_EVIDENCE|CONTRADICTED",
+            "reason": "One short sentence.",
+            "mismatch_description": "Only for NEEDS_MORE_EVIDENCE or CONTRADICTED: describe precisely what is claimed vs what the evidence shows (e.g. 'Claimed 8.9 S/cm but evidence snippet contains 8.9e-11 S/cm' or 'Claimed 50 wt% but no snippet contains this number'). Empty string for SUPPORTED."
+          },
+          "property_verdicts": [
+            {
+              "property_key": "exact key from the properties dict",
+              "status": "SUPPORTED|NEEDS_MORE_EVIDENCE|CONTRADICTED",
+              "reason": "One short sentence.",
+              "mismatch_description": "Only for NEEDS_MORE_EVIDENCE or CONTRADICTED: describe precisely what is claimed vs what the evidence shows (e.g. 'Claimed 29.67 S/cm but no snippet contains this value' or 'Claimed 68.27 dB but evidence snippet shows 66 dB'). Empty string for SUPPORTED."
+            }
+          ]
+        }
+
+      Hard constraints:
+      - Exactly one composition_verdict.
+      - Exactly one entry in property_verdicts per property key in the sample.
+      - Do NOT rewrite the sample. Do NOT include the sample in your output.
+
+    # STEP 5: Repair (per-sample — fix flagged fields using article)
+    repair_unsupported: |
+      You are an expert repair assistant for polymer composite extraction.
+      You perform targeted evidence repair on a single sample after verification.
+
+      You will receive:
+      - INPUT A: a single sample JSON object with evidence fields.
+      - INPUT B: the verifier verdict for this sample, with:
+          - composition_verdict
+          - property_verdicts (one per property key)
+      - INPUT C: the full article text.
+
+      Your task — repair in TWO stages in this order:
+
+      STAGE 1: COMPOSITION REPAIR
+      If composition_verdict.status != SUPPORTED:
+      - Search INPUT C for sample-identifying snippets (sample label, unique composition descriptor, or table row the article maps to this sample) that support the matrix, fillers, and sample_thickness claims.
+      - Replace the evidence arrays for any unsupported composition fields with tighter, sample-identifying snippets.
+      - Before correcting a CONTRADICTED composition value, you must find at least one verbatim snippet in INPUT C that (a) clearly identifies THIS specific sample AND (b) reports a value materially different from what is currently recorded. If you cannot find such evidence, leave the value unchanged and keep the existing evidence — the verifier may have erred. Do not infer corrections from indirect context, neighboring rows, or "what seems likely".
+      - If a field is "not specified", skip it — no evidence needed.
+
+      STAGE 2: PROPERTY REPAIR
+      For each entry in property_verdicts where status != SUPPORTED:
+      - Use the mismatch_description from INPUT B to understand exactly what is claimed vs what the evidence showed. This tells you what value to search for or what correction to make.
+      - If status is NEEDS_MORE_EVIDENCE: search INPUT C for better verbatim snippets that confirm the recorded value and unit AND clearly tie it to THIS specific sample (sample label / composition descriptor / table row). Replace the evidence array with tighter, sample-identifying snippets. If you cannot find sample-identifying evidence after a thorough search, keep the property as-is — do NOT remove it, and do NOT change the value based on indirect context.
+      - If status is CONTRADICTED: the verifier reports a conflict, but it could also be mistaken (e.g., misread of scientific notation, confusion with a different sample's row). Before changing the value, you MUST find at least one verbatim snippet in INPUT C that (a) clearly identifies THIS specific sample AND (b) reports a value materially different from the current one. If you cannot find such snippets, leave the value unchanged and keep the existing evidence. The safer error is to keep a possibly-correct value than to overwrite a correct value with a wrong one.
+      - Only remove a property entirely if INPUT C contains no measurement of that property type at all for this sample.
+      - Do NOT modify properties whose verdict is SUPPORTED.
+      - If a field is "not specified", skip it.
+
+      CRITICAL constraints:
+      - Do NOT remove the sample. The orchestrator decides what to do with low-confidence samples.
+      - Do NOT add property keys that were not already in INPUT A.
+      - Do NOT modify properties whose verdict is SUPPORTED — leave them completely unchanged.
+      - Do NOT invent evidence. All snippets must be copied verbatim from INPUT C.
+      - Preserve all evidence arrays for SUPPORTED fields exactly as they are.
+
+      Return ONLY a single valid JSON object (not an array) in the same shape as INPUT A
+      (with evidence fields preserved/updated):
+
+        {
+          "sample_id": [Sample ID Number],
+          "matrix_name": [
+            {
+              "name": [Matrix Name],
+              "description": [Matrix Description],
+              "composition": {"amount": [Matrix Composition Amount], "type": [Matrix Composition Type]},
+              "surface_treatment": [Matrix Surface Treatment],
+              "evidence": ["verbatim snippet 1", ...]
+            }
+          ],
+          "fillers": [
+            {
+              "name": [Filler Name],
+              "description": [Filler Description],
+              "composition": {"amount": [Filler Composition Amount], "type": [Filler Composition Type]},
+              "surface_treatment": [Filler Surface Treatment],
+              "evidence": ["verbatim snippet 1", ...]
+            }
+          ],
+          "sample_thickness": {
+            "value": [Sample Thickness Value],
+            "unit": [Sample Thickness Unit],
+            "evidence": ["verbatim snippet 1", ...]
+          },
+          "properties": {
+            "property_name": {
+              "value": [Value],
+              "unit": [Unit],
+              "conditions": [{"type": [Condition Type], "value": [Condition Value], "unit": [Condition Unit]}],
+              "evidence": ["verbatim snippet 1", ...]
+            }
+          }
+        }
+
+  models:
+    gpt-5.2:
+      model_string: "gpt-5.2-2025-12-11"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+      orchestrator:
+        verbose: true
+        max_iterations: 3
+        keep_low_confidence: true
+    gpt-5.4:
+      model_string: "gpt-5.4-2026-03-05"
+      max_output_tokens: 16384
+      reasoning_effort: high
+      max_retries: 2
+      orchestrator:
+        verbose: true
+        max_iterations: 3
+        keep_low_confidence: true
+    claude-sonnet-4.6:
+      model_string: "claude-sonnet-4-6"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+      orchestrator:
+        verbose: true
+        max_iterations: 3
+        keep_low_confidence: true
+    gemini-2.5-pro:
+      model_string: "gemini-2.5-pro"
+      max_output_tokens: 16384
+      temperature: 0.0
+      max_retries: 2
+      orchestrator:
+        verbose: true
+        max_iterations: 3
+        keep_low_confidence: true

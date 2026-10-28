@@ -1,0 +1,886 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 50 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 50.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.00021,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "bottom",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 19.49,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "top",
+            "unit": "not specified"
+          },
+          {
+            "type": "state",
+            "value": "original",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 9.66,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "top",
+            "unit": "not specified"
+          },
+          {
+            "type": "ultrasound_time",
+            "value": 300,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 42.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "ultrasound_time",
+            "value": 300,
+            "unit": "min"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 50.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "relative_humidity",
+            "value": 90,
+            "unit": "%"
+          },
+          {
+            "type": "exposure_duration",
+            "value": 2,
+            "unit": "weeks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 100 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "No AgNWs added.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "<1.0",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 100 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 1 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.27,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "top",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 9.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 100 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 18.29,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "top",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 0.0003,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "bottom",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 56.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 53.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 53.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "top surface (AgNWs side)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 150 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 150.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 886,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 53.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 200 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 200.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.0054,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "surface",
+            "value": "bottom",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 60.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "No CoNi@CNTs added.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 5 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 37.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 200 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 200.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 5 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 42.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in the asymmetric sandwich composite film.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "No CoNi@CNTs added.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 9.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.3,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(L-lactic acid)",
+        "description": "PLLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in a double-layer CoNi@CNTs-PLA-AgNWs film without an intermediate PLA layer.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(D-lactic acid)",
+        "description": "PDLA component of the stereocomplex PLA matrix (PLLA/PDLA = 9:1 by mass) in a double-layer CoNi@CNTs-PLA-AgNWs film without an intermediate PLA layer.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "cobalt-nickel alloy/carbon nanotube hybrid",
+        "description": "CoNi nanoparticles grown on carbon nanotube surfaces (CoNi@CNTs); sample contains 150 mg CoNi@CNTs.",
+        "composition": {
+          "amount": 150.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "silver",
+        "description": "Silver nanowires with PVP shell (AgNWs); y = 7 mg/mL in AgNWs/ethanol dispersion, 3 mL added.",
+        "composition": {
+          "amount": 7.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 54.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_type",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_surface",
+            "value": "bottom surface",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

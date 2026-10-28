@@ -1,0 +1,543 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix, film thickness ~150 µm after scraping and rolling",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn); initial loading 20 vol%, reduced to ~13 vol% after rolling with 3-layer PI film; LM droplets dispersed in PDMS matrix, mechanically sintered via two-roll mill with 3 PI film layers",
+        "composition": {
+          "amount": 13.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 18.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix, film thickness ~150 µm after scraping and rolling",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn); initial loading 30 vol%, reduced to ~19 vol% after rolling with 3-layer PI film; LM droplets dispersed in PDMS matrix, mechanically sintered via two-roll mill with 3 PI film layers",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix, film thickness ~150 µm at 0% strain, ~110 µm at 75% strain; scraping and rolling fabrication",
+        "composition": {
+          "amount": 76.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn); initial loading 40 vol%, reduced to ~24 vol% after rolling with 3-layer PI film; LM droplets dispersed in PDMS matrix, mechanically sintered via two-roll mill with 3 PI film layers",
+        "composition": {
+          "amount": 24.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 43.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 25,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 44.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 50,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 44.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 75,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix, film thickness ~150 µm; scraping and rolling fabrication",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn); initial loading 40 vol%, reduced to ~39 vol% after rolling with 1-layer PI film; LM droplets dispersed in PDMS matrix, mechanically sintered via two-roll mill with 1 PI film layer",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 18.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix, film thickness ~150 µm; scraping and rolling fabrication",
+        "composition": {
+          "amount": 62.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy (68.2 wt% Ga, 21.8 wt% In, 10 wt% Sn); initial loading 40 vol%, reduced to ~38 vol% after rolling with 2-layer PI film; LM droplets dispersed in PDMS matrix, mechanically sintered via two-roll mill with 2 PI film layers",
+        "composition": {
+          "amount": 38.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "tensile_strain",
+            "value": 0,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix; PLMF/40 slit with parallel conductive slits, slit spacing ~3 mm, slit width ~0.6 mm; locally activated by scoring stylus",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy; initial loading 40 vol%, locally activated conductive slit pattern with spacing ~3 mm",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 16.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "parallel to electric field",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3,
+            "unit": "mm"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 6.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "vertical to electric field",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 3,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix; PLMF/40 slit with parallel conductive slits, slit spacing ~2 mm, slit width ~0.6 mm; locally activated by scoring stylus",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy; initial loading 40 vol%, locally activated conductive slit pattern with spacing ~2 mm",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 2,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Sylgard 184, elastomeric matrix; PLMF/40 slit with parallel conductive slits, slit spacing ~1 mm, slit width ~0.6 mm; locally activated by scoring stylus",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Galinstan",
+        "description": "GaInSn liquid metal alloy; initial loading 40 vol%, locally activated conductive slit pattern with spacing ~1 mm",
+        "composition": {
+          "amount": 40.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 150,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 39.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "parallel to electric field",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1,
+            "unit": "mm"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "slit_orientation",
+            "value": "vertical to electric field",
+            "unit": "not specified"
+          },
+          {
+            "type": "slit_spacing",
+            "value": 1,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  }
+]

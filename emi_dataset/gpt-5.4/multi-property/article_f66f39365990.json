@@ -1,0 +1,379 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-2,6-benzobisoxazole)",
+        "description": "PBO nanofiber (PNF) matrix; article sample label MP50.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "mixed-acid protonation/dissociation into PNFs"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx)",
+        "description": "few-layer MXene nanosheets",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "LiF/HCl etched and exfoliated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1000,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 28.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (EMI SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 781.3,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "specific shielding effectiveness (EMI SEt)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-2,6-benzobisoxazole)",
+        "description": "PBO nanofiber (PNF) matrix; article sample label MP80.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "mixed-acid protonation/dissociation into PNFs"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx)",
+        "description": "few-layer MXene nanosheets",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "LiF/HCl etched and exfoliated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2950,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 57.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (EMI SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-2,6-benzobisoxazole)",
+        "description": "PBO nanofiber (PNF) matrix in carbon-coated MXene/PNF film; article sample label MP50@C-400.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "mixed-acid protonation/dissociation into PNFs, followed by polydopamine infiltration and thermal annealing at 400 °C under N2"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx)",
+        "description": "few-layer MXene nanosheets; MXene content reported as 50 wt% for the MP50 precursor formulation",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polydopamine infiltration followed by thermal annealing at 400 °C under N2"
+      },
+      {
+        "name": "carbon",
+        "description": "ultrathin carbon layer derived from polydopamine pyrolysis",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "formed during thermal annealing at 400 °C under N2"
+      }
+    ],
+    "sample_thickness": {
+      "value": 37.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1760,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 5.64,
+        "unit": "W/(m·K)",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 35.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (EMI SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1108.1,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "specific shielding effectiveness (EMI SEt)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 66.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 2,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "no evident flame was observed",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "test_condition",
+            "value": "subjected to a heat source; film curled due to thermal contraction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(p-phenylene-2,6-benzobisoxazole)",
+        "description": "PBO nanofiber (PNF) matrix in carbon-coated MXene/PNF film; article sample label MP50@C-550.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "mixed-acid protonation/dissociation into PNFs, followed by polydopamine infiltration and thermal annealing at 550 °C under N2"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "titanium carbide (Ti3C2Tx)",
+        "description": "few-layer MXene nanosheets; MXene content reported as 50 wt% for the MP50 precursor formulation",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polydopamine infiltration followed by thermal annealing at 550 °C under N2"
+      },
+      {
+        "name": "carbon",
+        "description": "ultrathin carbon layer derived from polydopamine pyrolysis",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "formed during thermal annealing at 550 °C under N2"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2240,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 42.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "total shielding effectiveness (EMI SET)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 1137.8,
+        "unit": "dB/mm",
+        "conditions": [
+          {
+            "type": "measurement_type",
+            "value": "specific shielding effectiveness (EMI SEt)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

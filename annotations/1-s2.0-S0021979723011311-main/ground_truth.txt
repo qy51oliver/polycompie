@@ -1,0 +1,132 @@
+[
+     {
+        "sample_id": "GO@Ag/PU",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 89, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles loaded GO",
+                "description": "not specified",
+                "composition": {"amount": 11, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"cm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 20, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "microwave_absorption_percentage": {"value": 50, "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Fe3O4@PVA/GO@Ag/PU foam-3",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 86, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles loaded graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 11, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "diffusely structured polyvinyl alcohol magnetic spheres",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"cm"},
+        "properties": {
+            "maximum_tensile_strength": {"value": 0.214, "unit": "MPa"},
+            "elongation_at_break": {"value": 238, "unit": "%"},
+            "compression_strength": {"value": 6.7, "unit": "KPa"},
+            "density": {"value": 0.123, "unit": "g/cm^3"},
+            "maximum_microwave_absorption": {"value": 24.9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "transmission_power": {"value": "<0.1", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_power": {"value": "about 80", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Fe3O4@PVA/GO@Ag/PU foam-7",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 82, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles loaded graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 11, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "diffusely structured polyvinyl alcohol magnetic spheres",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"cm"},
+        "properties": {
+            "maximum_tensile_strength": {"value": 0.213, "unit": "MPa"},
+            "elongation_at_break": {"value": 197, "unit": "%"},
+            "compression_strength": {"value": 7.9, "unit": "KPa"},
+            "density": {"value": 0.113, "unit": "g/cm^3"},
+            "shielding_effectiveness": {"value": 30.9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "transmission_power": {"value": "<0.1", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_power": {"value": "about 80", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": 274.9, "unit": "dB*cm^3*g^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "Fe3O4@PVA/GO@Ag/PU foam-11",
+        "matrix_name": [
+        		{
+                "name": "polyurethane",
+                "description": "not specified",
+                "composition": {"amount": 78, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles loaded graphene oxide",
+                "description": "not specified",
+                "composition": {"amount": 11, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "diffusely structured polyvinyl alcohol magnetic spheres",
+                "description": "not specified",
+                "composition": {"amount": 11, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":1, "unit":"cm"},
+        "properties": {
+            "maximum_tensile_strength": {"value": 0.251, "unit": "MPa"},
+            "elongation_at_break": {"value": 190, "unit": "%"},
+            "compression_strength": {"value": 9.0, "unit": "KPa"},
+            "density": {"value": 0.123, "unit": "g/cm^3"},
+            "shielding_effectiveness": {"value": 30.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "transmission_power": {"value": "<0.1", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_power": {"value": "about 80", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

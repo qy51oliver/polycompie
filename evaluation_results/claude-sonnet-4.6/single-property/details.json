@@ -1,0 +1,6446 @@
+[
+  {
+    "article_id": "1",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 6,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": 1,
+        "pr_sample_id": 6,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": 3,
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": 4,
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 3,
+    "relaxed_sample_matches": 3,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 3,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 3,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 1,
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 2,
+            "fn": 1,
+            "tp_s": 2,
+            "fp_s": 2,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0008622321008502-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "not specified"
+          ],
+          "fillers": [
+            "carbon nanotubes:56.8wt%",
+            "poly (diallyldimethylammonium chlo-ride):4.7wt%",
+            "titania nanosheet:38.5wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "TNS-CNT",
+          "TNS-CNT after drying"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "not specified"
+          ],
+          "fillers": [
+            "carbon nanotubes:24.7wt%",
+            "clay nanosheets:59.0wt%",
+            "poly (diallyldimethylammonium chlo-ride):",
+            "poly (sodium 4-styrenesulfonate):"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "CNS-CNT",
+          "CNS-CNT after drying"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "not specified"
+          ],
+          "fillers": [
+            "carbon nanotubes:37.2wt%",
+            "poly (diallyldimethylammonium chlo-ride):",
+            "poly (sodium 4-styrenesulfonate):",
+            "silica nanoparticles:56.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "SNP-CNT",
+          "SNP-CNT after drying"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 21,
+        "kept": 0,
+        "reason": "Removed 21 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0021979723011311-main",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 3,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "GO@Ag/PU",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.5,
+        "thickness_match": false,
+        "gt_sample_id": "Fe3O4@PVA/GO@Ag/PU foam-7",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.5,
+        "thickness_match": false,
+        "gt_sample_id": "Fe3O4@PVA/GO@Ag/PU foam-11",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.6666666666666666,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 3,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "tp_r": 1,
+        "fp_r": 3,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0032386124012278-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 2
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polybutylene succinate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "boron nitride:10.0wt%",
+            "multi-wall carbon nanotubes:5.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "S(5:5)-10B5C",
+          "S(5:5)-10B5C-C",
+          "R(5:5)-10B5C"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polybutylene succinate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "boron nitride:20.0wt%",
+            "multi-wall carbon nanotubes:5.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "S(5:5)-20B5C",
+          "S(5:5)-20B5C-C",
+          "R(5:5)-20B5C"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polybutylene succinate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "boron nitride:10.0wt%",
+            "multi-walled carbon nanotubes:5.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          2,
+          4
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polybutylene succinate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "boron nitride:20.0wt%",
+            "multi-walled carbon nanotubes:5.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          3,
+          5
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 2,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 3,
+        "tp_s": 1,
+        "fp_s": 4,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 4,
+            "fn": 3,
+            "tp_s": 1,
+            "fp_s": 4,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0141391015300033-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 8,
+        "kept": 0,
+        "reason": "Removed 8 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0141391018301058-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 0,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0141391024001691-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 10,
+        "kept": 0,
+        "reason": "Removed 10 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0141813024000680-main",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 6,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/PCL/10APP/6CNT",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 2,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/PCL/10APP/8CNT",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 4,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/PCL/10APP/6CNT/1.2IPU",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 5,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/PCL/10APP/8CNT/1.6IPU",
+        "pr_sample_id": 6,
+        "gt_n_properties": 1,
+        "pr_n_properties": 3,
+        "prop_tp": 1,
+        "prop_fp": 2,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.8,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 4,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 4,
+        "tp_r": 4,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 4,
+            "fp": 2,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 6,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0141813025011110-main",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 8,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "LPPC-50",
+        "pr_sample_id": 6,
+        "gt_n_properties": 5,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 5
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 6,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "LPPC-50-37μm",
+        "pr_sample_id": 7,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 7,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "LPPC-50-104μm",
+        "pr_sample_id": 8,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 3,
+    "relaxed_sample_matches": 3,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 3,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 5,
+        "fn_s": 0,
+        "tp_r": 3,
+        "fp_r": 5,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 5,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 5,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 5
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0169433224020075-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 2,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.5,
+        "thickness_match": false,
+        "gt_sample_id": "PIC/Cu-35% fabric",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 0,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "PIC/Cu-Ni fabric",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.5,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 13,
+        "kept": 2,
+        "reason": "Removed 13 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 3,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0266353816302494-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(ethylene-co-glycidyl methacrylate)",
+            "poly(p-phenylene sulfide)",
+            "polyamide-6"
+          ],
+          "fillers": [
+            "multiwalled cnt:1.0vol%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "MWCNT/PA6/PPS/EGMA (1/71/21/7 vol%)",
+          "MWCNT/PA6/PPS/EGMA (1/71/21/7 vol%)-master batch"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 0,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0266353816310041-main (1)",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PS",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "CuEB15/PS",
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 5,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "Cu15/PS",
+        "pr_sample_id": 3,
+        "gt_n_properties": 2,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.5333333333333333,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polystyrene"
+          ],
+          "fillers": [
+            "copper:15.0vol%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          2,
+          5
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 3,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "tp_r": 1,
+        "fp_r": 3,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 5,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 5,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 6,
+            "fn_s": 5
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0266353818314507-main",
+    "skipped": false,
+    "n_gt_samples": 13,
+    "n_pr_samples": 13,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "20Fe/PE",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "10Cu/PE",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "20Cu/PE",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "2.5A/2.5Fe/PE",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 4,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "2.5A/2.5Cu/PE",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 5,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "10A/10Fe/PE",
+        "pr_sample_id": 6,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 6,
+        "pr_idx": 6,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "10A/10Cu/PE",
+        "pr_sample_id": 7,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 7,
+        "pr_idx": 7,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "1TEG/PE",
+        "pr_sample_id": 8,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 8,
+        "pr_idx": 8,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "3.5TEG/PE",
+        "pr_sample_id": 9,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 9,
+        "pr_idx": 9,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "5TEG/PE",
+        "pr_sample_id": 10,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 10,
+        "pr_idx": 10,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "20A/PP",
+        "pr_sample_id": 11,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 11,
+        "pr_idx": 11,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "20A/PE",
+        "pr_sample_id": 12,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 12,
+        "pr_idx": 12,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "20Gr/PE",
+        "pr_sample_id": 13,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.9692307692307692,
+    "strict_sample_matches": 12,
+    "relaxed_sample_matches": 12,
+    "merge_audit": [],
+    "_counts": {
+      "comp": {
+        "tp_s": 12,
+        "fp_s": 1,
+        "fn_s": 1,
+        "tp_r": 12,
+        "fp_r": 1,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 12,
+        "fp_s": 1,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 12,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 12,
+            "fp_s": 1,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0266353820322107-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 2
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl- methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "none:0.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          5,
+          11
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl- methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:1.5wt%",
+            "nickel:1.5wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          6,
+          7
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl- methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          8,
+          9,
+          13
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl- methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "nickel:3.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          10,
+          12
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          3,
+          5
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl methacrylate)",
+            "polyurethane"
+          ],
+          "fillers": [
+            "carbon nanotubes:1.5wt%",
+            "nickel:1.5wt%"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          4,
+          6
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 2,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "tp_s": 1,
+        "fp_s": 3,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 3,
+            "tp_s": 1,
+            "fp_s": 3,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0266353823004505-main",
+    "skipped": false,
+    "n_gt_samples": 11,
+    "n_pr_samples": 2,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 4,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 3
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "EP/rGO-CF",
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 0.8,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "epoxy"
+          ],
+          "fillers": [
+            "carbon fiber:"
+          ],
+          "thickness": "2.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          "CF/EP",
+          "MXene-CF/EP",
+          "rMXene-CF/EP",
+          "Epoxy/CF"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "epoxy"
+          ],
+          "fillers": [
+            "carbon fiber:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 10,
+        "sample_ids": [
+          "EP/G-OH/CF",
+          "EP/G-COOH/CF",
+          "EP/GO/CF",
+          "EP/CNF/CF",
+          "EP/Graphene/CF",
+          "EP/CNT/CF",
+          "EP/CNT-COOH/CF",
+          "EP/CNT-OH/CF",
+          "EP/O-CNTs/CF",
+          "EP/GO/CF"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "vinyl ester resin"
+          ],
+          "fillers": [
+            "carbon fiber:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "Vinyl ester resin/CNT/CF",
+          "Vinyl ester resin/CNT-COOH/CF"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "epoxy"
+          ],
+          "fillers": [
+            "carbon fiber:"
+          ],
+          "thickness": "2.5_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "EP/CNT-CF",
+          "EP/PANI-CF"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "epoxy resin"
+          ],
+          "fillers": [
+            "carbon fiber:",
+            "titanium carbide mxene (ti3c2tx):13.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          2,
+          3
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 11,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 11,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 9
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 14,
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 15,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 14,
+            "tp_s": 0,
+            "fp_s": 3,
+            "fn_s": 15
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0925838824008934-main copy",
+    "skipped": false,
+    "n_gt_samples": 12,
+    "n_pr_samples": 5,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PMX10",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 2,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 0.0,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 0.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "MXene/PVA",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 0,
+        "similarity": 0.0,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 0.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "MXene(Ti2C)/PDMS",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 4,
+        "pr_idx": 1,
+        "similarity": 0.0,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 0.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "OLC/PMMA",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.4,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyvinylidene fluoride"
+          ],
+          "fillers": [
+            "mxene:10.0wt%",
+            "nickel:10.0wt%"
+          ],
+          "thickness": "20.0_um"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PMX10Ni-S",
+          "PMX10Ni-F"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polyvinylidene fluoride"
+          ],
+          "fillers": [
+            "nickel:10.0wt%",
+            "titanium carbide mxene:10.0wt%"
+          ],
+          "thickness": "20.0_um"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          5,
+          6
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 12,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 10,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 10
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 10,
+        "tp_s": 3,
+        "fp_s": 0,
+        "fn_s": 10,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 10,
+            "tp_s": 3,
+            "fp_s": 0,
+            "fn_s": 10
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S0925838824042592-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 10,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 17,
+        "kept": 0,
+        "reason": "Removed 17 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 10,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 10,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S0927775721004805-main copy",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PANI",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "PC3",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PC4",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 0.8666666666666667,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polyaniline"
+          ],
+          "fillers": [
+            "copper oxide:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          4,
+          5
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 3,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1359835X10002265-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "GCu8",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "GCu20",
+        "pr_sample_id": 2,
+        "gt_n_properties": 2,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.6,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 2,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 4,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1359835X25000090-main",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 13,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "monolayer_1wt%",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "monolayer_7wt%",
+        "pr_sample_id": 6,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 4,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "uniformlayer_5wt%_4mm",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 8,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 0.5,
+        "filler_score": 0.5,
+        "thickness_match": true,
+        "gt_sample_id": "multi_layer_2",
+        "pr_sample_id": 9,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.85,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 3,
+    "merge_audit": [
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "poly(methyl methacrylate)"
+          ],
+          "fillers": [
+            "multi-walled carbon nanotubes:"
+          ],
+          "thickness": "4.0_mm"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 5,
+        "kept": 4,
+        "reason": "Removed 5 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 11,
+        "fn_s": 2,
+        "tp_r": 3,
+        "fp_r": 10,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 2,
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 3,
+            "fn": 2,
+            "tp_s": 2,
+            "fp_s": 3,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1359836816305133-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "HDPE",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 5,
+        "pr_n_properties": 6,
+        "prop_tp": 4,
+        "prop_fp": 2,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "high-density polyethylene"
+          ],
+          "fillers": [
+            "multi-walled carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          "3-MWCNTs/HDPE",
+          "3-MWCNTs_(5-Ni)",
+          "3-MWCNTs_(15-Ni)",
+          "3-MWCNTs_(30-Ni)"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "high-density polyethylene"
+          ],
+          "fillers": [
+            "multi-walled carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 2,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 5,
+        "fp": 3,
+        "fn": 1,
+        "tp_s": 5,
+        "fp_s": 3,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "tp_s": 5,
+            "fp_s": 3,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1359836818325289-main (1)",
+    "skipped": false,
+    "n_gt_samples": 32,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 1,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E50O50CuN3",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E50O50CuN15",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E50O50CuN15_0.5mm",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 4,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E50O50CuN15_2mm",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 4,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 5,
+        "kept": 32,
+        "reason": "Removed 5 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 28,
+        "tp_r": 4,
+        "fp_r": 0,
+        "fn_r": 28
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 32,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 32,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 32,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 32
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894717304904-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(1,4-butylene terephthalate)"
+          ],
+          "fillers": [
+            "glass fiber:30.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PBT/A-m-GF",
+          "PBT/P-m-GF"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(1,4-butylene terephthalate)"
+          ],
+          "fillers": [
+            "aluminium phosphinate:15.0wt%",
+            "glass fiber:30.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PBT/A-m-GF/AIP15",
+          "PBT/P-m-GF/AIP15"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 0,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S1385894721006434-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 5,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "0.22% Ag/PPS",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "1.48% Ag/PPS",
+        "pr_sample_id": 5,
+        "gt_n_properties": 2,
+        "pr_n_properties": 3,
+        "prop_tp": 2,
+        "prop_fp": 1,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 2,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 0,
+            "tp_s": 3,
+            "fp_s": 1,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S138589472301570X-main",
+    "skipped": false,
+    "n_gt_samples": 5,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "G",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "GG",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "GT",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "GTG",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 4,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 5,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 1,
+        "tp_r": 4,
+        "fp_r": 0,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "tp_s": 4,
+            "fp_s": 0,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894723021046-main",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 6,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E12P1",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E12A20",
+        "pr_sample_id": 6,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 2,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E12P1A10",
+        "pr_sample_id": 4,
+        "gt_n_properties": 4,
+        "pr_n_properties": 4,
+        "prop_tp": 4,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "E12P1A20",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 4,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "ethylene–vinyl acetate copolymer"
+          ],
+          "fillers": [
+            "not specified:0.0wt%"
+          ],
+          "thickness": "2.0_mm"
+        },
+        "n_originals": 5,
+        "sample_ids": [
+          "E8",
+          "E10",
+          "E12",
+          "uncrosslinked E12",
+          "E13"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 4,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 4,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 8,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 8,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894723022180-main",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polystyrene"
+          ],
+          "fillers": [
+            "ammonium polyphosphate:18.75wt%",
+            "pentaerythritol:6.25wt%",
+            "polyphenylene ether:15.0wt%"
+          ],
+          "thickness": "None_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PS-FR-PPE(S)",
+          "PS-FR-PPE(F)"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polystyrene"
+          ],
+          "fillers": [
+            "ammonium polyphosphate:18.75wt%",
+            "pentaerythritol:6.25wt%",
+            "polyphenylene sulfide:15.0wt%"
+          ],
+          "thickness": "None_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PS-FR-PPS(S)",
+          "PS-FR-PPS(F)"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polystyrene"
+          ],
+          "fillers": [
+            "polyphenylene ether:15.0wt%"
+          ],
+          "thickness": "3.2_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PS-PPE(S)",
+          "PS-PPE(F)"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 0,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "1-s2.0-S138589472302764X-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 5,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PEDOT:PSS",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "76.6wt%-MXene/AgNWs/PEDOT:PSS",
+        "pr_sample_id": 5,
+        "gt_n_properties": 2,
+        "pr_n_properties": 4,
+        "prop_tp": 2,
+        "prop_fp": 2,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.9,
+    "strict_sample_matches": 1,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 2,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 4,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 3,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tp_s": 2,
+        "fp_s": 4,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 0,
+            "tp_s": 2,
+            "fp_s": 4,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894723031765-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PA-6/FLG(0.5%)",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PA-6/FLG(3%)",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 5,
+        "kept": 2,
+        "reason": "Removed 5 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 0,
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 2,
+            "fn": 0,
+            "tp_s": 2,
+            "fp_s": 2,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724025397-main",
+    "skipped": false,
+    "n_gt_samples": 7,
+    "n_pr_samples": 6,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 4,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "PLMF/20",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 5,
+        "pr_n_properties": 4,
+        "prop_tp": 4,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PLMF/20-3PI",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 4,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PLMF/30-3PI",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 5,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PLMF/40-1PI",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 6,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PLMF/40-3PI",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 4,
+        "prop_tp": 1,
+        "prop_fp": 3,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.9333333333333332,
+    "strict_sample_matches": 5,
+    "relaxed_sample_matches": 5,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polydimethylsiloxane"
+          ],
+          "fillers": [
+            "galinstan alloy:40.0vol%"
+          ],
+          "thickness": "150.0_um"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PLMF/40",
+          "PLMF/40 slit"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polydimethylsiloxane"
+          ],
+          "fillers": [
+            "galinstan:40.0vol%"
+          ],
+          "thickness": "150.0_um"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 7,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 5,
+        "fp_s": 1,
+        "fn_s": 2,
+        "tp_r": 5,
+        "fp_r": 1,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 3,
+        "tp_s": 8,
+        "fp_s": 4,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 8,
+            "fp": 4,
+            "fn": 3,
+            "tp_s": 8,
+            "fp_s": 4,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724039251-main",
+    "skipped": false,
+    "n_gt_samples": 18,
+    "n_pr_samples": 10,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "T5",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 0,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "T10",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 4,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "T15",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 5,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "P@E10",
+        "pr_sample_id": 6,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 4,
+        "pr_idx": 6,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "P@E5T5",
+        "pr_sample_id": 7,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 5,
+        "pr_idx": 8,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "P@T5",
+        "pr_sample_id": 9,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 6,
+        "pr_idx": 7,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 4,
+        "prop_tp": 2,
+        "prop_fp": 2,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 7,
+        "pr_idx": 9,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "P@T15",
+        "pr_sample_id": 10,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 13,
+        "pr_idx": 1,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/graphite",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 16,
+        "pr_idx": 2,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "PLA/CNTs",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 0.9200000000000002,
+    "strict_sample_matches": 7,
+    "relaxed_sample_matches": 9,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly-butylene adipate terephthalate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "carbon nanotubes:8.0wt%"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          "P@T10",
+          "f-P@T10-110",
+          "f-P@T10-130",
+          "f-P@T10-150"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polybutylene adipate terephthalate",
+            "polylactic acid"
+          ],
+          "fillers": [
+            "carbon nanotubes:8.0wt%"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          8,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 18,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 7,
+        "fp_s": 3,
+        "fn_s": 11,
+        "tp_r": 9,
+        "fp_r": 1,
+        "fn_r": 9
+      },
+      "prop": {
+        "tp": 6,
+        "fp": 3,
+        "fn": 13,
+        "tp_s": 6,
+        "fp_s": 3,
+        "fn_s": 13,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 6,
+            "fp": 3,
+            "fn": 13,
+            "tp_s": 6,
+            "fp_s": 3,
+            "fn_s": 13
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724078963-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 1,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.8,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyetherimide"
+          ],
+          "fillers": [
+            "silver:18.9vol%"
+          ],
+          "thickness": "0.3_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "MPEI@Ag-18.9vol%",
+          "MPEI/Ag-18.9vol%"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyetherimide"
+          ],
+          "fillers": [
+            "silver:"
+          ],
+          "thickness": "0.3_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "LPEI@Ag",
+          "2MPEI@Ag"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 2,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 1,
+        "fn_s": 2,
+        "tp_r": 1,
+        "fp_r": 0,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724089988-main",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "FGAs/EP-20% strain",
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "FGAs/EP-80% strain",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 3,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 3,
+        "pr_n_properties": 4,
+        "prop_tp": 1,
+        "prop_fp": 3,
+        "prop_fn": 2
+      }
+    ],
+    "avg_similarity": 0.6666666666666666,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "epoxy resin"
+          ],
+          "fillers": [
+            "mxene& co/c/graphene composites aerogels with janus structure:"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 5,
+        "sample_ids": [
+          "Z0M4GA/EP",
+          "Z1M3GA/EP",
+          "Z2M2GA/EP",
+          "Z3M1GA/EP",
+          "Z4M0GA/EP"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "epoxy resin"
+          ],
+          "fillers": [
+            "foamed graphene aerogel:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "epoxy resin"
+          ],
+          "fillers": [
+            "mxene/co/c/graphene aerogel:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 3,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 3,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 6,
+        "fn": 3,
+        "tp_s": 0,
+        "fp_s": 8,
+        "fn_s": 5,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 6,
+            "fn": 3,
+            "tp_s": 0,
+            "fp_s": 8,
+            "fn_s": 5
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724091010-main",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 0.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "BS/10GF",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "BS/50GF",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.8666666666666667,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyimine"
+          ],
+          "fillers": [
+            "none:0.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "BQP-5Si",
+          "BQP-10Si",
+          "BQP-15Si"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 3,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 1,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894724098942-main",
+    "skipped": false,
+    "n_gt_samples": 1,
+    "n_pr_samples": 2,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 4,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 4
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 1,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polydimethylsiloxane"
+          ],
+          "fillers": [
+            "boron nitride nanoribbons:9.3wt%"
+          ],
+          "thickness": "2.0_mm"
+        },
+        "n_originals": 5,
+        "sample_ids": [
+          "BNNR/PDMS",
+          "2-VG-BNNR/PDMS",
+          "4-VG-BNNR/PDMS",
+          "8-VG-BNNR/PDMS",
+          "12-VG-BNNR/PDMS"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polydimethylsiloxane"
+          ],
+          "fillers": [
+            "vertical graphene-boron nitride nanoribbon hybrid:"
+          ],
+          "thickness": "2.0_mm"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 1,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 5,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 5,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S1385894725017620-main",
+    "skipped": false,
+    "n_gt_samples": 1,
+    "n_pr_samples": 7,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 2,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 2
+      }
+    ],
+    "avg_similarity": 0.8,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyether ether ketone"
+          ],
+          "fillers": [
+            "graphene nanosheets:",
+            "multi-walled carbon nanotubes:",
+            "nickel-plated carbon fibres:"
+          ],
+          "thickness": "3.0_mm"
+        },
+        "n_originals": 13,
+        "sample_ids": [
+          "1.81% GW&Ni-CF@PEEK",
+          "3.76% GW&Ni-CF@PEEK",
+          "8.07% GW&Ni-CF@PEEK",
+          "13.09% GW&Ni-CF@PEEK",
+          "18.98% GW&Ni-CF@PEEK",
+          "26.00% GW&Ni-CF@PEEK",
+          "34.15% GW&Ni-CF@PEEK",
+          "34.15% GW&Ni-CF@1 hybrid PEEK",
+          "34.15% GW&Ni-CF@1 hybrid PEEK",
+          "34.15% GW&Ni-CF@2 hybrid PEEK",
+          "34.15% GW&Ni-CF@3 hybrid PEEK",
+          "34.15% GW&Ni-CF@4 hybrid PEEK",
+          "34.15% GnPs/MWCNTs/Ni-CF/PEEK"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "polyether ether ketone"
+          ],
+          "fillers": [
+            "graphene nanosheets/multi-walled carbon nanotubes/nickel-plated carbon fibres heterogeneous fibre:34.15vol%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 5,
+        "sample_ids": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 1,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 7,
+        "fn_s": 1,
+        "tp_r": 1,
+        "fp_r": 6,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S2238785423020690-main",
+    "skipped": false,
+    "n_gt_samples": 5,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "UHMWPE/CNS1",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "UHMWPE/CNS3",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "UHMWPE/CNS10",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.8666666666666667,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 5,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 3,
+        "tp_r": 2,
+        "fp_r": 1,
+        "fn_r": 3
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 3,
+        "tp_s": 2,
+        "fp_s": 1,
+        "fn_s": 3,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 3,
+            "tp_s": 2,
+            "fp_s": 1,
+            "fn_s": 3
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S2238785423021385-main",
+    "skipped": false,
+    "n_gt_samples": 1,
+    "n_pr_samples": 1,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 3,
+        "prop_tp": 1,
+        "prop_fp": 2,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 1,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(ether-block- amide)"
+          ],
+          "fillers": [
+            "carbon-fiber:20.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "Solid-PEBA/CF",
+          "RFIM-PEBA/CF",
+          "MOFIM-PEBA/CF"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "poly(ether-block-amide)"
+          ],
+          "fillers": [
+            "carbon fiber:20.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 1,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 0,
+        "tp_s": 1,
+        "fp_s": 2,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0,
+            "tp_s": 1,
+            "fp_s": 2,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S2238785424026553-main",
+    "skipped": false,
+    "n_gt_samples": 3,
+    "n_pr_samples": 5,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "U95C5",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "HGM5",
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 1,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 0.5,
+        "thickness_match": true,
+        "gt_sample_id": "PDA@HGM5",
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 0.9333333333333332,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 3,
+    "merge_audit": [
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "ultrahigh molecular weight polyethylene"
+          ],
+          "fillers": [
+            "carbon nanostructures:5.0wt%",
+            "hollow glass microspheres:1.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          2,
+          5
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "ultrahigh molecular weight polyethylene"
+          ],
+          "fillers": [
+            "carbon nanostructures:5.0wt%",
+            "hollow glass microspheres:5.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          3,
+          6
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "ultrahigh molecular weight polyethylene"
+          ],
+          "fillers": [
+            "carbon nanostructures:5.0wt%",
+            "hollow glass microspheres:10.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          4,
+          7
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 12,
+        "kept": 3,
+        "reason": "Removed 12 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 3,
+        "fn_s": 1,
+        "tp_r": 3,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 2,
+        "tp_s": 1,
+        "fp_s": 3,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 2,
+            "tp_s": 1,
+            "fp_s": 3,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "1-s2.0-S2949822824001898-main",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "EX0FG100",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "EX50FG50",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 2,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 2,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 2,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "tp_s": 0,
+        "fp_s": 2,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "tp_s": 0,
+            "fp_s": 2,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "40820_2021_Article_693",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "CG@CPA-3",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": "CG@CPA-10",
+        "pr_sample_id": 2,
+        "gt_n_properties": 3,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.4,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 2,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 2,
+        "tp_r": 0,
+        "fp_r": 3,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 5,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 5,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 5,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "Fang_2020_Mater._Res._Express_7_045305",
+    "skipped": false,
+    "n_gt_samples": 1,
+    "n_pr_samples": 2,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": 1,
+        "pr_sample_id": 1,
+        "gt_n_properties": 2,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 1,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [],
+    "_counts": {
+      "comp": {
+        "tp_s": 1,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 1,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "tp_s": 1,
+        "fp_s": 1,
+        "fn_s": 1,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 1,
+            "tp_s": 1,
+            "fp_s": 1,
+            "fn_s": 1
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "Goyal_2010_J._Phys._D__Appl._Phys._43_365404",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)"
+          ],
+          "fillers": [
+            "expanded graphite:2.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "2% PPS/EG",
+          "2 wt% PPS/EG"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 8,
+        "kept": 0,
+        "reason": "Removed 8 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "J of Applied Polymer Sci - 2015 - Deng - PPS recycled PEEK  carbon nanotube composites  Structure  properties and",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)",
+            "recycled poly(ether ether ketone)"
+          ],
+          "fillers": [
+            "not specified:0.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "P80/PK20",
+          "P50/PK50",
+          "P20/PK80"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 0,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "J of Applied Polymer Sci - 2022 - Chan - Mechanical  thermal  tribological  and flammability properties of polybutylene",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 0,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "PBT POSS FR",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 23,
+        "kept": 0,
+        "reason": "Removed 23 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "Study_of_the_Relationship_Between_Flammability_and_Melt-1071",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 6,
+        "kept": 0,
+        "reason": "Removed 6 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "c7ra06691k",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 19,
+        "kept": 0,
+        "reason": "Removed 19 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "c8tc03493a",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 8,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": null,
+        "gt_n_properties": 2,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 7,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": null,
+        "pr_sample_id": 9,
+        "gt_n_properties": 3,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 2
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 0,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "15.0 wt% CNT/PPS",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 0,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.9,
+    "strict_sample_matches": 3,
+    "relaxed_sample_matches": 3,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)"
+          ],
+          "fillers": [
+            "carbon nanotubes:1.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "1.0 wt% s-CNT/PPS",
+          "1.0 wt% r-CNT/PPS"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "3.0 wt% s-CNT/PPS",
+          "3.0 wt% r-CNT/PPS"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)"
+          ],
+          "fillers": [
+            "carbon nanotubes:5.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 6,
+        "sample_ids": [
+          "5.0 wt% s-CNT/PPS",
+          "0.5mm 5.0 wt% s-CNT/PPS",
+          "1.0mm 5.0 wt% s-CNT/PPS",
+          "1.5mm 5.0 wt% s-CNT/PPS",
+          "2.0mm 5.0 wt% s-CNT/PPS",
+          "5.0 wt% r-CNT/PPS"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)"
+          ],
+          "fillers": [
+            "carbon nanotubes:3.0wt%"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          3,
+          8
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 1,
+        "kept": 4,
+        "reason": "Removed 1 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 3,
+        "fp_s": 5,
+        "fn_s": 1,
+        "tp_r": 3,
+        "fp_r": 5,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 2,
+        "fn": 4,
+        "tp_s": 3,
+        "fp_s": 2,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 2,
+            "fn": 4,
+            "tp_s": 3,
+            "fp_s": 2,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "jcs-07-00117",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 6,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 6,
+        "kept": 0,
+        "reason": "Removed 6 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 6,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "ling-et-al-2013-lightweight-multifunctional-polyetherimide-graphene-fe3o4-composite-foams-for-shielding-of",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 5,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PEI+1.0 wt% G@Fe3O4",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PEI+5.0 wt% G@Fe3O4",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PEI+7.0 wt% G@Fe3O4",
+        "pr_sample_id": 3,
+        "gt_n_properties": 2,
+        "pr_n_properties": 5,
+        "prop_tp": 1,
+        "prop_fp": 4,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PEI+10.0 wt% G@Fe3O4",
+        "pr_sample_id": 4,
+        "gt_n_properties": 2,
+        "pr_n_properties": 5,
+        "prop_tp": 1,
+        "prop_fp": 4,
+        "prop_fn": 1
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 4,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 3,
+        "kept": 4,
+        "reason": "Removed 3 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 1,
+        "fn_s": 0,
+        "tp_r": 4,
+        "fp_r": 1,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 4,
+        "tp_s": 2,
+        "fp_s": 12,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 12,
+            "fn": 4,
+            "tp_s": 2,
+            "fp_s": 12,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "molecules-29-03108-v2",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 3,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 1,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": "TPU/rGO",
+        "pr_sample_id": null,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 1,
+        "prop_fp": 1,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 2,
+        "similarity": 0.5333,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.3333,
+        "thickness_match": false,
+        "gt_sample_id": "TPU/5APP@PEI@1TC/rGO",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.66665,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 1,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "thermoplastic polyurethane"
+          ],
+          "fillers": [
+            "ammonium polyphosphate:12.0wt%"
+          ],
+          "thickness": "0.5_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "TPU/APP",
+          "TPU/APP@PEI"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "thermoplastic polyurethane"
+          ],
+          "fillers": [
+            "ammonium polyphosphate:12.0wt%",
+            "reduced graphene oxide:"
+          ],
+          "thickness": "1.0_mm"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "TPU/APP/rGO",
+          "TPU/APP@PEI/rGO"
+        ]
+      },
+      {
+        "dataset": "prediction",
+        "composition_key": {
+          "matrices": [
+            "thermoplastic polyurethane"
+          ],
+          "fillers": [
+            "reduced graphene oxide:"
+          ],
+          "thickness": "None_not specified"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          2,
+          3
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 8,
+        "kept": 2,
+        "reason": "Removed 8 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 3,
+        "fn_s": 2,
+        "tp_r": 1,
+        "fp_r": 2,
+        "fn_r": 1
+      },
+      "prop": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 1,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 2,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 1,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 2
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "morishita-okamoto-2016-facile-exfoliation-and-noncovalent-superacid-functionalization-of-boron-nitride-nanosheets-and",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 12,
+        "kept": 0,
+        "reason": "Removed 12 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "polybenzoxazine copy",
+    "skipped": false,
+    "n_gt_samples": 13,
+    "n_pr_samples": 4,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PBA-a",
+        "pr_sample_id": 1,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 1
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PBA-a/1GN",
+        "pr_sample_id": 2,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PBA-a/3GN",
+        "pr_sample_id": 3,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 3,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "PBA-a/5GN",
+        "pr_sample_id": 4,
+        "gt_n_properties": 1,
+        "pr_n_properties": 1,
+        "prop_tp": 1,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 4,
+    "relaxed_sample_matches": 4,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 2,
+        "kept": 13,
+        "reason": "Removed 2 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 4,
+        "fp_s": 0,
+        "fn_s": 9,
+        "tp_r": 4,
+        "fp_r": 0,
+        "fn_r": 9
+      },
+      "prop": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 10,
+        "tp_s": 3,
+        "fp_s": 1,
+        "fn_s": 10,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 10,
+            "tp_s": 3,
+            "fp_s": 1,
+            "fn_s": 10
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "polymers-14-00017-v3",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 0,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "polymers-15-01911",
+    "skipped": false,
+    "n_gt_samples": 4,
+    "n_pr_samples": 6,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 4,
+        "similarity": 0.6,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": true,
+        "gt_sample_id": "PPA GF",
+        "pr_sample_id": 5,
+        "gt_n_properties": 1,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 0,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 1,
+        "gt_n_properties": 3,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 1,
+        "prop_fn": 3
+      },
+      {
+        "gt_idx": 2,
+        "pr_idx": 2,
+        "similarity": 0.8,
+        "strict_match": false,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 3,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 2,
+        "prop_fp": 0,
+        "prop_fn": 0
+      },
+      {
+        "gt_idx": 3,
+        "pr_idx": 1,
+        "similarity": 0.4,
+        "strict_match": false,
+        "relaxed_match": false,
+        "matrix_score": 1.0,
+        "filler_score": 0.0,
+        "thickness_match": false,
+        "gt_sample_id": null,
+        "pr_sample_id": 2,
+        "gt_n_properties": 2,
+        "pr_n_properties": 1,
+        "prop_tp": 0,
+        "prop_fp": 0,
+        "prop_fn": 0
+      }
+    ],
+    "avg_similarity": 0.65,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyphenylene sulfide"
+          ],
+          "fillers": [
+            "not specified:0.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PPS",
+          "PPS 50 μm Zn"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyetheretherketone"
+          ],
+          "fillers": [
+            "not specified:0.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "PEEK",
+          "PEEK 10μm aluminum broze"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "polyphthalamid"
+          ],
+          "fillers": [
+            "glass fiber:"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          "PPA-GF 5μm aluminum broze",
+          "PPA-GF 1mm aluminum broze",
+          "PPA-GF 2mm aluminum broze",
+          "PPA-GF 5mm aluminum broze"
+        ]
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 6,
+        "fn_s": 4,
+        "tp_r": 2,
+        "fp_r": 4,
+        "fn_r": 2
+      },
+      "prop": {
+        "tp": 2,
+        "fp": 8,
+        "fn": 6,
+        "tp_s": 0,
+        "fp_s": 10,
+        "fn_s": 8,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 2,
+            "fp": 8,
+            "fn": 6,
+            "tp_s": 0,
+            "fp_s": 10,
+            "fn_s": 8
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "s10973-016-5484-9",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poly(phenylene sulfide)",
+            "polyphthalamide"
+          ],
+          "fillers": [
+            "not specified:0.0wt%"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 3,
+        "sample_ids": [
+          "P80PA20",
+          "P50PA50",
+          "P20PA80"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 7,
+        "kept": 0,
+        "reason": "Removed 7 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  },
+  {
+    "article_id": "sunitha-et-al-2016-electromagnetic-interference-shielding-effectiveness-and-electrical-conductivity-of-ni-coated-pcabs",
+    "skipped": false,
+    "n_gt_samples": 2,
+    "n_pr_samples": 2,
+    "sample_details": [
+      {
+        "gt_idx": 0,
+        "pr_idx": 0,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "NiPCABS",
+        "pr_sample_id": 1,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 2
+      },
+      {
+        "gt_idx": 1,
+        "pr_idx": 1,
+        "similarity": 1.0,
+        "strict_match": true,
+        "relaxed_match": true,
+        "matrix_score": 1.0,
+        "filler_score": 1.0,
+        "thickness_match": true,
+        "gt_sample_id": "NiPPS",
+        "pr_sample_id": 2,
+        "gt_n_properties": 2,
+        "pr_n_properties": 2,
+        "prop_tp": 0,
+        "prop_fp": 2,
+        "prop_fn": 2
+      }
+    ],
+    "avg_similarity": 1.0,
+    "strict_sample_matches": 2,
+    "relaxed_sample_matches": 2,
+    "merge_audit": [],
+    "_counts": {
+      "comp": {
+        "tp_s": 2,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 2,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 4,
+        "tp_s": 0,
+        "fp_s": 4,
+        "fn_s": 4,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 4,
+            "tp_s": 0,
+            "fp_s": 4,
+            "fn_s": 4
+          }
+        }
+      }
+    },
+    "prediction_status": "present",
+    "prediction_source": "March archived",
+    "reference_eligible": true
+  },
+  {
+    "article_id": "zong-et-al-2023-phase-morphology-and-conductive-properties-of-pbt-poe-g-gma-pp-cnt-nanocomposites-with-a-tri-continuous (1)",
+    "skipped": false,
+    "n_gt_samples": 0,
+    "n_pr_samples": 0,
+    "sample_details": [],
+    "avg_similarity": 0.0,
+    "strict_sample_matches": 0,
+    "relaxed_sample_matches": 0,
+    "merge_audit": [
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poe-g-gma",
+            "polybutylene terephthalate",
+            "polypropylene"
+          ],
+          "fillers": [
+            "not specified:0.0not specified"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 4,
+        "sample_ids": [
+          "N5-0",
+          "N10-0",
+          "N15-0",
+          "N10-0-T"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poe-g-gma",
+            "polybutylene terephthalate",
+            "polypropylene"
+          ],
+          "fillers": [
+            "carbon nanotubes:1.0phr"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 6,
+        "sample_ids": [
+          "N5-1.0",
+          "N10-1.0",
+          "N15-1.0",
+          "N5-1.0-T",
+          "N10-1.0-T",
+          "N15-1.0-T"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poe-g-gma",
+            "polybutylene terephthalate",
+            "polypropylene"
+          ],
+          "fillers": [
+            "carbon nanotubes:0.5phr"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "N10-0.5",
+          "N10-0.5-T"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "composition_key": {
+          "matrices": [
+            "poe-g-gma",
+            "polybutylene terephthalate",
+            "polypropylene"
+          ],
+          "fillers": [
+            "carbon nanotubes:2.0phr"
+          ],
+          "thickness": "None_"
+        },
+        "n_originals": 2,
+        "sample_ids": [
+          "N10-2.0",
+          "N10-2.0-T"
+        ]
+      },
+      {
+        "dataset": "ground_truth",
+        "filter": "property_relevance",
+        "removed": 4,
+        "kept": 0,
+        "reason": "Removed 4 GT samples with no properties in target set"
+      }
+    ],
+    "_counts": {
+      "comp": {
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "tp_r": 0,
+        "fp_r": 0,
+        "fn_r": 0
+      },
+      "prop": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp_s": 0,
+        "fp_s": 0,
+        "fn_s": 0,
+        "per_key": {
+          "shielding_effectiveness": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp_s": 0,
+            "fp_s": 0,
+            "fn_s": 0
+          }
+        }
+      }
+    },
+    "prediction_status": "empty",
+    "prediction_source": "March archived",
+    "reference_eligible": false
+  }
+]

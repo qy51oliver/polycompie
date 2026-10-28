@@ -1,0 +1,289 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 97.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP), then diluted by dry mixing with pure PS powder; forms segregated network in matrix",
+        "composition": {
+          "amount": 0.12,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP), then diluted by dry mixing with pure PS powder; forms segregated network in matrix",
+        "composition": {
+          "amount": 0.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 99.37,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP), then diluted by dry mixing with pure PS powder; forms segregated network in matrix; 25 wt% CCP / 75 wt% PS blend",
+        "composition": {
+          "amount": 0.63,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 13,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 98.68,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP), then diluted by dry mixing with pure PS powder; forms segregated network in matrix; 50 wt% CCP / 50 wt% PS blend",
+        "composition": {
+          "amount": 1.32,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 27,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm",
+        "composition": {
+          "amount": 97.92,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP), then diluted by dry mixing with pure PS powder; forms segregated network in matrix; 75 wt% CCP / 25 wt% PS blend",
+        "composition": {
+          "amount": 2.08,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polystyrene",
+        "description": "Styron 666D, Mwt 200,000 g/mol, MFI 7.5, Tg 100°C; prepared as powder by cryogenic cutting and sieving to <200 µm; no dilution with pure PS powder — pure CCP film",
+        "composition": {
+          "amount": 97.1,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper nanowire",
+        "description": "CuNWs synthesized by AC electrodeposition in porous aluminum oxide templates; dispersed via miscible mixing and precipitation (MSMP) method to form conductive composite powder (CCP); no dilution — pure CCP compression molded film; CuNW concentration confirmed by TGA",
+        "composition": {
+          "amount": 2.9,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 210,
+      "unit": "µm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 50,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "note",
+            "value": "reported as >50 dB (exceeds dynamic range of measurement setup)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

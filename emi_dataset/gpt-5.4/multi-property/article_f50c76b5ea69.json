@@ -1,0 +1,364 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODPA-ODA polyimide derived from 4,4′-oxydiphthalic anhydride and 4,4′-oxidianiline",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.3e-12,
+        "unit": "S m−1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "plane perpendicular to hot-pressing direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 0.91,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.47,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "cross-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 77.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 0.91,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODPA-ODA polyimide derived from 4,4′-oxydiphthalic anhydride and 4,4′-oxidianiline",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber-grafted carbon fiber",
+        "description": "pitch-based short carbon fiber with CVD-grown carbon nanofibers on the surface; carbon nanofibers constitute approximately 7.7 wt.% of the obtained NCF",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.74,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "cross-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODPA-ODA polyimide derived from 4,4′-oxydiphthalic anhydride and 4,4′-oxidianiline",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber-grafted carbon fiber",
+        "description": "pitch-based short carbon fiber with CVD-grown carbon nanofibers on the surface; carbon nanofibers constitute approximately 7.7 wt.% of the obtained NCF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.00014,
+        "unit": "S m−1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "plane perpendicular to hot-pressing direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 17.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "parallel to hot-pressing direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 5.41,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 1.57,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "cross-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 117.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 26.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1.2,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODPA-ODA polyimide derived from 4,4′-oxydiphthalic anhydride and 4,4′-oxidianiline",
+        "composition": {
+          "amount": 66.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber-grafted carbon fiber",
+        "description": "pitch-based short carbon fiber with CVD-grown carbon nanofibers on the surface; carbon nanofibers constitute approximately 7.7 wt.% of the obtained NCF",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO nanosheets",
+        "composition": {
+          "amount": 3.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.25,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 7000.0,
+        "unit": "S m−1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "plane perpendicular to hot-pressing direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 45.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_direction",
+            "value": "parallel to hot-pressing direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_1": {
+        "value": 5.18,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 0.75,
+        "unit": "W m−1 K−1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "cross-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 128.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 46.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "extension_rate",
+            "value": 5,
+            "unit": "mm min−1"
+          }
+        ]
+      }
+    }
+  }
+]

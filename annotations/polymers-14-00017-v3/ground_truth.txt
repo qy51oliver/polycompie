@@ -1,0 +1,180 @@
+[
+     {
+        "sample_id": "PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not sepcified",
+                "composition": {"amount": 0.0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 15, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]},
+            "flame height": {"value": 36.4, "unit": "mm"}
+	}
+    },
+     {
+        "sample_id": "5% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 5, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]}
+	}
+    },
+     {
+        "sample_id": "10% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 3.5, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]}
+	}
+    },
+     {
+        "sample_id": "15% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 3.1, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]},
+            "fludidty": {"value": 12.2, "unit": "g/10min"}
+	}
+    },
+     {
+        "sample_id": "20% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 2.6, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]},
+            "flame height": {"value": 9.2, "unit": "mm"},
+            "failure percentage 1":{"value": 0, "unit": "%","conditions": [{"type": "stroke type", "value": "simple","unit": "not specified"},{"type": "number of specimens", "value": 25,"unit": "not specified"}]},
+            "failure percentage 2":{"value": 0, "unit": "%","conditions": [{"type": "stroke type", "value": "double","unit": "not specified"},{"type": "number of specimens", "value": 15,"unit": "not specified"}]},
+            "failure percentage 3":{"value": 0, "unit": "%","conditions": [{"type": "stroke type", "value": "triple","unit": "not specified"},{"type": "number of specimens", "value": 10,"unit": "not specified"}]}
+	}
+    },
+     {
+        "sample_id": "25% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 2.1, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]},
+            "flame height": {"value": 5.4, "unit": "mm"},
+            "failure percentage 1":{"value": 4, "unit": "%","conditions": [{"type": "stroke type", "value": "simple","unit": "not specified"},{"type": "number of specimens", "value": 25,"unit": "not specified"}]},
+            "failure percentage 2":{"value": 7, "unit": "%","conditions": [{"type": "stroke type", "value": "double","unit": "not specified"},{"type": "number of specimens", "value": 15,"unit": "not specified"}]},
+            "failure percentage 3":{"value": 10, "unit": "%","conditions": [{"type": "stroke type", "value": "triple","unit": "not specified"},{"type": "number of specimens", "value": 10,"unit": "not specified"}]}
+	}
+    },
+     {
+        "sample_id": "30% GF/PBT",
+        "matrix_name": [
+        		{
+                "name": "polybutylene terephthalate",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fibers",
+                "description": "reinforcement ",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "elongation at break":{"value": 1.0, "unit": "%","conditions": [{"type": "testing velocity", "value": 5,"unit": "mm/min"}]},
+            "flame height": {"value": 4.4, "unit": "mm"},
+            "fludidty": {"value": 1.0, "unit": "g/10min"},
+            "failure percentage 1":{"value": 8, "unit": "%","conditions": [{"type": "stroke type", "value": "simple","unit": "not specified"},{"type": "number of specimens", "value": 25,"unit": "not specified"}]},
+            "failure percentage 2":{"value": 13, "unit": "%","conditions": [{"type": "stroke type", "value": "double","unit": "not specified"},{"type": "number of specimens", "value": 15,"unit": "not specified"}]},
+            "failure percentage 3":{"value": 30, "unit": "%","conditions": [{"type": "stroke type", "value": "triple","unit": "not specified"},{"type": "number of specimens", "value": 10,"unit": "not specified"}]}
+	}
+    }
+]
+     
+     

@@ -1,0 +1,483 @@
+[
+     {
+        "sample_id": "PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 0.24, "unit": "W/mK"}
+	}
+    },
+     {
+        "sample_id": "1.81% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 98.19, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "3.76% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 96.24, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "tensile_strength": {"value": 120.5, "unit": "MPa"}
+	}
+    },
+     {
+        "sample_id": "8.07% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 91.93, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "steady_state_satuation_temperature": {"value": 52.80, "unit": "◦C","conditions": [{"type": "voltage", "value": 3,"unit": "V"}]}
+	}
+    },
+     {
+        "sample_id": "13.09% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 86.91, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "18.98% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 81.02, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "steady_state_satuation_temperature": {"value": 167.45, "unit": "◦C","conditions": [{"type": "voltage", "value": 3,"unit": "V"}]}
+	}
+    },
+     {
+        "sample_id": "26.00% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 74.00, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "34.15% GW&Ni-CF@PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 65.85, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "in_plane_thermal_conductivity": {"value": 11.91, "unit": "W/mK"},
+            "through_plane_thermal_conductivity": {"value": 3.25, "unit": "W/mK"},
+            "electrical_conductivity": {"value": 9364, "unit": "S/cm"},
+            "shielding_effectiveness": {"value": 85.93, "unit": "dB","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "steady_state_satuation_temperature": {"value": 252.39, "unit": "◦C","conditions": [{"type": "voltage", "value": 3,"unit": "V"}]}
+	}
+    },
+     {
+        "sample_id": "34.15% GW&Ni-CF@1 hybrid PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "hybrid particles with 3.76 vol% GnPs, MWCNTs, and Ni-CF",
+                "composition": {"amount": 65.85, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "34.15% GW&Ni-CF@1 hybrid PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "hybrid particles with 3.76 vol% GnPs, MWCNTs, and Ni-CF",
+                "composition": {"amount": 68.42, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },     
+     {
+        "sample_id": "34.15% GW&Ni-CF@2 hybrid PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "hybrid particles with 8.07 vol% GnPs, MWCNTs, and Ni-CF",
+                "composition": {"amount": 71.63, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "34.15% GW&Ni-CF@3 hybrid PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "hybrid particles with 13.09 vol% GnPs, MWCNTs, and Ni-CF",
+                "composition": {"amount": 75.77, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "34.15% GW&Ni-CF@4 hybrid PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "hybrid particles with 18.98 vol% GnPs, MWCNTs, and Ni-CF",
+                "composition": {"amount": 75.77, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "prepared heterogeneous fibre filler",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "in_plane_thermal_conductivity": {"value": 18.28, "unit": "W/mK"},
+            "through_plane_thermal_conductivity": {"value": 9.66, "unit": "W/mK"},
+            "electrical_conductivity": {"value": 16492, "unit": "S/cm"},
+            "shielding_effectiveness": {"value": 132.06, "unit": "dB","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "reflection_power_coefficient": {"value": ">0.95", "unit": "none","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "absorption_power_coefficient": {"value": "<0.05", "unit": "none","conditions": [{"type": "frequency", "value": 8.2,"unit": "GHz"}]},
+            "steady_state_satuation_temperature": {"value": "285", "unit": "◦C","conditions": [{"type": "voltage", "value": 3,"unit": "V"}]}
+	}
+    },
+     {
+        "sample_id": "34.15% GnPs/MWCNTs/Ni-CF/PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyether ether ketone",
+                "description": "not specified",
+                "composition": {"amount": 65.85, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "nickel-plated carbon fibres",
+                "description": "random blend",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanosheets",
+                "description": "random blend",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "random blend",
+                "composition": {"amount": "not specified", "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit": "mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1921, "unit": "S/cm"}
+	}
+    }
+]

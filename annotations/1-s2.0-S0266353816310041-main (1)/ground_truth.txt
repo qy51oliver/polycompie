@@ -1,0 +1,124 @@
+[
+     {
+        "sample_id": "PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": "<10^-16", "unit": "S/cm"},
+            "shielding_effectiveness": {"value": 0, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 300,"unit": "KHz"},{"type": "frequency upper bound", "value": 12,"unit": "GHz"}]}
+       
+        }
+    },
+     {
+        "sample_id": "CuEB2.7/PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 97.3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Copper coated expanded polymer beads",
+                "description": "not specified",
+                "composition": {"amount": 2.7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1.1e-7, "unit": "S/cm"}
+        }
+    },
+     {
+        "sample_id": "CuEB7/PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Copper coated expanded polymer beads",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 7.8e2, "unit": "S/cm"}
+        }
+    },
+     {
+        "sample_id": "CuEB15/PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Copper coated expanded polymer beads",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 4.2e3, "unit": "S/cm"},
+            "shielding_effectiveness_1": {"value": 80.0, "unit": "dB","conditions": [{"type": "frequency", "value": 300,"unit": "KHz"}]},
+            "shielding_effectiveness_2": {"value": 62.1, "unit": "dB","conditions": [{"type": "frequency", "value": 12,"unit": "GHz"}]},
+            "absorption_loss": {"value": 57.2, "unit": "dB","conditions": [{"type": "frequency", "value": 300,"unit": "KHz"}]}
+        }
+    },
+     {
+        "sample_id": "Cu15/PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Copper beads",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 5e-5, "unit": "S/cm"},
+            "shielding_effectiveness_1": {"value": 5.3e-3, "unit": "dB","conditions": [{"type": "frequency", "value": 300,"unit": "KHz"}]},
+            "shielding_effectiveness_2": {"value": 1.2, "unit": "dB","conditions": [{"type": "frequency", "value": 12,"unit": "GHz"}]}
+        }
+    },
+]

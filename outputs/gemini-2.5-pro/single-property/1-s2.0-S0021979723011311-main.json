@@ -1,0 +1,217 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Foam prepared from trifunctional polyether polyol, dibutyltin dilaurate, organosilicon stabilizer, deionized water, and toluene diisocyanate (TDI).",
+        "composition": {
+          "amount": 89.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Iron(II,III) oxide@Polyvinyl alcohol",
+        "description": "Dispersive magnetic spheres of Fe3O4@PVA. Fe3O4 nanoparticles coated with Polyvinyl alcohol.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene oxide@silver",
+        "description": "Silver nanoparticles loaded on Graphene oxide (GO). GO was first treated with KH-550 to get amino-rich GO.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Foam prepared from trifunctional polyether polyol, dibutyltin dilaurate, organosilicon stabilizer, deionized water, and toluene diisocyanate (TDI).",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Iron(II,III) oxide@Polyvinyl alcohol",
+        "description": "Dispersive magnetic spheres of Fe3O4@PVA. Fe3O4 nanoparticles coated with Polyvinyl alcohol.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene oxide@silver",
+        "description": "Silver nanoparticles loaded on Graphene oxide (GO). GO was first treated with KH-550 to get amino-rich GO.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Foam prepared from trifunctional polyether polyol, dibutyltin dilaurate, organosilicon stabilizer, deionized water, and toluene diisocyanate (TDI).",
+        "composition": {
+          "amount": 81.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Iron(II,III) oxide@Polyvinyl alcohol",
+        "description": "Dispersive magnetic spheres of Fe3O4@PVA. Fe3O4 nanoparticles coated with Polyvinyl alcohol.",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Graphene oxide@silver",
+        "description": "Silver nanoparticles loaded on Graphene oxide (GO). GO was first treated with KH-550 to get amino-rich GO.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Foam prepared from trifunctional polyether polyol, dibutyltin dilaurate, organosilicon stabilizer, deionized water, and toluene diisocyanate (TDI).",
+        "composition": {
+          "amount": 89.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide@silver",
+        "description": "Silver nanoparticles loaded on Graphene oxide (GO). GO was first treated with KH-550 to get amino-rich GO.",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

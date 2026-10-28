@@ -1,0 +1,385 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "neat PBT, grade 1100-211M, purchased from Chang Chun Plastics Ltd, China",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 200.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "J/m",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 224.3,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "heating rate",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": "not specified",
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 572.0,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 53.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT grade 1100-211M, purchased from Chang Chun Plastics Ltd, China; dried at 80°C for 24 h before compounding",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "natural wollastonite (NW), 600 mesh powder, purchased from Liaoning Metals & Minerals Enterprise Co., Ltd.; 1D structure with non-uniform size and shape; micron-scale; untreated",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 149.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "J/m",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 225.0,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 474.0,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT grade 1100-211M, purchased from Chang Chun Plastics Ltd, China; dried at 80°C for 24 h before compounding",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "synthetic wollastonite nanofibers (SWN) synthesized via hydrothermal reaction followed by calcination; distinct fiber morphology with uniform shape; nano-scale; 1D structure",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": "not specified",
+        "unit": "J/m",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 226.5,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 495.0,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 50.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT grade 1100-211M, purchased from Chang Chun Plastics Ltd, China; dried at 80°C for 24 h before compounding",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "UGOX™ United GO powder, 99% purity, average thickness 0.8–2.0 nm, lateral dimension 5–10 µm; 2D layered structure; supplied by United Nanotech Innovations Private Limited; used as supplied without purification",
+        "composition": {
+          "amount": 1.0,
+          "type": "phr"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 45.2,
+        "unit": "J/m",
+        "conditions": []
+      },
+      "melting_temperature": {
+        "value": 224.8,
+        "unit": "°C",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 509.0,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 42.0,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "external heat flux",
+            "value": 35,
+            "unit": "kW/m²"
+          }
+        ]
+      }
+    }
+  }
+]

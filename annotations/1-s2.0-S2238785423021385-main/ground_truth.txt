@@ -1,0 +1,99 @@
+[
+     {
+        "sample_id": "PEBA",
+        "matrix_name": [
+        		{
+                "name": "poly(ether-block- amide)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "melting_point": {"value": 150, "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "Solid-PEBA/CF",
+        "matrix_name": [
+        		{
+                "name": "poly(ether-block- amide)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon-fiber",
+                "description": "solid sample",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "specific_toughness": {"value": 198.9, "unit": "MJ*m^-3/(g*cm^-3)"},
+            "Specific_shielding_effectiveness": {"value": "~20", "unit": "dB*cm^3*g^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "melting_point": {"value": 146.1, "unit": "°C"},
+            "glass_transition_temperature": {"value": "<-40", "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "RFIM-PEBA/CF",
+        "matrix_name": [
+        		{
+                "name": "poly(ether-block- amide)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon-fiber",
+                "description": "regular foam injection molding sample",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "Specific_shielding_effectiveness": {"value": "~30", "unit": "dB*cm^3*g^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "MOFIM-PEBA/CF",
+        "matrix_name": [
+        		{
+                "name": "poly(ether-block- amide)",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon-fiber",
+                "description": "mold-opening foam injection molding sample",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "not specified"},
+        "properties": {
+            "specific_toughness": {"value": 475.0, "unit": "MJ*m^-3/(g*cm^-3)"},
+            "shielding_effectiveness": {"value": 25, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "specific_shielding_effectiveness": {"value": "~35", "unit": "dB*cm^3*g^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+        }
+    }
+]

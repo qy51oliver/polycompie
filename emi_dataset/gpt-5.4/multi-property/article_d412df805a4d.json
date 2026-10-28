@@ -1,0 +1,647 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF nanocomposite matrix for filler-ratio comparison",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 37.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF nanocomposite matrix for filler-ratio comparison",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs)",
+        "composition": {
+          "amount": 7.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 51.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF nanocomposite matrix for filler-ratio comparison",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; ECG:cMWCNT weight ratio = 3:1",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); ECG:cMWCNT weight ratio = 3:1",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 40.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF nanocomposite matrix for filler-ratio comparison",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; ECG:cMWCNT weight ratio = 1:1",
+        "composition": {
+          "amount": 3.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); ECG:cMWCNT weight ratio = 1:1",
+        "composition": {
+          "amount": 3.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 43.63,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF@ECG1-cMWCNTs3 nanocomposite with low overall filler loading",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 0.25,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 0.75,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.42,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "four-layered PVDF nanocomposite with gradient distribution of segregated conductive network",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.5,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 33.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "four-layered PVDF nanocomposite with gradient distribution of segregated conductive network",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 47.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "four-layered PVDF nanocomposite with gradient distribution of segregated conductive network",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 66.67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "six-layered PVDF nanocomposite with gradient distribution of segregated conductive network",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 79.87,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "total",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 79.62,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "absorption",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 0.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF layered nanocomposite with counter-gradient (inverted gradient) distribution of segregated conductive network; decremental filler content from incident layer to projection layer",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 6.63,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF nanocomposite with pure segregated conductive network (non-gradient structure)",
+        "composition": {
+          "amount": 92.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "edge-selectively carboxylated graphene (ECG) nanosheets; overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 1.875,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "carboxylated multi-walled carbon nanotubes (cMWCNTs); overall ECG:cMWCNT weight ratio = 1:3",
+        "composition": {
+          "amount": 5.625,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 10.35,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "component",
+            "value": "reflection",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

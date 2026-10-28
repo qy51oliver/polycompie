@@ -1,0 +1,1195 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 75.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2.14,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.134,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 67.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical",
+        "composition": {
+          "amount": 33.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2.99,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.135,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); essentially spherical; average aspect ratio 0.97",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 4.95,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 5.54,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.147,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 35.06,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1117.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.28,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 40.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical",
+        "composition": {
+          "amount": 60.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 0.178,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 2.02",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 7.25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 39.59,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1213.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.3,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 3.79",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 8.81,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 10.64,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 43.79,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1293.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.35,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 8.27",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 9.58,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 54.03,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 1347.0,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "tensile_speed",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.37,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "parallel to orientation direction of LMMs",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 0.51,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 2.04,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 1.02,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 17.32,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); essentially spherical; average aspect ratio 0.99; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 1.55,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.46,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 22.56,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 2.08,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.19,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal droplets (LM); spherical; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 2.64,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.05,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 29.23,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 2.18; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 1.55,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 23.86,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 3.91; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 1.55,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "poly(ε-caprolactone)",
+        "description": "PCL matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "gallium",
+        "description": "liquid metal microfibers (LMM); average aspect ratio 8.55; LMM loading fixed at 50 wt%",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "CTAB-assisted dispersion"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "CNT (NC7000)",
+        "composition": {
+          "amount": 1.55,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 28.68,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement_direction",
+            "value": "vertical to orientation direction of LMMs",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

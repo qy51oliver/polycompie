@@ -1,0 +1,290 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "L-12 DGEBA-based epoxy resin cured with K-6 hardener (triethylenetetramine) in a 10:1 resin:hardener ratio.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Neat epoxy sample without filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 2.0,
+        "unit": "N/mm^2",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 59.6,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "L-12 DGEBA-based epoxy resin cured with K-6 hardener (triethylenetetramine) in a 10:1 resin:hardener ratio.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide-activated carbon",
+        "description": "CuO-activated carbon nanoparticles; CuO-embedded/decorated activated carbon prepared by co-precipitation and calcination.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 2.8,
+        "unit": "N/mm^2",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 76.2,
+        "unit": "kJ/m^2",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -18.89,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.44,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "L-12 DGEBA-based epoxy resin cured with K-6 hardener (triethylenetetramine) in a 10:1 resin:hardener ratio.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide-activated carbon",
+        "description": "CuO-activated carbon nanoparticles; CuO-embedded/decorated activated carbon prepared by co-precipitation and calcination.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 3.9,
+        "unit": "N/mm^2",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 82.3,
+        "unit": "kJ/m^2",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -36.33,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.44,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "L-12 DGEBA-based epoxy resin cured with K-6 hardener (triethylenetetramine) in a 10:1 resin:hardener ratio.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide-activated carbon",
+        "description": "CuO-activated carbon nanoparticles; CuO-embedded/decorated activated carbon prepared by co-precipitation and calcination.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 1.6,
+        "unit": "N/mm^2",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 55.0,
+        "unit": "kJ/m^2",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -25.31,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.44,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "diglycidyl ether of bisphenol A epoxy resin",
+        "description": "L-12 DGEBA-based epoxy resin cured with K-6 hardener (triethylenetetramine) in a 10:1 resin:hardener ratio; the matrix contains the optimum 10 wt% CuO-activated carbon formulation.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide-activated carbon",
+        "description": "CuO-activated carbon nanoparticles; CuO-embedded/decorated activated carbon prepared by co-precipitation and calcination.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon fiber",
+        "description": "2-ply plain woven carbon fiber reinforcement.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 38.2,
+        "unit": "N/mm^2",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 372.7,
+        "unit": "kJ/m^2",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": -52.02,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 11.48,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

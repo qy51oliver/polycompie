@@ -1,0 +1,174 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam prepared from polyether polyol + TDI with catalyst, organosilicon stabilizer and water (foaming).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide",
+        "description": "Graphene oxide loaded with silver nanoparticles (GO@Ag); GO was KH-550 treated to GO-NH2 prior to Ag loading. GO@Ag amount fixed at 8 wt% in composite foam formulations.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide",
+        "description": "Fe3O4@PVA (polyvinyl alcohol magnetic spheres; Fe3O4 modified with oleic acid, then PVAc suspension polymerization and alcoholysis to PVA). Sample label: Fe3O4@PVA/GO@Ag/PU foam-3.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 0.214,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 238.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam prepared from polyether polyol + TDI with catalyst, organosilicon stabilizer and water (foaming).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide",
+        "description": "Graphene oxide loaded with silver nanoparticles (GO@Ag); GO was KH-550 treated to GO-NH2 prior to Ag loading. GO@Ag amount fixed at 8 wt% in composite foam formulations.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide",
+        "description": "Fe3O4@PVA (polyvinyl alcohol magnetic spheres; Fe3O4 modified with oleic acid, then PVAc suspension polymerization and alcoholysis to PVA). Sample label: Fe3O4@PVA/GO@Ag/PU foam-7.",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 0.213,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 197.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polyurethane",
+        "description": "Polyurethane (PU) foam prepared from polyether polyol + TDI with catalyst, organosilicon stabilizer and water (foaming).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene oxide",
+        "description": "Graphene oxide loaded with silver nanoparticles (GO@Ag); GO was KH-550 treated to GO-NH2 prior to Ag loading. GO@Ag amount fixed at 8 wt% in composite foam formulations.",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Iron(II,III) oxide",
+        "description": "Fe3O4@PVA (polyvinyl alcohol magnetic spheres; Fe3O4 modified with oleic acid, then PVAc suspension polymerization and alcoholysis to PVA). Sample label: Fe3O4@PVA/GO@Ag/PU foam-11.",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

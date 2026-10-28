@@ -1,0 +1,393 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Polylether-block-amide",
+        "description": "Pebax® 4533 SP 01. Consists of polyamide as hard segments and poly(tetramethylene oxide) as soft segments. Solid, unfoamed sample.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature_1": {
+        "value": 100.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          }
+        ]
+      },
+      "melting_temperature_2": {
+        "value": 150.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -45,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 3,
+            "unit": "C/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Polylether-block-amide",
+        "description": "Pebax® 4533 SP 01. Solid, unfoamed composite.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber",
+        "description": "T300, average diameter of ~7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 146.1,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -42,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 3,
+            "unit": "C/min"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 23,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Polylether-block-amide",
+        "description": "Pebax® 4533 SP 01. The composite was foamed using Regular Foam Injection Molding (RFIM).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber",
+        "description": "T300, average diameter of ~7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 25,
+        "unit": "MPa/(g/cm^3)",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          },
+          {
+            "type": "property_type",
+            "value": "Specific tensile strength"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 0.6,
+        "unit": "GPa/(g/cm^3)",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          },
+          {
+            "type": "property_type",
+            "value": "Specific tensile modulus"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 120,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -40,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 3,
+            "unit": "C/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Polylether-block-amide",
+        "description": "Pebax® 4533 SP 01. The composite was foamed using Mold-Opening Foam Injection Molding (MOFIM).",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Carbon fiber",
+        "description": "T300, average diameter of ~7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 27,
+        "unit": "MPa/(g/cm^3)",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          },
+          {
+            "type": "property_type",
+            "value": "Specific tensile strength"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 0.55,
+        "unit": "GPa/(g/cm^3)",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          },
+          {
+            "type": "property_type",
+            "value": "Specific tensile modulus"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 220,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain_rate",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 527"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 25,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": -40,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "measurement_method",
+            "value": "DMA"
+          },
+          {
+            "type": "frequency",
+            "value": 1,
+            "unit": "Hz"
+          },
+          {
+            "type": "heating_rate",
+            "value": 3,
+            "unit": "C/min"
+          }
+        ]
+      }
+    }
+  }
+]

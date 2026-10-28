@@ -1,0 +1,281 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 epoxy resin cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Foamed graphene aerogel (FGA) used as a 3D conductive network filler; composite made by vacuum-assisted impregnation; FGA compression strain varied (20% to 80%) during compress-annealing study.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 12.3,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compressive_strain",
+            "value": 20,
+            "unit": "%"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 112.6,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "compressive_strain",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compressive_strain",
+            "value": 20,
+            "unit": "%"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "compressive_strain",
+            "value": 80,
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 epoxy resin cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Janus aerogel filler Z0M4GA (M-plane only): graphene aerogel with MXene deposited on one side; no Z-plane (no Co/C). Prepared via PDA modification, MXene deposition, compress-annealing, then vacuum impregnation into epoxy.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets deposited onto graphene aerogel (M-plane) to enhance conductivity; retained structure after annealing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 168.2,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": []
+      },
+      "thermal_conductivity_1": {
+        "value": 0.64,
+        "unit": "not specified",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 epoxy resin cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Aerogel filler Z4M0GA (Z-plane only): graphene aerogel with ZIF-67-derived Co/C magnetic nanoparticles (after compress-annealing); no MXene M-plane.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Cobalt/carbon nanoparticles",
+        "description": "Co/C magnetic nanoparticles formed by reduction of ZIF-67 during compress-annealing; distributed as islands on pore walls (Z-plane).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 epoxy resin cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Janus aerogel filler Z3M1GA: Z-plane (Co/C) + M-plane (MXene) with thickness ratio x:y = 3:1 (x and y denote ZFGA and MFGA thicknesses before compression/annealing).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets on M-plane of Janus aerogel.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Cobalt/carbon nanoparticles",
+        "description": "Co/C magnetic nanoparticles on Z-plane of Janus aerogel (from ZIF-67 after annealing).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "Epoxy system based on E51 epoxy resin cured with 4-MTHPA and accelerated with DMP-30 (mass ratio E51:4-MTHPA:DMP-30 = 100:85:1).",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene aerogel",
+        "description": "Janus aerogel filler Z0M4GA (M-plane only): graphene aerogel with MXene deposited; used as filler in epoxy.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx MXene nanosheets deposited on graphene aerogel.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 65.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength_1": {
+        "value": 9.42,
+        "unit": "kJ/m^2",
+        "conditions": []
+      }
+    }
+  }
+]

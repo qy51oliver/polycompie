@@ -1,0 +1,368 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 100,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 225,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 64,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 597,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 95,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "montmorillonite",
+        "description": "Cloisite 30B, natural montmorillonite modified with methyl, tallow, bis-2-hydroxyethyl, quaternary ammonium chloride (MT2EtOH)",
+        "composition": {
+          "amount": 5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 224,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 51,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 279,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 95,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "sepiolite",
+        "description": "Sepiolite amine, surface modified with benzyl methyl di-hydrogenated tallow ammonium salt",
+        "composition": {
+          "amount": 5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 224,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 44,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 332,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 82,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Phosphinate salt",
+        "description": "Exolit OP1240, Clariant, Germany",
+        "composition": {
+          "amount": 18,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 225,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 42,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 250,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 77,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Phosphinate salt",
+        "description": "Exolit OP1240, Clariant, Germany",
+        "composition": {
+          "amount": 18,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "montmorillonite",
+        "description": "Cloisite 30B, natural montmorillonite modified with methyl, tallow, bis-2-hydroxyethyl, quaternary ammonium chloride (MT2EtOH)",
+        "composition": {
+          "amount": 5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 224,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 37,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 165,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "Poly(butylene terephthalate)",
+        "description": "Celanex 2000-2 Natur supplied by Ticona",
+        "composition": {
+          "amount": 77,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Phosphinate salt",
+        "description": "Exolit OP1240, Clariant, Germany",
+        "composition": {
+          "amount": 18,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "sepiolite",
+        "description": "Sepiolite amine, surface modified with benzyl methyl di-hydrogenated tallow ammonium salt",
+        "composition": {
+          "amount": 5,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 225,
+        "unit": "C",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 40,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 163,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m^2"
+          }
+        ]
+      }
+    }
+  }
+]

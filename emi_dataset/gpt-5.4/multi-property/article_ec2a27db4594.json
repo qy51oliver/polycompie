@@ -1,0 +1,396 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Pure cured PDMS",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.154,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 3.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "SET",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 1190,
+        "unit": "kPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 250,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Directly blended PDMS composite (Blended-4)",
+        "composition": {
+          "amount": 90.22,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "APTES-modified graphene nanoplatelets (mGNPs); part of hybrid carbon filler in Blended-4",
+        "composition": {
+          "amount": 7.824,
+          "type": "wt%"
+        },
+        "surface_treatment": "3-amino-propyltriethoxysilane (APTES) modified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Carboxylated carbon nanotubes (CNT-COOHs); diameter 10 nm, length 10–20 μm; part of hybrid carbon filler in Blended-4",
+        "composition": {
+          "amount": 1.956,
+          "type": "wt%"
+        },
+        "surface_treatment": "carboxylated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.974,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 31.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "SET",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF binder in the 3D GNP/CNT-COOH framework (3D GCPP-4)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS impregnated into the 3D GNP/CNT-COOH/PVDF framework (3D GCPP-4)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "Unmodified graphene nanoplatelets (GNPs); average size 6.88 μm; part of hybrid carbon filler in 3D GCPP-4",
+        "composition": {
+          "amount": 7.824,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Carboxylated carbon nanotubes (CNT-COOHs); diameter 10 nm, length 10–20 μm; part of hybrid carbon filler in 3D GCPP-4",
+        "composition": {
+          "amount": 1.956,
+          "type": "wt%"
+        },
+        "surface_treatment": "carboxylated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 6.96,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 4.67,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "out-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 65.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "SET",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF binder in the 3D mGNP/CNT-COOH framework (3D mGCPP-4)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polydimethylsiloxane",
+        "description": "PDMS impregnated into the 3D mGNP/CNT-COOH/PVDF framework (3D mGCPP-4)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene nanoplatelets",
+        "description": "APTES-modified graphene nanoplatelets (mGNPs); average size 6.88 μm; part of hybrid carbon filler in 3D mGCPP-4",
+        "composition": {
+          "amount": 7.824,
+          "type": "wt%"
+        },
+        "surface_treatment": "3-amino-propyltriethoxysilane (APTES) modified"
+      },
+      {
+        "name": "carbon nanotubes",
+        "description": "Carboxylated carbon nanotubes (CNT-COOHs); diameter 10 nm, length 10–20 μm; part of hybrid carbon filler in 3D mGCPP-4",
+        "composition": {
+          "amount": 1.956,
+          "type": "wt%"
+        },
+        "surface_treatment": "carboxylated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity_1": {
+        "value": 9.86,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "thermal_conductivity_2": {
+        "value": 7.62,
+        "unit": "W/m·K",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "out-plane",
+            "unit": "not specified"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1605.9,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 78.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "SET",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "temperature",
+            "value": 25,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 1850,
+        "unit": "kPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 75,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "Neat PEBA, unfoamed solid sample",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature_1": {
+        "value": 100.8,
+        "unit": "C",
+        "conditions": []
+      },
+      "melting_temperature_2": {
+        "value": 150.0,
+        "unit": "C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA matrix in carbon-fiber composite, unfoamed solid sample",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300 carbon fiber, average diameter about 7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 146.1,
+        "unit": "C",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": -40.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "value_relation",
+            "value": "less than",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA foam prepared by regular foam injection molding",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {}
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA/carbon fiber composite foam prepared by regular foam injection molding",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300 carbon fiber, average diameter about 7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "value_relation",
+            "value": "approximately",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "increased",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_form",
+            "value": "specific modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "higher",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_form",
+            "value": "specific tensile strength",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "decreased",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "higher",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polylether-block-amide",
+        "description": "PEBA/carbon fiber composite foam prepared by mold-opening foam injection molding",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "T300 carbon fiber, average diameter about 7 um",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "value_relation",
+            "value": "approximately over whole X-band range",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 88.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "comparison_to",
+            "value": "unfoamed PEBA/carbon fiber composite",
+            "unit": "not specified"
+          },
+          {
+            "type": "value_relation",
+            "value": "increase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_form",
+            "value": "specific tensile strength",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "increased",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "property_form",
+            "value": "specific modulus",
+            "unit": "not specified"
+          },
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "increased",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": "not specified",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "comparison_to_solid_PEBA_CF",
+            "value": "higher",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

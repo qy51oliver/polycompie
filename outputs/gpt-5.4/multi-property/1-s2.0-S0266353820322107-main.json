@@ -1,0 +1,780 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes introduced in situ by ultrasonic dispersion; composite modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "Fe(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes introduced in situ by mechanical mixing; composite modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "Fe(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; composite modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "Cr(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; unmodified system",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "modifier",
+            "value": "unmodified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; composite modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 273.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 333.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "Fe(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; composite modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 24.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 25.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 37.5,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 260.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 363.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "Cr(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; composite modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "spherical metallic nickel microparticles; composite modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 12.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "multiwall carbon nanotubes; composite modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "nickel",
+        "description": "spherical metallic nickel microparticles; composite modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 1.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 13.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "unfilled SIPN modified with 1 wt% iron(III) acetylacetonate",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 273.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 333.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "Fe(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "unfilled SIPN modified with 1 wt% chromium(III) acetylacetonate",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "not specified",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 25.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 35.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "glass_transition_temperature_1": {
+        "value": 260.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PU microphase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "glass_transition_temperature_2": {
+        "value": 363.0,
+        "unit": "K",
+        "conditions": [
+          {
+            "type": "phase",
+            "value": "PMMA phase",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "Cr(acac)3 modified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "cross-linked polyurethane in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "linear poly(methyl methacrylate) in simultaneous semi-interpenetrating polymer network",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "unfilled SIPN, unmodified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "kHz"
+          },
+          {
+            "type": "modifier",
+            "value": "unmodified",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

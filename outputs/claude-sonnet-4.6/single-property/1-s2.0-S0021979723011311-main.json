@@ -1,0 +1,217 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU foam prepared from trifunctional polyether polyol, toluene diisocyanate (TDI), dibutyltin dilaurate, organosilicon stabilizer, and deionized water via co-foaming",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide silver",
+        "description": "GO@Ag composite nanoparticles; GO surface-modified with KH-550 silane coupling agent (GO-NH2), then silver nanoparticles deposited in situ via silver-ammonia solution; fixed at 8 wt% of total composite foam mass",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "iron oxide polyvinyl alcohol",
+        "description": "Fe3O4@PVA diffusely structured magnetic spheres; Fe3O4 (~10 nm) surface-modified with oleic acid then encapsulated in polyvinyl alcohol via suspension emulsion polymerization; 3 wt% loading",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 24.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU foam prepared from trifunctional polyether polyol, toluene diisocyanate (TDI), dibutyltin dilaurate, organosilicon stabilizer, and deionized water via co-foaming",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide silver",
+        "description": "GO@Ag composite nanoparticles; GO surface-modified with KH-550 silane coupling agent (GO-NH2), then silver nanoparticles deposited in situ via silver-ammonia solution; fixed at 8 wt% of total composite foam mass",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "iron oxide polyvinyl alcohol",
+        "description": "Fe3O4@PVA diffusely structured magnetic spheres; Fe3O4 (~10 nm) surface-modified with oleic acid then encapsulated in polyvinyl alcohol via suspension emulsion polymerization; 7 wt% loading",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 30.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU foam prepared from trifunctional polyether polyol, toluene diisocyanate (TDI), dibutyltin dilaurate, organosilicon stabilizer, and deionized water via co-foaming",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide silver",
+        "description": "GO@Ag composite nanoparticles; GO surface-modified with KH-550 silane coupling agent (GO-NH2), then silver nanoparticles deposited in situ via silver-ammonia solution; fixed at 8 wt% of total composite foam mass",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "iron oxide polyvinyl alcohol",
+        "description": "Fe3O4@PVA diffusely structured magnetic spheres; Fe3O4 (~10 nm) surface-modified with oleic acid then encapsulated in polyvinyl alcohol via suspension emulsion polymerization; 11 wt% loading",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 32.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "PU foam prepared from trifunctional polyether polyol, toluene diisocyanate (TDI), dibutyltin dilaurate, organosilicon stabilizer, and deionized water via co-foaming; no Fe3O4@PVA added",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide silver",
+        "description": "GO@Ag composite nanoparticles; GO surface-modified with KH-550 silane coupling agent (GO-NH2), then silver nanoparticles deposited in situ via silver-ammonia solution; 11 wt% of total composite foam mass; no Fe3O4@PVA present",
+        "composition": {
+          "amount": 11.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 20.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

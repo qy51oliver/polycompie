@@ -1,0 +1,356 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine at mass ratio 100:26.5, cured at 120°C for 5 h via vacuum-assisted impregnation",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat epoxy with no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.19,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine at mass ratio 100:26.5, cured at 120°C for 5 h via vacuum-assisted impregnation; labeled as G composite",
+        "composition": {
+          "amount": 97.69,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO aerogel prepared by hydrothermal reaction, heat-treated at 1200°C for 2 h; 3D reticulated porous network structure",
+        "composition": {
+          "amount": 2.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.48,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 28.65,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 29.82,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine at mass ratio 100:26.5, cured at 120°C for 5 h via vacuum-assisted impregnation; labeled as GG composite",
+        "composition": {
+          "amount": 97.08,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO component of rGO-VG aerogel skeleton; 3D reticulated porous network structure",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "vertical edge-rich graphene",
+        "description": "VGs uniformly distributed on rGO surface via low pressure CVD at 1120°C for 80 min using CH3OH as carbon source; forms rough surface on rGO",
+        "composition": {
+          "amount": 0.62,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.92,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 67.33,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 45.85,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine at mass ratio 100:26.5, cured at 120°C for 5 h via vacuum-assisted impregnation; labeled as GT composite",
+        "composition": {
+          "amount": 97.01,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO component of rGO-CNT aerogel skeleton; 3D reticulated porous network structure",
+        "composition": {
+          "amount": 2.31,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "carbon nanotube",
+        "description": "bamboo-like CNTs grafted uniformly on rGO surface via CVD at 900°C for 25 min using dicyandiamide as precursor with Ni/Co catalyst; catalyst removed by HCl treatment; extend towards surrounding space",
+        "composition": {
+          "amount": 0.68,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.01,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 73.25,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 47.37,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "epoxy resin",
+        "description": "Epon 862 epoxy cured with diethyl methyl benzene diamine at mass ratio 100:26.5, cured at 120°C for 5 h via vacuum-assisted impregnation; labeled as GTG composite",
+        "composition": {
+          "amount": 96.45,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO component of rGO-CNT-VG tertiary hybrid aerogel skeleton; 3D reticulated porous network structure",
+        "composition": {
+          "amount": 2.3,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "carbon nanotube",
+        "description": "bamboo-like CNTs grafted on rGO surface via CVD; component of rGO-CNT-VG tertiary hybrid aerogel skeleton",
+        "composition": {
+          "amount": 0.67,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "vertical edge-rich graphene",
+        "description": "VGs grown on CNT surface via low pressure CVD at 1120°C for 80 min using CH3OH as carbon source; forms covalent bonds with CNT substrate; component of rGO-CNT-VG tertiary hybrid aerogel skeleton",
+        "composition": {
+          "amount": 0.58,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.46,
+        "unit": "W m⁻¹ K⁻¹",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 81.88,
+        "unit": "S m⁻¹",
+        "conditions": [
+          {
+            "type": "not specified",
+            "value": "not specified",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 56.65,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

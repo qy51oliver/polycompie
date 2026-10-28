@@ -1,0 +1,227 @@
+[
+     {
+        "sample_id": "UHMWPE",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "thermal_conductivity": {"value": 0.36, "unit": "W/m*K"},
+            "ultimate_tensile_strength": {"value": 42.8, "unit": "MPa"},
+            "crystallinity": {"value": 45.4, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS0.5",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 99.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 0.5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "ultimate_tensile_strength": {"value": 45.7, "unit": "MPa"}
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS1",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 99, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "ultimate_tensile_strength": {"value": 46.2, "unit": "MPa"},
+            "shielding_effectiveness": {"value": 7.07, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS3",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "ultimate_tensile_strength": {"value": 46.51, "unit": "MPa"},
+            "shielding_effectiveness": {"value": 28, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "elongation_at_break": {"value": 350, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS5",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS7",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 93, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 7, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "UHMWPE/CNS10",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanostructures",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 2.42, "unit": "S/cm"},
+            "thermal_conductivity": {"value": 0.7217, "unit": "W/m*K"},
+            "ultimate_tensile_strength": {"value": 37.6, "unit": "MPa"},
+            "shielding_effectiveness": {"value": 60.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "elongation_at_break": {"value": 150, "unit": "%"},
+            "crystallinity": {"value": 50.5, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "segregated UHMWPE/CNT",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "carbon nanotube",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 49.3, "unit": "S/cm"},
+            "ultimate_tensile_strength": {"value": 25.7, "unit": "MPa"},
+            "shielding_effectiveness": {"value": 50, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "G-CB/UHMWPE",
+        "matrix_name": [
+        		{
+                "name": "ultrahigh molecular weight polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite",
+                "description": "not specified",
+                "composition": {"amount": 3.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon black",
+                "description": "not specified",
+                "composition": {"amount": 11.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit": "mm"},
+        "properties": {
+            "electrical_conductivity": {"value": 33.9, "unit": "S/cm"},
+            "ultimate_tensile_strength": {"value": 25.3, "unit": "MPa"},
+            "shielding_effectiveness": {"value": 40.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    }
+]

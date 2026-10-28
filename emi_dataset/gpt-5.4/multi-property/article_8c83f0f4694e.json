@@ -1,0 +1,268 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF flexible film matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNTs (NC7000); raw nanotubes with diameter 10-20 nm and average length of several micrometers",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "GnPs; raw ultra-thin, rippled, wrinkled, paper-like nanoplatelets",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Chain-shaped nickel filler; one-dimensional chains with length of several tens of micrometers, composed of spherical particles of 0.6-1.0 micrometers",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 26.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 22,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF flexible film matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNTs (NC7000); raw nanotubes with diameter 10-20 nm and average length of several micrometers",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "GnPs; raw ultra-thin, rippled, wrinkled, paper-like nanoplatelets",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Chain-shaped nickel filler; one-dimensional chains with length of several tens of micrometers, composed of spherical particles of 0.6-1.0 micrometers",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2.61,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 0,
+            "unit": "times"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1.8,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 20,
+            "unit": "times"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 34.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 22,
+            "unit": "GHz"
+          },
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 0,
+            "unit": "times"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 25.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 22,
+            "unit": "GHz"
+          },
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 20,
+            "unit": "times"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "PVDF flexible film matrix",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNTs (NC7000); raw nanotubes with diameter 10-20 nm and average length of several micrometers",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene nanoplatelets",
+        "description": "GnPs; raw ultra-thin, rippled, wrinkled, paper-like nanoplatelets",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nickel",
+        "description": "Flower-shaped nickel filler; 2-3 micrometer diameter flowers composed of intercrossed two-dimensional nanoplates with thickness of 20-30 nm",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 3.77,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 0,
+            "unit": "times"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 1.97,
+        "unit": "S cm^-1",
+        "conditions": [
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 20,
+            "unit": "times"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 43.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 22,
+            "unit": "GHz"
+          },
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 0,
+            "unit": "times"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 27.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 22,
+            "unit": "GHz"
+          },
+          {
+            "type": "cyclic_microwave_irradiation_cycles",
+            "value": 20,
+            "unit": "times"
+          }
+        ]
+      }
+    }
+  }
+]

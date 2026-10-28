@@ -1,0 +1,740 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of pristine core-shell PE@PET nonwoven fabric fibers (PE:PET = 1:1; basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of pristine core-shell PE@PET nonwoven fabric fibers (PE:PET = 1:1; basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 7.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 13.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 112.0,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "burned length",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 20.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-modified core-shell PE@PET nonwoven fabric fibers (PE:PET = 1:1; basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-modified core-shell PE@PET nonwoven fabric fibers (PE:PET = 1:1; basis not specified).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 7.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 13.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-modified core-shell PE@PET nonwoven fabric used as support for MXene loading; 1 dip-coating cycle.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-modified core-shell PE@PET nonwoven fabric used as support for MXene loading; 1 dip-coating cycle.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets loaded by dip coating; 1 loading cycle.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 125.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.76,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 27.67,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-modified core-shell PE@PET/MXene nonwoven precursor; 4 dip-coating cycles; not hot-pressed.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-modified core-shell PE@PET/MXene nonwoven precursor; 4 dip-coating cycles; not hot-pressed.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets loaded by dip coating; 4 loading cycles; reported loading about 2.30 mg/cm2.",
+        "composition": {
+          "amount": 2.3,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 143.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 33.33,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 7.3,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after ultrasonication in water",
+            "unit": "not specified"
+          },
+          {
+            "type": "ultrasonication_time",
+            "value": 30,
+            "unit": "min"
+          },
+          {
+            "type": "ultrasonication_power",
+            "value": 500,
+            "unit": "W"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 47.17,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 7.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 13.9,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-modified core-shell PE@PET support in the hot-pressed all-in-one integrated film; 4 dip-coating cycles before hot pressing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-modified core-shell PE@PET support in the hot-pressed all-in-one integrated film; 4 dip-coating cycles before hot pressing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets loaded by dip coating; hot-pressed film retained about 2.30 mg/cm2 MXene.",
+        "composition": {
+          "amount": 2.3,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 58.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 43.48,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": "room temperature",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 31.25,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "after ultrasonication in water",
+            "unit": "not specified"
+          },
+          {
+            "type": "ultrasonication_time",
+            "value": 30,
+            "unit": "min"
+          },
+          {
+            "type": "ultrasonication_power",
+            "value": 500,
+            "unit": "W"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 50.44,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 22.06,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 55.31,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          },
+          {
+            "type": "test_direction",
+            "value": "parallel direction",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-functionalized core-shell PE@PET nonwoven fabric used for layer-by-layer flame-retardant coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-functionalized core-shell PE@PET nonwoven fabric used for layer-by-layer flame-retardant coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyethyleneimine",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "flammability": {
+        "value": 62.0,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "burned length",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 35.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-functionalized core-shell PE@PET nonwoven fabric with flame-retardant coating and MXene loading; precursor before hot pressing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-functionalized core-shell PE@PET nonwoven fabric with flame-retardant coating and MXene loading; precursor before hot pressing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyethyleneimine",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets loaded after PEI/APP coating; precursor before hot pressing.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "flammability": {
+        "value": 42.0,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "burned length",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 35.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyethylene",
+        "description": "Sheath component of PDA-functionalized core-shell PE@PET support in the hot-pressed flame-retardant all-in-one film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "poly(ethylene terephthalate)",
+        "description": "Core component of PDA-functionalized core-shell PE@PET support in the hot-pressed flame-retardant all-in-one film.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyethyleneimine",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "Layer-by-layer deposited flame-retardant additive.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "MXene nanosheets in flame-retardant hot-pressed film; reported loading about 1.48 mg/cm2.",
+        "composition": {
+          "amount": 1.48,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.03,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 21.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 55.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "tensile_rate",
+            "value": 20,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "flammability": {
+        "value": 40.0,
+        "unit": "mm",
+        "conditions": [
+          {
+            "type": "measurement",
+            "value": "burned length",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame_exposure_time",
+            "value": 12,
+            "unit": "s"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 35.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

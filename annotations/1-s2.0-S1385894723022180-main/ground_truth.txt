@@ -1,0 +1,383 @@
+[
+     {
+        "sample_id": "PS",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "no rating", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 18, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"},
+            "time_to_ignition": {"value": 58, "unit": "s"},
+            "peak_heat_release_rate": {"value": 777, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 153, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 3.53, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.33, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 55, "unit": "m^2"},
+            "char_residue": {"value": 0, "unit": "%"},
+            "impact_strength": {"value": 8, "unit": "J/m"},
+            "youngs_modulus": {"value": 2503, "unit": "MPa"},
+            "strain_at_break": {"value": 4.9, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-FR",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "no rating", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 22, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"},
+            "time_to_ignition": {"value": 70, "unit": "s"},
+            "peak_heat_release_rate": {"value": 316, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 126, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 3.33, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.13, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 42, "unit": "m^2"},
+            "char_residue": {"value": 25, "unit": "%"},
+            "impact_strength": {"value": 7.5, "unit": "J/m"},
+            "youngs_modulus": {"value": 2218, "unit": "MPa"},
+            "strain_at_break": {"value": 3.8, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-GnP",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": "60-74", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "graphene nanoplatelets",
+                "description": "not specified",
+                "composition": {"amount": "1-15", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "no rating", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 26, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-CNT",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": "60-74", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": "1-15", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "no rating", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 26, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-PPE(S)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polyphenylene ether",
+                "description": "spherical dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "V-2", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 27, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"},
+            "time_to_ignition": {"value": 75, "unit": "s"},
+            "peak_heat_release_rate": {"value": 284, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 100, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 3.34, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.11, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 32, "unit": "m^2"},
+            "char_residue": {"value": 25, "unit": "%"},
+            "melt_flow_rate": {"value": 1.86, "unit": "g/10min"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-PPE(F)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polyphenylene ether",
+                "description": "nanofibrillar dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "V-0", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 30, "unit": "%"},
+            "dripping": {"value": "No", "unit": "not specified"},
+            "time_to_ignition": {"value": 91, "unit": "s"},
+            "peak_heat_release_rate": {"value": 225, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 95, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 2.25, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.10, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 30, "unit": "m^2"},
+            "char_residue": {"value": 30, "unit": "%"},
+            "melt_flow_rate": {"value": 0.79, "unit": "g/10min"},
+            "impact_strength": {"value": 16, "unit": "J/m"},
+            "youngs_modulus": {"value": 2952, "unit": "MPa"},
+            "strain_at_break": {"value": 9.6, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-PPS(S)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polyphenylene sulfide",
+                "description": "spherical dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "no rating", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 25, "unit": "%"},
+            "dripping": {"value": "Yes", "unit": "not specified"},
+            "time_to_ignition": {"value": 76, "unit": "s"},
+            "peak_heat_release_rate": {"value": 261, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 108, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 3.42, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.11, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 36, "unit": "m^2"},
+            "char_residue": {"value": 26, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-FR-PPS(F)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "flame retardant",
+                "composition": {"amount": 18.75, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+       		{
+                "name": "pentaerythritol",
+                "description": "flame retardant",
+                "composition": {"amount": 6.25, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "polyphenylene sulfide",
+                "description": "nanofibrillar dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"mm"},
+        "properties": {
+            "flammability": {"value": "V-0", "unit": "not specified"},
+            "limiting_oxygen_index": {"value": 28, "unit": "%"},
+            "dripping": {"value": "No", "unit": "not specified"},
+            "time_to_ignition": {"value": 67, "unit": "s"},
+            "peak_heat_release_rate": {"value": 201, "unit": "kW/m^2"},
+            "total_heat_release": {"value": 98, "unit": "MJ/m^2"},
+            "FIGRA": {"value": 2.91, "unit": "kW/m^2"},
+            "peak_smoke_production_rate": {"value": 0.11, "unit": "m^2/s"},
+            "total_smoke_production": {"value": 33, "unit": "m^2"},
+            "char_residue": {"value": 33, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-PPE(S)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polyphenylene ether",
+                "description": "spherical dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3.2, "unit":"mm"},
+        "properties": {
+            "impact_strength": {"value": 18, "unit": "J/m"},
+            "youngs_modulus": {"value": 2682, "unit": "MPa"},
+            "strain_at_break": {"value": 6, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "PS-PPE(F)",
+        "matrix_name": [
+        		{
+                "name": "polystyrene",
+                "description": "not specified",
+                "composition": {"amount": 60, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polyphenylene ether",
+                "description": "nanofibrillar dispersed phase",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3.2, "unit":"mm"},
+        "properties": {
+            "impact_strength": {"value": 26, "unit": "J/m"},
+            "youngs_modulus": {"value": 3310, "unit": "MPa"},
+            "strain_at_break": {"value": 11.8, "unit": "%"}
+        }
+    }
+]

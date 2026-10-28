@@ -1,0 +1,178 @@
+[
+     {
+        "sample_id": "PEDOT:PSS",
+        "matrix_name": [
+        		{
+                "name": "poly(3, 4-ethylene dioxythiophene):polystyrene sulfonate",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"10", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1.3, "unit": "S/m"},
+            "shielding_effectiveness": {"value": 13.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "steady_state_temperature": {"value": 51.3, "unit": "°C","conditions": [{"type": "irradiation", "value": 100,"unit": "mW/cm^2"}]}
+        }
+    },
+     {
+        "sample_id": "29.1wt%-MXene/AgNWs/PEDOT:PSS",
+        "matrix_name": [
+        		{
+                "name": "poly(3, 4-ethylene dioxythiophene):polystyrene sulfonate",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 29.1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Silver nanowires",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":"10", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 1.1e3, "unit": "S/m"},
+            "maximum_shielding_effectiveness": {"value": 26.8, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_reflection": {"value": 0.9, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_absorption": {"value": 0.1, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "steady_state_temperature_1": {"value": 21.3, "unit": "°C","conditions": [{"type": "voltage", "value": 4,"unit": "V"}]},
+            "steady_state_temperature_2": {"value": 63.7, "unit": "°C","conditions": [{"type": "irradiation", "value": 100,"unit": "mW/cm^2"}]},
+            "apparent_contact_angle_1": {"value": "≪90", "unit": "°","conditions": [{"type": "processing", "value": "before spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]},
+            "apparent_contact_angle_2": {"value": "≫90", "unit": "°","conditions": [{"type": "processing", "value": "after spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]}
+        }
+    },
+     {
+        "sample_id": "45.1wt%-MXene/AgNWs/PEDOT:PSS",
+        "matrix_name": [
+        		{
+                "name": "poly(3, 4-ethylene dioxythiophene):polystyrene sulfonate",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 45.1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Silver nanowires",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":"10", "unit": "μm"},
+        "properties": {
+            "power_coefficient_of_reflection": {"value": 0.9, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_absorption": {"value": 0.1, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "steady_state_temperature_2": {"value": 64.5, "unit": "°C","conditions": [{"type": "irradiation", "value": 100,"unit": "mW/cm^2"}]},
+            "steady_state_temperature_3": {"value": 80.7, "unit": "°C","conditions": [{"type": "irradiation", "value": 150,"unit": "mW/cm^2"}]},
+            "steady_state_temperature_4": {"value": 98.3, "unit": "°C","conditions": [{"type": "irradiation", "value": 200,"unit": "mW/cm^2"}]},
+            "steady_state_temperature_5": {"value": 107.3, "unit": "°C","conditions": [{"type": "irradiation", "value": 250,"unit": "mW/cm^2"}]},
+            "apparent_contact_angle_1": {"value": "≪90", "unit": "°","conditions": [{"type": "processing", "value": "before spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]},
+            "apparent_contact_angle_2": {"value": "≫90", "unit": "°","conditions": [{"type": "processing", "value": "after spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]}
+        }
+    },
+     {
+        "sample_id": "62.1wt%-MXene/AgNWs/PEDOT:PSS",
+        "matrix_name": [
+        		{
+                "name": "poly(3, 4-ethylene dioxythiophene):polystyrene sulfonate",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 62.1, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Silver nanowires",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":"10", "unit": "μm"},
+        "properties": {
+            "power_coefficient_of_reflection": {"value": 0.9, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_absorption": {"value": 0.1, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "steady_state_temperature_2": {"value": 67.3, "unit": "°C","conditions": [{"type": "irradiation", "value": 100,"unit": "mW/cm^2"}]},
+            "apparent_contact_angle_1": {"value": "≪90", "unit": "°","conditions": [{"type": "processing", "value": "before spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]},
+            "apparent_contact_angle_2": {"value": "≫90", "unit": "°","conditions": [{"type": "processing", "value": "after spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]}
+        }
+    },
+     {
+        "sample_id": "76.6wt%-MXene/AgNWs/PEDOT:PSS",
+        "matrix_name": [
+        		{
+                "name": "poly(3, 4-ethylene dioxythiophene):polystyrene sulfonate",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "MXene",
+                "description": "not specified",
+                "composition": {"amount": 76.6, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "Silver nanowires",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        ],
+        "sample_thickness": {"value":"10", "unit": "μm"},
+        "properties": {
+            "electrical_conductivity": {"value": 3.9e3, "unit": "S/m"},
+            "maximum_shielding_effectiveness": {"value": 32.7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "average_shielding_effectiveness": {"value": 31.5, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "absorption_shielding_effectiveness": {"value": 18.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "reflection_shielding_effectiveness": {"value": 13.3, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_reflection": {"value": 0.9, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "power_coefficient_of_absorption": {"value": 0.1, "unit": "none","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "Specific_shielding_effectiveness": {"value": 10161, "unit": "dB*cm^-2*g^-1","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "steady_state_temperature_1": {"value": 33.6, "unit": "°C","conditions": [{"type": "voltage", "value": 4,"unit": "V"}]},
+            "steady_state_temperature_6": {"value": 24.4, "unit": "°C","conditions": [{"type": "voltage", "value": 3,"unit": "V"}]},
+            "steady_state_temperature_7": {"value": 40.9, "unit": "°C","conditions": [{"type": "voltage", "value": 5,"unit": "V"}]},
+            "steady_state_temperature_8": {"value": 61.7, "unit": "°C","conditions": [{"type": "voltage", "value": 6,"unit": "V"}]},
+            "steady_state_temperature_2": {"value": 69.4, "unit": "°C","conditions": [{"type": "irradiation", "value": 100,"unit": "mW/cm^2"}]},
+            "shielding_effectiveness_2": {"value": 29.5, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "bending", "value": 500,"unit": "cycles"}]},
+            "shielding_effectiveness_3": {"value": 25.2, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "bending", "value": 800,"unit": "cycles"}]},
+            "apparent_contact_angle_1": {"value": "≪90", "unit": "°","conditions": [{"type": "processing", "value": "before spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]},
+            "apparent_contact_angle_2": {"value": 120.2, "unit": "°","conditions": [{"type": "processing", "value": "after spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"}]},
+            "apparent_contact_angle_3": {"value": 114.2, "unit": "°","conditions": [{"type": "processing", "value": "after spraying Trimethoxy(1H, 1H, 2H, 2H-heptadecafluorodecyl)silane","unit": "none"},{"type": "tape-peeling", "value": 100,"unit": "times"}]}
+        }
+    }
+]

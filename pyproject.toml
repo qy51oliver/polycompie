@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polycompie"
+version = "0.1.0"
+description = "LLM-based structured data extraction from polymer composite literature"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0",
+    "anthropic",
+    "google-genai",
+    "pydantic>=2.0",
+    "pyyaml",
+    "jsonschema",
+    "numpy",
+    "scipy",
+    "docling",
+    "torch",
+    "easyocr",
+    "liteparse>=2.13,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff", "matplotlib"]
+app = ["nicegui>=3.0", "openpyxl", "python-dotenv"]
+
+[project.urls]
+Repository = "https://github.com/qy51oliver/polycompie"
+Issues = "https://github.com/qy51oliver/polycompie/issues"
+
+[project.scripts]
+polycompie-extract = "polycompie.extraction.run_extraction:main"
+polycompie-evaluate = "polycompie.evaluation.evaluate:main"
+polycompie-ledger = "polycompie.ledger.init_ledger:main"
+polycompie-synonyms = "polycompie.evaluation.build_gt_synonyms:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"polycompie.extraction.schemas" = ["*.json"]
+"polycompie.extraction.prompts" = ["*.yaml"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

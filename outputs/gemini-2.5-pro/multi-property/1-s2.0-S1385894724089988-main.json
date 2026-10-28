@@ -1,0 +1,533 @@
+[
+  {
+    "sample_id": "EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": 100,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.21,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "FGAs/EP_20_strain",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Foamed graphene aerogel (FGA) compressed to 20% strain",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 12.3,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 20.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "FGAs/EP_80_strain",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Foamed graphene aerogel (FGA) compressed to 80% strain",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 112.6,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 51.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "Z0M4GA/EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Backbone of the aerogel, derived from foamed graphene aerogels (FGAs), surface-modified with polydopamine (PDA)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx nanosheets deposited on the graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 65.7,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "impact_strength": {
+        "value": 9.42,
+        "unit": "kJ/m^2",
+        "conditions": []
+      },
+      "electrical_conductivity": {
+        "value": 168.2,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 66.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.64,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Z1M3GA/EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Backbone of the aerogel, derived from foamed graphene aerogels (FGAs), surface-modified with polydopamine (PDA)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx nanosheets deposited on the graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Cobalt/Carbon",
+        "description": "Nanoparticles derived from ZIF-67 by annealing at 600 C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 130,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.56,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Z2M2GA/EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Backbone of the aerogel, derived from foamed graphene aerogels (FGAs), surface-modified with polydopamine (PDA)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx nanosheets deposited on the graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Cobalt/Carbon",
+        "description": "Nanoparticles derived from ZIF-67 by annealing at 600 C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 85,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 73,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.58,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Z3M1GA/EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Backbone of the aerogel, derived from foamed graphene aerogels (FGAs), surface-modified with polydopamine (PDA)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "MXene",
+        "description": "Ti3C2Tx nanosheets deposited on the graphene aerogel",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "Cobalt/Carbon",
+        "description": "Nanoparticles derived from ZIF-67 by annealing at 600 C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 40,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 75.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_wave_direction",
+            "value": "from Z-plane"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 67.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "incident_wave_direction",
+            "value": "from M-plane"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.61,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "Z4M0GA/EP",
+    "matrix_name": [
+      {
+        "name": "Epoxy resin",
+        "description": "E51 type, cured with tetrahydromethylphthalic anhydride (4-MTHPA) and accelerated with tris(dimethylaminomethyl) phenol (DMP-30) in a mass ratio of 100:85:1",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Graphene",
+        "description": "Backbone of the aerogel, derived from foamed graphene aerogels (FGAs), surface-modified with polydopamine (PDA)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "Cobalt/Carbon",
+        "description": "Nanoparticles derived from ZIF-67 by annealing at 600 C",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 20,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 69.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.62,
+        "unit": "W/mK",
+        "conditions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,265 @@
+[
+     {
+        "sample_id": "E8",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "mass ratios of EVA to sacrificial templates NaCl=1:8",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "ultimate_compressive_strain": {"value": 40, "unit": "%"},
+            "maximum_compressive_stress": {"value": 82, "unit": "kPa"},
+	}
+    },
+     {
+        "sample_id": "E10",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "mass ratios of EVA to sacrificial templates NaCl=1:10",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+	}
+    },
+     {
+        "sample_id": "E12",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "water_contact_angle": {"value": 137, "unit": "◦"},
+            "melting_temperature": {"value": 78.2, "unit": " ◦C"},
+            "crystallization_temperature": {"value": 58.4, "unit": " ◦C"}
+	}
+    },
+     {
+        "sample_id": "uncrosslinked E12",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "uncrosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "melting_temperature": {"value": 83.9, "unit": " ◦C"},
+            "crystallization_temperature": {"value": 78.2, "unit": " ◦C"}
+	}
+    },
+     {
+        "sample_id": "E13",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "mass ratios of EVA to sacrificial templates NaCl=1:13",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "ultimate_compressive_strain": {"value": 60, "unit": "%"},
+            "maximum compressive stress": {"value": 35, "unit": "kPa"}
+	}
+    },
+     {
+        "sample_id": "E12P1",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polypyrrole",
+                "description": "reaction time=1h",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "water_contact_angle": {"value": 99.73, "unit": "◦"},
+            "shielding_effectiveness": {"value": 3.78, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]}
+	}
+    },
+     {
+        "sample_id": "E12A20",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "silver nanoparticles",
+                "description": "concentration of AgNO3 solution=20 mg/ml",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "water_contact_angle": {"value": 146.96, "unit": "◦"},
+            "shielding_effectiveness": {"value": 38.73, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness_1": {"value": 0, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "compression-releasing cycles", "value": 25,"unit": "none"}]}
+	}
+    },
+     {
+        "sample_id": "E12P1A5",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polypyrrole",
+                "description": "reaction time=1h",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "silver nanoparticles",
+                "description": "concentration of AgNO3 solution=5 mg/ml",
+                "composition": {"amount": 19.69, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "photo_thermal_surface_temperature": {"value": 160, "unit": "◦C","conditions": [{"type": "irradiation", "value": "near infrared","unit": "none"}]},
+            "ultimate_compressive_strain": {"value": 53.48, "unit": "%"}
+	}
+    },
+     {
+        "sample_id": "E12P1A10",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polypyrrole",
+                "description": "reaction time=1h",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "silver nanoparticles",
+                "description": "concentration of AgNO3 solution=10 mg/ml",
+                "composition": {"amount": 32.54, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 61.6, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "shielding_effectiveness_1": {"value": 53.72, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "compression-releasing cycles", "value": 25,"unit": "none"}]},
+            "shielding_effectiveness_2": {"value": 38.93, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "compressive strain", "value": 30,"unit": "%"}]},
+            "shielding_effectiveness_3": {"value": 6.23, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"},{"type": "compressive strain", "value": 50,"unit": "%"}]}
+	}
+    },
+     {
+        "sample_id": "E12P1A20",
+        "matrix_name": [
+        		{
+                "name": "ethylene–vinyl acetate copolymer",
+                "description": "crosslinked, mass ratios of EVA to sacrificial templates NaCl=1:12",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "polypyrrole",
+                "description": "reaction time=1h",
+                "composition": {"amount": "not specified", "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "silver nanoparticles",
+                "description": "concentration of AgNO3 solution=20 mg/ml",
+                "composition": {"amount": 51.95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit": "mm"},
+        "properties": {
+            "electro_thermal_surface_temperature": {"value": 81.1, "unit": "◦C","conditions": [{"type": "voltage", "value": 1,"unit": "V"}]},
+            "water_contact_angle": {"value": 141.54, "unit": "◦"},
+            "ultimate_compressive_strain": {"value": 47, "unit": "%"},
+            "shielding_effectiveness": {"value": 107.45, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "resistance_change": {"value": 24, "unit": "%","conditions": [{"type": "strain", "value": 10,"unit": "%"}]}
+	}
+    }
+]

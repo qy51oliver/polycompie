@@ -1,0 +1,130 @@
+[
+     {
+        "sample_id": "PANI",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "relaxation_time": {"value": 1.59, "unit": "μs","conditions": [{"type": "frequency", "value": "peak frequency","unit": "none"}]},
+            "shielding_effectiveness": {"value": "-13–-14", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PC1",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper oxide",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "relaxation_time": {"value": 0.159, "unit": "ms","conditions": [{"type": "frequency", "value": "peak frequency","unit": "none"}]},
+            "reflected_electromegnatic_energy": {"value": "38.4–41.49", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PC2",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper oxide",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "weight_loss1": {"value": 10, "unit": "%","conditions": [{"type": "temperature", "value": 100,"unit": "◦C"}]},
+            "weight_loss2": {"value": ">10", "unit": "%","conditions": [{"type": "temperature", "value": 250,"unit": "◦C"}]},
+            "maximum_weight_loss": {"value": 58, "unit": "%"},
+            "relaxation_time": {"value": 1.5, "unit": "ms","conditions": [{"type": "frequency", "value": "peak frequency","unit": "none"}]},
+            "reflected_electromegnatic_energy": {"value": "39.3–43.6", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PC3",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 85, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper oxide",
+                "description": "not specified",
+                "composition": {"amount": 15, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "weight_loss1": {"value": 4, "unit": "%","conditions": [{"type": "temperature", "value": 100,"unit": "◦C"}]},
+            "weight_loss2": {"value": 10, "unit": "%","conditions": [{"type": "temperature", "value": 300,"unit": "◦C"}]},
+            "weight_loss2": {"value": 40, "unit": "%","conditions": [{"type": "temperature", "value": 900,"unit": "◦C"}]},
+            "relaxation_time": {"value": 2.67, "unit": "ms","conditions": [{"type": "frequency", "value": "peak frequency","unit": "none"}]},
+            "shielding_effectiveness": {"value": "-21.2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        },
+            "reflected_electromegnatic_energy": {"value": "41.6–44.1", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+    },
+     {
+        "sample_id": "PC4",
+        "matrix_name": [
+        		{
+                "name": "polyaniline",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "copper oxide",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "relaxation_time": {"value": 2.3, "unit": "ms","conditions": [{"type": "frequency", "value": "peak frequency","unit": "none"}]},
+            "shielding_effectiveness": {"value": "-21.2", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        },
+            "reflected_electromegnatic_energy": {"value": "43.6–45.6", "unit": "%","conditions": [{"type": "frequency lower bound", "value": 12.0,"unit": "GHz"},{"type": "frequency upper bound", "value": 18,"unit": "GHz"}]}
+        }
+]

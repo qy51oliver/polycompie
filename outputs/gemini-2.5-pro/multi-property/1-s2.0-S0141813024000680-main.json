@@ -1,0 +1,613 @@
+[
+  {
+    "sample_id": "PLA/PCL/10APP",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 45.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 23.5,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-2",
+        "unit": "rating",
+        "conditions": []
+      },
+      "time_to_ignition": {
+        "value": 41,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 496,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/15APP",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 42.5,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 24.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "rating",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/10APP/6CNT",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 42.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 27.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 42,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 28.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "rating",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 460,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/10APP/8CNT",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 41.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 41.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 30.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 45,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30.0,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 434,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/10APP/4CNT/0.8IPU",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 42.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 42.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500, modified by imidazolium-functionalized polyurethane (IPU)",
+        "composition": {
+          "amount": 4.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "imidazolium-functionalized polyurethane",
+        "description": "Synthesized in-house, halogen-free",
+        "composition": {
+          "amount": 0.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "limiting_oxygen_index": {
+        "value": 27.9,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/10APP/6CNT/1.2IPU",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 41.4,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500, modified by imidazolium-functionalized polyurethane (IPU)",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "imidazolium-functionalized polyurethane",
+        "description": "Synthesized in-house, halogen-free",
+        "composition": {
+          "amount": 1.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 38,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 28.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-1",
+        "unit": "rating",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 362,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "PLA/PCL/10APP/8CNT/1.6IPU",
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "not specified",
+        "composition": {
+          "amount": 40.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polycaprolactone",
+        "description": "CAPA6800",
+        "composition": {
+          "amount": 40.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "P % 32.0 wt%, JLS-APP-103 N",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "multi-walled carbon nanotubes",
+        "description": "diameter 10-20 nm, aspect ratio 1000-1500, modified by imidazolium-functionalized polyurethane (IPU)",
+        "composition": {
+          "amount": 8.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "imidazolium-functionalized polyurethane",
+        "description": "Synthesized in-house, halogen-free",
+        "composition": {
+          "amount": 1.6,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 33.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_lower",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_range_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 34,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      },
+      "limiting_oxygen_index": {
+        "value": 30.3,
+        "unit": "%",
+        "conditions": []
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "rating",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 302,
+        "unit": "kW/m2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 50,
+            "unit": "kW/m2"
+          }
+        ]
+      }
+    }
+  }
+]

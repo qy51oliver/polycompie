@@ -1,0 +1,304 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "Pure PVA cryogel prepared from 8 wt% PVA aqueous solution; sample PVA1; 1 freeze-thaw cycle.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 229.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "GA/HCl activated, washed, and dried before DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 20,
+            "unit": "K/min"
+          },
+          {
+            "type": "temperature_lower_bound",
+            "value": 30,
+            "unit": "°C"
+          },
+          {
+            "type": "temperature_upper_bound",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "Pure PVA cryogel prepared from 8 wt% PVA aqueous solution; sample PVA3; 3 freeze-thaw cycles.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 236.0,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "GA/HCl activated, washed, and dried before DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 20,
+            "unit": "K/min"
+          },
+          {
+            "type": "temperature_lower_bound",
+            "value": 30,
+            "unit": "°C"
+          },
+          {
+            "type": "temperature_upper_bound",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 19.16,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_as",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "MXene/PVA composite cryogel prepared from 8 wt% PVA aqueous solution; sample L-MP3; 3 freeze-thaw cycles.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Large-lateral-dimension MXene nanosheets (L-MXene), prepared by LiF/HCl etching and hand-shaking delamination.",
+        "composition": {
+          "amount": 0.04,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "melting_temperature": {
+        "value": 237.4,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "post_treatment",
+            "value": "GA/HCl activated, washed, and dried before DSC",
+            "unit": "not specified"
+          },
+          {
+            "type": "heating_rate",
+            "value": 20,
+            "unit": "K/min"
+          },
+          {
+            "type": "temperature_lower_bound",
+            "value": 30,
+            "unit": "°C"
+          },
+          {
+            "type": "temperature_upper_bound",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "atmosphere",
+            "value": "N2",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 23.56,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_as",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(vinyl alcohol)",
+        "description": "MXene/PVA composite cryogel prepared from 8 wt% PVA aqueous solution; sample S-MP3; 3 freeze-thaw cycles.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Small-lateral-dimension MXene nanosheets (S-MXene), prepared by LiF/HCl etching followed by probe ultrasonication and centrifugation.",
+        "composition": {
+          "amount": 0.04,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 0.34,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tension",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 0.12,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "test_mode",
+            "value": "tension",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness": {
+        "value": 25.08,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "reported_as",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

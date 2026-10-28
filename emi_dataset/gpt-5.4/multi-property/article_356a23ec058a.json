@@ -1,0 +1,713 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in double-layer NiNWs/Ni@CuNWs composite foam without graphite paper.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires; loading designated by sample name.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs); absent in this control sample.",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 2.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in double-layer NiNWs/Ni@CuNWs composite foam without graphite paper.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires; loading designated by sample name.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs); loading designated by sample name.",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 4.5e-05,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "Ni@CuNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in double-layer NiNWs/Ni@CuNWs composite foam without graphite paper.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires; loading designated by sample name.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs); loading designated by sample name.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 3.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "Ni@CuNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 8.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in double-layer NiNWs/Ni@CuNWs composite foam without graphite paper.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires; loading designated by sample name.",
+        "composition": {
+          "amount": 2.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs); loading designated by sample name.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2.2e-07,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in double-layer NiNWs/Ni@CuNWs composite foam without graphite paper.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires; loading designated by sample name.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs); loading designated by sample name.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.00023,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 5.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in multilayer gradient NiNWs/Ni@CuNWs/graphite paper composite foam.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires in the impedance-matching layer; loading designated by sample name.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs) in the transition layer; loading designated by sample name.",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphite paper",
+        "description": "Highly conductive graphite paper reflection layer; nominal paper thickness 50 μm.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.14,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 73.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in multilayer gradient NiNWs/Ni@CuNWs/graphite paper composite foam.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires in the impedance-matching layer; loading designated by sample name.",
+        "composition": {
+          "amount": 6.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs) in the transition layer; loading designated by sample name.",
+        "composition": {
+          "amount": 25.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphite paper",
+        "description": "Highly conductive graphite paper reflection layer; nominal paper thickness 50 μm.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 2.4e-06,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 3.4,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "Ni@CuNWs/WPU layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 150000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "measured_layer",
+            "value": "graphite paper layer",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 77.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 75.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 76.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "graphite paper layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 74.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "graphite paper layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "waterborne polyurethane",
+        "description": "Porous WPU matrix in multilayer gradient NiNWs/Ni@CuNWs/graphite paper composite foam.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "nickel nanowires",
+        "description": "1D magnetic nickel nanowires in the impedance-matching layer; loading designated by sample name.",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "copper nanowires",
+        "description": "Core-shell nickel-coated copper nanowires (Ni@CuNWs) in the transition layer; loading designated by sample name.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "graphite paper",
+        "description": "Highly conductive graphite paper reflection layer; nominal paper thickness 50 μm.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 75.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 72.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "NiNWs/WPU layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 77.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "graphite paper layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "maximum",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 73.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "incident_direction",
+            "value": "graphite paper layer",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

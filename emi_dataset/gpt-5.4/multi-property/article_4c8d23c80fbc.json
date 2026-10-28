@@ -1,0 +1,200 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Pure commercial PH1000 film; control sample prepared without embedded PEDOT hollow spheres/bowls.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler reported.",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "~6",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "~70",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "~410",
+        "unit": "S/cm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Commercial PH1000 infiltrated into the PEDOT hollow spheres/bowls film to form the composite network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)",
+        "description": "Hollow spheres/bowls synthesized by surfactant-free Ouzo emulsion and embedded in the PH1000 network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "~6",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": "~75",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": "~150",
+        "unit": "S/cm",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Composite film of PH1000 infiltrated into PEDOT hollow spheres/bowls, tested as 4 stacked composite samples; porous PTFE membrane acted as separator/support between stacks. Reported thickness refers to the active composite layer.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)",
+        "description": "Hollow spheres/bowls synthesized by surfactant-free Ouzo emulsion and embedded in the PH1000 network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "~24",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">100",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate)",
+        "description": "Composite film of PH1000 infiltrated into PEDOT hollow spheres/bowls, tested as 7 stacked composite samples; porous PTFE membrane acted as separator/support between stacks. Reported thickness refers to the active composite layer.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene)",
+        "description": "Hollow spheres/bowls synthesized by surfactant-free Ouzo emulsion and embedded in the PH1000 network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "~42",
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": ">150",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(styrene-block-butadiene-block-styrene)",
+        "description": "SBS film substrate; Ar plasma treated before metal-organic decomposition coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver layer formed from metal-organic decomposition precursor after sintering at 120 °C.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 30000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "sintering_temperature",
+            "value": 120,
+            "unit": "°C"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(styrene-block-butadiene-block-styrene)",
+        "description": "SBS film substrate; Ar plasma treated before metal-organic decomposition coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Dense interconnected silver layer formed from metal-organic decomposition precursor after sintering at 160 °C.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.3,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 60,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_temperature",
+            "value": 160,
+            "unit": "°C"
+          },
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4790000.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "sintering_temperature",
+            "value": 160,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "measurement_mode",
+            "value": "near-field",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 1,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 6,
+            "unit": "GHz"
+          },
+          {
+            "type": "qualifier",
+            "value": "over",
+            "unit": "not specified"
+          },
+          {
+            "type": "sintering_temperature",
+            "value": 160,
+            "unit": "°C"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 63,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 10,
+            "unit": "%"
+          },
+          {
+            "type": "stretching_cycles",
+            "value": 50,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 30,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 50,
+            "unit": "%"
+          },
+          {
+            "type": "stretching_cycles",
+            "value": 50,
+            "unit": "cycles"
+          }
+        ]
+      },
+      "shielding_effectiveness_5": {
+        "value": 5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 10,
+            "unit": "%"
+          },
+          {
+            "type": "electric_field_orientation_relative_to_ag_microcrack",
+            "value": "perpendicular",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_6": {
+        "value": 37,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "tensile_strain",
+            "value": 10,
+            "unit": "%"
+          },
+          {
+            "type": "electric_field_orientation_relative_to_ag_microcrack",
+            "value": "parallel",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(styrene-block-butadiene-block-styrene)",
+        "description": "SBS film substrate; Ar plasma treated before metal-organic decomposition coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver layer formed from metal-organic decomposition precursor after sintering at 160 °C.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.7,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 57,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_temperature",
+            "value": 160,
+            "unit": "°C"
+          },
+          {
+            "type": "aggregation",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(styrene-block-butadiene-block-styrene)",
+        "description": "SBS film substrate; Ar plasma treated before metal-organic decomposition coating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Silver layer formed from metal-organic decomposition precursor after sintering at 160 °C.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 70,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "sintering_temperature",
+            "value": 160,
+            "unit": "°C"
+          },
+          {
+            "type": "aggregation",
+            "value": "average",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

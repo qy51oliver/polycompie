@@ -1,0 +1,652 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452, MFI 8.0 g/10 min, higher melt flow index grade",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 1221,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 29,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300, MFI 3.5 g/10 min, lower melt flow index grade",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "no filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 1006,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 27,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452, MFI 8.0 g/10 min, higher melt flow index grade",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibre",
+        "description": "scoured coarse short wool fibres, 30 wt% loading",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 856,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 17,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300, MFI 3.5 g/10 min, lower melt flow index grade",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibre",
+        "description": "scoured coarse short wool fibres, 30 wt% loading",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 778,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 16,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "NR",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452, MFI 8.0 g/10 min, higher melt flow index grade",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, average particle size 14 µm, coated intumescent combination with 22 wt% phosphorus and 21 wt% nitrogen, 20 wt% loading",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 256,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 20,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300, MFI 3.5 g/10 min, lower melt flow index grade",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, average particle size 14 µm, coated intumescent combination with 22 wt% phosphorus and 21 wt% nitrogen, 20 wt% loading",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 296,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 20,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP B1452, MFI 8.0 g/10 min, higher melt flow index grade",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibre",
+        "description": "scoured coarse short wool fibres, 30 wt% loading",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, average particle size 14 µm, coated intumescent combination with 22 wt% phosphorus and 21 wt% nitrogen, 20 wt% loading",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 227,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 19,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polypropylene",
+        "description": "PP H5300, MFI 3.5 g/10 min, lower melt flow index grade",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wool fibre",
+        "description": "scoured coarse short wool fibres, 30 wt% loading",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      },
+      {
+        "name": "ammonium polyphosphate",
+        "description": "APP Budit 3167, average particle size 14 µm, coated intumescent combination with 22 wt% phosphorus and 21 wt% nitrogen, 20 wt% loading",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3,
+      "unit": "mm"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 232,
+        "unit": "kW/m²",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 19,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat flux",
+            "value": 50,
+            "unit": "kW/m²"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM E1354",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "V-0",
+        "unit": "UL-94 rating",
+        "conditions": [
+          {
+            "type": "standard",
+            "value": "ASTM D3801 / UL-94",
+            "unit": "not specified"
+          },
+          {
+            "type": "orientation",
+            "value": "vertical",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

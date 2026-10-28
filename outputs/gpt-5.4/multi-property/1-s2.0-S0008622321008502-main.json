@@ -1,0 +1,769 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat PPS",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.67e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 6000000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.243,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 99.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "pristine CNT",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.76e-12,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 210000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.269,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "pristine CNT",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.35e-10,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 2300000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.322,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 98.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "pristine CNT",
+        "composition": {
+          "amount": 2.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 10000000.0,
+            "unit": "ohm cm"
+          },
+          {
+            "type": "inequality",
+            "value": ">=",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.411,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotubes",
+        "description": "pristine CNT",
+        "composition": {
+          "amount": 3.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 10000000.0,
+            "unit": "ohm cm"
+          },
+          {
+            "type": "inequality",
+            "value": ">=",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.61,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 99.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; CNT content within filler 59.9 wt% after calcination; corresponds to 0.3 vol% CNT in composite",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.69e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 5900000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.27,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; corresponds to 0.6 vol% CNT in composite",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 1000000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.295,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 97.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; corresponds to 1.8 vol% CNT in composite",
+        "composition": {
+          "amount": 3.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.04e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 4900000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.437,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; corresponds to 3.0 vol% CNT in composite",
+        "composition": {
+          "amount": 5.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 2.27e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 4400000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.757,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 91.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; corresponds to 5.0 vol% CNT in composite",
+        "composition": {
+          "amount": 8.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 3.23e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 3100000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 1.095,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS matrix",
+        "composition": {
+          "amount": 83.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "water-glass-coated carbon nanotubes",
+        "description": "WG-CNT filler; calcined; corresponds to 10.0 vol% CNT in composite; also reported as 23.8 wt% WG-CNT and 14.2 wt% CNT",
+        "composition": {
+          "amount": 16.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.17e-16,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 2400000000000000.0,
+            "unit": "ohm cm"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 2.01,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 100.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "neat PA6",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4.76e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 210000000000000.0,
+            "unit": "ohm cm"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 10.0,
+            "unit": "V"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.273,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 74.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibers",
+        "description": "pristine CF",
+        "composition": {
+          "amount": 25.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-07,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 10000000.0,
+            "unit": "ohm cm"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 10.0,
+            "unit": "V"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.527,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 matrix",
+        "composition": {
+          "amount": 74.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silica-nanoparticle-coated carbon fibers",
+        "description": "SNP-CF filler; 40/60 wt% composite corresponding to 25.7/74.3 vol%; CF content in composite 23.9 vol%",
+        "composition": {
+          "amount": 25.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1e-12,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "derived_from_volume_resistivity",
+            "value": 1000000000000.0,
+            "unit": "ohm cm"
+          },
+          {
+            "type": "applied_voltage",
+            "value": 10.0,
+            "unit": "V"
+          }
+        ]
+      },
+      "thermal_conductivity": {
+        "value": 0.603,
+        "unit": "W/mK",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

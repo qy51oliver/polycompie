@@ -1,0 +1,212 @@
+[
+     {
+        "sample_id": "PPA GF",
+        "matrix_name": [
+        		{
+                "name": "polyphthalamide",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":3.960, "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 1.5e-13, "unit": "S/M"},
+            "dielectric constant": {"value": 4.3, "unit": "not specified"},
+            "shielding effectiveness": {"value": 7, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": "10","unit": "kHz"},{"type": "frequency upper bound", "value": "1.5","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PPS",
+        "matrix_name": [
+        		{
+                "name": "polyphenylene sulfide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":3.290, "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 4.5e-14, "unit": "S/M"},
+            "dielectric constant": {"value": 3.0, "unit": "not specified"},
+            "shielding effectiveness": {"value": 4, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": "10","unit": "kHz"},{"type": "frequency upper bound", "value": "1.5","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PEEK",
+        "matrix_name": [
+        		{
+                "name": "polyetheretherketone",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":4.070, "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 4.9e-14, "unit": "S/M"},
+            "dielectric constant": {"value": 3.3, "unit": "not specified"},
+            "shielding effectiveness": {"value": "not specified", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": "10","unit": "kHz"},{"type": "frequency upper bound", "value": "1.5","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PPS 50 μm Zn",
+        "matrix_name": [
+        		{
+                "name": "polyphenylene sulfide",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":3.340, "unit":"mm"},
+        "properties": {
+            "shielding effectiveness 1": {"value": 20, "unit": "dB","conditions": [{"type": "frequency", "value": "10","unit": "kHz"}]},
+            "shielding effectiveness 2": {"value": 60, "unit": "dB","conditions": [{"type": "frequency", "value": "1.5","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PPA-GF 5μm aluminum broze",
+        "matrix_name": [
+        		{
+                "name": "polyphthalamid",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":3.965, "unit":"mm"},
+        "properties": {
+            "shielding effectiveness 1": {"value": 40, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": "10","unit": "kHz"},{"type": "frequency upper bound", "value": "1.5","unit": "GHz"}]},
+            "shielding effectiveness 2": {"value": 57, "unit": "dB","conditions": [{"type": "frequency", "value": "1.5","unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "PPA-GF 1mm aluminum broze",
+        "matrix_name": [
+        		{
+                "name": "polyphthalamid",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":4.960, "unit":"mm"},
+        "properties": {}
+    },
+     {
+        "sample_id": "PPA-GF 2mm aluminum broze",
+        "matrix_name": [
+        		{
+                "name": "polyphthalamid",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":5.960, "unit":"mm"},
+        "properties": {}
+    },
+     {
+        "sample_id": "PPA-GF 5mm aluminum broze",
+        "matrix_name": [
+        		{
+                "name": "polyphthalamid",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "glass fiber",
+                "description": "not specified",
+                "composition": {"amount": "not specified", "type": "not specified"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":8.960, "unit":"mm"},
+        "properties": {}
+    },
+     {
+        "sample_id": "PEEK 10μm aluminum broze",
+        "matrix_name": [
+        		{
+                "name": "polyetheretherketone",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":4.080, "unit":"mm"},
+        "properties": {
+            "shielding effectiveness 1": {"value": 30, "unit": "dB","conditions": [{"type": "frequency", "value": "10","unit": "kHz"}]},
+            "shielding effectiveness 2": {"value": 50, "unit": "dB","conditions": [{"type": "frequency", "value": "1.5","unit": "GHz"}]}
+        }
+    }
+]

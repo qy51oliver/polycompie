@@ -1,0 +1,394 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-5Si) synthesized from TFMP, 6FAPB, TPE-Q, and BTD (5 mol% siloxane diamine). Contains phosphorus, nitrogen, and siloxane groups.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 85.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 6.8,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 98.8,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA (tan delta peak)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-10Si) synthesized from TFMP, 6FAPB, TPE-Q, and BTD (10 mol% siloxane diamine). Contains phosphorus, nitrogen, and siloxane groups.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 72.1,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 12.2,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 96.7,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA (tan delta peak)",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 157.3,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "micro calorimeter (MCC)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-15Si) synthesized from TFMP, 6FAPB, TPE-Q, and BTD (15 mol% siloxane diamine). Contains phosphorus, nitrogen, and siloxane groups.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 65.2,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 14.3,
+        "unit": "%",
+        "conditions": []
+      },
+      "glass_transition_temperature": {
+        "value": 94.6,
+        "unit": "°C",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "DMA (tan delta peak)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-10Si) with 10 mol% siloxane diamine (BTD). Used as matrix for BS/10GF composite.",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF), thermally oxidized at 420°C for 10h in air. GF constitutes 10 wt% of the composite (BS/10GF).",
+        "composition": {
+          "amount": 10.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 29.0,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 2.4,
+        "unit": "%",
+        "conditions": []
+      },
+      "thermal_conductivity": {
+        "value": 0.103,
+        "unit": "W/m·K",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 9.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 130.0,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "micro calorimeter (MCC)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-10Si) with 10 mol% siloxane diamine (BTD). Used as matrix for BS/20GF composite.",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF), thermally oxidized at 420°C for 10h in air. GF constitutes 20 wt% of the composite (BS/20GF).",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.3,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 3.1,
+        "unit": "%",
+        "conditions": []
+      },
+      "peak_heat_release_rate": {
+        "value": 129.0,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "micro calorimeter (MCC)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-10Si) with 10 mol% siloxane diamine (BTD). Used as matrix for BS/30GF composite.",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF), thermally oxidized at 420°C for 10h in air. GF constitutes 30 wt% of the composite (BS/30GF).",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "peak_heat_release_rate": {
+        "value": 110.8,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "micro calorimeter (MCC)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyimine",
+        "description": "Biobased polyimine network (BQP-10Si) with 10 mol% siloxane diamine (BTD). Used as matrix for BS/50GF composite.",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphite felt",
+        "description": "Polyacrylonitrile-based graphite felt (GF), thermally oxidized at 420°C for 10h in air. GF constitutes 50 wt% of the composite (BS/50GF).",
+        "composition": {
+          "amount": 50.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 46.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 83.3,
+        "unit": "W/g",
+        "conditions": [
+          {
+            "type": "method",
+            "value": "micro calorimeter (MCC)",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

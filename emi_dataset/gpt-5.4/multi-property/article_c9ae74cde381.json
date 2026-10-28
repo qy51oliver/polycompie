@@ -1,0 +1,184 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "TEMPO-oxidized cellulose nanofibers (TONF) forming the fibrous matrix/network in TCA-3; the TCA-3 formulation used a VAC:TONF mass ratio of 1:1.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Conductive carbon black (CCB) incorporated in the conductive TONF network of the TONF/CCB/VAC (TCA) composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "activated carbon",
+        "description": "Vinasse-derived activated carbon (VAC); TCA-3 used a VAC:TONF mass ratio of 1:1.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "TEMPO-oxidized cellulose nanofibers (TONF) forming the fibrous matrix/network in TCA-3; the TCA-3 formulation used a VAC:TONF mass ratio of 1:1.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Conductive carbon black (CCB) incorporated in the conductive TONF network of the TONF/CCB/VAC (TCA) composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "activated carbon",
+        "description": "Vinasse-derived activated carbon (VAC); TCA-3 used a VAC:TONF mass ratio of 1:1.",
+        "composition": {
+          "amount": 1.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 36.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "cellulose nanofiber",
+        "description": "TEMPO-oxidized cellulose nanofiber component inherited from the TCA composite in TCA-V.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "vitrimer",
+        "description": "Dynamically cross-linked polymer vitrimer introduced into TCA to impart shape-memory behavior.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon black",
+        "description": "Conductive carbon black (CCB) present as part of the original TCA conductive network.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "activated carbon",
+        "description": "Vinasse-derived activated carbon (VAC) present as part of the original TCA composite.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 35.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "bending_cycles",
+            "value": 1000,
+            "unit": "cycles"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

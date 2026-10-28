@@ -1,0 +1,207 @@
+[
+     {
+        "sample_id": "BQP-5Si",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is five percent",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "strength": {"value": 85.0, "unit": "MPa"},
+            "elongation_at_break": {"value": 6.8, "unit": "%"},
+            "toughness": {"value": 4.2, "unit": "J/cm^3"},
+            "initial_storage_modulus": {"value": 2624.15, "unit": "MPa","conditions": [{"type": "temperature", "value": 35,"unit": "°C"}]},
+            "peak_temperature_of_loss_tangent": {"value": 98.8, "unit": "°C"},
+            "temperature_at_5%_weight_loss": {"value": 322.3, "unit": "°C"},
+            "degradation_peak_temperature": {"value": 327.6, "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "BQP-10Si",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is ten percent",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "light_transmittance": {"value": 87.3, "unit": "%"},
+            "strength": {"value": 72.1, "unit": "MPa"},
+            "elongation_at_break": {"value": 12.2, "unit": "%"},
+            "toughness": {"value": 7.1, "unit": "J/cm^3"},
+            "initial_storage_modulus": {"value": 2330.9, "unit": "MPa","conditions": [{"type": "temperature", "value": 35,"unit": "°C"}]},
+            "peak_temperature_of_loss_tangent": {"value": 96.7, "unit": "°C"},
+            "stress_relaxation_time_1": {"value": 114, "unit": "s","conditions": [{"type": "temperature", "value": 100,"unit": "°C"}]},
+            "stress_relaxation_time_2": {"value": 110, "unit": "s","conditions": [{"type": "temperature", "value": 110,"unit": "°C"}]},
+            "stress_relaxation_time_3": {"value": 91.6, "unit": "s","conditions": [{"type": "temperature", "value": 120,"unit": "°C"}]},
+            "stress_relaxation_time_4": {"value": 71.5, "unit": "s","conditions": [{"type": "temperature", "value": 130,"unit": "°C"}]},
+            "relaxation_activation_energy": {"value": 22.0, "unit": "kJ/mol"},
+            "shielding_effectiveness": {"value": "close to zero", "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "temperature_at_5%_weight_loss": {"value": 328.8, "unit": "°C"},
+            "degradation_peak_temperature": {"value": 332.7, "unit": "°C"},
+            "flame_extinguishing_time": {"value": 6, "unit": "s"},
+            "heat_release_rate": {"value": 157.3, "unit": "W/g"},
+            "total_heat_release": {"value": 7.58, "unit": "kJ/g"}
+        }
+    },
+     {
+        "sample_id": "BQP-15Si",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is fifteen percent",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "water_contact_angle": {"value": 85.3, "unit": "◦"},
+            "strength": {"value": 65.2, "unit": "MPa"},
+            "elongation_at_break": {"value": 14.3, "unit": "%"},
+            "toughness": {"value": 7.6, "unit": "J/cm^3"},
+            "initial_storage_modulus": {"value": 1868.2, "unit": "MPa","conditions": [{"type": "temperature", "value": 35,"unit": "°C"}]},
+            "peak_temperature_of_loss_tangent": {"value": 94.6, "unit": "°C"},
+            "char_yield": {"value": 61.3, "unit": "MPa","conditions": [{"type": "temperature", "value": 800,"unit": "°C"}]},
+            "temperature_at_5%_weight_loss": {"value": 335.6, "unit": "°C"},
+            "degradation_peak_temperature": {"value": 340.1, "unit": "°C"}
+        }
+    },
+     {
+        "sample_id": "BS/10GF",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is ten percent",
+                "composition": {"amount": 90, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite felt",
+                "description": "not specified",
+                "composition": {"amount": 10, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "fracture_strength": {"value": 29.0, "unit": "MPa"},
+            "elongation_at_break": {"value": 2.4, "unit": "%"},
+            "thermal_conductivity": {"value": 0.103, "unit": "W/m*K"},
+            "shielding_effectiveness": {"value": 9, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "temperature_at_5%_weight_loss": {"value": 343.6, "unit": "°C"},
+            "maximum_degradation_temperature": {"value": 346.7, "unit": "°C"},
+            "heat_release_rate": {"value": 130.0, "unit": "W/g"}
+        }
+    },
+     {
+        "sample_id": "BS/20GF",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is ten percent",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite felt",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "fracture_strength": {"value": 23.3, "unit": "MPa"},
+            "elongation_at_break": {"value": 3.1, "unit": "%"},
+            "flame_extinguishing_time": {"value": 4, "unit": "s"},
+            "heat_release_rate": {"value": 129.0, "unit": "W/g"}
+        }
+    },
+     {
+        "sample_id": "BS/30GF",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is ten percent",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite felt",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "heat_release_rate": {"value": 110.8, "unit": "W/g"}
+        }
+    },
+     {
+        "sample_id": "BS/50GF",
+        "matrix_name": [
+        		{
+                "name": "polyimine",
+                "description": "molar ratio of 1,3-Bis (3-aminopropyl)tetramethyldisiloxane is ten percent",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite felt",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":"not specified", "unit":"not specified"},
+        "properties": {
+            "shielding_effectiveness": {"value": 46, "unit": "dB","conditions": [{"type": "frequency lower bound", "value": 8.2,"unit": "GHz"},{"type": "frequency higher bound", "value": 12.4,"unit": "GHz"}]},
+            "temperature_at_5%_weight_loss": {"value": 365.0, "unit": "°C"},
+            "maximum_degradation_temperature": {"value": 366.1, "unit": "°C"},
+            "flame_extinguishing_time": {"value": 2, "unit": "s"},
+            "heat_release_rate": {"value": 83.3, "unit": "W/g"},
+            "total_heat_release": {"value": 3.65, "unit": "kJ/g"}
+        }
+    }
+]

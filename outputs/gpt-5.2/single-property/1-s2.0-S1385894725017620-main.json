@@ -1,0 +1,96 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "PEEK matrix (prefabricated structured composite).",
+        "composition": {
+          "amount": 65.85,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "Nickel-plated carbon fibre with graphene nanosheets and multi-walled carbon nanotubes deposited on surface using polybenzoxazine binder; labelled GW&Ni-CF (three-core-shell scaly heterogeneous fibre).",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 85.93,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyether ether ketone",
+        "description": "Optimised prefabricated structured composite using hybrid PEEK particles as matrix (GW&Ni-CF@4 hybrid PEEK). Total filler content kept at 34.15 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fibre",
+        "description": "Nickel-plated carbon fibre with graphene nanosheets and multi-walled carbon nanotubes deposited on surface using polybenzoxazine binder; labelled GW&Ni-CF. Composite labelled 34.15% GW&Ni-CF@4 hybrid PEEK.",
+        "composition": {
+          "amount": 34.15,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 132.06,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_band",
+            "value": "X-band",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency",
+            "value": "not specified",
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

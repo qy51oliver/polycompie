@@ -1,0 +1,361 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "Reference ODA/BPDA-based polyimide film",
+        "composition": {
+          "amount": 100.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "glass_transition_temperature": {
+        "value": 259,
+        "unit": "°C",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODA/BPDA-based polyimide matrix in CNF/rGO/PI composite film (CGPI44)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbon nanofibers with outer diameter 200–600 nm and length 5–50 µm",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO formed during thermal imidization from GO modified using dodecyl dimethylamine oxide",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "tensile_strength_1": {
+        "value": 142.61,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break_1": {
+        "value": 30.73,
+        "unit": "%",
+        "conditions": []
+      },
+      "tensile_strength_2": {
+        "value": 59.13,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 220,
+            "unit": "°C"
+          }
+        ]
+      },
+      "elongation_at_break_2": {
+        "value": 28.33,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": 220,
+            "unit": "°C"
+          }
+        ]
+      },
+      "tensile_strength_3": {
+        "value": 126,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "pre_treatment_temperature",
+            "value": -190,
+            "unit": "°C"
+          },
+          {
+            "type": "pre_treatment_medium",
+            "value": "liquid nitrogen",
+            "unit": "not specified"
+          },
+          {
+            "type": "pre_treatment_time",
+            "value": "more than 24",
+            "unit": "h"
+          }
+        ]
+      },
+      "elongation_at_break_3": {
+        "value": 10.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "pre_treatment_temperature",
+            "value": -190,
+            "unit": "°C"
+          },
+          {
+            "type": "pre_treatment_medium",
+            "value": "liquid nitrogen",
+            "unit": "not specified"
+          },
+          {
+            "type": "pre_treatment_time",
+            "value": "more than 24",
+            "unit": "h"
+          }
+        ]
+      },
+      "tensile_strength_4": {
+        "value": 136.49,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": -70,
+            "unit": "°C"
+          }
+        ]
+      },
+      "elongation_at_break_4": {
+        "value": 7.08,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "temperature",
+            "value": -70,
+            "unit": "°C"
+          }
+        ]
+      },
+      "glass_transition_temperature": {
+        "value": 312,
+        "unit": "°C",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 0.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "lower_frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "upper_frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODA/BPDA-based polyimide matrix in Ag-(CNF/rGO/PI)-Ag sandwich composite (APA1)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbon nanofibers with outer diameter 200–600 nm and length 5–50 µm",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO formed during thermal imidization from GO modified using dodecyl dimethylamine oxide",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Magnetron-sputtered Ag film deposited on both sides of CGPI44; nominal Ag thickness about 1 µm on each side",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 4706.0,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 93.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "lower_frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "upper_frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyimide",
+        "description": "ODA/BPDA-based polyimide matrix in Ag-(CNF/rGO/PI)-Ag sandwich composite (APA5)",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanofiber",
+        "description": "Carbon nanofibers with outer diameter 200–600 nm and length 5–50 µm",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "reduced graphene oxide",
+        "description": "rGO formed during thermal imidization from GO modified using dodecyl dimethylamine oxide",
+        "composition": {
+          "amount": 4.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "treated"
+      },
+      {
+        "name": "silver",
+        "description": "Magnetron-sputtered Ag film deposited on both sides of CGPI44; nominal Ag thickness about 5 µm on each side",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.146,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19180.0,
+        "unit": "S/cm",
+        "conditions": []
+      },
+      "shielding_effectiveness_1": {
+        "value": 112,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "lower_frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "upper_frequency",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 136.88,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "measurement",
+            "value": "maximum",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

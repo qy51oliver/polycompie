@@ -1,0 +1,227 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid nanofiber (ANF) derived from Twaron fibers",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Two-dimensional exfoliated single-layer MXene sheets",
+        "composition": {
+          "amount": 70.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 19.8,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 3252,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 43.74,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 148,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid nanofiber (ANF) derived from Twaron fibers",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Two-dimensional exfoliated single-layer MXene sheets",
+        "composition": {
+          "amount": 67.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron phosphide",
+        "description": "Ball-milled boron phosphide nanoparticles; surface oxidation introduced hydroxyl/oxide-related groups that improved dispersion",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 26.5,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid nanofiber (ANF) derived from Twaron fibers",
+        "composition": {
+          "amount": 30.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Two-dimensional exfoliated single-layer MXene sheets",
+        "composition": {
+          "amount": 63.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "boron phosphide",
+        "description": "Ball-milled boron phosphide nanoparticles (~40 nm); surface oxidation introduced hydroxyl/oxide-related groups that improved dispersion",
+        "composition": {
+          "amount": 7.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 10.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 47.2,
+        "unit": "W m^-1 K^-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "in-plane",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 4230,
+        "unit": "S cm^-1",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 51.15,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency band",
+            "value": "X-band",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 3.7,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "strain rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 113.3,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "strain rate",
+            "value": 0.5,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "flammability": {
+        "value": "no burning; self-extinguishing",
+        "unit": "not specified",
+        "conditions": [
+          {
+            "type": "heat source",
+            "value": "lighter",
+            "unit": "not specified"
+          },
+          {
+            "type": "flame exposure time",
+            "value": 60,
+            "unit": "s"
+          }
+        ]
+      }
+    }
+  }
+]

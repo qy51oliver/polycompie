@@ -1,0 +1,237 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Synthesized by oxidative polymerization of aniline monomer in HCl using ammonium persulphate as oxidizing agent; emeraldine salt form",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "No filler",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Synthesized by oxidative polymerization; emeraldine salt form; acts as matrix for CuO nanoparticles",
+        "composition": {
+          "amount": 95.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 and NaOH with SDS surfactant; average particle size ~18 nm; incorporated into PANI by mechano-chemical method",
+        "composition": {
+          "amount": 5.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 17.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Synthesized by oxidative polymerization; emeraldine salt form; acts as matrix for CuO nanoparticles",
+        "composition": {
+          "amount": 80.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 and NaOH with SDS surfactant; average particle size ~18 nm; incorporated into PANI by mechano-chemical method",
+        "composition": {
+          "amount": 20.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 19.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Synthesized by oxidative polymerization; emeraldine salt form; acts as matrix for CuO nanoparticles",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 and NaOH with SDS surfactant; average particle size ~18 nm; incorporated into PANI by mechano-chemical method; PC3 sample with higher CuO loading than PC2",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyaniline",
+        "description": "Synthesized by oxidative polymerization; emeraldine salt form; acts as matrix for CuO nanoparticles",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "copper oxide",
+        "description": "CuO nanoparticles synthesized from CuSO4 and NaOH with SDS surfactant; average particle size ~18 nm; incorporated into PANI by mechano-chemical method; PC4 sample with highest CuO loading among composites",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 12,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

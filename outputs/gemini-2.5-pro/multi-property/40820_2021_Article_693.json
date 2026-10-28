@@ -1,0 +1,387 @@
+[
+  {
+    "sample_id": "CPA",
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, in microsphere form (CPA microspheres). Average size 1.5 um.",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 17.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 700,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "CG@CPA-1",
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, in microsphere form (CPA microspheres).",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "NC 7000 series, average diameter 9.5 nm, average length 1.5 um. Component of a CNT/GO hybrid with a total loading of 1.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Component of a CNT/GO hybrid with a total loading of 1.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 5.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": "CG@CPA-3",
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, in microsphere form (CPA microspheres).",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "NC 7000 series, average diameter 9.5 nm, average length 1.5 um. Component of a CNT/GO hybrid with a total loading of 3.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Component of a CNT/GO hybrid with a total loading of 3.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 34.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 43.1,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 626,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "CG@CPA-7",
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, in microsphere form (CPA microspheres).",
+        "composition": {
+          "amount": 93.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "NC 7000 series, average diameter 9.5 nm, average length 1.5 um. Component of a CNT/GO hybrid with a total loading of 7.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Component of a CNT/GO hybrid with a total loading of 7.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 32.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 431,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "tensile_strength_healed_3_cycles": {
+        "value": 30.0,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break_healed_3_cycles": {
+        "value": 410,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "CG@CPA-10",
+    "matrix_name": [
+      {
+        "name": "cationic waterborne polyurethane",
+        "description": "Synthesized with Diels-Alder (DA) bonds, in microsphere form (CPA microspheres).",
+        "composition": {
+          "amount": 90.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon nanotube",
+        "description": "NC 7000 series, average diameter 9.5 nm, average length 1.5 um. Component of a CNT/GO hybrid with a total loading of 10.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "graphene oxide",
+        "description": "Component of a CNT/GO hybrid with a total loading of 10.0 wt%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 52.0,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 52.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 30.5,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 400,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 50,
+            "unit": "mm/min"
+          }
+        ]
+      },
+      "electrical_conductivity_healed_1_cycle": {
+        "value": 51.5,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "electrical_conductivity_healed_3_cycles": {
+        "value": 48.8,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_healed_1_cycle": {
+        "value": 51.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_healed_3_cycles": {
+        "value": 47.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_min",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_max",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

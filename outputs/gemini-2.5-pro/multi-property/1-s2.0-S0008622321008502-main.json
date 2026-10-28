@@ -1,0 +1,674 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 100,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.243,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 99.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7k (CVD-grown MWCNTs, length: ~10 um; diameter: 40-90 nm, average diameter: ~65 nm, aspect ratio: ~150, carbon purity: >99.5 wt%, specific gravity: 2.1)",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.269,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7k (CVD-grown MWCNTs, length: ~10 um; diameter: 40-90 nm, average diameter: ~65 nm, aspect ratio: ~150, carbon purity: >99.5 wt%, specific gravity: 2.1)",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.322,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 98.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7k (CVD-grown MWCNTs, length: ~10 um; diameter: 40-90 nm, average diameter: ~65 nm, aspect ratio: ~150, carbon purity: >99.5 wt%, specific gravity: 2.1)",
+        "composition": {
+          "amount": 2.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.411,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 97.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "NT-7k (CVD-grown MWCNTs, length: ~10 um; diameter: 40-90 nm, average diameter: ~65 nm, aspect ratio: ~150, carbon purity: >99.5 wt%, specific gravity: 2.1)",
+        "composition": {
+          "amount": 3.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.61,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 99.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 0.3 vol% core CNT content.",
+        "composition": {
+          "amount": 0.5,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.27,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 99.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 0.6 vol% core CNT content.",
+        "composition": {
+          "amount": 1.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.295,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 97.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 1.8 vol% core CNT content.",
+        "composition": {
+          "amount": 3.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.437,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 95.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 3.0 vol% core CNT content.",
+        "composition": {
+          "amount": 5.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.757,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 91.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 5.0 vol% core CNT content.",
+        "composition": {
+          "amount": 8.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.095,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "poly(1,4-phenylenesulfide)",
+        "description": "PPS (WZOZA, linear type, specific gravity: 1.35)",
+        "composition": {
+          "amount": 83.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. The coated filler contains 59.9 wt% CNT. Corresponds to 10.0 vol% core CNT content.",
+        "composition": {
+          "amount": 16.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 2.01,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 (P1011F, specific gravity: 1.14)",
+        "composition": {
+          "amount": 100,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.273,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 (P1011F, specific gravity: 1.14)",
+        "composition": {
+          "amount": 74.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "CF (pitch based CF, XN-100-15 M, average fiber diameter: 9 um; average fiber length: 150 um, specific gravity: 2.2)",
+        "composition": {
+          "amount": 25.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.527,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polyamide-6",
+        "description": "PA6 (P1011F, specific gravity: 1.14)",
+        "composition": {
+          "amount": 74.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "carbon fiber",
+        "description": "SNP-CF: Pitch based CF (XN-100-15 M) coated with silica nanoparticles (SNP) via LBL self-assembly using PDADMAC. 10 LBL cycles. The coated filler contains 71 wt% SNP. Corresponds to 23.9 vol% core CF content.",
+        "composition": {
+          "amount": 25.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 0.603,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 15,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA (grade G, specific gravity: 1.19)",
+        "composition": {
+          "amount": 83.6,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "TNS-CNT: NT-7k MWCNTs coated with titania nanosheets (TNS) via LBL self-assembly using PDADMAC. 6 LBL cycles. The coated filler contains 56.8 wt% CNT. Corresponds to 10 vol% core CNT content.",
+        "composition": {
+          "amount": 16.4,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.526,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 16,
+    "matrix_name": [
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "PMMA (grade G, specific gravity: 1.19)",
+        "composition": {
+          "amount": 83.3,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "WG-CNT: NT-7k MWCNTs coated with water glass (WG) via LBL self-assembly using DMOAP, calcined at 400 C for 5 h. Coating thickness ~18 nm. The coated filler contains 59.9 wt% CNT. Corresponds to 10 vol% core CNT content.",
+        "composition": {
+          "amount": 16.7,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1,
+      "unit": "mm"
+    },
+    "properties": {
+      "thermal_conductivity": {
+        "value": 1.831,
+        "unit": "W m-1 K-1",
+        "conditions": [
+          {
+            "type": "direction",
+            "value": "through-plane",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

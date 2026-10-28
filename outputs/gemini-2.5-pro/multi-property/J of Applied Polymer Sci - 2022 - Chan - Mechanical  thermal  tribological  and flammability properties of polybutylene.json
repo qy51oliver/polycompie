@@ -1,0 +1,579 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (1100-211M) from Chang Chun Plastics Ltd, China",
+        "composition": {
+          "amount": 100.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "not specified",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 52.8,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1.9,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 200,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          },
+          {
+            "type": "note",
+            "value": "did not break",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 52.5,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "Notched Izod",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D256",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 224.3,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 53,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 572,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (1100-211M)",
+        "composition": {
+          "amount": 99.01,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "natural wollastonite (NW), 600 mesh powder",
+        "composition": {
+          "amount": 0.99,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 53.48,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2.033,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 149.6,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 46.99,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "Notched Izod",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D256",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 225.0,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 44,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 474,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (1100-211M)",
+        "composition": {
+          "amount": 99.01,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "wollastonite",
+        "description": "synthetic wollastonite nanofibers (SWN), synthesized via hydrothermal reaction",
+        "composition": {
+          "amount": 0.99,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 55.97,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 2.071,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 18,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 47.88,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "Notched Izod",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D256",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 226.5,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 50,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 495,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polybutylene terephthalate",
+        "description": "PBT (1100-211M)",
+        "composition": {
+          "amount": 99.01,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene oxide",
+        "description": "UGOXTM United GO powder, 99% purity, average thickness of 0.8-2.0 nm, lateral dimension of 5-10 um",
+        "composition": {
+          "amount": 0.99,
+          "type": "wt%"
+        },
+        "surface_treatment": "untreated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 51.74,
+        "unit": "MPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "youngs_modulus": {
+        "value": 1.976,
+        "unit": "GPa",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "elongation_at_break": {
+        "value": 15,
+        "unit": "%",
+        "conditions": [
+          {
+            "type": "crosshead_speed",
+            "value": 10,
+            "unit": "mm/min"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D638",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "impact_strength": {
+        "value": 45.2,
+        "unit": "J/m",
+        "conditions": [
+          {
+            "type": "test_type",
+            "value": "Notched Izod",
+            "unit": "not specified"
+          },
+          {
+            "type": "standard",
+            "value": "ASTM D256",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "melting_temperature": {
+        "value": 224.8,
+        "unit": "C",
+        "conditions": [
+          {
+            "type": "heating_rate",
+            "value": 10,
+            "unit": "C/min"
+          },
+          {
+            "type": "atmosphere",
+            "value": "nitrogen",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "time_to_ignition": {
+        "value": 42,
+        "unit": "s",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "peak_heat_release_rate": {
+        "value": 509,
+        "unit": "kW/m^2",
+        "conditions": [
+          {
+            "type": "heat_flux",
+            "value": 35,
+            "unit": "kW/m^2"
+          },
+          {
+            "type": "standard",
+            "value": "ISO 5660",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]

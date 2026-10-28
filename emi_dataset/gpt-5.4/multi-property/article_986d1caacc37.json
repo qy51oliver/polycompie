@@ -1,0 +1,493 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "none",
+        "description": "Unfilled gum NR/NBR blend",
+        "composition": {
+          "amount": 0.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 3.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 17.25,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 728.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium ferrite",
+        "description": "Hydrothermally synthesized spinel SrFe2O4 nanoparticles/nanodendrites; 5 phr",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 20.32,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 719.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium ferrite",
+        "description": "Hydrothermally synthesized spinel SrFe2O4 nanoparticles/nanodendrites; 10 phr",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 25.87,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 700.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Hydrothermally synthesized HCl-doped PANI nanofibers; 5 phr",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 19.98,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 720.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polyaniline",
+        "description": "Hydrothermally synthesized HCl-doped PANI nanofibers; 10 phr",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 23.29,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 711.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium ferrite",
+        "description": "Hydrothermally synthesized spinel SrFe2O4 nanoparticles/nanodendrites; 5 phr",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Hydrothermally synthesized HCl-doped PANI nanofibers; 5 phr",
+        "composition": {
+          "amount": 5.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 26.54,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 698.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium ferrite",
+        "description": "Hydrothermally synthesized spinel SrFe2O4 nanoparticles/nanodendrites; 10 phr",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Hydrothermally synthesized HCl-doped PANI nanofibers; 10 phr",
+        "composition": {
+          "amount": 10.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "tensile_strength": {
+        "value": 30.97,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 682.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "natural rubber",
+        "description": "ISNR 5 grade; 35 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 35.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "nitrile rubber",
+        "description": "Chemigum N344 grade with 33% acrylonitrile content; 15 phr in the NR/NBR blend matrix",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "strontium ferrite",
+        "description": "Hydrothermally synthesized spinel SrFe2O4 nanoparticles/nanodendrites; 15 phr",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "polyaniline",
+        "description": "Hydrothermally synthesized HCl-doped PANI nanofibers; 15 phr",
+        "composition": {
+          "amount": 15.0,
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 23.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 2.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 4.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 36.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.0,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "tensile_strength": {
+        "value": 27.52,
+        "unit": "MPa",
+        "conditions": []
+      },
+      "elongation_at_break": {
+        "value": 650.0,
+        "unit": "%",
+        "conditions": []
+      }
+    }
+  }
+]

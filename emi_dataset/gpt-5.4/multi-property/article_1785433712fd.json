@@ -1,0 +1,247 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC matrix, grade Panlite L-1225Y.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotube",
+        "description": "Super-growth SWCNT; carbon purity 99%; diameter range 1-3 nm; length up to 2.5 mm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 1.59e-14,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "before annealing",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": "1e-2-1e-1",
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "annealed",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature_lower_bound",
+            "value": 230,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_temperature_upper_bound",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_time_lower_bound",
+            "value": 2,
+            "unit": "min"
+          },
+          {
+            "type": "annealing_time_upper_bound",
+            "value": 8,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC matrix, grade Panlite L-1225Y.",
+        "composition": {
+          "amount": 99.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multi-walled carbon nanotube",
+        "description": "MWCNT, Knanos-100T; diameter range 8-15 nm; average length 36 μm.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 3.98e-15,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "before annealing",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 0.001,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "annealed",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 0.0001,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "annealed",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 230,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polycarbonate",
+        "description": "PC matrix, grade Panlite L-1225Y.",
+        "composition": {
+          "amount": 97.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "single-walled carbon nanotube",
+        "description": "Super-growth SWCNT; carbon purity 99%; diameter range 1-3 nm; length up to 2.5 mm.",
+        "composition": {
+          "amount": 3.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.2,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 0.237,
+        "unit": "S/cm",
+        "conditions": [
+          {
+            "type": "post_treatment_state",
+            "value": "annealed",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": "46.7-51.1",
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_type",
+            "value": "total EMI SE",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 4,
+            "unit": "GHz"
+          },
+          {
+            "type": "post_treatment_state",
+            "value": "annealed",
+            "unit": "not specified"
+          },
+          {
+            "type": "annealing_temperature",
+            "value": 250,
+            "unit": "°C"
+          },
+          {
+            "type": "annealing_time",
+            "value": 1,
+            "unit": "h"
+          }
+        ]
+      }
+    }
+  }
+]

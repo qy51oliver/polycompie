@@ -1,0 +1,106 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polylactic acid",
+        "description": "PLA major phase in an 80/20 vol/vol PLA/HDPE blend; PLA was premixed with MWCNT before HDPE addition.",
+        "composition": {
+          "amount": 80.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "high-density polyethylene",
+        "description": "HDPE minor phase in an 80/20 vol/vol PLA/HDPE blend; HDPE was added after premixing PLA with MWCNT.",
+        "composition": {
+          "amount": 20.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "multiwalled carbon nanotubes",
+        "description": "MWCNTs (NC7000); reported length about 1500 nm and diameter about 9.5 nm; composite loading reported as 5.1 wt% (3.72 vol%).",
+        "composition": {
+          "amount": 3.72,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 1.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 22.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mixing_time_after_HDPE_addition",
+            "value": 1.0,
+            "unit": "min"
+          },
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 16.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mixing_time_after_HDPE_addition",
+            "value": 2.0,
+            "unit": "min"
+          },
+          {
+            "type": "frequency",
+            "value": 8.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 15.8,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mixing_time_after_HDPE_addition",
+            "value": 6.0,
+            "unit": "min"
+          },
+          {
+            "type": "frequency",
+            "value": 9.0,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_4": {
+        "value": 13.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "mixing_time_after_HDPE_addition",
+            "value": 6.0,
+            "unit": "min"
+          },
+          {
+            "type": "frequency",
+            "value": 11.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

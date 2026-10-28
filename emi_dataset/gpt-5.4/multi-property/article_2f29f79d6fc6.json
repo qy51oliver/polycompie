@@ -1,0 +1,117 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(3,4-ethylenedioxythiophene):polystyrene sulfonate",
+        "description": "PEDOT:PSS binder in the conductive ink. The article reports an overall ink weight ratio of rGO/PEDOT:PSS/DEG = 26:36:38.",
+        "composition": {
+          "amount": 36.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "diethylene glycol",
+        "description": "Solvent/additive in the conductive ink. The article reports an overall ink weight ratio of rGO/PEDOT:PSS/DEG = 26:36:38.",
+        "composition": {
+          "amount": 38.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Conductive filler; rGO was high-temperature annealed at 1600 °C in Ar before ink formulation. Properties were reported for printed/annealed, calendered, and MoCl5-intercalated post-treatment states.",
+        "composition": {
+          "amount": 26.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 100,
+      "unit": "μm"
+    },
+    "properties": {
+      "electrical_conductivity_1": {
+        "value": 3757,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "printed and annealed",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_2": {
+        "value": 148460,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "calendered",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "electrical_conductivity_3": {
+        "value": 354340,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "MoCl5-intercalated",
+            "unit": "not specified"
+          }
+        ]
+      },
+      "shielding_effectiveness_1": {
+        "value": 53,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "calendered",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 62,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "post-treatment state",
+            "value": "MoCl5-intercalated",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower",
+            "value": 8,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 18,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

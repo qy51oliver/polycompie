@@ -1,0 +1,44 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "epoxy",
+        "description": "Epoxy matrix cured with an unspecified hardener; epoxy/hardener ratio reported as 4:1 in acetone during preparation.",
+        "composition": {
+          "amount": 85.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "graphene",
+        "description": "Solution-processable functionalized graphene (SPFG) / graphene-based sheets; exfoliated from graphite oxide, partially reduced with hydrazine hydrate, then fully reduced by annealing at 250 °C for 2 h under N2. Reported loading is 15 wt%, equivalent to 8.8 vol.%.",
+        "composition": {
+          "amount": 15.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 21,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 8.2,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

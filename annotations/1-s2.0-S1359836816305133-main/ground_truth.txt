@@ -1,0 +1,140 @@
+[
+     {
+        "sample_id": "HDPE",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 2, "unit": "dB","conditions": [{"type": "frequency", "value": 1.2,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "3-MWCNTs/HDPE",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 5, "unit": "dB","conditions": [{"type": "frequency", "value": 1.0,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "3-MWCNTs_(5-Ni)",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "Ni-plating time 5 min",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "nickel"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 10, "unit": "dB","conditions": [{"type": "frequency", "value": 1.0,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "3-MWCNTs_(15-Ni)",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "Ni-plating time 15 min",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "nickel"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 11, "unit": "dB","conditions": [{"type": "frequency", "value": 1.0,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "3-MWCNTs_(30-Ni)",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 97, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "Ni-plating time 30 min",
+                "composition": {"amount": 3, "type": "wt%"},
+                "surface_treatment": "nickel"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "shielding_effectiveness": {"value": 11.5, "unit": "dB","conditions": [{"type": "frequency", "value": 1.0,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 16, "unit": "dB","conditions": [{"type": "frequency", "value": 1.2,"unit": "GHz"}]},
+        }
+    },
+     {
+        "sample_id": "5-MWCNTs/HDPE",
+        "matrix_name": [
+        		{
+                "name": "high-density polyethylene",
+                "description": "not specified",
+                "composition": {"amount": 95, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "multi-walled carbon nanotubes",
+                "description": "not specified",
+                "composition": {"amount": 5, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+        }
+    }
+]

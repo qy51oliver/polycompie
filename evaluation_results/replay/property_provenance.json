@@ -1,0 +1,794 @@
+{
+  "policy": "Same frozen prediction mapping for every study; original static GT mappings unchanged. Only recorded mappings accepted; documented distinct quantities excluded. Saved SE max/min are retained as the same physical quantity under original measurement semantics.",
+  "accepted_mapping_count": 51,
+  "excluded_mapping_count": 18,
+  "conflicting_targets": {},
+  "accepted_sources": {
+    "electrical_conductivity_1hc": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_3hc": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_healed": {
+      "electrical_conductivity": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "electrical_conductivity_healed_1_cycle": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_healed_3_cycles": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_in_plane": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_out_of_plane": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "electrical_conductivity_through_plane": {
+      "electrical_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "elongation_at_break_3hc": {
+      "elongation_at_break": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "elongation_at_break_healed": {
+      "elongation_at_break": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "elongation_at_break_healed_3_cycles": {
+      "elongation_at_break": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "glass_transition_temperature_pmma_phase": {
+      "glass_transition_temperature": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "glass_transition_temperature_pu_phase": {
+      "glass_transition_temperature": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "melting_temperature_peek": {
+      "melting_temperature": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "melting_temperature_ppa": {
+      "melting_temperature": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "melting_temperature_pps": {
+      "melting_temperature": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "melting_temperature_r_peek": {
+      "melting_temperature": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "peak_heat_release_rate_cone": {
+      "peak_heat_release_rate": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_A/pr_key_synonyms.json",
+          "sha256": "61bc73e8850437361d76b8ba242e76dd28e65db4184ffacc4af5f7cc73b2554c"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_B/pr_key_synonyms.json",
+          "sha256": "d4e35c49167ef432fca28d1e2d54a8ab09603a88c5b93dd12cfc8eb0eb869da3"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_D/pr_key_synonyms.json",
+          "sha256": "61bc73e8850437361d76b8ba242e76dd28e65db4184ffacc4af5f7cc73b2554c"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_E/pr_key_synonyms.json",
+          "sha256": "5a04b83a05166e8297133a806d0195a3bef5755b5d4d41378359bafe97ff49d8"
+        }
+      ]
+    },
+    "peak_heat_release_rate_mcc": {
+      "peak_heat_release_rate": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_A/pr_key_synonyms.json",
+          "sha256": "61bc73e8850437361d76b8ba242e76dd28e65db4184ffacc4af5f7cc73b2554c"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_B/pr_key_synonyms.json",
+          "sha256": "d4e35c49167ef432fca28d1e2d54a8ab09603a88c5b93dd12cfc8eb0eb869da3"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_D/pr_key_synonyms.json",
+          "sha256": "61bc73e8850437361d76b8ba242e76dd28e65db4184ffacc4af5f7cc73b2554c"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_E/pr_key_synonyms.json",
+          "sha256": "5a04b83a05166e8297133a806d0195a3bef5755b5d4d41378359bafe97ff49d8"
+        }
+      ]
+    },
+    "shielding_effectiveness_0_strain": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "shielding_effectiveness_1hc": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_25_strain": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "shielding_effectiveness_30pct": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_3hc": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_50_strain": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "shielding_effectiveness_50pct": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_75_strain": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "shielding_effectiveness_after_burning": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_after_cycling": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_after_flame": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_B/pr_key_synonyms.json",
+          "sha256": "d4e35c49167ef432fca28d1e2d54a8ab09603a88c5b93dd12cfc8eb0eb869da3"
+        }
+      ]
+    },
+    "shielding_effectiveness_after_solvent_immersion": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_at_1.5ghz": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "shielding_effectiveness_at_10khz": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "shielding_effectiveness_at_low_freq": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "shielding_effectiveness_healed": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "shielding_effectiveness_healed_1_cycle": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase1/emi/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "f190d530eb908eb83bd3eeb02af585d661d875f6138d42660c498b800e263f87"
+        },
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_healed_3_cycles": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase1/emi/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "f190d530eb908eb83bd3eeb02af585d661d875f6138d42660c498b800e263f87"
+        },
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_initial": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_max": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase1/pr_key_synonyms.json",
+          "sha256": "aafab8159200c8d45f949b6a6f2ea97ad4e8804ecea0c7c9504d53ae50821282"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_B/pr_key_synonyms.json",
+          "sha256": "d4e35c49167ef432fca28d1e2d54a8ab09603a88c5b93dd12cfc8eb0eb869da3"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_E/pr_key_synonyms.json",
+          "sha256": "5a04b83a05166e8297133a806d0195a3bef5755b5d4d41378359bafe97ff49d8"
+        }
+      ]
+    },
+    "shielding_effectiveness_min": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase1/pr_key_synonyms.json",
+          "sha256": "aafab8159200c8d45f949b6a6f2ea97ad4e8804ecea0c7c9504d53ae50821282"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_B/pr_key_synonyms.json",
+          "sha256": "d4e35c49167ef432fca28d1e2d54a8ab09603a88c5b93dd12cfc8eb0eb869da3"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_E/pr_key_synonyms.json",
+          "sha256": "5a04b83a05166e8297133a806d0195a3bef5755b5d4d41378359bafe97ff49d8"
+        }
+      ]
+    },
+    "shielding_effectiveness_parallel": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "shielding_effectiveness_total": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase1/emi/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "f190d530eb908eb83bd3eeb02af585d661d875f6138d42660c498b800e263f87"
+        },
+        {
+          "source": "data/eval/gpt-5.2-phase1/pr_key_synonyms.json",
+          "sha256": "68f4802d47abe67b7160b117912db9970efeb043a993a317b6a335b52f6a422f"
+        },
+        {
+          "source": "data/eval/gpt-5.4-phase4-variant_E/pr_key_synonyms.json",
+          "sha256": "5a04b83a05166e8297133a806d0195a3bef5755b5d4d41378359bafe97ff49d8"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_uncompressed": {
+      "shielding_effectiveness": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "shielding_effectiveness_vertical": {
+      "shielding_effectiveness": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    },
+    "tensile_strength_1hc": {
+      "tensile_strength": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "tensile_strength_3hc": {
+      "tensile_strength": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "tensile_strength_healed": {
+      "tensile_strength": [
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        }
+      ]
+    },
+    "tensile_strength_healed_3_cycles": {
+      "tensile_strength": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "thermal_conductivity_in_plane": {
+      "thermal_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "thermal_conductivity_through_plane": {
+      "thermal_conductivity": [
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/claude-sonnet-4.6/pr_key_synonyms.json",
+          "sha256": "120d733f69f321e5bbe6c204dd2cd8259359aa7e2ece1a6ce13b8ea943becee7"
+        },
+        {
+          "source": "historical_archive/data/evaluation_v2/phase2/selected/gemini-2.5-pro/pr_key_synonyms.json",
+          "sha256": "8ea359e92177aea3cb2291973d823c3847a63ae5328a5d0063b069464b7e4a1b"
+        },
+        {
+          "source": "data/eval/gemini-2.5-pro-phase2/pr_key_synonyms.json",
+          "sha256": "c40f3e8a148e86f3d25aece57d9f44a2e329eca32428a3f9e14af8503b246475"
+        },
+        {
+          "source": "data/analysis/evaluation_run_20261104T001231Z/baseline/benchmark_revision/property_decisions.json",
+          "sha256": "f4687912eb16a741560a77223e07833482ae3559d2ace23451c67b592b2003d3"
+        }
+      ]
+    },
+    "time_to_ignition_cone": {
+      "time_to_ignition": [
+        {
+          "source": "data/eval/gpt-5.2-phase2/pr_key_synonyms.json",
+          "sha256": "5405e3c059bdcd4fb6a9027c467c6daea4e5c6dd842512b56eeec7ea192d8365"
+        }
+      ]
+    }
+  },
+  "excluded_different_quantities": {
+    "absorption_shielding_effectiveness": {
+      "recorded_targets": [
+        "shielding_effectiveness"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "electrical_resistivity": {
+      "recorded_targets": [
+        "electrical_conductivity"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "electro_thermal_transition_temperature": {
+      "recorded_targets": [
+        "glass_transition_temperature"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "elongation_at_break_increase": {
+      "recorded_targets": [
+        "elongation_at_break"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "flexural_modulus": {
+      "recorded_targets": [
+        "youngs_modulus"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "flexural_strength": {
+      "recorded_targets": [
+        "tensile_strength"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "photo_thermal_transition_temperature": {
+      "recorded_targets": [
+        "glass_transition_temperature"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "shielding_effectiveness_absorption": {
+      "recorded_targets": [
+        "shielding_effectiveness"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "shielding_effectiveness_reflection": {
+      "recorded_targets": [
+        "shielding_effectiveness"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "shielding_effectiveness_specific": {
+      "recorded_targets": [
+        "shielding_effectiveness"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "specific_shielding_effectiveness": {
+      "recorded_targets": [
+        "shielding_effectiveness"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "storage_modulus_at_100c": {
+      "recorded_targets": [
+        "youngs_modulus"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "storage_modulus_at_30c": {
+      "recorded_targets": [
+        "youngs_modulus"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "tensile_strain_at_break_change": {
+      "recorded_targets": [
+        "elongation_at_break"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "time_to_phrr": {
+      "recorded_targets": [
+        "time_to_ignition"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "total_heat_release": {
+      "recorded_targets": [
+        "peak_heat_release_rate"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "volume_resistivity": {
+      "recorded_targets": [
+        "electrical_conductivity"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    },
+    "yield_strength": {
+      "recorded_targets": [
+        "tensile_strength"
+      ],
+      "basis": "Different physical quantity from proposed canonical",
+      "review_source": "data/analysis/scientific_review_20261104T043435Z/property_alias_review.json",
+      "review_source_sha256": "7c2da11493bce6d8a8a5b5877dc7d52f6b200dd4ca782e717038a5d8f5c4fe2c"
+    }
+  },
+  "prior_null_decisions_with_retained_mapping": [
+    "shielding_effectiveness_max",
+    "shielding_effectiveness_min"
+  ]
+}

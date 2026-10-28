@@ -1,0 +1,252 @@
+[
+     {
+        "sample_id": "PP BI452",
+        "matrix_name": [
+        		{
+                "name": "polypropylene BI452",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "melt_flow_index": {"value": 8, "unit": "g/10min"},
+            "maximum_loss_rate_temperature": {"value": 439.4, "unit": "◦C"},
+            "time_to_ignition": {"value": 29, "unit": "s"},
+            "peak_heat_release_rate": {"value": 1221, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 140, "unit": "s"},
+            "total_heat_release": {"value": 110, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.023, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.97, "unit": "kg/kg"},
+            "flamability": {"value": "NR", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "PP H5300",
+        "matrix_name": [
+        		{
+                "name": "polypropylene H5300",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "melt_flow_index": {"value": 3.5, "unit": "g/10min"},
+            "time_to_ignition": {"value": 27, "unit": "s"},
+            "peak_heat_release_rate": {"value": 1006, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 115, "unit": "s"},
+            "total_heat_release": {"value": 82, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.023, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.55, "unit": "kg/kg"},
+            "flamability": {"value": "NR", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "BI452-wool 30 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene BI452",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short wool fibre ",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "residue": {"value": 6, "unit": "%", "conditions": [{"type": "temperature", "value": 700,"unit": "◦C"}]},
+            "time_to_ignition": {"value": 17, "unit": "s"},
+            "peak_heat_release_rate": {"value": 856, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 150, "unit": "s"},
+            "total_heat_release": {"value": 109, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.025, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.65, "unit": "kg/kg"},
+            "flamability": {"value": "NR", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "H5200-wool 30 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene H5300",
+                "description": "not specified",
+                "composition": {"amount": 70, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short wool fibre ",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 16, "unit": "s"},
+            "peak_heat_release_rate": {"value": 778, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 155, "unit": "s"},
+            "total_heat_release": {"value": 115, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.026, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.54, "unit": "kg/kg"},
+            "flamability": {"value": "NR", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "BI452-APP 20 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene BI452",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 20, "unit": "s"},
+            "peak_heat_release_rate": {"value": 256, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 250, "unit": "s"},
+            "total_heat_release": {"value": 98, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.037, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.53, "unit": "kg/kg"},
+            "flamability": {"value": "V-0", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "H5300-APP 20 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene H5300",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 20, "unit": "s"},
+            "peak_heat_release_rate": {"value": 296, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 257, "unit": "s"},
+            "total_heat_release": {"value": 107, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.033, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.66, "unit": "kg/kg"},
+            "flamability": {"value": "V-0", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "BI452-wool 30 wt%-APP 20 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene BI452",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short wool fibre",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "residue": {"value": 22.2, "unit": "%", "conditions": [{"type": "temperature", "value": 700,"unit": "◦C"}]},
+            "maximum_loss_rate_temperature": {"value": 441.4, "unit": "◦C"},
+            "time_to_ignition": {"value": 19, "unit": "s"},
+            "peak_heat_release_rate": {"value": 227, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 378, "unit": "s"},
+            "total_heat_release": {"value": 107, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.037, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.21, "unit": "kg/kg"},
+            "flamability": {"value": "V-0", "unit": "none"}
+        }
+    },
+     {
+        "sample_id": "H5300-wool 30 wt%-APP 20 wt%",
+        "matrix_name": [
+        		{
+                "name": "polypropylene H5300",
+                "description": "not specified",
+                "composition": {"amount": 50, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "short wool fibre",
+                "description": "not specified",
+                "composition": {"amount": 30, "type": "wt%"},
+                "surface_treatment": "not specified"
+            },
+        		{
+                "name": "ammonium polyphosphate",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":3, "unit":"mm"},
+        "properties": {
+            "time_to_ignition": {"value": 19, "unit": "s"},
+            "peak_heat_release_rate": {"value": 232, "unit": "kW/m^2"},
+            "time_to_peak_heat_release_rate": {"value": 371, "unit": "s"},
+            "total_heat_release": {"value": 100, "unit": "MJ/m^2"},
+            "carbon_monoxide_yield": {"value": 0.041, "unit": "kg/kg"},
+            "carbon_dioxide_yield": {"value": 2.16, "unit": "kg/kg"},
+            "flamability": {"value": "V-0", "unit": "none"}
+        }
+    }
+]

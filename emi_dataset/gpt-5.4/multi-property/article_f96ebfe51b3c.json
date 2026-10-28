@@ -1,0 +1,180 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyethylenimine",
+        "description": "Positively charged polyelectrolyte (PEI) used in the spray layer-by-layer coating.",
+        "composition": {
+          "amount": 66.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Thermally reduced graphene oxide (TRGO) flakes with average diameter ~20 μm; conductivity reported for loadings above complete coverage where conductivity became independent of bilayer number n.",
+        "composition": {
+          "amount": 34.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 19.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "Hz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyethylenimine",
+        "description": "Positively charged polyelectrolyte (PEI) used in the spray layer-by-layer coating.",
+        "composition": {
+          "amount": 61.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Thermally reduced graphene oxide (TRGO) flakes with average diameter ~100 μm; conductivity reported for loadings above complete coverage where conductivity became independent of bilayer number n.",
+        "composition": {
+          "amount": 39.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 127.0,
+        "unit": "S/m",
+        "conditions": [
+          {
+            "type": "frequency",
+            "value": 1.0,
+            "unit": "Hz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyethylenimine",
+        "description": "Positively charged polyelectrolyte (PEI) in a 10-bilayer spray layer-by-layer coating.",
+        "composition": {
+          "amount": 70.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Thermally reduced graphene oxide (TRGO) flakes with average diameter ~100 μm in a (PEI/100 μm-TRGO)10 coating.",
+        "composition": {
+          "amount": 30.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 0.03,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 15.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyethylenimine",
+        "description": "Positively charged polyelectrolyte (PEI) in a 10-bilayer spray layer-by-layer coating.",
+        "composition": {
+          "amount": 81.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "reduced graphene oxide",
+        "description": "Hydroiodic-acid-reduced electrochemically exfoliated graphene oxide (R-EGO) flakes with diameter ~3 μm in a (PEI/R-EGO)10 coating.",
+        "composition": {
+          "amount": 19.0,
+          "type": "vol%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "μm"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 29.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower",
+            "value": 8.4,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

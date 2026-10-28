@@ -1,0 +1,577 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Commercial 50 ppi polyurethane sponge used as the 3D porous skeleton for MPS-5.",
+        "composition": {
+          "amount": 93.1,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated Ti3C2Tx nanosheets deposited by dip-coating/freeze-drying from a 5 mg mL^-1 aqueous dispersion; corner-stacking structure; reported MXene loading 6.9 wt%.",
+        "composition": {
+          "amount": 6.9,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 14.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 18.7,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Commercial 50 ppi polyurethane sponge used as the 3D porous skeleton for MPS-10.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated Ti3C2Tx nanosheets deposited by dip-coating/freeze-drying from a 10 mg mL^-1 aqueous dispersion; edge-stacking structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 21.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Commercial 50 ppi polyurethane sponge used as the 3D porous skeleton for MPS-15.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated Ti3C2Tx nanosheets deposited by dip-coating/freeze-drying from a 15 mg mL^-1 aqueous dispersion; surface-stacking structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 27.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 90.47,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Commercial 50 ppi polyurethane sponge used as the 3D porous skeleton for MPS-20.",
+        "composition": {
+          "amount": 65.8,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Delaminated Ti3C2Tx nanosheets deposited by dip-coating/freeze-drying from a 20 mg mL^-1 aqueous dispersion; body-stacking structure; reported MXene loading 34.2 wt%.",
+        "composition": {
+          "amount": 34.2,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 3.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 40.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "electrical_conductivity": {
+        "value": 131.95,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness_2": {
+        "value": 36.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "absorption",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_3": {
+        "value": 4.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Gradient bilayer assembled from two stacked 50 ppi polyurethane sponge modules without additional adhesive; GMPS-5/20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Gradient bilayer filler distribution composed of a low-conductive MPS-5 layer prepared from 5 mg mL^-1 Ti3C2Tx dispersion and a high-conductive MPS-20 layer prepared from 20 mg mL^-1 dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 44.6,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 0.88,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Gradient bilayer assembled from two stacked 50 ppi polyurethane sponge modules without additional adhesive; GMPS-10/20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Gradient bilayer filler distribution composed of a low-conductive MPS-10 layer prepared from 10 mg mL^-1 Ti3C2Tx dispersion and a high-conductive MPS-20 layer prepared from 20 mg mL^-1 dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 2.9,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Gradient bilayer assembled from two stacked 50 ppi polyurethane sponge modules without additional adhesive; GMPS-15/20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Gradient bilayer filler distribution composed of a low-conductive MPS-15 layer prepared from 15 mg mL^-1 Ti3C2Tx dispersion and a high-conductive MPS-20 layer prepared from 20 mg mL^-1 dispersion.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 3.3,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polyurethane",
+        "description": "Bilayer assembled from two stacked 50 ppi polyurethane sponge MPS-20 modules without additional adhesive; GMPS-20/20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "Ti3C2Tx MXene",
+        "description": "Bilayer of two MPS-20 modules, each prepared from a 20 mg mL^-1 Ti3C2Tx dispersion; body-stacking MXene structure.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 6.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "shielding_effectiveness_1": {
+        "value": 56.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "total",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "statistic",
+            "value": "average",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      },
+      "shielding_effectiveness_2": {
+        "value": 4.1,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "shielding_component",
+            "value": "reflection",
+            "unit": "not specified"
+          },
+          {
+            "type": "incident_direction",
+            "value": "T12 (from low-conductive layer to high-conductive layer)",
+            "unit": "not specified"
+          },
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+     {
+        "sample_id": "green PVC",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl chloride",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "none",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "temperature_at_onset_of_degradation": {"value": 260, "unit": "°C"},
+            "temperature_at_end_of_degradation": {"value": 543, "unit": "°C"},
+            "temperature_at_highest_maximum_of_the_DTGA_curve": {"value": 639, "unit": "°C"},
+            "char_content": {"value": 9, "unit": "%"},
+            "volume conductivity": {"value": 10e-14, "unit": "S/cm"}
+        }
+    },
+     {
+        "sample_id": "GCu8",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl chloride",
+                "description": "not specified",
+                "composition": {"amount": 92, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite–copper",
+                "description": "not specified",
+                "composition": {"amount": 8, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "temperature_at_onset_of_degradation": {"value": 266, "unit": "°C"},
+            "temperature_at_end_of_degradation": {"value": 561, "unit": "°C"},
+            "temperature_at_highest_maximum_of_the_DTGA_curve": {"value": 641, "unit": "°C"},
+            "char_content": {"value": 21, "unit": "%"},
+            "shielding_effectiveness": {"value": 22, "unit": "dB","conditions": [{"type": "frequency", "value": 1,"unit": "GHz"}]}
+        }
+    },
+     {
+        "sample_id": "GCu12",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl chloride",
+                "description": "not specified",
+                "composition": {"amount": 88, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite–copper",
+                "description": "not specified",
+                "composition": {"amount": 12, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "temperature_at_onset_of_degradation": {"value": 271, "unit": "°C"},
+            "temperature_at_end_of_degradation": {"value": 567, "unit": "°C"},
+            "temperature_at_highest_maximum_of_the_DTGA_curve": {"value": 649, "unit": "°C"},
+            "char_content": {"value": 31, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "GCu16",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl chloride",
+                "description": "not specified",
+                "composition": {"amount": 84, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite–copper",
+                "description": "not specified",
+                "composition": {"amount": 16, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "temperature_at_onset_of_degradation": {"value": 277, "unit": "°C"},
+            "temperature_at_end_of_degradation": {"value": 569, "unit": "°C"},
+            "temperature_at_highest_maximum_of_the_DTGA_curve": {"value": 662, "unit": "°C"},
+            "char_content": {"value": 39, "unit": "%"}
+        }
+    },
+     {
+        "sample_id": "GCu20",
+        "matrix_name": [
+        		{
+                "name": "polyvinyl chloride",
+                "description": "not specified",
+                "composition": {"amount": 80, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "graphite–copper",
+                "description": "not specified",
+                "composition": {"amount": 20, "type": "wt%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample_thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "temperature_at_onset_of_degradation": {"value": 282, "unit": "°C"},
+            "temperature_at_end_of_degradation": {"value": 574, "unit": "°C"},
+            "temperature_at_highest_maximum_of_the_DTGA_curve": {"value": 681, "unit": "°C"},
+            "char_content": {"value": 45, "unit": "%"},
+            "shielding_effectiveness": {"value": 52, "unit": "dB","conditions": [{"type": "frequency", "value": 1,"unit": "GHz"}]},
+            "shielding_effectiveness": {"value": 70, "unit": "dB","conditions": [{"type": "frequency", "value": 20,"unit": "GHz"}]}
+        }
+    }
+]

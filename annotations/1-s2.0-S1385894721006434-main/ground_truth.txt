@@ -1,0 +1,144 @@
+[
+     {
+        "sample_id": "PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 100, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "not specified",
+                "description": "not specified",
+                "composition": {"amount": 0, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "residual weight": {"value": 42.8, "unit": "%","conditions": [{"type": "temperature", "value": 800,"unit": "◦C"}]},
+            "thermal conductivity": {"value": 0.23, "unit": "Wm^-1K^-1"},
+            "tensile strength": {"value": 34.07, "unit": "MPa"},
+            "friction coefficient": {"value": 0.43, "unit": "not specified"},
+            "wear rate": {"value": 76.13e-5, "unit": "mm^3/Nm"},
+            "Sz": {"value": 56.13, "unit": "μm"},
+            "Sa": {"value": 14.05, "unit": "μm"}
+        }
+    },
+     {
+        "sample_id": "0.22% Ag/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99.78, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Ag",
+                "description": "not specified",
+                "composition": {"amount": 0.22, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 5763, "unit": "S/m"},
+            " shielding effectiveness": {"value": 29, "unit": "dB"},
+            "SER": {"value": 8.4, "unit": "dB"},
+            "SEA": {"value": 20.6, "unit": "dB"},
+            "R": {"value": 0.855, "unit": "not specified"},
+            "T": {"value": 1.26e-3, "unit": "not specified"},
+            "thermal conductivity": {"value": 0.43, "unit": "Wm^-1K^-1"}
+        }
+    },
+     {
+        "sample_id": "0.47% Ag/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99.53, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Ag",
+                "description": "not specified",
+                "composition": {"amount": 0.47, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "SER": {"value": 13.5, "unit": "dB"},
+            "friction coefficient": {"value": 0.15, "unit": "not specified"},
+            "wear rate": {"value": 6.94e-5, "unit": "mm^3/Nm"},
+            "Sz": {"value": 13.68, "unit": "μm"},
+            "Sa": {"value": 2.38, "unit": "μm"}
+        }
+    },
+     {
+        "sample_id": "0.89% Ag/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 99.11, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Ag",
+                "description": "not specified",
+                "composition": {"amount": 0.89, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "SER": {"value": 14.8, "unit": "dB"},
+            "tensile strength": {"value": 59.62, "unit": "MPa"}
+        }
+    },
+     {
+        "sample_id": "1.48% Ag/PPS",
+        "matrix_name": [
+        		{
+                "name": "poly(phenylene sulfide)",
+                "description": "not specified",
+                "composition": {"amount": 98.52, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+	],
+        "fillers":[
+        		{
+                "name": "Ag",
+                "description": "not specified",
+                "composition": {"amount": 1.48, "type": "vol%"},
+                "surface_treatment": "not specified"
+            }
+        ],
+        "sample thickness": {"value":2, "unit":"mm"},
+        "properties": {
+            "electrical conductivity": {"value": 88000, "unit": "S/m"},
+            " shielding effectiveness 1": {"value": 87.8, "unit": "dB"},
+            "SER": {"value": 15.1, "unit": "dB"},
+            "SEA": {"value": 72.7, "unit": "dB"},
+            "R": {"value": 0.969, "unit": "not specified"},
+            "T": {"value": 1.66e-9, "unit": "not specified"},
+            "thermal conductivity": {"value": 1.15, "unit": "Wm^-1K^-1"},
+            "LOI": {"value": 40, "unit": "not specified"},
+            "flammability": {"value": "V-0", "unit": "not specified"},
+            " shielding effectiveness 2": {"value": 73.7, "unit": "dB","conditions": [{"type": "condition", "value": "after combustion","unit": "not specified"}]},
+            "Tensile Strength": {"value": "49.01","unit": "MPa"}
+        }
+    }
+]

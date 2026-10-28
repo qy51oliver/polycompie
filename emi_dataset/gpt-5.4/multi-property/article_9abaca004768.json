@@ -1,0 +1,586 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D1S10.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample CAMF-D1S10 prepared with 1 g/L dopamine and 10 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 120000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D2S10.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample CAMF-D2S10 prepared with 2 g/L dopamine and 10 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 240000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 3,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D8S10; the Results text reports 8 g/L dopamine for this sample.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample reported in the Results text at 8 g/L dopamine and 10 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 270000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 4,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D2S5.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample CAMF-D2S5 prepared with 2 g/L dopamine and 5 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 8300.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 5,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D2S20.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample CAMF-D2S20 prepared with 2 g/L dopamine and 20 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 710000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 6,
+    "matrix_name": [
+      {
+        "name": "aramid",
+        "description": "Aramid microfiber substrate (AMF-M3S5; approximately 100 μm length and 1 μm diameter) used to prepare CAMF-D2S30.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine coated"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "silver",
+        "description": "Electroless-deposited silver coating; sample CAMF-D2S30 prepared with 2 g/L dopamine and 30 g/L AgNO3.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 910000.0,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 7,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 155 μm (-80 mesh to +150 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S10; Ag/NaCl mass ratio 20:100 during templating; overall silver content in the foam reported as 1.2 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.002,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 2.2,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 8,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 155 μm (-80 mesh to +150 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S20; Ag/NaCl mass ratio 20:100 during templating; overall silver content in the foam reported as 1.2 vol%.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.05,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 11.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 9,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 155 μm (-80 mesh to +150 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio 20:100 during templating; overall silver content in the foam reported as 1.2 vol%. The same formulation is later described in the NaCl-size discussion as having 0.19 S/m conductivity.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.18,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 27.5,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 10,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 45 μm (-150 mesh to +300 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio 20:100 during templating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.1,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 29.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 11,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 45 μm (-150 mesh to +300 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio 15:100 during templating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.12,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 12,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 45 μm (-150 mesh to +300 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio 25:100 during templating.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.1,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  },
+  {
+    "sample_id": 13,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 45 μm (-150 mesh to +300 mesh).",
+        "composition": {
+          "amount": 21.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio 30:100 during templating. The sample was also reported as containing 2 vol% CAMF and 64 wt% (1.7 vol%) silver.",
+        "composition": {
+          "amount": 79.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 0.1,
+        "unit": "S/m",
+        "conditions": []
+      },
+      "shielding_effectiveness": {
+        "value": 36.7,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 8.2,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 12.4,
+            "unit": "GHz"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 14,
+    "matrix_name": [
+      {
+        "name": "polydimethylsiloxane",
+        "description": "Porous PDMS composite foam (PDMSF) based on RTV615; NaCl template mean size 45 μm (-150 mesh to +300 mesh).",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "none"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "aramid fiber",
+        "description": "Silvered aramid microfiber filler CAMF-D2S30; Ag/NaCl mass ratio reported as 5:100 in the Results section, although the preparation section lists 10:100 as the lowest stated ratio.",
+        "composition": {
+          "amount": "not specified",
+          "type": "not specified"
+        },
+        "surface_treatment": "polydopamine-assisted electroless silver coating"
+      }
+    ],
+    "sample_thickness": {
+      "value": 2.0,
+      "unit": "mm"
+    },
+    "properties": {
+      "electrical_conductivity": {
+        "value": 1.36e-06,
+        "unit": "S/m",
+        "conditions": []
+      }
+    }
+  }
+]

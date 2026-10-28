@@ -1,0 +1,142 @@
+[
+  {
+    "sample_id": 1,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "Component of the 60/40 wt% PVDF/PMMA polymer blend matrix.",
+        "composition": {
+          "amount": 8.79,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Component of the 60/40 wt% PVDF/PMMA polymer blend matrix.",
+        "composition": {
+          "amount": 5.86,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polytetrafluoroethylene",
+        "description": "Submicron PTFE particles (average diameter 260 ± 54.2 nm); PTFE/(PVDF+PMMA) weight ratio fixed at 5.76.",
+        "composition": {
+          "amount": 84.35,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanofibers",
+        "description": "Vapor-grown carbon nanofibers (average fiber diameter 100 nm), heat-treated at 3000 °C; CNF/(PVDF+PMMA) weight ratio 0.068, corresponding to about 1 wt% CNF in the coating.",
+        "composition": {
+          "amount": 1.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 2.4,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 570,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 630,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average over frequency range",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": 2,
+    "matrix_name": [
+      {
+        "name": "poly(vinylidene fluoride)",
+        "description": "Component of the 60/40 wt% PVDF/PMMA polymer blend matrix.",
+        "composition": {
+          "amount": 7.63,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "poly(methyl methacrylate)",
+        "description": "Component of the 60/40 wt% PVDF/PMMA polymer blend matrix.",
+        "composition": {
+          "amount": 5.09,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      }
+    ],
+    "fillers": [
+      {
+        "name": "polytetrafluoroethylene",
+        "description": "Submicron PTFE particles (average diameter 260 ± 54.2 nm); PTFE/(PVDF+PMMA) weight ratio fixed at 5.76.",
+        "composition": {
+          "amount": 73.28,
+          "type": "wt%"
+        },
+        "surface_treatment": "not specified"
+      },
+      {
+        "name": "carbon nanofibers",
+        "description": "Vapor-grown carbon nanofibers (average fiber diameter 100 nm), heat-treated at 3000 °C; CNF/(PVDF+PMMA) weight ratio 1.1, corresponding to about 14 wt% CNF in the coating.",
+        "composition": {
+          "amount": 14.0,
+          "type": "wt%"
+        },
+        "surface_treatment": "treated"
+      }
+    ],
+    "sample_thickness": {
+      "value": "not specified",
+      "unit": "not specified"
+    },
+    "properties": {
+      "shielding_effectiveness": {
+        "value": 32.0,
+        "unit": "dB",
+        "conditions": [
+          {
+            "type": "frequency_lower_bound",
+            "value": 570,
+            "unit": "GHz"
+          },
+          {
+            "type": "frequency_upper_bound",
+            "value": 630,
+            "unit": "GHz"
+          },
+          {
+            "type": "statistic",
+            "value": "average over frequency range",
+            "unit": "not specified"
+          }
+        ]
+      }
+    }
+  }
+]
